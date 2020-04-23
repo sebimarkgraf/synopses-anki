@@ -153,6 +153,36 @@
             "tags": [
                 "grundbegriffe"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Menge",
+                "Eine unscharfe Menge \\(\\tilde A\\) über einem Universum \\(U\\) enthält Elemente mit einem gewissen Grad der Zugehörigkeit",
+                "Die unscharfe Mange \\(\\tilde A\\) über dem Universum \\(U\\) wird definiert über die Zugehörigkeitsfunktion&nbsp;<div>\\[\\mu_A: U \\to [0,1]\\]<br></div><div>Dann&nbsp;</div><div>\\[\\tilde A = \\{(x, \\mu_{\\tilde A}(x))\\ |\\ x \\in U\\}\\]</div>"
+            ],
+            "flags": 0,
+            "guid": "l(Tu$MuCUm",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Potenzmenge",
+                "Die Unscharfe Potenzmenge \\(\\mathbb{F}(U)\\) ist die scharfe Menge aller unscharfen Mengen über dem Universum \\(U\\), also die unscharfe Potenzmenge von \\(U\\)",
+                "Unscharfe Potenzmenge \\(\\mathbb{F}(U)\\)"
+            ],
+            "flags": 0,
+            "guid": "r>e}qq=6R$",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
         }
     ]
 }
