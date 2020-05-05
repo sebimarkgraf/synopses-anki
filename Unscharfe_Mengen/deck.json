@@ -183,6 +183,126 @@
             "tags": [
                 "grundbegriffe"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gleichheit Unscharfer Mengen",
+                "Unscharfe Mengen \\(\\tilde A, \\tilde B\\) gleich, wenn Zugehörigkeitsfunktionen identisch für alle Elemente.",
+                "\\[\\tilde A = \\tilde B \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) = \\mu_{\\tilde B} (x)\\]"
+            ],
+            "flags": 0,
+            "guid": "A22,]@4Bo7",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ungleichheit Scharfer Mengen",
+                "Unscharfe Mengen \\(\\tilde A, \\tilde B\\) sind ungleich, wenn es ein Element im Universum \\(U\\) gibt, für das die Zugehörigkeitsfunktionen \\(\\mu\\) nicht übereinstimmmen.",
+                "\\[\\exists x \\in U: \\mu_{\\tilde A} (x) \\neq \\mu_{\\tilde B} (x)\\]"
+            ],
+            "flags": 0,
+            "guid": "b;U~T10J]|",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Teilmengen Unscharfer Mengen",
+                "Unscharfe Menge \\(\\tilde A\\) ist Teilmenge von \\(\\tilde B\\), wenn die Zughörigkeitsfunktion von \\(\\tilde A\\) für jedes Element kleiner ist, als die Zugehörigkeitsfunktion von \\(\\tilde B\\)<br><br>Strenge Teilmenge, wenn echt kleiner",
+                "\\[\\tilde A&nbsp; \\subseteq \\tilde B \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) \\le \\mu_{\\tilde B} (x)\\]<br><br>Strenge Teilmenge<div>\\[\\tilde A&nbsp; \\subset \\tilde B \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) &lt; \\mu_{\\tilde B} (x)\\]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "hG@+Is^%XJ",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alpha-Schnitt",
+                "Der Alpha-Schnitt \\(\\tilde A_\\alpha\\) mit \\(\\alpha\\) enthält alle Elemente des Universums \\(U\\), für die die Zugehörigkeit zu \\(\\tilde A\\) größer ist als \\(\\alpha\\)<br>",
+                "\\(\\tilde A \\in \\mathbb{F}(U)\\) und \\(\\alpha \\in [0, 1]\\)<br>\\[\\tilde A_\\alpha = \\{x \\in&nbsp; U, \\mu_{\\tilde A} (x) \\ge \\alpha \\}\\]<div><br>Strenge Version</div><div>\\[\\tilde A_{\\bar \\alpha} = \\{x \\in&nbsp; U, \\mu_{\\tilde A} (x) &gt; \\alpha \\}\\]<br></div>"
+            ],
+            "flags": 0,
+            "guid": "z2<g`a))AK",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "L-Fuzzy Menge",
+                "L-Fuzzy Mengen sind eine Verallgemeinerung von Unscharfen Mengen, welche die Zugehörigkeitsfunktion auf einen Verband L abbilden.<br>Z.b. kaum &lt; wenig &lt; mittel &lt; sehr",
+                "L-Fuzzy Menge \\[\\tilde A\\):<br>\\[\\mu_{\\tilde A}: U \\to L\\]<br>Wobei \\(L\\) Verband"
+            ],
+            "flags": 0,
+            "guid": "t;,1Q38_CO",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Menge Typ K",
+                "Unscharfen Menge von höherem Typen bildern anstatt auf eine feste Zugehörigkeit wieder auf eine Unscharfe Menge ab.<br>Dabei sind Typ 1 die bekannten Unscharfen Mengen.<br>Eine Auflösung erfolgt rekursiv.",
+                "Für \\(k=1\\): \\(\\mu_{\\tilde A}: U \\to [0,1]\\)<br><br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)<br>Teilmenge der Menge aller unscharfen Mengen von Typ \\(k-1\\)"
+            ],
+            "flags": 0,
+            "guid": "AV`!jSi,rC",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Intervallwertige Unscharfe Mengen Typ K",
+                "Diese bilden auf eine Unscharfe Menge mit Zugehörigkeiten in \\(\\{0,1\\}\\) und zusammenhängendem Kern ab.",
+                "Für \\(k=1): \\(\\mu_{\\tilde A}: U \\to \\{0,1\\}\\)<br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)"
+            ],
+            "flags": 0,
+            "guid": "P3UwX/)d5m",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Potenzmenge Stufe K",
+                "Rekursive Erweiterung der Unscharfen Potenzmenge, wobei die Potenzmenge über die Potenzmenge der Stufe \\(K-1\\) gebildet wird.",
+                "\\[\\mathbb{F}^0 (U) = U\\]<br>\\[\\mathbb{F}^k (U) = \\mathbb{F}(\\mathbb{F}^{k-1}(U))\\]"
+            ],
+            "flags": 0,
+            "guid": "pEmOS,7YwT",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundbegriffe"
+            ]
         }
     ]
 }
