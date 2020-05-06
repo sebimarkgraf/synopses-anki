@@ -1,0 +1,258 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "26ee3f24-8fa7-11ea-a659-4494fca6223c",
+    "deck_config_uuid": "ae1a055a-8552-11ea-95a2-4494fca6223c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "ae1a055a-8552-11ea-95a2-4494fca6223c",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 5,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1554963680505",
+    "name": "Deep Learning und Neuronale Netze",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "26eebea4-8fa7-11ea-a659-4494fca6223c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Nimbus Sans",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "MathJax",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "classification"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n\n\n\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "26eec692-8fa7-11ea-a659-4494fca6223c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Nimbus Sans",
+                    "media": [],
+                    "name": "Name",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Formel",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Mathematische Formel",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "classification"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Formel}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n\n\n\n",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "Mathematische Formel: {{Name}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist Classification?",
+                "Kategorisierung von verschiedenen Objekten/Signalen"
+            ],
+            "flags": 0,
+            "guid": "dg=(L5sPri",
+            "note_model_uuid": "26eebea4-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "One-Dimensional Cross Correlation",
+                "\\[R_{f,g}(m) = \\sum_i f(i)g(i-m)\\]"
+            ],
+            "flags": 0,
+            "guid": "p_lfn9]G#e",
+            "note_model_uuid": "26eec692-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Two-Dimensional Cross Correlation",
+                "\\[R_{f,g}(m, n) = \\sum_i \\sum_j f(i, j)g(i-m, j-n)\\]"
+            ],
+            "flags": 0,
+            "guid": "z9tITwRGv3",
+            "note_model_uuid": "26eec692-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie funktioniert Template Matching?",
+                "Template Matching ist ein sehr einfacher Classifier<br>Idee: Erkenne Pattern das ähnlich zu gespeichertem Pattern ist"
+            ],
+            "flags": 0,
+            "guid": "N*-:0#;;)I",
+            "note_model_uuid": "26eebea4-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Unterschied zwischen Supervised und Unsupervised?",
+                "Supervised: Klasse ist bekannt für jeden Punkt<br>Unsupervised: Klasse ist nicht bekannt"
+            ],
+            "flags": 0,
+            "guid": "o~zzS.eq}V",
+            "note_model_uuid": "26eebea4-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Unterschied zwischen Parametric und Non-Parametric?",
+                "Parametric: Nimmt eine zugrundeliegende Verteilung an und schätzt die Parameter<br>Non-Parametric: Nimmt keine Verteilung an und schätzt die Wahrscheinlichkeiten an Hand der Trainingsdaten"
+            ],
+            "flags": 0,
+            "guid": "PB5lO9H<{*",
+            "note_model_uuid": "26eebea4-8fa7-11ea-a659-4494fca6223c",
+            "tags": [
+                "classification"
+            ]
+        }
+    ]
+}
