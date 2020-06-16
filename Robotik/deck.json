@@ -1,0 +1,3214 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "63796ecc-afec-11ea-9b46-4ccc6a605f05",
+    "deck_config_uuid": "63798948-afec-11ea-9b46-4ccc6a605f05",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "63798948-afec-11ea-9b46-4ccc6a605f05",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Robotik",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-07dfc75accf1b6b578e4301d4e1677954cc74e5b.jpg",
+        "paste-07e5ed62ca2026e0264e2f52a93548a09fda3af4.jpg",
+        "paste-086c516af1f000a2774baf1fc50b2edc921126aa.jpg",
+        "paste-086d48ef343e94bf8b8fdfc0798dc7e4e818d6a4.jpg",
+        "paste-08f6c81ddfb73d7685b21d4d25677f7cfebbc210.jpg",
+        "paste-0991f748ddc674375504c942ba9db96139e90429.jpg",
+        "paste-0cfabf96f3988f0770d043efcb56728ed6f5635a.jpg",
+        "paste-13d36a09abaea8f2bbbcc2118a906bc991266692.jpg",
+        "paste-1a2d26ec61572343f88f9276dd23843233b4714c.jpg",
+        "paste-1a46e2de66ba4026269c5b455078c29a0320c509.jpg",
+        "paste-1e64515af0159b74399322752f78bd44ee858d10.jpg",
+        "paste-2298a068ad5d0029bf5828df880d3b705c2d809d.jpg",
+        "paste-22f37eebf542faaef003921f40715502cb76788c.jpg",
+        "paste-2752f20c6c20e0b912b71cba034ba0272a8cb7f4.jpg",
+        "paste-28c283e20f48f1a19389a9619c83525e4993af9a.jpg",
+        "paste-2dd88f195f879956fdd6aa0aeaface4ba62004de.jpg",
+        "paste-3615666c7a3f4d421e2bfa63ac65730657fa6176.jpg",
+        "paste-40bde7163956c1e1de80ca79a2446a38ab682984.jpg",
+        "paste-425f7fc8c44a51c7598da3d927a3740014535c45.jpg",
+        "paste-45eb179ea2d9ff796e8a2c55c52d29dcfe36c006.jpg",
+        "paste-472258bc552f42260a5ae1bc5b41ceac972cd7d3.jpg",
+        "paste-4826c833a57810c7dfff7903e4cfdb581919ebad.jpg",
+        "paste-48d77c7777cbd393af97a2b51cd09e06d6b7c1e4.jpg",
+        "paste-4ab52355952e8df862ee4b55f379c043f7693699.jpg",
+        "paste-4bc081e7442b845a60f6137fd9581b8efc7d79bc.jpg",
+        "paste-4d82e22361b8c8b1dd0533b34f7b69bf609a1357.jpg",
+        "paste-56b65285715d3f17eba4dae4fb39211e9981642e.jpg",
+        "paste-5a872465c8d32f7060db4638d6f2b53f563919cb.jpg",
+        "paste-618566e094fc4b1d6163f07a0a6c3d35c2f7401a.jpg",
+        "paste-61b0179ddf89548f2ccb3d34a95105e35754557c.jpg",
+        "paste-64226bcb7e3b1dced5964482837c885c31c17c76.jpg",
+        "paste-68672b039fc8285f11166df4bf63f06ff9c9c825.jpg",
+        "paste-688bc79f85b82b77c359ca76f3ae4cb135787663.jpg",
+        "paste-68e7f730ffe3d3f49f95922d53a6bda43713af8f.jpg",
+        "paste-6a79a6a054c64193f1f1f1f37d464ae828ad047c.jpg",
+        "paste-6c73a47f634266be00069d2eb545af2ede5f1a37.jpg",
+        "paste-6dca1f8a29b1d4a64f4291b5655ed96bac38ff8f.jpg",
+        "paste-6f00b622ab22348131ba942cf7cfdb8f55d1cd44.jpg",
+        "paste-6f61dc4182f1c688fe8c38b1226591a2f3a7ac11.jpg",
+        "paste-72675452473c7d15c45ab48dddc191ff57e16579.jpg",
+        "paste-748884142ff8d7be4be521f93085b4f70d5b5959.jpg",
+        "paste-77a8afdbe2bdb37a039a3bc56340b8ca69e08e24.jpg",
+        "paste-7df8407315bf12eedae842d813843364237be148.jpg",
+        "paste-7e02b6ecd7e1cf96c09b691305da0847e2571c38.jpg",
+        "paste-7f64bc4f9c520a11bebaa5d73b32f8617863b4a5.jpg",
+        "paste-80949790c8a995738a957bf6f05c9c092dcb4839.jpg",
+        "paste-841a5e92ad576924f53f8c58c2b01cc8eb30307c.jpg",
+        "paste-8719988a7da802a265b8fcf4392565ece012cd0e.jpg",
+        "paste-893ec1d8f89293cd84bb05818fb4e92dbd5fae05.jpg",
+        "paste-90118060531a90e142f5d1df3d685ffec7225935.jpg",
+        "paste-91298df17eab2d84f045e4c632ac6c7627a5bd18.jpg",
+        "paste-91c71a7190492ce9292148b8e871b508c4261646.jpg",
+        "paste-a1bd7ebfd90f84560bad0a331d1af8d08563af6b.jpg",
+        "paste-a906f6e36fd7657b7bbc1e5a4e5d4bb10fcaa623.jpg",
+        "paste-a90dcab2c4702b2d2f48f38bf56860314adb383b.jpg",
+        "paste-a9cfa3747ace56982842e516ba1ec2c719feecc7.jpg",
+        "paste-ab7cd9a5afc333e2d81225eff5ce0a6af8392065.jpg",
+        "paste-ad002e2ce175b8453c3ead57f8e2dc9bdb22ebe9.jpg",
+        "paste-af268c3f96437e8944e878deb31564828cdb65cc.jpg",
+        "paste-b07d15648d6cfa896be7e3cb4b7744fb6eb32f5d.jpg",
+        "paste-b418899aa2bd0941d7a16b6564e1c65413ec6cec.jpg",
+        "paste-b4ec6b1f0c575f4d69abbdaad9eb47e3651dbfe7.jpg",
+        "paste-b515b355d30a32e6efd22385ab4bee37f112714b.jpg",
+        "paste-b7fd1fd6ef7b04e30cdd54b9a1edba19a80b41a4.jpg",
+        "paste-bb77ca43e78e080af3f0c3f51ee9d6158093d29e.jpg",
+        "paste-cb4a8e77a08be20ab81d3b717c2ac8477460f0b6.jpg",
+        "paste-ccc6ab57620ddd7f4af73dbf6f4caf5839dea236.jpg",
+        "paste-d39153606ee388f2d7a38d6df64fa90434ddfe47.jpg",
+        "paste-daca92c44fe37936cb83e63276374d5bafb06403.jpg",
+        "paste-dc48cacadc3222145c1534f652c965af88ba0caa.jpg",
+        "paste-df10a5c311fe6bee9c61346457481bcad35b241b.jpg",
+        "paste-dfbfd1b02d1219270726a728a35bc4786dbf9ebf.jpg",
+        "paste-e1dbbb3e054e2824e8b658e6f9ab407860119dcd.jpg",
+        "paste-e5777ffe8d6ac8284c01c39121e1fb7cdbfc76b9.jpg",
+        "paste-e685aa1689b17210f5e4508fe5ef1e1e8f305cb0.jpg",
+        "paste-e7bcbc2ba9decc9a7e7536c73d3e4d3cd45276e3.jpg",
+        "paste-e947a303481f7ebc412dff7e6b18b61d379d81e7.jpg",
+        "paste-f4ef6b28d9664807602a9ba2011f94344bde8f4c.jpg",
+        "paste-f6119387f3410827b37b38ab8252fa5d52cd8316.jpg",
+        "paste-f653ba090adfe8e7c4ef3053d36e58628876be8a.jpg"
+    ],
+    "mid": 1568481350717,
+    "name": "Robotik",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Kinematik}} ist {{c2::die rein geometrische Beschreibung der Bewegung eines Manipulators oder Roboters}}. Das essenzielle Konzept ist die {{c3::Position}}.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g.PNqt>G#<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Statik}} behandelt {{c2::Kräfte und Momente, die sich auf einen ruhenden Mechanismus auswirken}}. Das essenzielle Konzept ist die {{c3::Steifigkeit}}.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o2<ual.J1Y",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Dynamik}} analysiert {{c2::Kräfte und Momente, die durch Bewegung und Beschleunigung eines Mechanismus und einer zusätzlichen Last entstehen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b3N!&3B{5G",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine {{c1::Kinematische Kette}} ist {{c2::eine Menge an Gliedern, die durch Gelenke verbunden sind}} und kann als {{c3::Graph}} repräsentiert werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eN_f,=T-zE",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Freiheitsgrade (degrees of freedom, DoF)}} entsprechen der {{c2::Anzahl unabhängiger Parameter, die zur kompletten Spezifikation der Position eines Mechanismus/Objekts benötigt werden}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tQ[vu{Bc,_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Punkt in einer Ebene hat {{c1::2}} Freiheitsgrade",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MB;IQU8C^]",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Punkt im 3D Raum hat {{c1::3}} Freiheitsgrade",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nwhd>;w_j2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Starrkörper im 2D Raum hat {{c1::3}} Freiheitsgrade",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B+CofT8l%i",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Starrkörper im 3D Raum hat {{c1::6}} Freiheitsgrade",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Rf?Iy}A3X+",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::\\(SO(3)\\)}} ist die {{c2::Spezielle Orthogonale Gruppe}} und repräsentiert {{c3::Rotationen}}. Ihre Elemente werden als 3x3-Matrizen beschrieben und erfüllen:<div><br></div><div>{{c4::\\[R^TR = I,\\quad det(R) = 1\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v98/xhY#0S",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::\\(SE(3)\\)}} ist die {{c2::Spezielle Euklidische Gruppe}} und repräsentiert {{c3::Bewegungen}}. Ihre Elemente sind von der Form {{c4::\\((p, R)\\) mit \\(p \\in \\mathbb{R}^3\\) und \\(R \\in SO(3)\\) (= Position und Orientierung)}}&nbsp;",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t&x}X4n;`[",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Affine Transformationen}} bestehen aus Verknüpfungen von {{c2::Translationen und Rotationen}} und haben die Form<div><br></div><div>{{c3::\\[T(x) = A(x) + b\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ln,[~S6Uc`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::\\[\\begin{bmatrix}1 &amp; 0 &amp; 0\\\\0 &amp; cos\\alpha &amp; -sin\\alpha\\\\0 &amp; sin\\alpha &amp; cos\\alpha\\end{<!--anki-->bmatrix}\\]}} beschreibt eine Rotation um die {{c2::x-Achse}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B-]A>a$:9J",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::\\[\\begin{bmatrix}cos\\alpha &amp; 0 &amp; sin\\alpha\\\\0 &amp; 1 &amp; 0\\\\-sin\\alpha &amp; 0 &amp; cos\\alpha\\end{bmatrix}\\]}} beschreibt eine Rotation um die {{c2::y-Achse}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zK0-qG,;Pk",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::\\[\\begin{bmatrix}cos\\alpha &amp; -sin\\alpha &amp; 0\\\\sin\\alpha &amp; cos\\alpha &amp; 0\\\\0 &amp; 0 &amp; 1\\end{bmatrix}\\]}} beschreibt eine Rotation um die {{c2::z-Achse}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uQHzuggwZM",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::inverse}} Rotationsmatrix entspricht der {{c2::transponierten}} Rotationsmatrix",
+                ""
+            ],
+            "flags": 0,
+            "guid": "I-lEok@q53",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Eulerwinkel}} beschreiben {{c2::die Rotationen um drei gewählte Koordinatenachsen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HV7B1v?VcQ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Roll, Pitch und Yaw}} sind ein {{c2::Spezialfall der Eulerwinkel}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DQg!3^bDx2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Roll}} rotiert entlang der {{c2::x}}-Achse des Basiskoordinatensystems",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gNb(!=8UpD",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Pitch}} rotiert entlang der {{c2::y}}-Achse des Basiskoordinatensystems",
+                ""
+            ],
+            "flags": 0,
+            "guid": "RjF;#[#J9?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Yaw}} rotiert entlang der {{c2::z}}-Achse des Basiskoordinatensystems",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vWA16LvTuJ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das {{c1::Gimbal Lock}} entspricht dem {{c2::Verlust eines Freiheitsgrades}} durch {{c3::eine bestimmte Abfolge von Rotationen}}, da {{c4::zwei Drehachsen zusammenfallen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pN[$qmFV&@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rotationsmatrizen leiden unter {{c1::Redundanz}}, Eulerwinkel sind {{c2::kompakter und aussagekräftiger}}, doch {{c3::nicht eindeutig und nicht kontinuierlich}}. Beide können zum {{c4::Gimbal Lock}} führen",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z+l0U8xfg8",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Affine Raum}} ist eine Erweiterung des euklidischen Raums",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M*e~=V|iAm",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Punkte im affinen Raum werden durch {{c1::homogene Koordinaten (4D, vierte Dimension meist 0 oder 1)}} ausgedrückt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wf0`c|`Pzp",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der affine Raum ermöglicht die Kombination von {{c1::Rotation und Translation}} ein einer einzelnen homogenen Matrix",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CfT2(S0svV",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Homogene Translationsmatrizen haben die Form:<div><br></div><div>{{c1::\\[T_{trans} = \\begin{bmatrix}1 &amp; 0 &amp; 0 &amp; t_x\\\\0 &amp; 1 &amp; 0 &amp; t_y\\\\ 0 &amp; 0 &amp; 1 &amp; t_z\\\\0 &amp; 0 &amp; 0 &amp; 1\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Pef3sa9bH5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Homogene lokale Skalierungsmatrizen haben die Form:<div><br></div><div>{{c1::\\[T_{ls} = \\begin{bmatrix}a &amp; 0 &amp; 0 &amp; 0\\\\0 &amp; b &amp; 0 &amp; 0\\\\ 0 &amp; 0 &amp; c &amp; 0\\\\0 &amp; 0 &amp; 0 &amp; 1\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dknmlCp;[m",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Homogene globale Skalierungsmatrizen haben die Form:<div><br></div><div>{{c1::\\[T_{gs} = \\begin{bmatrix}1 &amp; 0 &amp; 0 &amp; 0\\\\0 &amp; 1 &amp; 0 &amp; 0\\\\ 0 &amp; 0 &amp; 1 &amp; 0\\\\0 &amp; 0 &amp; 0 &amp; s\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Of9]2;{.H`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>{{c1::Quaternionen}} sind eine Erweiterung der komplexen Zahlen und lösen dasselbe Problem wie Rotationmatrizen oder Eulerwinkel, aber {{c2::mit weniger Redundanz sowie besserer numerischer Stabilität, einfacherer Interpolation und ohne Gimbal Lock}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cTYHUt@a.L",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition eines Quaternions:<div><br></div><div>{{c1::\\[q = (a, u)^T = a + i \\cdot u_1 + j \\cdot u_2 + k \\cdot u_3\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n:9[jF=z^Z",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Addition zweier Quaternionen \\(q = (a, u)^T\\) und \\(r=(b, v)^T\\):<div><br></div><div>{{c1::\\[q + r = (a + b, u + v)^T\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q,5Q@B{Ar>",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Multiplikation zweier Quaternionen \\(q = (a, u)^T\\) und \\(r=(b, v)^T\\):<div><br></div><div>{{c1::\\[q \\cdot r = (a + u_1i + u_2j + u_3k) \\cdot (b + v_1i + v_2j + v_3k)\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hD&7VokO/(",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Skalarprodukt zweier Quaternionen \\(q = (a, u)^T\\) und \\(r=(b, v)^T\\):<div><br></div><div>{{c1::\\[\\langle q | r \\rangle = a \\cdot b + \\langle v | u \\rangle = a \\cdot b + v_1 \\cdot u_1 + v_2 \\cdot u_2 + v_3 \\cdot u_3\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QbnAL~SqRr",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konjugiertes Quaternion \\(q = (a, u)^T\\):<div><br></div><div>{{c1::\\[q^* = (a, -u)^T\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d=%/CDMc1I",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Norm eines Quaternions \\(q = (a, u)^T\\):<div><br></div><div>{{c1::\\[|q| = \\sqrt{q \\cdot q^*} = \\sqrt{q^* \\cdot q} = \\sqrt{a^2 + u_1^2 + u_2^2 + u_3^2}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cd~CO)*FLe",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Inverses eines Quaternions \\(q = (a, u)^T\\):<div><br></div><div>{{c1::\\[q^{-1} = \\frac{q^*}{|q|^2}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tyTzReg(qS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beschreibung eines Vektors \\(p = (x, y, z)^T\\) als Quaternion:<div><br></div><div>{{c1::\\[q = (0, p)^T\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "R_.RZKjio",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beschreibung eines Skalars \\(s\\) als Quaternion:<div><br></div><div>{{c1::\\[q = (s, 0)^T\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b4}gFyHbks",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rotation eines Punktes \\(p\\) durch ein Quaternion \\(q\\):<div><br></div><div>{{c1::\\[p' = q \\cdot p \\cdot q^{-1}\\] falls Einheitsquaternion: \\[p' = q \\cdot p \\cdot q^*\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uv5</CggNc",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quaternionen können {{c1::Translationen}} nicht beschreiben!",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x:pK>G2_OC",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Interpolation zwischen Quaternionen ist möglich über {{c1::SLERP (Spherical Linear Interpolation)}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Mg#vS6*b*(",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SLERP Interpolation zwischen zwei Quaternionen \\(q_1,\\ q_2\\) mit Parameter \\(t \\in [0, 1]\\):<div><br></div><div>{{c1::\\[Slerp(q_1,\\ q_2,\\ t) = q_1 \\cdot (q_1^{-1} \\cdot q_2)^t\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "funFiNjuei",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Duale Quaternionen}} sind Quaternionen, deren Realteile durch {{c2::Duale Zahlen}} ersetzt wurden, welche die folgende Form besitzen:<div>{{c3::\\[d = p + \\epsilon \\cdot s,\\quad \\epsilon^2 = 0\\] (Primärteil p, Sekundärteil s, ähnlich zu komplexen Zahlen)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hcq!}jhD<z",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Duale Quaternionen erweitern Quaternionen um {{c1::die Fähigkeit, Translationen darzustellen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vR|HJc!h,I",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das {{c1::Kinematische Modell}} eines Roboters beschreibt die Zusammenhänge zwischen dem {{c2::Gelenkwinkelraum (Roboterkoordinaten, Konfigurationsraum)}} und dem {{c3::Posenraum des Endeffektors in Weltkoordinaten (Arbeitsraum, Kartesischer Raum)}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vt[|d2Lk,|",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Einsatzbereiche des kinematischen Modells:<div><div>- {{c1::Zusammenhang zwischen Gelenkwinkel und Posen des Endeffektors}}</div><div><div>- {{c2::Erreichbarkeitsanalyse}}</div><div><div>- {{c3::Relation zwischen Körpern des Roboters (Selbstkollision)}}</div><div><div>- {{c4::Relation zur Umgebung (Kollisionserkennung)}}</div></div></div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L_cEJI7f5.",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Vorwärtskinematik}} wird aus den {{c2::Gelenkwinkelstellungen des Roboters}} als Ausgabe die {{c3::Pose des Endeffektors}} erzeugt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C&W^)L+fLR",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Endeffektor}} ist das {{c2::letzte Glied}} einer kinematischen Kette",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z<?{MLSh[!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Inverse Kinematik}} erzeugt aus der {{c2::Zielpose des Endeffektors}} die notwendigen {{c3::Gelenkwinkelstellungen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ol,O_rBZ@D",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die möglichen Vektoren aus Gelenkwinkeln, die für die einzelnen Gelenke gewählt werden können, bilden den {{c1::Konfigurationsraum}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rR>=2}a^0g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine Kinematische Kette heißt {{c1::offen}}, wenn sie ein {{c2::freies Endglied besitzt}}, ansonsten ist sie {{c1::geschlossen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dXYAxF_QD}",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das Ziel der {{c1::Denavit-Hartenberg Konvention}} ist die {{c2::Reduktion der Parameter zur Beschreibung eines Armelementes}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j)5-#D.Y5u",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Denavit-Hartenberg Konvention}} beschreibt die {{c2::Translationen und Rotationen zwischen benachbarten Gelenken}} mit {{c3::homogenen Matrizen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fHD^<lkk&V",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Für das Gelenk \\(i\\) legt die DH-Konvention das Koordinatensystem folgendermaßen fest:<div>- {{c1::Die \\(z_{i-1}\\)-Achse liegt entlang der Bewegungsachse des \\(i\\)-ten Gelenks}}</div><div>- {{c2::Die \\(x_{i}\\)-Achse verläuft entlang der gemeinsamen Normalen von \\(z_{i-1}\\) und \\(z_{i}\\). Sie zeigt weg von \\(z_{i-1}\\)}}</div><div>- {{c3::Die \\(y_{i}\\)-Achse vervollständigt das Koordinatensystem entsprechend der Rechte-Hand-Regel}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "F^<#f6&fH{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Armelementlänge \\(a_i\\)}} beschreibt den Abstand zwischen {{c2::\\(z_{i-1}\\) und \\(z_i\\)}}<div><br></div><div><img src=\"paste-08f6c81ddfb73d7685b21d4d25677f7cfebbc210.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v@UQFj%~l<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Armelementverwindung \\(\\alpha_i\\)}} beschreibt {{c2::den Winkel von \\(z_{i-1}\\) zu \\(z_i\\) um \\(x_i\\)}}<div><br></div><div><img src=\"paste-48d77c7777cbd393af97a2b51cd09e06d6b7c1e4.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zqZf,r>a&s",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Gelenkabstand \\(d_i\\)}} ist der {{c2::Abstand zwischen der \\(x_{i-1}\\)-Achse und der \\(x_i\\)-Achse entlang der \\(z_{i-1}\\)-Achse}}<div><br></div><div><img src=\"paste-6dca1f8a29b1d4a64f4291b5655ed96bac38ff8f.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MmIF5GFV&m",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Gelenkwinkel \\(\\Theta_i\\)}} ist der {{c2::Winkel von \\(x_{i-1}\\) zu \\(x_i\\) um \\(z_{i-1}\\)}}<div><br></div><div><img src=\"paste-daca92c44fe37936cb83e63276374d5bafb06403.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C6NIoXkR)H",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>DH-Konvention: Transformation \\(OKS_{i-1}\\) zu \\(OKS_i\\)</b><div><br></div><div>Schritt 1.: {{c1::Eine Rotation \\(\\Theta_i\\) um die \\(z_{i-1}\\)-Achse, damit die \\(x_{i-1}\\)-Achse parallel zur \\(x_i\\)-Achse liegt}}</div><div><br></div><div><b>Schaubild und Matrix:</b></div><div>{{c2::<img src=\"paste-086d48ef343e94bf8b8fdfc0798dc7e4e818d6a4.jpg\">}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D.Y#ek[s2<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>DH-Konvention: Transformation \\(OKS_{i-1}\\) zu \\(OKS_i\\)</b><div><br></div><div>Schritt 2.: {{c1::Eine Translation \\(d_i\\) entlang der \\(z_{i-1}\\)-Achse zu dem Punkt, wo sich \\(z_{i-1}\\) und \\(x_i\\) schneiden}}</div><div><br></div><div><b>Schaubild und Matrix:</b></div><div>{{c2::<img src=\"paste-4d82e22361b8c8b1dd0533b34f7b69bf609a1357.jpg\"><img src=\"paste-7e02b6ecd7e1cf96c09b691305da0847e2571c38.jpg\">}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qRbHf<N%,V",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>DH-Konvention: Transformation \\(OKS_{i-1}\\) zu \\(OKS_i\\)</b><div><br></div><div>Schritt 3.: {{c1::Eine Translation \\(a_i\\) entlang der \\(x_{i}\\)-Achse, um die Ursprünge der Koordinatensysteme in Deckung zu bringen}}</div><div><br></div><div><b>Schaubild und Matrix:</b></div><div>{{c2::<img src=\"paste-1a46e2de66ba4026269c5b455078c29a0320c509.jpg\"><img src=\"paste-df10a5c311fe6bee9c61346457481bcad35b241b.jpg\">}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v-+7;V^VN=",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>DH-Konvention: Transformation \\(OKS_{i-1}\\) zu \\(OKS_i\\)</b><div><br></div><div>Schritt 4.: {{c1::Eine Rotation \\(\\alpha_i\\) um die \\(x_{i}\\)-Achse, um die \\(z_{i-1}\\)-Achse in die \\(z_i\\)-Achse zu überführen}}</div><div><br></div><div><b>Schaubild und Matrix:</b></div><div>{{c2::<img src=\"paste-a906f6e36fd7657b7bbc1e5a4e5d4bb10fcaa623.jpg\"><img src=\"paste-6c73a47f634266be00069d2eb545af2ede5f1a37.jpg\">}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bw<<B_kl0S",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Durch {{c1::Verkettung der DH-Matrizen}} lässt sich die {{c2::Lage der einzelnen Koordinatensysteme bezüglich des Bezugskoordinatensystems bestimmen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ok{GTDGuM{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Kochrezept: Bestimmung der DH Parameter</b><div><br></div><div>1. {{c1::Skizze des Manipulators}}</div><div>2. {{c2::Identifiziere und nummeriere die Gelenke (1, letztes Glied = \\(n\\))}}</div><div>3. {{c3::Zeichne die Achsen \\(z_{i-1}\\) für jedes Gelenk \\(i\\)}}</div><div>4. {{c4::Bestimme die Parameter \\(a_i\\) zwischen \\(z_{i-1}\\) und \\(z_i\\)}}</div><div>5. {{c5::Zeichne die \\(x_i\\)-Achsen}}</div><div>6. {{c6::Bestimme die Parameter \\(\\alpha_i\\) (Verwindung um die \\(x_i\\)-Achsen)}}</div><div>7. {{c7::Bestimme die Parameter \\(d_i\\) (Gelenkabstand)}}</div><div>8. {{c8::Bestimme die Winkel \\(\\Theta_i\\) um die \\(z_{i-1}\\)-Achsen}}</div><div>9. {{c9::Verknüpfe die Gelenk-Transformation-Matrizen \\(A_{i-1, i}\\)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n^U&pp#ZpH",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Endeffektor-Geschwindigkeit}} ist abhängig von den einzelnen {{c2::Gelenkwinkelgeschwindigkeiten}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OZ9**S9j+j",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Endeffektor-Kräfte und -Momente}} sind abhängig von den einzelnen {{c2::Drehmomenten in den Gelenkwinkeln}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NO|VN^<{1~",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Jacobi-Matrix}} setzt {{c2::kartesische Endeffektor-Geschwindigkeiten}} in Relation zu {{c3::Gelenkwinkelgeschwindigkeiten}}:<div><br></div><div>\\[\\dot{x}(t) = J_f(\\Theta(t)) \\cdot \\dot{\\Theta}(t)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bX{w:$gk*0",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Jacobi-Matrix}} setzt {{c2::Kräfte und Momente am Endeffektor}} in Relation zu {{c3::Drehmomenten in den Gelenken}}:<div><br></div><div>\\[\\tau(t) = J^T_f(\\Theta(t)) \\cdot F(t)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z8:Z<?RQ3n",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wenn ein Roboter sich in einer Konfiguration befindet, in der er {{c1::nicht mehr in der Lage ist sich instantan in eine oder mehr Richtungen zu bewegen}}, spricht man von einer {{c2::kinematischen Singularität}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r34=<UM[+O",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konfigurationen, die {{c1::zu einer kinematischen Singularität führen}} nennt man {{c2::singulär}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E*K(V#JY-U",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Singuläre}} Konfigurationen können von {{c1::nicht-singulären}} Konfigurationen durch die {{c2::Jacobi-Matrix}} unterschieden werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H*:`KtY&fD",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Kinematische Singularität}} bedeutet mathematisch, dass {{c2::die lineare Kombination der Jacobi-Spalten nicht den gesamten Endeffektor-Geschwindigkeitsraum aufspannen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "IrE*Q-pBd5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine Konfiguration heißt {{c1::singulär}}, wenn der {{c2::Rang der Jacobi-Matrix kleiner ist als die Arbeitsraumdimension}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Jza&?S![Ra",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine singuläre Jacobi-Matrix ist {{c1::nicht invertierbar}}, d.h. {{c2::bestimmte Endeffektor-Positionen sind unmöglich}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qO1=(2}Pt<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In der Umgebung von Singularitäten können {{c1::große Gelenkwinkelgeschwindigkeiten}} nötig werden, um eine {{c2::Endeffektor-Geschwindigkeit}}&nbsp;zu halten",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t}LdbDUw3A",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Manipulability}} ist ein Maß für die {{c2::Bewegungsfreiheit des Endeffektors}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M6n*Wsj[NF",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Manipulierbarkeits-Ellipsoid}} ist die Abbildung des {{c2::Einheitskreises der Gelenkwinkel-Geschwindigkeiten}} über die {{c3::Jacobi-Matrix}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gN+9?o[w@^",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Manipulierbarkeits-Ellipsoid}} ist im singulären Fall (degenerierten Fall) eine {{c2::Linie}} und im nicht-singulären Fall ein {{c3::Kreis}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C/fCcgd2N%",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aufgrund von {{c1::Gelenkwinkelgrenzen}} ist die {{c2::Erreichbarkeit des Arbeitsraumes}} eingeschränkt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "EQ(qJ1)dhA",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Durch {{c1::Abtasten der erreichbaren Punkte durch alle möglichen Gelenkwinkel (offline)}} lässt sich ein {{c2::Erreichbarkeitsgitter}} formen, welches dann zur schnellen {{c3::Griffselekion in O(1)}} genutzt werden kann<div><br></div><div><img src=\"paste-7df8407315bf12eedae842d813843364237be148.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ibC]Z7xB5]",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vorwärtskinematik ist in der Regel weder {{c1::injektiv}} noch {{c1::surjektiv}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gNN{c}RL{.",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der inversen Kinematik gibt es bestenfalls {{c1::genau eine Lösung}} für einen Punkt {{c2::am Rand des Arbeitsraums}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bU.yr.YRZ!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der inversen Kinematik gibt es {{c1::keine Lösung}} für einen Punkt {{c2::außerhalb des Arbeitsraums}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J[J;?kTT@,",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der inversen Kinematik gibt es oftmals {{c1::wenige unabhängige oder unendlich viele}} Lösungen für einen bestimmten Punkt im Arbeitsraum",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Fek_J^qj=K",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Inverse Kinematik lässt sich als {{c1::Optimierungsproblem}} formulieren und mit {{c2::Gradient Descent}} lösen",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Md^h@AQ&xJ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Fehlerfunktion für Gradient Descent zur inversen Kinematik bei einer Zielpose \\(x_{goal} \\in W\\) lautet:<div><br></div><div>{{c1::\\[e(\\Theta) = || x_{goal} - f(\\Theta)||^2\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D8>TrCzA+F",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wenn keine Inverse für inverse Kinematik existiert (Singularität, nicht-quadratisch), kann stattdessen die {{c1::Pseudoinverse}} berechnet werden:<div><br></div><div>{{c2::\\[A^+ = A^T(AA^T)^{-1}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O>N=%TGi>;",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::dynamisches Modell}} beschreibt den {{c2::Zusammenhang zwischen Antriebs- und Kontaktkräften}}, welche in einem {{c3::mechanischen Mehrkörpersystem}} auftreten und deren {{c4::resultierende Beschleunigungen und Bewegungen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xoJu<GjeGi",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Allgemeine Bewegungsgleichung:</b><div>{{c1::\\[\\tau = M(q)\\ddot{q} + C(q, \\dot{q})\\dot{q} + g(q) + \\epsilon(q, \\dot{q}, \\ddot{q})\\]}}<br></div><div><br></div><div><b>Definition der Größen:</b></div><div><table class=\"table_class_basic_minimal_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Größe</th><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Beschreibung</th></tr></thead>\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c2::\\(q, \\dot{q}, \\ddot{q}\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c3::Vektor der generalisierten Koordinaten}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c4::\\(\\tau\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c5::Vektor der generalisierten Kräfte}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c6::\\(M(q)\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c7::Massenträgheitsmatrix (symmetrisch, pos. def.)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c8::\\(C(\\dot{q}, q)\\dot{q}\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c9::Vektor mit Zentripetal- und Corioliskomponenten}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c10::\\(g(q)\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c11::Vektor der Gravitationskomponenten}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c12::\\(\\epsilon(q, \\dot{q}, \\ddot{q})\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c13::Nichtlineare Effekte, z.B Reibung}}</td></tr></tbody></table></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nDCQ^CA2dC",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Generalisierte Koordinaten</b>}}: {{c2::Minimaler Satz}} an voneinander {{c3::unabhängigen Koordinaten}} der den {{c4::aktuellen Systemzustand vollständig beschreibt}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yley-Z`hfx",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Für einen Roboter aus N Partikeln mit Masse \\(m_i\\) und Koordinate \\(x_i\\) gilt:<br></div><div><br></div>{{c1::<b>Holonome Zwangsbedingungen</b>}} können als {{c2::Gleichungen zwischen den Koordinaten \\(x_i\\) des Roboters formuliert werden}}:<div><br></div><div>{{c3::\\[f_j(x_1, \\dots, x_{3N}) = 0,\\quad j = 1, \\dots, k\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dK&Shp?-q:",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Für einen Roboter aus N Partikeln mit Masse \\(m_i\\) und Koordinate \\(x_i\\) gilt:<div><br></div><div>Die \\(3N\\) Koordinaten lassen sich mit \\(k\\) unabhängigen Zwangsbedingungen auf {{c1::\\(n = 3N - k\\)}} unabhängige, {{c2::generalisierte Koordinaten \\(q_i\\)}} reduzieren, die {{c3::automatisch die Zwangsbedingungen erfüllen müssen}}:</div><div><br></div><div><div>{{c4::\\[x_i = x_i(q_1, \\dots, q_n)\\quad i = 1, \\dots, 3N\\quad \\text{und}\\quad n = 3N - k\\]}}</div><div><div>{{c5::\\[f_j(q_1, \\dots, q_n) = 0\\quad j = 1, \\dots, k\\quad \\text{und}\\quad n = 3N - k\\]}}</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J|Q>hLE=[G",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Bewegungsgleichung kann mithilfe der {{c1::Lagrange-Funktion}} für jede {{c2::generalisierte Koordinate}} abgeleitet werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vwYR.gSe&g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Lagrange-Funktion:</b><div><br></div><div>{{c1::\\[L(q, \\dot{q}) = E_{kin}(q, \\dot{q}) - E_{pot}(q)\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u|hQ,%w:|",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Ableitung der Bewegungsgleichung per Lagrange:</b><div><br></div><div>{{c1::\\[\\tau_i = \\frac{d}{dt}(\\frac{\\partial L}{\\partial \\dot{q}_i}) - \\frac{\\partial L}{\\partial q_i}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gY#,s$<w~e",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmung der Bewegungsgleichung für jedes Gelenk eines Roboters:<div><br></div><div>1. {{c1::Berechne \\(E_{kin}\\) und \\(E_{pot}\\)}}</div><div>2. {{c2::Drücke \\(E_{kin}\\) und \\(E_{pot}\\) in generalisierten Koordinaten aus (vgl. Lagrange-Funktion)}}</div><div>3. {{c3::Berechne die Ableitungen}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "OHp_U|:|,5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile der Lagrange-Methode:</b><div>- {{c1::Einfaches Aufstellen der Gleichungen möglich}}</div><div>- {{c2::Geschlossenes Modell, analytisch auswertbar}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jHO[>|)&+J",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile der Lagrange-Methode:</b><div>- {{c1::Berechnung sehr umfangreich, ist in \\(O(n^3)\\) für \\(n\\) Gelenke}}</div><div>- {{c2::Nur Antriebsmomente werden berechnet}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ps7bl4GlwW",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Idee der Newton-Euler-Methode:</b><div>Berechne {{c1::Kräfte und Momente, welche auf ein Armelement wirken}} mithilfe des {{c2::rekursiven Newton-Euler-Algorithmus (RNEA)}} aus {{c3::den Gelenkwinkelpositionen, Geschwindigkeiten und Beschleunigungen}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bPd<pw%[)Y",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Eigenschaften der Newton-Euler-Methode:</b><div>- {{c1::Isoliertes Betrachten der Armelemente}}</div><div>- {{c2::Effiziente Berechnung in Echtzeit mit Komplexität \\(O(n)\\) möglich}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q:H6RDC~wA",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das {{c1::Trägheitsmoment}} eines starren Körpers bei einer {{c2::rotierenden}} Bewegung ist vergleichbar mit der {{c1::Masse}} einer {{c2::linearen}}&nbsp;Bewegung",
+                ""
+            ],
+            "flags": 0,
+            "guid": "np.?r5bgl",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wird ein Körper einem {{c1::Drehmoment}} ausgesetzt, entwickeln sich {{c2::Kreiselwirkungen}}, d.h. {{c3::Eulerkräfte und Zentrifugalkräfte an allen Massenpunkten}}. Diese Drehmomente können aufsummiert und durch die {{c4::Eulersche Bewegungsgleichung für starre Körper}} beschrieben werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D)=KlYvhzN",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Euler'sche Bewegungsgleichung für starre Körper:</b><div><br></div><div>{{c1::\\[n_c = \\bar{I}^{cm}\\dot{\\omega} + \\omega \\times \\bar{I}^{cm}\\omega\\]}}</div><div><br></div><div>Mit den {{c2::Drehmomenten um den Massenschwerpunkt C}} {{c3::\\(n_c\\)}}, den {{c4::Trägheitsmomenten um den Massenschwerpunkt}} {{c5::\\(\\bar{I}^{cm}\\)}}, den {{c6::Winkelgeschwindigkeiten des starren Körpers}} {{c7::\\(\\omega\\)}} und den {{c8::Winkelbeschleunigungen}} {{c9::\\(\\dot{\\omega}\\)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f}(=c4NDC@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Newton-Euler-Gleichungen für die vollständige Beschreibung der Bewegung eines starren Körpers:</b><div><br></div><div>{{c1::\\[\\begin{bmatrix}n_c \\\\ f\\end{bmatrix} = \\begin{bmatrix}\\bar{I}^{cm}\\dot{\\omega} + \\omega \\times \\bar{I}^{cm}\\omega\\\\m\\ddot{c}\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ldyX~m{h8?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Allgemeines Vorgehen beim Rekursiven Newton-Euler Algorithmus (RNEA):</b><div>1. {{c1::Rekursive Berechnung der Geschwindigkeit und Beschleunigung jedes Armelements von der Basis zum Endeffektor (Vorwärtspfad)}}</div><div>2. {{c2::Berechnung der Kräfte/Momente mithilfe Newton-Euler für jedes Armelement}}</div><div>3. {{c3::Rekursive Berechnung/Aufsummierung der Kräfte über alle Armelemente und der Gelenkkraftvariablen für den jeweiligen Gelenktyp (Rückwärtspfad)}}</div><div><br></div><div><img src=\"paste-1a2d26ec61572343f88f9276dd23843233b4714c.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yD~NR6OnKV",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>RNEA Schritt 1.: Berechnung der Geschwindigkeit und Beschleunigung</b><div><br></div><div><b>Geschwindigkeit:</b></div><div>{{c1::\\[v_i = v_{p(i)} + \\phi_i\\dot{q}_i,\\quad v_0 = 0\\]}}</div><div><br></div><div><b>Beschleunigung:</b></div><div><div>{{c2::\\[a_i = a_{p(i)} + \\phi_i\\ddot{q}_i + \\dot{\\phi}_i\\dot{q}_i,\\quad a_0 = -a_g\\]}}</div></div><div><br></div><div><b>Größen:</b></div><div><table class=\"table_class_basic_minimal_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Größe</th><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Beschreibung</th></tr></thead>\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c3::\\(\\dot{q}_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c4::Generalisierte Geschwindigkeit des Armelements \\(i\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c5::\\(\\phi_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c6::\\(6 \\times n\\) Bewegungsmatrix (abhängig vom Gelenktyp)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c7::\\(v_{p(i)}\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c8::Geschwindigkeit des Vorgängerelements \\(p(i)\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c9::\\(\\ddot{q}_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c10::Generalisierte Beschleunigung des Armelements \\(i\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c11::\\(\\dot{\\phi}_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c12::Ableitung von \\(\\phi_i\\)}}</td></tr></tbody></table><br></div><div><img src=\"paste-72675452473c7d15c45ab48dddc191ff57e16579.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vp~;!i2t$M",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>RNEA Schritt 2.: Berechnung der Kräfte/Momente mit Newton-Euler</b><div><br></div><div>{{c1::\\[f_i^a = I_ia_i + v_i \\times I_iv_i\\]}}</div><div><br></div><div><b>Größen:</b></div><div><table class=\"table_class_basic_minimal_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Größe</th><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Beschreibung</th></tr></thead>\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c2::\\(f_i^a\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c3::Kräfte, welche aufgrund von \\(a_i\\) auf das Armelement \\(i\\) wirken}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c4::\\(I_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c5::Trägheitsmoment des Armelements \\(i\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c6::\\(v_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c7::Geschwindigkeit des Armelements \\(i\\) aus Schritt 1.}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c8::\\(a_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c9::Beschleunigung des Armelements \\(i\\) aus Schritt 1.}}</td></tr></tbody></table><br></div><div><img src=\"paste-f4ef6b28d9664807602a9ba2011f94344bde8f4c.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K_*Tco%WiF",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>RNEA Schritt 3.: Rekursives Aufsummieren</b><div><br></div><div>{{c1::\\[\\tau_i = \\phi_i^Tf_i\\quad \\text{mit}\\quad f_i = f_i^a - f_i^e + \\sum_{j\\in c(i)}f_j\\]}}</div><div><br></div><div><table class=\"table_class_basic_minimal_width\" style=\"font-size: 85%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Größe</th><th style=\"width:50%; text-align:left; padding:2px; border: 1px solid black;\">Beschreibung</th></tr></thead>\n                <tbody><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c2::\\(f_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c3::Resultierende Kraft am Armelement \\(i\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c4::\\(f_i^e\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c5::Summe aller externen Kräfte, die an \\(i\\) wirken}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c6::\\(f_j\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c7::Kraft eines anliegenden Armelements \\(j\\)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c8::\\(c(i)\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c9::Menge nachfolgender Armelemente \\(i\\) in kinematischer Kette}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c10::\\(\\phi_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c11::\\(6 \\times n\\) Bewegungsmatrix (abhängig vom Gelenktyp)}}</td></tr><tr><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c12::\\(\\tau_i\\)}}</td><td style=\"width: 50%; padding: 2px; border: 1px solid black;\">{{c13::Generalisierte Kräfte/Momente an \\(i\\)}}</td></tr></tbody></table></div><div><br></div><div><img src=\"paste-e5777ffe8d6ac8284c01c39121e1fb7cdbfc76b9.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y?V74$sehC",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Regelungstechnik}} ist die {{c2::Lehre von der selbsttätigen, gezielten Beeinflussung dynamischer Prozesse während des Prozessablaufs}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ew:.$y%JN-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Regelungstechnische Grundsituation}} fordert {{c2::selbsttätige, gezielte Beeinflussung bei unvollständiger Systemkenntnis}}, insbesondere bei {{c3::Einwirkung von Störungen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eh>_jLpkI)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unter einer {{c1::Regelung}} versteht man eine Anordnung, durch welche bei {{c2::unvollständig bekannter Strecke}}, insbesondere {{c3::unvollständiger Kenntnis der Störgröße}}, die {{c4::Regelgröße, d.h. die Ausgangsgröße der Strecke}}, laufend erfasst und mit der {{c5::Führungsgröße}} verglichen wird, um mittels der so gebildeten Differenz {{c6::die Regelgröße an den Sollverlauf anzugleichen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hfb/!I|.ut",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der in sich geschlossene Wirkungsablauf der Regelung ist ein {{c1::Regelkreis}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "i]%ce3$Z$j",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Laplace-Transformation}} überführt eine Funktion vom {{c2::reellen Zeitbereich}} in eine Funktion im {{c3::komplexen Spektralbereich (Frequenzbereich)}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k*1t~`yeW$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Laplace-Transformation:</b><div><br></div><div>{{c1::\\[F(s) = \\int_0^\\infty f(t)e^{-st}dt\\quad s := \\sigma + j\\omega;\\quad f(t) = 0,\\ t &lt; 0\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b0NqXiI$W+",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Impulsfunktion (Dirac-Impuls):</b><div><br></div><div>{{c1::\\[\\partial(t) = \\begin{cases}\\infty &amp; t = 0\\\\ 0 &amp; t \\neq 0\\end{cases},\\quad \\int_{-1}^1 \\partial(t) dt = 1\\]}}</div><div><br></div><div><img src=\"paste-086c516af1f000a2774baf1fc50b2edc921126aa.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N!$3-yspdd",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Einheitssprungfunktion:</b><div><br></div><div>{{c1::\\[\\sigma(t) = \\begin{cases}0 &amp; t &lt; 0 \\\\ 1 &amp; t \\geq 0\\end{cases}\\]}}</div><div><br></div><div><img src=\"paste-bb77ca43e78e080af3f0c3f51ee9d6158093d29e.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Aho-d-qc),",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Proportionalglied (P-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot u(t)\\]}}</div><div><br></div><div><img src=\"paste-6f61dc4182f1c688fe8c38b1226591a2f3a7ac11.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "cDxUFpg[L~",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Integrierglied (I-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot \\int_0^t u(\\tau)d\\tau\\]}}</div><div><br></div><div><img src=\"paste-07dfc75accf1b6b578e4301d4e1677954cc74e5b.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s@o;?NJz^U",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Differenzierglied (D-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot \\dot{u}(t)\\]}}</div><div><br></div><div><img src=\"paste-dc48cacadc3222145c1534f652c965af88ba0caa.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kLU+](%+w%",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Totzeit-Glied (\\(T_t\\)-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot u(t - T_t)\\]}}</div><div><br></div><div><img src=\"paste-f6119387f3410827b37b38ab8252fa5d52cd8316.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pBl;e>?wiN",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Summen-Glied (S-Glied)</div><div><br></div><div>{{c1::\\[y(t) = \\pm u_1(t) \\pm u_2(t)\\]}}</div><div><br></div><div><img src=\"paste-dfbfd1b02d1219270726a728a35bc4786dbf9ebf.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LRduvP1k**",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Kennlinien-Glied (KL-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot f(u(t))\\]}}</div><div><br></div><div><img src=\"paste-748884142ff8d7be4be521f93085b4f70d5b5959.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y&FOMd|Egv",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Elementare Übertragungsglieder einer Regelschaltung:</b><div>Multiplizier-Glied (M-Glied)</div><div><br></div><div>{{c1::\\[y(t) = K \\cdot u_1(t)u_2(t)\\]}}</div><div><br></div><div><img src=\"paste-6f00b622ab22348131ba942cf7cfdb8f55d1cd44.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gs5^=8pl$a",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bewegungen eines Roboters werden aufgefasst als {{c1::Zustandsänderungen über die Zeit relativ zu einem festen Koordinatensystem}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C^Ma!%~@]&",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Problemstellung der Bahnsteuerung:</b><div><br></div><div>Bei gegebenem Start- und Zielzeitpunkt {{c1::Zwischenzustände (Stützpunkte) ermitteln, damit die Trajektorie \"glatt\" und stetig wird}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K8R5ejfu^$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Bahnsteuerung kann im {{c1::Konfigurationsraum (näher an der Ansteuerung der Teilsysteme)}} oder im {{c1::Arbeitsraum (näher an der zu lösenden Aufgabe)}} dargestellt werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "n*{B<N%H{Y",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile der Bahnsteuerung im Arbeitsraum:</b><div><br></div><div>- {{c1::Bahn ist einfacher zu formulieren}}</div><div>- {{c2::Interpolation ist einfacher}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "y6<F>_53Qx",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile der Bahnsteuerung im Arbeitsraum:</b><div><br></div><div>- {{c1::Inverse Kinematik für jeden Punkt der Trajektorie zu lösen}}</div><div>- {{c2::Geplante Trajektorie nicht immer ausführbar}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zf1L4/p6ZP",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile der Bahnsteuerung im Konfigurationsraum:</b><div><br></div><div>- {{c1::Ansteuerung der Gelenke ist einfacher}}</div><div>- {{c2::Trajektorie ist eindeutig und berücksichtigt Gelenkwinkelgrenzen}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DMCpY#18A_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile der Bahnsteuerung im Konfigurationsraum:</b><div><br></div><div>- {{c1::Interpolation für mehrere Gelenke}}</div><div>- {{c2::Formulierung der Trajektorie umständlicher}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k}(sx4YfFV",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::direkten Programmierung per Teach-In}} werden {{c2::markante Schlüsselpunkte manuell angefahren und die Zustände gespeichert}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sy):IIn`ai",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile direkter Programmierung zur Bahnsteuerung:</b><div><br></div><div>- {{c1::Schnell für komplexe Bahnen}}</div><div>- {{c2::Intuitiv}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ht}nB1oQ`-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile direkter Programmierung zur Bahnsteuerung:</b><div><br></div><div>- {{c1::Schwere Roboter sind oft schwer zu bedienen}}</div><div>- {{c2::Wenig Platz in engen Fertigungszellen für Bediener (Sicherheitsrisiko)}}</div><div>- {{c3::Schlechte Korrekturmöglichkeiten}}</div><div>- {{c4::Optimierung und Kontrolle durch Interpolationsmethoden schwierig (suboptimale Bahnen)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D(fPWQuR<V",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile einer Punkt-zu-Punkt-Steuerung (PTP):</b><div><br></div><div>- {{c1::Berechnung der Gelenkwinkeltrajektorie ist einfach}}</div><div>- {{c2::Keine Probleme mit Singularitäten}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "oIBbfJY0q$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der Nutzung eines {{c1::Rampenprofils}} für die Geschwindigkeitsentwicklung während der Bahnabfahrt ist der Vorteil, dass {{c2::Bahnparameter einfach zu berechnen sind}}, jedoch kann die {{c3::sprungförmige Aufschaltung der Beschleunigung zu Eigenschwingungen mechanischer Teile führen}}<br><br><img src=\"paste-91c71a7190492ce9292148b8e871b508c4261646.jpg\"><br>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wn-[&q5h:8",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das {{c1::Sinoidenprofil}} hat bei der Geschwindigkeitsentwicklung der Bahnabfahrt den Vorteil, dass {{c2::der Roboter weniger beansprucht wird}}, jedoch {{c3::sind die Beschleunigungs- und Bremsphasen länger als beim Rampenprofil}}<div><br></div><div><img src=\"paste-841a5e92ad576924f53f8c58c2b01cc8eb30307c.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MF0i{pFcXX",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Segmentweisen Bahninterpolation}} wird die Bahn zwischen {{c2::jeweils zwei Teiltrajektorien interpoliert}}. Die einzelnen Teiltrajektorien werden separat gespeichert und z.B mit {{c3::Splines}} beschrieben<div><br></div><div><img src=\"paste-4bc081e7442b845a60f6137fd9581b8efc7d79bc.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s#do(>|ch=",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Bahninterpolation}}&nbsp;verläuft die Bahn {{c2::durch alle Stützpunkte}}, bei der {{c1::Bahnapproximation}} werden die {{c2::Stützpunkte nur approximiert}}<div><br></div><div><img src=\"paste-68e7f730ffe3d3f49f95922d53a6bda43713af8f.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r=R5`yd]@~",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Im Unterschied zu {{c1::kubischen Splines}}&nbsp;verlaufen {{c2::Bézierkurven nicht durch alle Stützpunkte}}, sondern werden nur von ihnen beeinflusst<div><br></div><div><img src=\"paste-5a872465c8d32f7060db4638d6f2b53f563919cb.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C/hYXX_NoW",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::Arbeitsraumhindernis}} ist der {{c2::Raum, welcher von einem Objekt im Arbeitsraum eingenommen wird}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k_B=(nWmaS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::Konfigurationsraumhindernis}} ist die {{c2::Menge aller Punkte des Konfigurationsraumes, welche zu einer Kollision mit einem Arbeitsraumhindernis führen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H`4^40+q#f",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Hindernisraum}} ist die {{c2::Menge aller Konfigurationsraumhindernisse}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nGb3B.I-NS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Freiraum}} ist die {{c2::Menge aller Punkte des Arbeitsraumes, welche nicht im Hindernisraum liegen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LU.kkZk05N",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::vollständiger Algorithmus}} findet für {{c2::spezielle Planungsprobleme mindestens eine Lösung}} oder {{c3::erkennt in endlicher Zeit, dass keine Lösung existiert}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "io%1}>B^]/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::randomisierter Algorithmus}} verwendet {{c2::Zufallsgrößen, um den Ablauf zu steuern}}, wobei oft {{c3::heuristische Annahmen genutzt werden, um die Berechnungen zu beschleunigen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wIAe38}!M>",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::auflösungsvollständiger Algorithmus (resolution complete)}} ist ein {{c2::vollständiger approximativer Algorithmus für eine diskretisierte Problemstellung}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HM#{Q5dl~g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::probabilistisch-vollständiger Algorithmus (probabilistically complete)}} findet {{c2::mindestens eine Lösung, falls sie existiert}}. Er lässt sich nicht nutzen, um {{c3::festzustellen ob keine Lösung existiert}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r2rO}>0h)E",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der graphbasierten Pfadplanung wird ein {{c1::Wegnetz}} zwischen Start- und Zielpunkt generiert, in welchem dann der eigentliche Weg ermittelt wird",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ax00AppEw)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zur Konstruktion eines Wegnetzes können {{c1::Retraktionsverfahren, z.B Voronoi-Diagramme}}, {{c2::Sichtgraphen}} oder {{c3::Zellzerlegung}} genutzt werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M|`EDss2ZD",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zur Suche in Wegnetzen sind {{c1::Baumsuche}} oder der {{c2::A*-Algorithmus}} nützlich",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e9B@mKh2FJ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zur Konstruktion eines Voronoi-Diagrammes werden {{c1::Regionen}} für einen {{c2::endlichen Satz von Punkten}} definiert, sodass jeder Punkt auf einer Grenze zwischen zwei {{c1::Regionen}} immer denselben Abstand zu den beiden zugehörigen {{c2::Punkten}} innerhalb der {{c1::Regionen}}&nbsp;hat<div><br></div><div><img src=\"paste-28c283e20f48f1a19389a9619c83525e4993af9a.jpg\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j-nwMhSg%#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der Konstruktion eines Voronoi-Diagramms wird die Punktmenge {{c1::rekursiv unterteilt}} und damit auf zwei einfache Fälle reduziert:<div><br></div><div>1. {{c2::Zwei Punkte - Die Mittelsenkrechte bildet das Voronoi-Diagramm}}</div><div>2. {{c3::Drei Punkte - Die Mittelsenkrechten aller Punktpaare werden am gemeinsamen Schnittpunkt abgeschnitten}}</div>",
+                "<img src=\"paste-cb4a8e77a08be20ab81d3b717c2ac8477460f0b6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "tlB$^A*w_W",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Um die rekursiv unterteilten Punktmengen bei der Erstellung eines Voronoi-Diagrammes wieder zu verschmelzen werden die {{c1::nächsten Nachbarn entlang der Trennungslinie verbunden}} und dann die {{c2::Mittelsenkrechte gezogen}}",
+                "<img src=\"paste-8719988a7da802a265b8fcf4392565ece012cd0e.jpg\"><img src=\"paste-22f37eebf542faaef003921f40715502cb76788c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "rx(cMEttCy",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile der Nutzung von Voronoi-Diagrammen:</b><div>- {{c1::Maximaler Abstand zu Hindernissen}}</div><div>- {{c2::Abstandssensoren ermöglichen leichte Prüfung durch den Roboter, ob der richtige Weg abgefahren wird}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ex9iYR&2-}",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile der Nutzung von Voronoi-Diagrammen:</b><div>- {{c1::Gefundener Weg ist im Regelfall nicht der kürzeste}}</div><div>- {{c2::Bei wenigen Hindernissen werden nur wenige Wege generiert}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gV2Bb:?Y=T",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zur Konstruktion eines Sichtgraphen werden alle {{c1::Eckpunkte auf dem Rand jedes Hindernisses mit einem geraden Liniensegment verbunden}}, vorausgesetzt {{c2::das Liniensegment schneidet kein Hindernis}}",
+                "<img src=\"paste-b515b355d30a32e6efd22385ab4bee37f112714b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "EN,=6TP@M[",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile bei der Nutzung eines Sichtgraphen:</b><div>- {{c1::Der gefundene Weg ist optimal, wenn gewisse Voraussetzungen erfüllt werden}}</div><div>- {{c2::Funktioniert auch in 3D, doch sind die Wege dann nicht immer optimal}}</div><div><br></div><div><b>Voraussetzungen:</b></div><div><div>- {{c1::Der Arbeitsraum besteht aus zwei translatorischen Freiheitsgraden}}</div><div><div>- {{c1::Der Roboter und alle Hindernisse können durch konvexe Polygone dargestellt werden}}</div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P,E-){OaHi",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Nachteile bei der Nutzung eines Sichtgraphen:</b><div>- {{c1::Wege sind nicht zwingend kollisionsfrei}}</div><div><br></div><div><b>Korrektur des Nachteils durch {{c1::Erweitern der Hindernisse}}:</b></div>",
+                "<img src=\"paste-688bc79f85b82b77c359ca76f3ae4cb135787663.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "KfonB^CB[&",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorgehen beim Zellzerlegungs-Verfahren zur Pfadfindung:</b><div>- {{c1::Zerlege den Freiraum in Zellen, sodass ein Weg zwischen zwei Konfigurationen innerhalb einer Zelle leicht zu finden ist}}</div><div>- {{c2::Stelle die Nachbarschaft (Adjazenz) in einem Graphen dar}}</div><div>- {{c3::Suche den optimalen Weg zwischen Start- und Endpunkt im Graphen}}</div>",
+                "<img src=\"paste-13d36a09abaea8f2bbbcc2118a906bc991266692.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "nx[IlXvH5e",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der exakten Zellzerlegung dürfen sich Zellen nicht {{c1::überlappen}} und die Vereinigung aller Zellen {{c1::muss den Freiraum ergeben}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PsZx$g6Szr",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der approximativen Zellzerlegung müssen Zellen nicht {{c1::zwingend den kompletten Freiraum füllen}}, wodurch {{c1::die Zerlegung einfacher ist}}. Eine Datenstruktur die approximative Zerlegungen erzeugen kann ist der {{c2::Quadtree}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xUcI9h~M`5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Im Falle eines Quadtree-Modells lässt sich ein Pfad finden, indem zuerst die {{c1::Kacheln mit der Start- bzw. Zielkonfiguration gefunden}} und dann die {{c1::benachbarten freien Kacheln des Baums vom Start zum Ziel verbunden werden}}",
+                "<img src=\"paste-a9cfa3747ace56982842e516ba1ec2c719feecc7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "bioAzubP!+",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der A*-Algorithmus dient der {{c1::Routenplanung in gewichteten Graphen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u|5hwCG;,_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Kostenfunktion des A*-Algorithmus lautet<div><br></div><div>{{c1::\\[f(x) = g(x) + h(x)\\]}}</div><div><br></div><div>wobei {{c1::\\(g(x)\\)}} den Kosten vom Startknoten zu Knoten \\(x\\) entspricht und {{c1::\\(h(x)\\)}} den geschätzten Kosten von \\(x\\) zum Zielknoten</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "g8=b70hhW@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorgehen beim A*-Algorithmus:</b><br><br><div>Traversiere vom aktuellen Knoten aus zu {{c1::dem benachbarten Knoten mit den geringsten Kosten}}, welcher {{c2::noch nicht besucht wurde}}, und aktualisiere {{c3::für jedes Feld die Kostenfunktion}}. Sollte kein Knoten mehr existieren und das Ziel ist noch nicht erreicht bedarf es {{c4::Backtracking (vgl. Dijkstra)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zfZ2,tg,GO",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A* entspricht {{c1::dem Dijkstra-Algorithmus}}, wenn die {{c2::Heuristikfunktion \\(h(x)\\) = 0 ist}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e=x}cy0$u}",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A* findet bei zulässiger Heuristik (z.B der {{c1::Luftlinie}}) immer eine {{c1::optimale Lösung}} und ist dabei {{c1::optimal effizient}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ytSAbyx>qX",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Potentialfeldmethode}} bewegt sich der Roboter unter dem Einfluss von {{c2::Kräften die ein Potentialfeld auf ihn ausübt}}",
+                "<img src=\"paste-45eb179ea2d9ff796e8a2c55c52d29dcfe36c006.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ifZ6M@Lq,m",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Potentialfeld ist eine {{c1::Skalarfunktion über dem Freiraum}} der Form:<div><br></div><div>{{c1::\\[U:\\ C_{free} \\rightarrow \\mathbb{R}\\]}}</div><div><br></div><div>Wobei die Kraft in einem Punkt des Potentialfelds dem {{c2::negativen Gradienten an diesem Punkt}} entspricht:</div><div><br></div><div>{{c2::\\[F(q) = -\\nabla U(q)\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LTPD:&]XS{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hindernisse erzeugen bei der Potentialfeldmethode ein {{c1::abstoßendes Potential}}, welches mit der {{c1::Distanz skaliert}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q0tn/*).=a",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Zielposition bei der Potentialfeldmethode soll dem {{c1::Minimum aller Potentiale}} entsprechen, weshalb möglichst {{c1::nur ein Minimum existieren sollte}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eq^<]%;Nz:",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Um bei der Potentialfeldmethode gegen lokale Minima vorzugehen sollten entweder {{c1::Potentialfelder ohne lokale Minima gewählt werden}} oder {{c2::im Suchalgorithmus Techniken zur \"Flucht\" aus lokalen Minima angewandt werden}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iC[{2XbQWg",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Für die Bewegungsplanung für Manipulatoren können {{c1::Probabilistic Roadmaps (PRM)}}, {{c2::Dynamic Roadmaps (DRM)}} oder {{c3::Rapidly-exploring Random Trees (RRT)}} nützlich sein",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ut|#k|xEBZ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Probabilistic Roadmaps wählen {{c1::zufällige Samples zur Approximation des Freiraumes}}, {{c2::erzeugen einen kollisionsfreien Graphen aus den Samples}} und {{c3::nutzen diesen zur Wegfinding von Start zu Ziel}}",
+                "<img src=\"paste-e685aa1689b17210f5e4508fe5ef1e1e8f305cb0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "zTVB->E{VC",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Eigenschaften des Probabilistic Roadmap Ansatzes:</b><div>- Graph wird {{c1::einmalig konstruiert und erlaubt dann die Bearbeitung mehrerer Anfragen (multi-query)}}</div><div>- Konstruktion ist {{c2::probabilistisch, wodurch exponenzieller Anstieg der Laufzeit bei steigender Dimension des Konfigurationsraumes vermieden wird}}</div><div>- Verfahren ist abhängig von {{c3::der Samplingmethode, wodurch ggf. schmale Passagen zwischen Hindernissen problematisch sein können (kompensierbar durch höheres Sampling an Hindernissen)}}</div><div>- Durch die Approximation {{c4::unvollständig, weshalb nicht zwingend ein möglicher Pfad gefunden wird (kompensierbar durch Grapherweiterung)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MM$#i#sB#r",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Sampling-Strategien für PRMs:</b><div>- {{c1::Zufällig}}</div><div>- {{c2::Grid mit diskreter Auflösung}}</div><div>- {{c3::Halton-Menge (Punkte sind quasi-random, aber von geringer Diskrepanz, d.h. haben gleichmäßige Abstände)}}</div><div>- {{c4::Zellenbasiert, vgl. Quadtrees}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "up7WE0-F=9",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Schritte für die Erstellung und Nutzung einer Dynamic Roadmap (DRM):</b><div>1. Sample {{c1::zufällige Punkte im Konfigurationsraum zur Erzeugung einer selbstkollisionsfreien Roadmap}}</div><div>2. Unterteile {{c2::den Arbeitsraum in Voxel}}</div><div>3. Finde {{c3::eine Abbildung zwischen Arbeits- und Konfigurationsraum durch Kollisionsprüfungen}}</div><div>4. Lösche {{c4::alle Voxel mit Hindernis und die zugehörigen Knoten und Kanten aus der Roadmap}}</div><div>5. Verbinde {{c5::Start- und Zielpunkt mit dem Graphen und finde einen Weg zwischen ihnen}}</div>",
+                "<img src=\"paste-77a8afdbe2bdb37a039a3bc56340b8ca69e08e24.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "tMO:a::4sK",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine {{c1::Distance Aware Dynamic Roadmap (DA-DRM)}} verhindert {{c2::Bahnen die zu nahe an Objekten sind}} dadurch, dass {{c3::Voxel innerhalb eines Sicherheitsabstandes zu Objekten gelöscht werden}} und {{c4::Kanten zu Voxeln nah an Objekten höher gewichtet werden}}",
+                "<img src=\"paste-80949790c8a995738a957bf6f05c9c092dcb4839.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "OynQH99`4P",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rapidly-exploring Random Trees (RRTs) benötigen {{c1::keine Vorverarbeitung}} und haben keine Probleme mit {{c2::sich ändernden Umgebungen / kinematischen Ketten}}, geben jedoch {{c3::keine Garantie auf das Finden einer Lösung}}, da der Algorithmus {{c4::probabilistisch vollständig und randomisiert}} ist",
+                ""
+            ],
+            "flags": 0,
+            "guid": "qk0`B^dAEo",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rapidly-exploring Random Trees sind sehr effizient für {{c1::hochdimensionale Problemstellungen}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kiufY{upJ1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei Rapidly-exploring Random Trees werden iterativ {{c1::zufällige Punkte erzeugt und entlang dem kürzesten Abstand kollisionsfrei mit dem restlichen Baum verbunden}}, wobei beim Verbinden in {{c2::fester Distanz weitere kollisionsfreie Punkte auf der Verbindungsstrecke eingefügt werden}}. Weiter wird in regelmäßigen Abständen geprüft, {{c3::ob der Zielknoten mit dem bisherigen Baum kollisionsfrei verbunden werden kann}}, bis dies der Fall ist (u.U. niemals)",
+                "<img src=\"paste-618566e094fc4b1d6163f07a0a6c3d35c2f7401a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "eHF{[/GQhS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Sampling-basierte Ansätze}} bei der Bewegungsplanung können {{c2::Nebenbedingungen (Constraints)}} prinzipiell nicht erfüllen, da diese {{c3::niederdimensionale Gebilde (z.B Ebenen) im Konfigurationsraum aufspannen}}<div><br></div><div>Ansätze die hierbei helfen können sind {{c4::Randomized Gradient Descent (RGD)}} und {{c5::First Order Retraction (FR)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u5$/@[!NZp",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei {{c1::Constrained Rapidly-exploring Random Trees}} wird eine {{c2::Stichprobe auf eine Konfiguration projiziert}}, welche die {{c3::Constraints erfüllt}}. Diese Projektion kann durch {{c4::Randomized Gradient Descent}} oder {{c4::First Order Retraction}} durchgeführt werden",
+                "<img src=\"paste-3615666c7a3f4d421e2bfa63ac65730657fa6176.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kHw.O-Ze5;",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei Randomized Gradient Descent wird iterativ ein {{c1::zufälliger Nachbar aus der Hyperkugel um den Samplepunkt}} gewählt, welcher näher an dem {{c2::Constraint-Gebilde (z.B der Ebene)}} ist, bis die Distanz zu letzterem {{c3::minimal ist}}",
+                "<img src=\"paste-07e5ed62ca2026e0264e2f52a93548a09fda3af4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jTI*v%Fh8",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beim First Order Retraction Verfahren wird ähnlich zur {{c1::inversen Kinematik}} der korrigierte Samplepunkt im Constraint-Gebilde per {{c2::Jacobi-Matrix}} bestimmt",
+                "<img src=\"paste-b4ec6b1f0c575f4d69abbdaad9eb47e3651dbfe7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "y/]d){brwI",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Da Rapidly-exploring Random Trees Trajektorien findet, die {{c1::üblicherweise nicht optimal sind}}, gibt es eine Erweiterung namens {{c2::RRT*}}, welche den {{c3::Suchbaum iterativ während der Suche optimiert}}, was jedoch {{c4::die Laufzeit erhöht}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G3CAE$52p5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorgehen beim RRT*-Algorithmus:</b><div>- Wähle so lange ein zufälliges Sample, bis {{c1::dessen nächster Nachbar ein Punkt ist, bei dem die Erstellung eines Punktes in Abstand \\(d\\) in Richtung des Zielpunktes keine Kollision erzeugt (\"Steering\")}}</div><div>- Füge den neuen Punkt {{c2::an den bisherigen Graph an, sodass der Pfad zu ihm minimale Kosten hat}}</div><div>- Aktualisiere {{c3::alle Kanten in der Umgebung des neuen Knoten für minimale Kosten (\"Rewiring\")}}</div>",
+                "<img src=\"paste-68672b039fc8285f11166df4bf63f06ff9c9c825.jpg\"><img src=\"paste-ad002e2ce175b8453c3ead57f8e2dc9bdb22ebe9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "tAsw#[(pCa",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das Problem enger Passagen kann durch {{c1::Dynamic Domain RRTs}} gelöst werden, welche nur in der {{c2::sichtbaren Voronoi-Region eines Punktes}} samplen. In der Praxis wird die {{c2::sichtbare Voronoi-Region}} durch {{c3::Kugeln}} approximiert",
+                "<img src=\"paste-e1dbbb3e054e2824e8b658e6f9ab407860119dcd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GLgmilkH2f",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Das Problem enger Passagen kann durch {{c1::Bridge Sampling}} gelöst werden, bei welchem {{c2::zufällige Punkte im Hindernisraum gewählt werden}} um dann den eigentlichen Sampling Punkt {{c3::auf der \"Brücke\" (im Freiraum) zwischen ihnen zu generieren}}",
+                "<img src=\"paste-d39153606ee388f2d7a38d6df64fa90434ddfe47.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "u#s{}*+Mv@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::Griff}} ist eine {{c2::Menge von Kontaktpunkten auf der Oberfläche eines Objekts}}, die potentielle Bewegungen des Objekts {{c3::unter dem Einfluss externer Kräfte einschränken bzw. kompensieren}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O4up$yHrVj",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Greifanalyse}} wird aus einem {{c2::Objekt und einem Griff (Menge von Kontaktpunkten)}} eine {{c3::Aussage zur Stabilität des Griffs}} gewonnen",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B?K3a%v~q-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Griffsynthese}} wird aus einem {{c2::Objekt und ggf. Nebenbedingungen}} eine {{c3::Menge von Kontaktpunkten}} gewonnen",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bh2pnNJ]Y#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die an einem Kontaktpunkt wirkenden Kräfte und Momente können zu einem {{c1::Wrench}} zusammengefasst werden",
+                "<b>Planar:</b> \\[w = (f_x\\quad f_y\\quad \\tau_z)^T \\in R^3\\]<div><b>Räumlich:</b> \\[w = (f_x\\quad f_y\\quad f_z\\quad \\tau_x\\quad \\tau_y\\quad \\tau_z)^T \\in R^6\\]</div>"
+            ],
+            "flags": 0,
+            "guid": "JyXYWq/*ti",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Griff wird als {{c1::Gleichgewichtsgriff}} bezeichnet, wenn die {{c2::Summe aller Kräfte und Momente, die auf das gegriffene Objekt wirken, gleich Null ist}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B#1@n~*gRr",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kontaktkräfte sind durch die {{c1::Reibung}} eingeschränkt, welche durch einen {{c1::Reibungskegel}} approximiert wird",
+                "<img src=\"paste-ab7cd9a5afc333e2d81225eff5ce0a6af8392065.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "H26FWmbctc",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Gesamtmenge der Wrenches \\(WC\\), die durch alle Kontakte erzeugt werden können, ist die {{c1::positive lineare Hülle der einzelnen \\(WC_i\\)&nbsp;(Wrench Cones)}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nbp:wt1Lx/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein Griff ist {{c1::kraftgeschlossen}}, wenn \\(WC\\) eine {{c2::Kugel mit Radius \\(\\epsilon &gt; 0\\) um den Ursprung enthält}}, also Wrenches {{c3::in alle Richtungen erzeugt werden können}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "q^*Z,o>hL#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Greifmatrix}} enthält die {{c2::Wrenches aller Reibungskegel als Spalten}}:<div><br></div><div>{{c3::\\[G = \\begin{bmatrix}&amp;&amp;\\\\w_1 &amp; \\dots &amp; w_m\\\\ &amp; &amp;\\end{bmatrix} \\in \\mathbb{R}^{6 \\times m}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "J(IMJgQe9S",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ein {{c1::formgeschlossener Griff}} entspricht einem {{c2::kraftgeschlossenem Griff ohne Reibung}}, d.h. nur {{c3::Kräfte entlang der Normalen werden berücksichtigt (strengere Bedingung)}}",
+                "<img src=\"paste-2752f20c6c20e0b912b71cba034ba0272a8cb7f4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pq?f7.0`wE",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alle {{c1::formgeschlossenen Griffe}} sind {{c2::kraftgeschlossen}}, alle {{c2::kraftgeschlossenen Griffe}} sind {{c3::Gleichgewichtsgriffe}}",
+                "<img src=\"paste-4826c833a57810c7dfff7903e4cfdb581919ebad.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gDI3O`>|0`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Kraftschluss}} ist mit weniger Kontaktpunkten möglich und wird deshalb bei {{c2::Präzisionsgriffen}} verwendet",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pYM._8buob",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Formschluss}} ist eine stärkere Bedingung als {{c2::Kraftschluss}} und wird oft bei der Ausführung von {{c3::Kraftgriffen}} verwendet",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fj,z#D$Ec3",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Grasp-Wrench-Space \\(GWS\\)}} ist die {{c2::konvexe Hülle der Vektoren, die den Reibungskegel aller Kontakte approximieren}}",
+                "<img src=\"paste-af268c3f96437e8944e878deb31564828cdb65cc.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "bbZ%-R{RE)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::\\(\\epsilon\\)-Metrik (Grasp-Wrench-Space-Metrik)}} ist der {{c2::Radius der größten Kugel um den Ursprung}}, die noch {{c3::vollständig im GWS enthalten ist}}",
+                "<img src=\"paste-a1bd7ebfd90f84560bad0a331d1af8d08563af6b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o~DGv`e$Bs",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Die \\(\\epsilon\\)-Metrik:</b><div>- Ist eine {{c1::allgemeine und weit verbreitete Qualitätsmetrik für Fingerspitzengriffe}}</div><div>- Modelliert, {{c2::wie widerstandsfähig ein Griff gegenüber externen Wrenches ist}}</div><div>- Kann benutzt werden, um {{c3::Griffe auf Kraftschluss zu prüfen}}</div><div>- Benötigt {{c4::Modellwissen (Geometrie der Finger um Objekt, Reibungskoeffizienten, Kontaktpositionen und -normalen)}}</div>",
+                "<i>Metriken für Griffqualität sind aktuelles Forschungsthema!</i>"
+            ],
+            "flags": 0,
+            "guid": "y78KUYBd]f",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Klassifikation von Greifplanungssystemen:</b><div>- Typ des {{c1::Greifers}}: {{c1::Zweifinger-, Dreifinger-, Mehrfingergreifer...}}</div><div>- Typ der {{c2::zugrundeliegenden Greifplanungsalgorithmen}}: {{c2::geometrisch basiert, physikalisch basiert}}</div><div>- Typ der {{c3::zu greifenden Objekte}}: {{c3::Polygone, Polyeder}}</div><div>- Typ der {{c4::zu manipulierenden Szenen}}: {{c4::deterministisch (Lage und Orientierung aller Objekte bekannt), nicht deterministisch}}</div><div>- Typ der {{c5::Sensorik}}: {{c5::keine Sensorik, taktile Sensorik, visuelle Sensorik...}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "P$0AT<f>[*",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Ansätze zur vereinfachenden Approximation komplexer Objektgeometrie:</b><div>- {{c1::Formprimitiven (manuelle Unterteilung in Primitive)}}</div><div>- {{c2::Box-Dekomposition (automatische Unterteilung in Boxen)}}</div><div>- {{c3::Superquadriken}}</div><div>- {{c4::Mediale-Achse-Transformation}}</div><div>- {{c5::Oberflächennormalen}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MG%?bk2j*>",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der Greifplanung mit {{c1::Formprimitiven}}&nbsp;werden Objekte manuell mit {{c1::Formprimitiven}} dargestellt, für welche jeweils unterschiedliche {{c2::Griffstrategien}} vordefiniert sind",
+                "<img src=\"paste-91298df17eab2d84f045e4c632ac6c7627a5bd18.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jL2/F4~m=@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Decomposition Algorithm}} reduziert das Problem der Unterteilung einer 3D Box zu einem Problem der {{c2::Reduzierung einer 2D Box um eine Projektion des 3D Modells}}",
+                "<img src=\"paste-893ec1d8f89293cd84bb05818fb4e92dbd5fae05.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "G:VGeXMgA6",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eine {{c1::Superquadrik}} definiert die Form eines geometrischen Objektes als {{c2::parametrisierbare Funktion}}. Sie kann durch einen {{c3::nichtlinearen Optimierungsalgorithmus}} an z.B eine Punktwolke {{c3::gefittet werden}}",
+                "<i>(Eine Quadrik ist eine Lösungsmenge einer quadratischen Gleichung mehrerer Unbekannter)</i><div><img src=\"paste-40bde7163956c1e1de80ca79a2446a38ab682984.jpg\"><img src=\"paste-90118060531a90e142f5d1df3d685ffec7225935.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "s*]oE$`Lr-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Mediale Achse}} ist die {{c2::Vereinigung der Mittelpunkte aller Kugeln mit maximalem Durchmesser}}, welche benutzt werden um die {{c3::Objektform zu approximieren}}. Diese {{c2::Kugeln}} müssen die Objekthülle an zwei oder mehr Punkten berühren! Die resultierende {{c1::Mediale Achse}} beschreibt das {{c4::topologische Skelett des Objekts}} und dient als gute Approximation",
+                "<img src=\"paste-1e64515af0159b74399322752f78bd44ee858d10.jpg\"><img src=\"paste-a90dcab2c4702b2d2f48f38bf56860314adb383b.jpg\"><img src=\"paste-6a79a6a054c64193f1f1f1f37d464ae828ad047c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "b<n6y6E--l",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Hauptachse}} ist die {{c2::Gerade durch das Projektionszentrum, rechtwinklig zur Bildebene}}",
+                "<img src=\"paste-b418899aa2bd0941d7a16b6564e1c65413ec6cec.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "B3k>rGugHi",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Hauptpunkt}} ist der {{c2::Schnitt der Hauptachse mit der Bildebene}}",
+                "<img src=\"paste-b418899aa2bd0941d7a16b6564e1c65413ec6cec.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "u}VgO|S5]:",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die {{c1::Bildkoordinaten}} sind die {{c2::2D-Koordinaten eines Punktes im Bild in Pixel}}",
+                "<img src=\"paste-b418899aa2bd0941d7a16b6564e1c65413ec6cec.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "H(FGQjY(vI",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Zusammenhang zwischen einem Szenenpunkt \\((x,\\ y)\\) und einem Bildpunkt \\((u,\\ v)\\):</b><div>{{c1::\\[\\begin{bmatrix}u\\\\v\\end{bmatrix} = \\frac{f}{z}\\begin{bmatrix}x\\\\y\\end{bmatrix}\\]}}<br></div>",
+                "<i>mit der Brennweite f</i><div><img src=\"paste-0cfabf96f3988f0770d043efcb56728ed6f5635a.jpg\"><i><br></i></div>"
+            ],
+            "flags": 0,
+            "guid": "F}Bi@_).Ny",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Erweitertes Kameramodell:</b><div>{{c1::\\[\\begin{bmatrix}u\\\\v\\end{bmatrix} = \\begin{bmatrix}c_x\\\\c_y\\end{bmatrix} + \\frac{1}{z}\\begin{bmatrix}f_x \\cdot x\\\\f_y \\cdot y\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uEm^6u?&.?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Erweitertes Kameramodell mit homogenen Koordinaten:</b><div>{{c1::\\[\\begin{bmatrix}u\\\\v\\\\1\\end{bmatrix} = \\begin{bmatrix}\\frac{f_x}{z} &amp; 0 &amp; \\frac{c_x}{z}\\\\0 &amp; \\frac{f_y}{z} &amp; \\frac{c_y}{z}\\\\ 0 &amp; 0 &amp; \\frac{1}{z}\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "A`mfxyMkIA",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Kalibriermatrix:</b><div>{{c1::\\[K = \\begin{bmatrix}f_x &amp; 0 &amp; c_x\\\\0 &amp; f_y &amp; c_y\\\\ 0 &amp; 0 &amp; 1\\end{bmatrix}\\]}}</div>",
+                "<img src=\"paste-0991f748ddc674375504c942ba9db96139e90429.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "P;.HW,cOjO",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Parameter der Kalibriermatrix werden {{c1::intrinsische Parameter}} genannt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "c{Z*EB0I@-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Beziehung zwischen Kamera-Koordinatensystem und Weltkoordinatensystem wird durch {{c1::extrinsische Parameter (Rotation, Translation)}} beschrieben",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HS8XOkg3#N",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Projektionsmatrix P von Weltkoordinaten zu Bildkoordinaten ist eine {{c1::Kombination extrinsischer und intrinsischer Parameter}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f;~EoQ|Q27",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Kamerakalibrierung}} werden die extrinsischen und intrinsischen Parameter der Kamera durch {{c2::mindestens 6 Korrospondenzen}} zwischen {{c3::nicht-koplanaren Weltpunkten und ihren Projektionen in die Bildebene}} bestimmt",
+                "<img src=\"paste-2298a068ad5d0029bf5828df880d3b705c2d809d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "c{~XY0voc*",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Korrelation}} ist der Prozess, bei dem eine Filtermaske {{c2::über das Bild bewegt und die Summe der Produkte an jedem Punkt berechnet wird}}",
+                "<img src=\"paste-56b65285715d3f17eba4dae4fb39211e9981642e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "nJ!~@9Bp;@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Faltung}} ist derselbe Vorgang wie Korrelation, nur dass der {{c2::Filter zuerst um 180° gedreht wird}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o:l-&<@GBM",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Handhabung von Rändern beim Filtern:</b><div>- {{c1::Constant}}: {{c5::Bildrand hat konstanten Wert, z.B 0}}</div><div>- {{c2::Wrap}}: {{c6::Bild wird wiederholt}}</div><div>- {{c3::Mirror/Reflect}}: {{c7::Bild wird gespiegelt}}</div><div>- {{c4::Clamp/Replicate}}: {{c8::Wiederholung des letzten Wertes}}</div>",
+                "<img src=\"paste-61b0179ddf89548f2ccb3d34a95105e35754557c.jpg\"><div><img src=\"paste-64226bcb7e3b1dced5964482837c885c31c17c76.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "K}7ZiF]cO-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Beispielhafter Mittelwertfilter:</b><div>{{c1::\\[\\frac{1}{9}\\begin{bmatrix}1 &amp; 1 &amp; 1\\\\1 &amp; 1 &amp; 1\\\\1 &amp; 1 &amp; 1\\end{bmatrix}\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r-?Mz[S9rc",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Beispielhafter Gaußfilter:</b><div>{{c1::\\[\\frac{1}{16}\\begin{bmatrix}1 &amp; 2 &amp; 1\\\\2 &amp; 4 &amp; 2\\\\1 &amp; 2 &amp; 1\\end{bmatrix}\\]}}</div>",
+                "<img src=\"paste-e947a303481f7ebc412dff7e6b18b61d379d81e7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "F18Y,`?D;S",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Prewitt-X Filter für vertikale Kanten:</b><div>{{c1::\\[\\begin{bmatrix}-1 &amp; 0 &amp; 1\\\\ -1 &amp; 0 &amp; 1\\\\ -1 &amp; 0 &amp; 1\\end{bmatrix}\\]}}</div>",
+                "<img src=\"paste-b07d15648d6cfa896be7e3cb4b7744fb6eb32f5d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "vt3x{d)k-T",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Prewitt-Y Filter für vertikale Kanten:</b><div>{{c1::\\[\\begin{bmatrix}-1 &amp; -1 &amp; -1\\\\ 0 &amp; 0 &amp; 0\\\\ 1 &amp; 1 &amp; 1\\end{bmatrix}\\]}}</div>",
+                "<img src=\"paste-b07d15648d6cfa896be7e3cb4b7744fb6eb32f5d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "N~fc;7+U}`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Kombination der Prewitt-Filter zur Bestimmung des Gradientenbetrags M:</b><div>{{c1::\\[M \\approx \\sqrt{P_x^2 + P_y^2}\\]}}</div>",
+                "<i>danach Schwellwertfilterung</i><div><img src=\"paste-b7fd1fd6ef7b04e30cdd54b9a1edba19a80b41a4.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Bsf61TFf^A",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Der {{c1::Sobel-Filter}}&nbsp;entspricht dem Prewitt-Filter mit {{c2::einem stärker gewichteten Zentrum des Fensters}}",
+                "<img src=\"paste-f653ba090adfe8e7c4ef3053d36e58628876be8a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "I:gI,~4OPh",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei der {{c1::Schwellwertfilterung}} wird die Intensität jedes Pixels {{c2::mit einem Schwellwert verglichen und auf 255 oder 0 gesetzt}}",
+                "<img src=\"paste-425f7fc8c44a51c7598da3d927a3740014535c45.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yL*Nov2rfY",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Dilatation}} und {{c1::Erosion}} sind {{c2::Morphologische Operatoren}}, welche {{c3::Pixel zu größeren Bereichen vergrößern}} bzw. {{c3::schwach zusammenhängende Pixelgruppen auflöst}}",
+                "<img src=\"paste-4ab52355952e8df862ee4b55f379c043f7693699.jpg\"><img src=\"paste-e7bcbc2ba9decc9a7e7536c73d3e4d3cd45276e3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Prw><Uk&!f",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Öffnen-Operation}} = {{c2::Erosion}}, gefolgt von {{c2::Dilatation}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CP~nqVLmG>",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Schließen-Operation}} = {{c2::Dilatation}}, gefolgt von {{c2::Erosion}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j<JLOT.%ER",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Schritte eines Canny-Kantendetektors:</b><div>1. {{c1::Gauß Filter}} \\(\\rightarrow\\) {{c6::Rauschunterdrückung}}</div><div>2. {{c2::Berechnung der Intensitätsgradienten}} \\(\\rightarrow\\) {{c7::Teilt Kanten eine von 4 bzw. 8 Richtungen zu}}</div><div>3. {{c3::Non-Maximum Suppression}} \\(\\rightarrow\\) {{c8::Ausdünnung von Kanten}}</div><div>4. {{c4::Double Threshold}} \\(\\rightarrow\\) {{c9::Zwei Schwellwerte zur Unterteilung in starke, schwache und keine Kanten}}</div><div>5. {{c5::Kantenverfolgung mit Hysterese}} \\(\\rightarrow\\) {{c10::Erhält starke Kanten und manche schwache Kanten (abhängig von Nachbarpixeln)}}</div>",
+                "<img src=\"paste-2dd88f195f879956fdd6aa0aeaface4ba62004de.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "dhCZ~S=3dF",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beim {{c1::Visual Sensoring}} werden {{c2::visuelle Eingabedaten zur Bewegungssteuerung des Roboters genutzt}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wLSyNeowAT",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Programmieren durch Vormachen (PdV)}} soll intuitive Roboterprogrammierung ohne Expertenwissen ermöglichen. Es impliziert {{c2::Lernen und Generalisierung}} und ist damit {{c2::kein Playback-Verfahren}}!",
+                ""
+            ],
+            "flags": 0,
+            "guid": "CXLW5jkxIx",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die drei Grundschritte von PdV sind {{c1::Perzeption}}, {{c1::Kognition}} und {{c1::Aktion}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LK/cp$,iN2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Erfassung menschlicher Bewegung kann über {{c1::marker-basierte Verfahren}} oder {{c1::marker-lose Verfahren}} realisiert werden",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b9<DxoK-)6",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marker-basierte, optisch-passive Bewegungserfassung ist {{c1::räumlich genau und hochauflösend}}, jedoch {{c1::teuer, aufwendig und beschränkt im Aufnahmebereich}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H`u2Fr^>nk",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei optisch-aktiven, marker-basierten Verfahren übertragen im Gegensatz zu optisch-passiven Verfahren {{c1::die Marker eine codierte Erkennung z.B mit Infrarot}} statt nur zu reflektieren und sind dadurch {{c1::einfacher zu handhaben}}, benötigen jedoch {{c1::eine eigene Stromversorgung}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "JY=/uAtPfw",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Marker-lose Bewegungserfassung ist {{c1::günstig und hat geringe Anforderungen an Hardware und Aufnahme-Umgebung}}, benötigt jedoch {{c1::komplexe Algorithmen}} und hat eine {{c1::hohe Fehlerrate}} sowie {{c1::niedrige zeitliche Auflösung}}",
+                "<img src=\"paste-7f64bc4f9c520a11bebaa5d73b32f8617863b4a5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "IX>u1g1qoi",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::RANSAC (Random Sample Consensus)}} ist ein {{c2::nicht-deterministischer, iterativer}}&nbsp;Algorithmus zur {{c2::Schätzung von Modellparametern aus Datenpunkten}}",
+                "<i>z.B zur Schätzung von Linien und Ebenen in Bildern und Punktwolken</i>"
+            ],
+            "flags": 0,
+            "guid": "f35FK0_Mb)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Schritte des RANSAC-Algorithmus:</b><div>1. Wähle {{c1::zufällig die minimale Anzahl an nötigen Punkten aus um die Modellparameter zu berechnen (z.B 3 für Ebenen in 3D)}}</div><div>2. Schätze {{c2::ein Modell aus dem gewählten Datensatz}}</div><div>3. Bewertung {{c3::des Modells durch Berechnung naher Datenpunkte (Inliers)}}</div><div>4. {{c4::Wiederholung von 1-3 bis das Modell mit den meisten Inliers gefunden wird}}</div>",
+                "<img src=\"paste-472258bc552f42260a5ae1bc5b41ceac972cd7d3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pXjq`O+3F<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Vorteile von RANSAC:</b><div>- {{c1::Allgemein und einfach zu implementieren}}</div><div>- {{c1::Robuste Modellschätzung für Daten mit wenigen Ausreißern}}</div><div>- {{c1::Vielseitig anwendbar}}</div><div><br></div><div><b>Nachteile von RANSAC:</b></div><div>- {{c2::Nicht-deterministisch}}</div><div>- {{c2::Trade-off zwischen Genauigkeit und Laufzeit}}</div><div>- {{c2::Nicht anwendbar bei vielen Outliern und wenig Inliern}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d$75AX+y#{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die zwei Ebenen zur Beschreibung einer Fertigkeit kodieren einerseits die {{c1::Trajektorie}}, andererseits {{c2::Symbolisch}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E3&daL1b_U",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Die Kodierung der {{c1::Trajektorie}} dient der {{c2::Generalisierung von Bewegungen}}, erlaubt die Kodierung {{c2::verschiedener Bewegungen}}, kann jedoch {{c2::komplexe Fähigkeiten nicht reproduzieren}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w]aNR/>aqO",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Die {{c1::symbolische Kodierung}} dient der {{c2::sequentiellen Organisation vordefinierter Bewegungselementen}}, erlaubt das {{c2::Lernen einer Hierarchie}}, benötigt jedoch {{c2::eine vordefinierte Menge einfacher Controller zur Reproduktion}}<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zx0r}RdfRM",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Für die hierarchische Segmentierung menschlicher Demonstrationen existieren zwei Level:</b><div>- Level 1.: {{c1::Semantische Segmentierung}}, also die {{c1::Extraktion semantischer Merkmale}}, z.B {{c1::Zustände, Objekt-Relationen, Regeln}}</div><div>- Level 2.: {{c2::Bewegungssegmentierung}}, also die {{c2::Untersuchung der Bewegung nach Mustern}} mit z.B {{c2::PCA, Clustering, Klassifikatoren}}<br></div>",
+                "<img src=\"paste-ccc6ab57620ddd7f4af73dbf6f4caf5839dea236.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "tr`,fs8LMS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        }
+    ]
+}
