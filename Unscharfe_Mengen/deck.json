@@ -11,20 +11,20 @@
             "dyn": false,
             "lapse": {
                 "delays": [
-                    10
+                    10.0
                 ],
                 "leechAction": 0,
                 "leechFails": 8,
                 "minInt": 1,
-                "mult": 0
+                "mult": 0.0
             },
             "maxTaken": 60,
             "name": "Default",
             "new": {
                 "bury": false,
                 "delays": [
-                    1,
-                    10
+                    1.0,
+                    10.0
                 ],
                 "initialFactor": 2500,
                 "ints": [
@@ -33,7 +33,7 @@
                     7
                 ],
                 "order": 1,
-                "perDay": 5,
+                "perDay": 10,
                 "separate": true
             },
             "replayq": true,
@@ -42,7 +42,7 @@
                 "ease4": 1.3,
                 "fuzz": 0.05,
                 "hardFactor": 1.2,
-                "ivlFct": 1,
+                "ivlFct": 1.0,
                 "maxIvl": 36500,
                 "minSpace": 1,
                 "perDay": 200
@@ -54,7 +54,51 @@
     "dyn": 0,
     "extendNew": 10,
     "extendRev": 50,
-    "media_files": [],
+    "media_files": [
+        "eb6d49b202bb497289db445f534b8eb0-oa-1-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-1-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-10-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-10-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-11-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-11-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-2-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-2-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-3-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-3-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-4-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-4-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-5-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-5-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-6-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-6-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-7-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-7-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-8-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-8-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-9-A.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-9-Q.svg",
+        "eb6d49b202bb497289db445f534b8eb0-oa-O.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-1-A.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-1-Q.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-2-A.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-2-Q.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-3-A.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-3-Q.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-4-A.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-4-Q.svg",
+        "f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg",
+        "fuzzy_mengen.png",
+        "paste-23e7cd2803a0ca626bdf3a35de9e9af6cdcd151a.png",
+        "paste-5a6cfb706167ddef143255c0414acbc5e91633c7.png",
+        "paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png",
+        "paste-8e8c7a38685619a5c47ac8152c0d728ff75afdb8.png",
+        "paste-a35119009e10a87abc5b6a551f4247c04b0812f3.png",
+        "paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png",
+        "paste-e5da894b000be525bc1d4ae7e28b1392730cfd28.png",
+        "paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png",
+        "unscharfer_regler.png"
+    ],
+    "mid": 1523896690546,
     "name": "Unscharfe Mengen",
     "note_models": [
         {
@@ -97,13 +141,255 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
-                ],
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "",
+                "defuzzifierung",
+                "kapitel16",
+                "schließen",
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n{{Sprachliche Definition}}\n</br>\n{{Mathematische Definition}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Mathematische Defintion",
+                    "ord": 0,
+                    "qfmt": "<div class=\"front\">\nDefinition von {{Begriff}}\n</div>\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "css": "/* GENERAL CARD STYLE */\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* OCCLUSION CSS START - don't edit this */\n#io-overlay {\n  position:absolute;\n  top:0;\n  width:100%;\n  z-index:3\n}\n\n#io-original {\n  position:relative;\n  top:0;\n  width:100%;\n  z-index:2;\n  visibility: hidden;\n}\n\n#io-wrapper {\n  position:relative;\n  width: 100%;\n}\n/* OCCLUSION CSS END */\n\n/* OTHER STYLES */\n#io-header{\n  font-size: 1.1em;\n  margin-bottom: 0.2em;\n}\n\n#io-footer{\n  max-width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.8em;\n  font-style: italic;\n}\n\n#io-extra-wrapper{\n  /* the wrapper is needed to center the\n  left-aligned blocks below it */\n  width: 80%;\n  margin-left: auto;\n  margin-right: auto;\n  margin-top: 0.5em;\n}\n\n#io-extra{\n  text-align:center;\n  display: inline-block;\n}\n\n.io-extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.io-field-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#io-revl-btn {\n  font-size: 0.5em;\n}\n\n/* ADJUSTMENTS FOR MOBILE DEVICES */\n\n.mobile .card, .mobile #content {\n  font-size: 120%;\n  margin: 0;\n}\n\n.mobile #io-extra-wrapper {\n  width: 95%;\n}\n\n.mobile #io-revl-btn {\n  font-size: 0.8em;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "ID (hidden)",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Header",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Image",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Question Mask",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Footer",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Remarks",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Sources",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 1",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra 2",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Answer Mask",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Original Mask",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Image Occlusion Enhanced",
+            "req": [
                 [
-                    1,
+                    0,
+                    "any",
+                    [
+                        2
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [
+                "",
+                "kapitel16",
+                "schließen",
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Answer Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n{{#Footer}}<div id=\"io-footer\">{{Footer}}</div>{{/Footer}}\n<button id=\"io-revl-btn\" onclick=\"toggle();\">Toggle Masks</button>\n<div id=\"io-extra-wrapper\">\n  <div id=\"io-extra\">\n    {{#Remarks}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Remarks</div>{{Remarks}}\n      </div>\n    {{/Remarks}}\n    {{#Sources}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Sources</div>{{Sources}}\n      </div>\n    {{/Sources}}\n    {{#Extra 1}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 1</div>{{Extra 1}}\n      </div>\n    {{/Extra 1}}\n    {{#Extra 2}}\n      <div class=\"io-extra-entry\">\n        <div class=\"io-field-descr\">Extra 2</div>{{Extra 2}}\n      </div>\n    {{/Extra 2}}\n  </div>\n</div>\n\n<script>\n// Toggle answer mask on clicking the image\nvar toggle = function() {\n  var amask = document.getElementById('io-overlay');\n  if (amask.style.display === 'block' || amask.style.display === '')\n    amask.style.display = 'none';\n  else\n    amask.style.display = 'block'\n}\n\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "IO Card",
+                    "ord": 0,
+                    "qfmt": "{{#Image}}\n<div id=\"io-header\">{{Header}}</div>\n<div id=\"io-wrapper\">\n  <div id=\"io-overlay\">{{Question Mask}}</div>\n  <div id=\"io-original\">{{Image}}</div>\n</div>\n<div id=\"io-footer\">{{Footer}}</div>\n\n<script>\n// Prevent original image from loading before mask\naFade = 50, qFade = 0;\nvar mask = document.querySelector('#io-overlay>img');\nfunction loaded() {\n    var original = document.querySelector('#io-original');\n    original.style.visibility = \"visible\";\n}\nif (mask === null || mask.complete) {\n    loaded();\n} else {\n    mask.addEventListener('load', loaded);\n}\n</script>\n{{/Image}}\n"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
                     "all",
                     [
                         0
@@ -112,26 +398,19 @@
             ],
             "sortf": 0,
             "tags": [
-                "grundbegriffe"
+                "futur_simple"
             ],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Sprachliche Definition}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n\n\n\n",
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
                     "bafmt": "",
+                    "bfont": "",
                     "bqfmt": "",
+                    "bsize": 0,
                     "did": null,
-                    "name": "Sprachliche Definition",
+                    "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "<div class=\"front\">Sprachliche Defintion von {{Begriff}}</div>\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
-                },
-                {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Mathematische Definition}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n\n\n\n",
-                    "bafmt": "",
-                    "bqfmt": "",
-                    "did": null,
-                    "name": "Mathematische Defintion",
-                    "ord": 1,
-                    "qfmt": "<div class=\"front\">\nMathematische Defintion von {{Begriff}}\n</div>\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                    "qfmt": "{{Front}}"
                 }
             ],
             "type": 0,
@@ -175,7 +454,7 @@
             "fields": [
                 "Unscharfe Potenzmenge",
                 "Die Unscharfe Potenzmenge \\(\\mathbb{F}(U)\\) ist die scharfe Menge aller unscharfen Mengen über dem Universum \\(U\\), also die unscharfe Potenzmenge von \\(U\\)",
-                "Unscharfe Potenzmenge \\(\\mathbb{F}(U)\\)"
+                ""
             ],
             "flags": 0,
             "guid": "r>e}qq=6R$",
@@ -203,7 +482,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Ungleichheit Scharfer Mengen",
+                "Ungleichheit Unscharfer Mengen",
                 "Unscharfe Mengen \\(\\tilde A, \\tilde B\\) sind ungleich, wenn es ein Element im Universum \\(U\\) gibt, für das die Zugehörigkeitsfunktionen \\(\\mu\\) nicht übereinstimmmen.",
                 "\\[\\exists x \\in U: \\mu_{\\tilde A} (x) \\neq \\mu_{\\tilde B} (x)\\]"
             ],
@@ -219,7 +498,7 @@
             "data": "",
             "fields": [
                 "Teilmengen Unscharfer Mengen",
-                "Unscharfe Menge \\(\\tilde A\\) ist Teilmenge von \\(\\tilde B\\), wenn die Zughörigkeitsfunktion von \\(\\tilde A\\) für jedes Element kleiner ist, als die Zugehörigkeitsfunktion von \\(\\tilde B\\)<br><br>Strenge Teilmenge, wenn echt kleiner",
+                "Unscharfe Menge \\(\\tilde A\\) ist Teilmenge von \\(\\tilde B\\), wenn die Zughörigkeitsfunktion von \\(\\tilde A\\) für jedes Element kleiner ist, als die Zugehörigkeitsfunktion von \\(\\tilde B\\)<br>",
                 "\\[\\tilde A&nbsp; \\subseteq \\tilde B \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) \\le \\mu_{\\tilde B} (x)\\]<br><br>Strenge Teilmenge<div>\\[\\tilde A&nbsp; \\subset \\tilde B \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) &lt; \\mu_{\\tilde B} (x)\\]<br></div>"
             ],
             "flags": 0,
@@ -234,7 +513,7 @@
             "data": "",
             "fields": [
                 "Alpha-Schnitt",
-                "Der Alpha-Schnitt \\(\\tilde A_\\alpha\\) mit \\(\\alpha\\) enthält alle Elemente des Universums \\(U\\), für die die Zugehörigkeit zu \\(\\tilde A\\) größer ist als \\(\\alpha\\)<br>",
+                "Der Alpha-Schnitt \\(\\tilde A_\\alpha\\) mit \\(\\alpha\\) enthält alle Elemente des Universums \\(U\\), für die die Zugehörigkeit zu \\(\\tilde A\\) größer/gleich \\(\\alpha\\) ist <br>",
                 "\\(\\tilde A \\in \\mathbb{F}(U)\\) und \\(\\alpha \\in [0, 1]\\)<br>\\[\\tilde A_\\alpha = \\{x \\in&nbsp; U, \\mu_{\\tilde A} (x) \\ge \\alpha \\}\\]<div><br>Strenge Version</div><div>\\[\\tilde A_{\\bar \\alpha} = \\{x \\in&nbsp; U, \\mu_{\\tilde A} (x) &gt; \\alpha \\}\\]<br></div>"
             ],
             "flags": 0,
@@ -250,7 +529,7 @@
             "fields": [
                 "L-Fuzzy Menge",
                 "L-Fuzzy Mengen sind eine Verallgemeinerung von Unscharfen Mengen, welche die Zugehörigkeitsfunktion auf einen Verband L abbilden.<br>Z.b. kaum &lt; wenig &lt; mittel &lt; sehr",
-                "L-Fuzzy Menge \\[\\tilde A\\):<br>\\[\\mu_{\\tilde A}: U \\to L\\]<br>Wobei \\(L\\) Verband"
+                "L-Fuzzy Menge \\(\\tilde A\\):<br>\\[\\mu_{\\tilde A}: U \\to L\\]<br>Wobei \\(L\\) Verband"
             ],
             "flags": 0,
             "guid": "t;,1Q38_CO",
@@ -280,7 +559,7 @@
             "fields": [
                 "Intervallwertige Unscharfe Mengen Typ K",
                 "Diese bilden auf eine Unscharfe Menge mit Zugehörigkeiten in \\(\\{0,1\\}\\) und zusammenhängendem Kern ab.",
-                "Für \\(k=1): \\(\\mu_{\\tilde A}: U \\to \\{0,1\\}\\)<br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)"
+                "Für \\(k=1\\): \\(\\mu_{\\tilde A}: U \\to \\{0,1\\}\\)<br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)"
             ],
             "flags": 0,
             "guid": "P3UwX/)d5m",
@@ -302,6 +581,3351 @@
             "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
             "tags": [
                 "grundbegriffe"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Größe",
+                "Eine unscharfe Größe ist eine Unscharfe Menge über den reellen Zahlen",
+                "\\(\\tilde A\\) ist unscharfe Größe, wenn \\(\\tilde A \\in \\mathbb{F}(\\mathbb{R})\\):<br>\\[\\mu_{\\tilde A}: \\mathbb{R} \\to \\left[0, 1\\right]\\]"
+            ],
+            "flags": 0,
+            "guid": "sIPud|Q@/3",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "unscharfeZahlen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konvexität von Mengen",
+                "Eine Menge heißt konvex, wenn für je zwei beliebige Punkte, die zur Menge gehören, auch stets deren Verbindungsstrecke ganz in der Menge liegt. Dies garantiert, dass die Menge an keiner Stelle eine (konkave) Einbuchtung hat.",
+                "Menge \\(A \\subseteq \\mathbb{R}^n\\) heißt konvex, wenn gilt:<br>\\[\\forall x, y \\in A, \\lambda \\in \\left[0,1\\right]: \\lambda x + (1 - \\lambda) y \\in A\\]"
+            ],
+            "flags": 0,
+            "guid": "N}`Wz`JnT{",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "unscharfeZahlen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konvexität von Funktionen",
+                "Eine Funktion heißt konvex, wenn die Fläche über ihrem Graph konvex ist",
+                "\\[\\forall x, y \\in A: f(\\lambda x + (1 - \\lambda)y) \\leq \\lambda f(x) + (1 - \\lambda)f(y)\\]<br>"
+            ],
+            "flags": 0,
+            "guid": "Kj^Brl<H?T",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "unscharfeZahlen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konvexität Unscharfer Mengen",
+                "Eine Unscharfe Menge ist konvex, wenn jede Kombination von zwei Elementen \\(r, s\\), mindestens so stark zur Menge gehört, wie Minimum von \\(\\mu(r), \\mu (s)\\)",
+                "UM heißt konvex, wenn<br>\\[\\forall r,s \\in \\mathbb{R}, \\lambda \\in \\left[0, 1\\right]:\\\\ \\mu_{\\tilde A}(\\lambda r + (1 - \\lambda)s) \\geq \\min (\\mu_{\\tilde A} (r), \\mu_{\\tilde A}(s))\\]"
+            ],
+            "flags": 0,
+            "guid": "G62(1Q1@PL",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "unscharfeZahlen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Zahl",
+                "Verallgemeinerung der reellen Zahlen welche einenungefähre Zahl beschreiben",
+                "Eine Unscharfe Zahl ist eine unscharfe Größe \\(\\tilde A\\) mit<br>1. \\(\\mu_{\\tilde A} (r) = 1\\) für genau ein \\(r \\in \\mathbb{R}\\)<br>2. \\(\\tilde A\\) ist konvex"
+            ],
+            "flags": 0,
+            "guid": "yBd,M<rm0A",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "unscharfeZahlen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Potenzmenge",
+                "Die Potenzmenge \\(\\mathscr{P}\\) einer Menge \\(U\\) ist die Menge aller Teilmengen von \\(U\\).<br><br>Die Potenzmenge enhält also alle Mengen, die sich auf einem Universum bilden lassen.",
+                "So ist z.B. für \\(U = \\{a, b, c\\}\\):<div>\\[\\mathscr{P}(U) = \\{\\emptyset, \\{a\\}, \\{a\\}, \\{b\\},\\{c\\}, \\{a, b\\}, \\{a, c\\}, \\{b, c\\}, \\{a, b, c\\}\\}\\]</div>"
+            ],
+            "flags": 0,
+            "guid": "fqym%jeOia",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Trägermenge",
+                "Die Trägermenge oder Support der unscharfen Menge \\(\\tilde A \\in \\mathbb{F}(U)\\):",
+                "\\[\\sup (\\tilde A) = \\{x \\in U | \\mu_{\\tilde A} (x) &gt; 0\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "MH%Ay}P@G3",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 1.2",
+                "Falls \\(\\mu_{\\tilde A}\\), die charakteristische Funktion von \\(\\tilde A\\), surjektiv ist, dann gilt:<br>\\[\\tilde A_{\\alpha_1} \\subseteq \\tilde A_{\\alpha_2} \\Leftrightarrow \\alpha_1 \\ge \\alpha_2\\]",
+                "\\(\\mu_{\\tilde A}\\) surjektiv",
+                "Alphaschnitte \\(\\alpha_1, \\alpha_2\\) von \\(\\tilde A\\)"
+            ],
+            "flags": 0,
+            "guid": "z`L3Y;~8]v",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel1",
+                "Satz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 1.3",
+                "Unscharfe Mengen sind durch ihre \\(\\alpha\\) -Schnitte eindeutig definiert. Für \\(\\tilde A, \\tilde B \\in \\mathbb{F}(U)\\) gilt also<div>\\[\\tilde A = \\tilde B \\Leftrightarrow \\tilde A_\\alpha = \\tilde B_\\alpha \\forall \\alpha \\in [0, 1]\\]</div>",
+                "2 Unscharfe Mengen \\(\\tilde A, \\tilde B\\)",
+                "Alpha-Schnitte"
+            ],
+            "flags": 0,
+            "guid": "Ik#Q@^x5?R",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel1",
+                "Satz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Halbordnung",
+                "Eine Relation \\(R\\) heißt Halbordnung (partial ordering) in einer Menge \\(A\\) und \\((A, R)\\) heißt partiell geordnete Menge, wenn \\(\\forall a, b, c \\in A\\) gilt:",
+                "<ul>\n<li>Reflexivität \\(aRa\\)</li>\n<li>Antisymmetrie \\(aRb \\land bRa \\Rightarrow a = b\\)</li>\n<li>Transitivität \\(aRb \\land bRc \\Rightarrow aRc\\)</li>\n</ul>"
+            ],
+            "flags": 0,
+            "guid": "_Oo[HR:|*",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verband",
+                "Eine partiell geordnete Menge \\((A, R)\\) heißt Verband (lattice), wenn jede nichtleere, endliche Teilmenge \\(T\\) von \\(A\\) sowohl ein Supremum als auch ein Infimum in \\(A\\) besitzt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gc9Fij6ty1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Totalordnung",
+                "Eine partiell geordnete Menge, für die zusätzlich Vergleichbarkeit gilt, heißt total geordnete Menge. In diesem Fall heißt \\(R\\) Totalordnung (total ordering, linear ordering)",
+                "Vergleichbarkeit: \\(aRb \\lor bRa\\qquad \\forall a, b \\in A\\)"
+            ],
+            "flags": 0,
+            "guid": "G-*wz@qlLQ",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-1",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\">",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-1-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "u&x29R}zdp",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-2",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-2-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "I_}7(>^,>l",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-3",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-3-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "e+mV^n~x^-",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-4",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-4-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "J}|14OQV]p",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-5",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-5-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-5-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "sUZApY^=|?",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-6",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-6-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-6-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "pTNzhZef|%",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-7",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-7-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-7-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "H;K-K7@^rO",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-8",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-8-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-8-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "O]Hs$}~c5g",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-9",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-9-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-9-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "B;k/n+uU:M",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-10",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-10-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-10-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "kc4y0P0h}=",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "eb6d49b202bb497289db445f534b8eb0-oa-11",
+                "Wichtigste Klassen unscharfer Mengen",
+                "<img src=\"fuzzy_mengen.png\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-11-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-11-A.svg\" />",
+                "<img src=\"eb6d49b202bb497289db445f534b8eb0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "o/b%,X+#t5",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfes Intervall",
+                "Ein unscharfes Intervall ist eine unscharfe Größe \\(\\tilde A\\) mit",
+                "<ul>\n<li>\\(\\mu_{\\tilde A}(r) = 1\\) für mindestens ein \\(r \\in \\mathbb{R}\\)</li>\n<li>\\(\\tilde A\\) ist konvex</li>\n</ul>"
+            ],
+            "flags": 0,
+            "guid": "ujqy^cltjS",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kern",
+                "Der Kern (core) einer unscharfen Menge ist ihr 1-Schnitt \\(\\tilde A_1\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Nb*04_w+pQ",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Positive und Negative unscharfe Zahlen",
+                "Eine unscharfe Zahl (Intervall) \\(\\tilde A\\) heißt positiv (negativ), wenn",
+                "\\[\\forall x \\le 0&nbsp; (x \\ge 0): \\mu_{\\tilde A}(x) = 0\\]<div>D.h. \\(x &gt; 0 (x &lt; 0) \\forall x \\in \\sup (\\tilde A)\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "i*<hAw#mph",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konstante",
+                "Eine scharfe Zahl (Konstante) \\(a\\) lässt sich als scharfes Singleton beschreiben. Sie ist dann unscharfe Zahl \\(\\tilde A\\) mit",
+                "\\[\\mu_{\\tilde A} = \\begin{cases}1 &amp;\\text{falls } x = a\\\\ 0 &amp; \\text{sonst}\\end{cases}\\]"
+            ],
+            "flags": 0,
+            "guid": "K0zm{&~_O2",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Funktion",
+                "Eine monoton fallende Funktion \\(f: \\mathbb{R}^+ \\{0\\} \\mapsto [0, 1)\\) heißt LR-Funktion",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bRFeSA5D{q",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Darstellung",
+                "Eine unscharfe Zahl \\(tilde A\\) besitzt eine LR-Darstellung gdw. es zwei LR-Funktionen \\(L\\) und \\(R\\) sowie Skalare \\(\\alpha &gt; 0, \\beta &gt; 0\\) und \\(m\\) gibt, so dass",
+                "\\[\\mu_{\\tilde A} (x) = \\begin{cases}<br>L \\left(\\frac{m - x}{\\alpha}\\right) &amp; \\text{ falls } x &lt; m\\\\<br>1 &amp; \\text{ falls } x = m\\\\<br>R \\left(\\frac{m - x}{\\beta}\\right) &amp; \\text{ falls } x &gt; m\\\\\\end{cases}\\]"
+            ],
+            "flags": 0,
+            "guid": "J8iM+#[I2v",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Surjektiv",
+                "Eine Funktion \\(f: U \\to V\\) heißt surjektiv, wenn für jedes \\(v \\in V\\) ein \\(u \\in U\\) existiert, so dass&nbsp;<div>\\[f(u) = v\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "FjI2wU=VGf",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Injektivität",
+                "Eine Funktion \\(f\\) heißt injektiv, wenn für alle \\(u_1, u_2 \\in U\\) gilt, dass<div>\\[u_1 \\not = u_2 \\Rightarrow f(u_1) \\not = f(u_2)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uP>&v_7y[t",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bijektivität",
+                "Eine Funktion \\(f\\) heißt bijektiv, wenn sie surjektiv und injektiv ist",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hLsFg@PK3o",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erweiterung bijektivier Funktion",
+                "Die unscharfe Erweiterung einer bijektiven Funktion \\(f\\), ist durch<div>\\[\\mu_{\\tilde B} (v) = \\mu_{\\tilde A}(u), \\qquad \\text{mit } f(u) = v\\]</div><div>gegeben</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "x;E!|zQ<F>",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erweiterung nicht bijektiver einstelliger Funktionen",
+                "Wir erhalten als Erweiterung für bijektive einstellige Funktionen<div>\\[\\mu_{\\tilde B} (v) = \\max_{\\substack{u \\in U\\\\ f(u) = v\\\\}} \\mu_{\\tilde A}(u)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "HDi,?K=hZy",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Allgemeines Erweiterungsprinzip",
+                "Für Relation \\(R\\) definieren wir<div>\\[\\mu_{\\tilde C} (w) = \\sup_{\\substack{(u,v ) \\in U \\times V\\\\ f(u, v) = w\\\\}} \\min(\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hpgCGAC~Zv",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel3"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Überladung von Operatoren",
+                "Wir überladen einen Operator \\[*: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R}\\] auf Unscharfe Mengen mit<div>\\[*: \\mathbb{F}(\\mathbb{R}) \\times \\mathbb{F}(\\mathbb{R})&nbsp;\\to \\mathbb{F}(\\mathbb{R})\\]<br></div><div>also erhalten wir mit dem Erweiterungsprinzip</div><div>\\[\\mu_{\\tilde C=\\tilde A * \\tilde B}(w) = \\sup_{\\substack{(u,v) \\in \\mathbb{R}^2\\\\ u*v= w\\\\}} \\min(\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zN-O>nP(5!",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.1",
+                "Falls \\(*\\) kommutativ ist, d.h \\(a * b = b * a\\), so ist auch die Erweiterung von \\(*\\) kommutativ, d.h. \\(\\tilde A * \\tilde B = \\tilde B * \\tilde A\\)",
+                "Operator \\(*\\) kommutativ",
+                "Überladung für \\(\\tilde A * \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "G|S*UF{y<V",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel4",
+                "Satz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.2",
+                "Falls \\(*\\) assoziativ ist, d.h \\(a * (b * c) = (a * b) * c\\), so ist auch die Erweiterung von \\(*\\) assoziativ, d.h. \\(\\tilde A * (\\tilde B * \\tilde C) = (\\tilde A * \\tilde B) * \\tilde C\\)",
+                "Operator \\(*\\) assoziativ",
+                "Erweiterung"
+            ],
+            "flags": 0,
+            "guid": "J{J}Lx.aYl",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel4",
+                "Satz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Monoton Steigend / Fallend für Operatoren",
+                "Eine binäre Operation \\(*: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R}\\) heißt<div><br></div><div>monoton steigend, falls \\(x_1 &gt; y_1 \\land x_2 &gt; y_2 \\Rightarrow x_1 * x_2 \\ge y_1 * y_2\\)</div><div>streng monoton steigend, falls \\(x_1 &gt; y_1 \\land x_2 &gt; y_2 \\Rightarrow x_1 * x_2 &gt; y_1 * y_2\\)<br></div><div>monoton fallend, falls \\(x_1 &gt; y_1 \\land x_2 &gt; y_2 \\Rightarrow x_1 * x_2 \\le y_1 * y_2\\)</div><div>streng monoton fallend, falls \\(x_1 &gt; y_1 \\land x_2 &gt; y_2 \\Rightarrow x_1 * x_2 &lt; y_1 * y_2\\)<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dCX2UAgJcC",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "definition",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.3 Abgeschlossenheit unscharfer Zahlen",
+                "Sind \\(\\tilde A, \\tilde B\\) unscharfe Zahlen mit stetigen und surjektiven Zugehörigkeitsfunktionen \\(\\mu_{\\tilde A}, \\mu_{\\tilde B}\\) und ist \\(*\\) eine stetige streng monoton steigende (fallende) Operation mit \\(*: \\mathbb{R} \\times \\mathbb{R} \\to \\mathbb{R}\\), so ist \\(\\tilde A * \\tilde B\\) ebenfalls eine unscharfe Zahl mit stetiger und surjektiver Zugehörigkeitsfunktion \\(\\mu_{(\\tilde A * \\tilde B)}\\)",
+                "\\(\\tilde A, \\tilde B\\) unscharfe Zahlen mit stetigen und surjektiven Zugehörigkeitsfunktionen,<div>\\(*\\) eine stetige streng monoton steigende (fallende) Operation<br></div>",
+                "Abgeschlossenheit der Operation"
+            ],
+            "flags": 0,
+            "guid": "A|d#KpmnYM",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel4",
+                "Satz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Addition",
+                "",
+                "\\[+ \\ \\mu_{(\\tilde A + \\tilde B)} (w) = \\sup \\left\\{\\min (\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)) | u + v = w\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "OFD+W]CX<Q",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Multiplikation",
+                "",
+                "\\[\\cdot \\ \\mu_{(\\tilde A \\cdot \\tilde B)} (w) = \\sup \\left\\{\\min (\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)) | u \\cdot v = w\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "djl#uGJ{ue",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Subtraktion",
+                "",
+                "\\[- \\ \\mu_{(\\tilde A - \\tilde B)} (w) = \\sup \\left\\{\\min (\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)) | u - v = w\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "me%qx^;pBt",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Negation durch Erweiterung",
+                "",
+                "\\[- \\ \\mu_{(- \\tilde A)} (w) = \\sup \\left\\{\\mu_{\\tilde A}(-w)\\right\\} = \\mu_{\\tilde A} (-w)\\]"
+            ],
+            "flags": 0,
+            "guid": "hHrN?j3al?",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Division",
+                "Unscharfe Division ist nicht auf \\(\\mathbb R \\times \\mathbb R\\) definiert, deswegen wird die verallgemeinerte Division verwendet",
+                "\\[/ \\ \\mu_{(\\tilde A / \\tilde B)} (w) = \\sup \\left\\{\\min (\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)) | u = v \\cdot w\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "fM1`>]LXNC",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.4 Eigenschaften arithmetischer Operationen",
+                "Für unscharfe Zahlen \\(\\tilde A, \\tilde B, \\tilde C\\) und Konstanten \\(r, 0, 1\\) gilt:<div>(1) \\(0 + \\tilde A = \\tilde A\\)</div><div>(2) \\(0 \\cdot \\tilde A = 0\\)</div><div>(3) \\(1 \\cdot \\tilde A = \\tilde A\\)</div><div>(4) \\(\\tilde A + \\tilde B = \\tilde B + \\tilde A\\)<br></div><div>(5) \\(\\tilde A + (\\tilde B + \\tilde C) = (\\tilde A + \\tilde B) + \\tilde C\\)<br></div><div>(6) \\(\\tilde A \\cdot \\tilde B = \\tilde B \\cdot \\tilde A\\)<br></div><div>(7) \\(\\tilde A ( \\tilde B \\cdot \\tilde C) = (\\tilde A \\cdot \\tilde B) \\cdot \\tilde C\\)<br></div><div>(8) \\(r \\cdot (\\tilde A + \\tilde B) = r \\cdot \\tilde A + r \\cdot \\tilde B\\)<br></div><div>(9) \\(\\tilde A \\cdot (\\tilde B + \\tilde C) \\subseteq \\tilde A \\cdot \\tilde B + \\tilde A \\cdot \\tilde C\\)<br></div><div>(10) \\((- (- \\tilde A) = \\tilde A\\)</div><div>(11) \\(\\tilde A + (- \\tilde B) = \\tilde A - \\tilde B\\)<br></div><div>(12) \\((- \\tilde A) \\cdot \\tilde B = -(\\tilde A \\cdot \\tilde B) = \\tilde A \\cdot (-\\tilde B)\\)</div><div>(13) \\(\\tilde A / 1 = \\tilde A\\)</div><div>(14) \\(\\tilde A / \\tilde B = \\tilde A \\cdot 1 / \\tilde B\\), also auch \\(\\tilde A / r = \\tilde A \\cdot (1/r)\\)</div>",
+                "unscharfe Zahlen \\(\\tilde A, \\tilde B, \\tilde C\\) und Konstanten \\(r, 0, 1\\)",
+                "Standardeigenschaften"
+            ],
+            "flags": 0,
+            "guid": "DhZ^r!Q:Te",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.5 Distributivität",
+                "Ist \\(\\tilde A\\) eine positive oder negative unscharfe Zahl und sind \\(\\tilde B\\) und \\(\\tilde C\\) beide positive oder negative unscharfe Zahlen mit dem gleichen Vorzeichen, gilt die Distributivität von \\(+\\) über \\(\\cdot\\), also<div>\\[\\tilde A \\cdot (\\tilde B + \\tilde C) = \\tilde A \\cdot \\tilde B + \\tilde A \\cdot \\tilde C\\]</div>",
+                "Positive / Negative unscharfe Zahl \\(\\tilde A\\)<div>Positive oder Negative unscharfe Zahlen \\(\\tilde B, \\tilde C\\)</div>",
+                "Distributivität von \\(\\cdot\\)"
+            ],
+            "flags": 0,
+            "guid": "N]tWs=E_2H",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "grundoperationen",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Intervallarithmetik",
+                "Für zwei Intervalle \\(I_1, I_2 \\subseteq \\mathbb{R}\\) une eine algebraische Funktion \\(*\\), ist \\(I_1 * I_2\\) als<div>\\[I_1 * I_2 = \\left\\{x_1 * x_2: x_1 \\in I_1, x_2 \\in I_2 \\right\\}\\]</div><div>definiert</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ww*LfF]Dsi",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Abtastung einer Mathematischen Operation",
+                "Eine Berechnung von \\(\\tilde A * \\tilde B = \\tilde C\\) kann mit Abtastung erfolgen.&nbsp;<br>Dafür wähle Stützstellen \\(X = \\langle x_1, \\ldots, x_m\\rangle \\subseteq \\sup (\\tilde A)\\),&nbsp;<div>\\(Y =&nbsp; \\langle y_1, \\ldots, y_n\\rangle \\subseteq \\sup (\\tilde B)\\) und \\( Z = \\langle x_1, \\ldots, x_m\\rangle \\subseteq \\mathbb{R}\\)</div><div><br></div><div>Falls Umkehrfunktion \\(*^{-1}\\) existiert, berechne für \\(t \\in Z\\):<br>\\[\\mu_{\\tilde C} (t) = \\max_{s \\in Y} \\min(\\mu_{\\tilde A} (t *^{-1} s), \\mu_{\\tilde B}(s))\\]</div><div><br></div><div>Sonst berechne für alle \\((r, s) \\in X \\times Y, t = r * s\\):</div><div><div>\\[\\mu_{\\tilde C} (t) = \\max_{\\substack{(r, s) \\in X \\times Y\\\\t = r * s\\\\}} \\min(\\mu_{\\tilde A} (r), \\mu_{\\tilde B}(s))\\]</div><div><br></div><div>Anschließende Interpolation garantiert keine Konvexität, also auch keine unscharfe Zahl</div><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "d5SH4uTLa^",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 4.6 Rechnen mit Alpha-Schnitten",
+                "Für unscharfe Zahlen/Intervalle \\(\\tilde A, \\tilde B\\) mit stetigen Funktionen \\(\\mu_{\\tilde A}, \\mu_{\\tilde B} \\) und beschränkten \\(\\alpha\\)-Schnitten gilt für \\(\\alpha \\in (0, 1]\\):<div>\\[(\\tilde A * \\tilde B)_\\alpha = \\tilde A_\\alpha * \\tilde B_\\alpha = \\{u * v | u \\in \\tilde A_\\alpha, v \\in \\tilde B_\\alpha \\}\\]</div>",
+                "unscharfe Zahlen/Intervalle \\(\\tilde A, \\tilde B\\),<div>stetige Funktionen \\(\\mu_{\\tilde A}, \\mu_{\\tilde B}\\)&nbsp;</div>",
+                "Berechnung von \\(\\tilde A \\cdot \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "dj8>IRn=<|",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Addition",
+                "Für \\(\\tilde A = (m, \\alpha, \\beta)_{LR}\\), \\(\\tilde B = (n, \\gamma, \\delta)_{LR}\\) gilt:<br>\\[\\tilde A + \\tilde B = (m, \\alpha, \\beta)_{LR} + (n, \\gamma, \\delta)_{LR} = (m + n, \\alpha + \\gamma, \\beta + \\delta)_{LR}\\]",
+                "LR-Zahlen mit gleichem L, R: \\(\\tilde A, \\tilde B\\)",
+                "Addition \\(\\tilde A + \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "HdQi:m[!_J",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Subtraktion",
+                "Für \\(\\tilde A = (m, \\alpha, \\beta)_{LR}\\), \\(\\tilde B = (n, \\gamma, \\delta)_{RL}\\) gilt:<br>\\[\\tilde A - \\tilde B = (m, \\alpha, \\beta)_{LR} - (n, \\gamma, \\delta)_{RL} = (m - n, \\alpha + \\delta, \\beta + \\gamma)_{LR}\\]",
+                "LR-Zahlen \\(\\tilde A, \\tilde B\\), wobei rechts - links bzw. links-rechts übereinstimmen",
+                "Subtraktion \\(\\tilde A - \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "tHsdPnn>p1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Multiplikation",
+                "Für \\(\\tilde A = (m, \\alpha, \\beta)_{LR}\\), \\(\\tilde B = (n, \\gamma, \\delta)_{LR}\\) gilt:<br>\\[\\tilde A \\cdot \\tilde B = (m, \\alpha, \\beta)_{LR} \\cdot (n, \\gamma, \\delta)_{LR} \\approx (m \\cdot n, m \\gamma + n \\alpha,m\\delta + n \\beta)_{LR}\\]",
+                "LR-Zahlen mit gleichem L, R: \\(\\tilde A, \\tilde B\\)",
+                "Näherung für Multiplikation \\(\\tilde A \\cdot \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "g9;(FplH,M",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LR-Division",
+                "Für \\(\\tilde A = (m, \\alpha, \\beta)_{LR}\\), \\(\\tilde B = (n, \\gamma, \\delta)_{LR}\\) gilt:<br>\\[\\tilde A / \\tilde B = (m, \\alpha, \\beta)_{LR} / (n, \\gamma, \\delta)_{LR} \\approx \\left(\\frac{m}{n}, \\frac{m \\delta + n \\alpha}{n^2},\\frac{m\\gamma + n \\beta}{n^2}\\right)_{LR}\\]",
+                "LR-Zahlen mit gleichem L, R: \\(\\tilde A &gt; 0, \\tilde B &gt; 0\\)",
+                "Näherung für Division \\(\\tilde A / \\tilde B\\)"
+            ],
+            "flags": 0,
+            "guid": "t{9B^mj^u^",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "berechnung",
+                "kapitel4"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prädikat",
+                "Ein Prädikat \\(P\\) über dem Universum \\(U\\) lässt sich allgemein als Wahrheitsfunktion angeben:",
+                "\\[\\mu_P (u) = \\begin{cases}1 &amp; \\text{, falls } u \\text{ is } P\\\\0 &amp; \\text{sonst}\\end{cases}\\]"
+            ],
+            "flags": 0,
+            "guid": "C[msW#oeIM",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Prädikate",
+                "Unscharfe Mengen \\(\\tilde P\\) lassen sich als unscharfe Prädikate interpretieren. \\(\\mu_{\\tilde P} (u)\\) gibt den Wahrheitsgrad der Aussage \"u is \\(\\tilde P\\)\" an, also den Akzeptansgrad von \\(\\tilde P\\) für \\(u\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "z^z[/cZO`H",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel5"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Scharfe Konjunktion",
+                "Die (zweistellige) scharfe Konjunktion ist eine Funktion \\(\\land : \\{0,1\\}^2 \\to \\{0, 1\\}^2\\)",
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">x</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">y</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x \\land y\\)</th></tr></thead>\n                <tbody><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr></tbody></table>"
+            ],
+            "flags": 0,
+            "guid": "g};9SH|bS6",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "t-Norm",
+                "Eine t-Norm (Dreiecksnorm) ist eine binäre Operationen auf \\([0, 1]\\), also eine Funktion \\(T: [0,1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:",
+                "(T1) Kommutativität<div>(T2) Assoziaitivität</div><div>(T3) Monotonie</div><div>(T4) Einselement</div><div><br>Optionale Eigenschaften</div><div>(T5) Stetigkeit auf \\([0, 1]^2\\)</div><div>(T6) Idempotenz</div>"
+            ],
+            "flags": 0,
+            "guid": "i|G{G!?rmu",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Minimumnorm",
+                "Die Minimumsnorm \\(T_M\\) ist die klassische unscharfe Konjunktion.<div>Sie erfüllt (T1)-(T6)</div>",
+                "\\[T_M(x, y) = \\min(x, y)\\]"
+            ],
+            "flags": 0,
+            "guid": "s4OVIlr5uu",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Produktnorm",
+                "Die Produktnorm \\(T_P\\) erfüllt (T1)-(T5)",
+                "\\[T_P (x, y) = x \\cdot y\\]"
+            ],
+            "flags": 0,
+            "guid": "i],j!a3F3p",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lukasiwicz'sche t-Norm",
+                "Die Lukasiwicz'sche t-Norm \\(T_L\\) erfüllt (T1)-(T5)",
+                "\\[T_L (x, y) = \\max (x + y - 1, 0)\\]"
+            ],
+            "flags": 0,
+            "guid": "u]=#In<>aA",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Drastisches Produkt",
+                "Das Drastische Produkt \\(T_D\\) erfüllt (T1)-(T4)",
+                "\\[T_D (x, y) = \\begin{cases}\\min (x, y) &amp; \\text{, falls } \\max(x, y) = 1\\\\0 &amp; \\text{, sonst}\\end{cases}\\]"
+            ],
+            "flags": 0,
+            "guid": "fu6m~3Yi#1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.1 Randbedingungen",
+                "Für jede t-Norm \\(T\\) und für alle \\(x \\in [0, 1]\\) gilt:<br>\\[T(x, 1) = T(1, x) = x\\]<div>\\[T(x, 0) = T(0, x) = 0\\]</div><div><br>Demnach stimmmen alle t-Normen auf dem Rand des Einheitsquadrats \\([0, 1]^2\\) überein.</div>",
+                "t-Norm \\(T\\)",
+                "Nullelement, Einselement"
+            ],
+            "flags": 0,
+            "guid": "v);QmNPP4@",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Idempotenz",
+                "Ist \\(T\\) eine t-Norm, so heißt ein Element \\(x \\in [0, 1]\\) mit \\(T(x, x) = x\\) ein idempotentes Element. Wenn für alle \\(x \\in [0, 1]: T(x, x) = x\\) gilt, heißt die t-Norm iidempotent und (T6) ist erfüllt.<div><br></div><div>\\(0, 1\\) sind triviale idempotente Elemente.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r5j`vIDhua",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Normen: Stärker, schwächer",
+                "Falls für zwei t-Normen \\(T_1\\) und \\(T_2\\) die Ungleichung&nbsp;<div>\\[T_1 (x, y) \\le T_2 (x, y) \\forall (x, y) \\in [0, 1]^2\\]</div><div>erfüllt ist, dann heißt \\(T_1\\) schwächer als \\(T_2\\) und \\(T_2\\) stärker als \\(T_1\\)</div>",
+                "Man schreibt<div>\\[T_1 \\le T_2\\]</div>"
+            ],
+            "flags": 0,
+            "guid": "dq8/JB*&cj",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Normen: Streng Stärker",
+                "",
+                "\\[T_1 &lt; T_2\\ \\Leftrightarrow T_1 \\le T_2 \\land \\exists (x, y) \\in (0, 1)^2: T_1(x, y) &lt; T_2(x, y)\\]"
+            ],
+            "flags": 0,
+            "guid": "i=Hc]Kf[kn",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.3 Ordnung der Normen",
+                "Für die vier wichtigsten t-Norm \\(T_M, T_P, T_L, T_D\\) gilt:<div>\\[T_D \\le T_L \\le T_P \\le T_M\\]</div>",
+                "",
+                "Ordnung der 4 wichtigsten t-Normen"
+            ],
+            "flags": 0,
+            "guid": "c}}b2Fjdvd",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.2 t-Norm Schranken",
+                "Für eine beliebige t-Norm \\(T\\) gilt<br>\\[T_D \\le T \\le T_M\\]",
+                "Beliebige t-Norm \\(T\\)",
+                "Schranken"
+            ],
+            "flags": 0,
+            "guid": "yubY%J.2Y`",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.4",
+                "Das Minimum \\(T_M\\) ist die einzige t-Norm, für die jedes \\(x \\in (0, 1)\\) ein idempotentes Element ist",
+                "",
+                "Minimumsnorm idempotent"
+            ],
+            "flags": 0,
+            "guid": "x7X(ig|6?,",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.5&nbsp;",
+                "Das drastische Produkt \\(T_D\\) ist die einzige t-Norm, die \\(T(x, x) = 0\\qquad \\forall x \\in (0, 1)\\) erfüllt",
+                "",
+                "Drastisches Produkt&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "jk#..F.CF}",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iterative Anwendung von t-Normen",
+                "Für eine t-Norm \\(T\\) und \\(n \\in \\mathbb{N}\\) sei \\(T^{(n)}: [0, 1] \\to [0, 1]\\) definiert durch<div>\\[T^{(0)} (x) = 1\\]</div><div>\\[T^{(n + 1)} (x) = T(T^{(n)} (x), x\\]<br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "D{QpGTExyz",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Archimedizität",
+                "Eine t-Norm heißt archimedisch, wenn es \\(\\forall x, y \\in (0, 1)\\) eine Zahl \\(n \\in \\mathbb{N}\\) mit \\(T^{(n)} (x) &lt; y\\) gibt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xgE7f/n-K4",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.6",
+                "t-Norm \\(T\\) ist archimedisch \\(\\Leftrightarrow \\forall x \\in (0, 1): \\lim \\limits_{n \\to \\infty} T^{(n)} (x) = 0\\)",
+                "Grenzwert von iterativem Anwenden",
+                "t-Norm ist archimedisch"
+            ],
+            "flags": 0,
+            "guid": "F!CEH!;n(j",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.7",
+                "Sei T eine stetige t-Norm. T ist archimedisch \\(\\Leftrightarrow \\forall x \\in (0, 1):\\)<div>\\[T(x, x) &lt; x\\]</div>",
+                "",
+                "T archimedisch, abhängig vom Ergebnis von \\(T(x, x)\\)"
+            ],
+            "flags": 0,
+            "guid": "b^bY(+`G}u",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Strikte Monotonie",
+                "Eine t-Norm \\(T\\) heißt strikt monoton, wenn sie auf \\([0, 1]^2\\) streng monoton wachsend ist, bzw. falls für&nbsp;<div>\\[z \\in (0, 1]: x &lt; y \\Rightarrow T(x, z) &lt; T(y, z)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L5zzyhxxhu",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Striktheit",
+                "Eine t-Norm heißt strikt, wenn sie stetig und strikt monoton ist",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hfvg_l1aO3",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nilpotenz",
+                "Eine t-Norm \\(T\\) heißt nilpotent, wenn sie stetig ist und \\(\\forall x \\in (0, 1) \\exists n \\in \\mathbb{N}\\) mit<div>\\[T^{(n)} (x) = 0\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "b,Q]!]n,cR",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nullteiler",
+                "Ein \\(x \\in (0, 1)\\) heißt Nullteiler von \\(T\\), wenn ein \\(\\exists y \\in (0, 1): T(x, y) = 0\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j,8hwE5YJ&",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.8<div>Sei T eine stetige archimedische t-Norm. Dann sind folgende Aussagen untereinander äquivalent</div><div><br></div><div>1. {{c1::T ist nilpotent}}</div><div>2. {{c2::T besitzt mindestent ein nilpotentes Element. \\((\\exists x \\in (0, 1) \\exists n \\in \\mathbb{N}: T^{(n)} (x) = 0)\\)}}</div><div>3. {{c3::T besitzt wenigstens einen Nullteiler}}</div><div>4. {{c4::T ist nicht strikt}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "w*HD4H?L9=",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "archimedisch",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften der Minimumsnorm<div><br></div><div><table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%;  padding: 2px; border: 1px solid black;\">Eigenschaft</th><th style=\"width:50%;  padding: 2px; border: 1px solid black;\">t-Norm</th></tr></thead>\n                <tbody><tr><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">Stetig</td><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">Archimedisch</td><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein, da idempotent}}</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">Strikt</td><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein}}</td></tr><tr><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">Nilpotent</td><td style=\"width:50%;  padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein}}</td></tr></tbody></table></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H:K.s5?iF",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "archimedisch",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften der Produktnorm<div><br></div><div><table class=\"table_class_basic_full_width\" style=\"width: 912px; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">Eigenschaft</th><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">t-Norm</th></tr></thead><tbody><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Stetig</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Archimedisch</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja, da strikt}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Strikt</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Nilpotent</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein, da strikt}}</td></tr></tbody></table></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "j?nF6~==tB",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "archimedisch",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften der Lukasiewicz'sche Norm<div><br></div><div><table class=\"table_class_basic_full_width\" style=\"width: 912px; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">Eigenschaft</th><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">t-Norm</th></tr></thead><tbody><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Stetig</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Archimedisch</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Strikt</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein, da nilpotent}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Nilpotent</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja, da \\(x = 0.3\\) Nullteiler}}</td></tr></tbody></table></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uDm&>lk#i8",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "archimedisch",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften des Drastischen Produkts<div><br></div><div><table class=\"table_class_basic_full_width\" style=\"width: 912px; border-collapse: collapse; border: 1px solid black;\"><thead><tr><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">Eigenschaft</th><th style=\"width: 451px; padding: 2px; border: 1px solid black;\">t-Norm</th></tr></thead><tbody><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Stetig</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Archimedisch</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Ja}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Strikt</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein, da nicht stetig}}</td></tr><tr><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">Nilpotent</td><td style=\"width: 451px; padding: 2px; border: 1px solid black;\">&nbsp;{{c1::Nein, da nicht stetig}}</td></tr></tbody></table></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Elc`[n-r,C",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "archimedisch",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hamacher-t-Norm",
+                "Die Hamacher-t-Norm erfüllt (T1)-(T5)<div>Interessante Spezialfälle sind&nbsp;</div><div>\\(a = 0\\)</div><div>\\(a = 1\\) Produktnorm</div><div>\\(a \\to \\infty\\) Drastisches Produkt</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iJ)Yxt+PYS",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yager-t-Norm",
+                "Die Yager-t-Norm ist durch<div>\\[T_a(x, y) = 1 - \\min \\left(1, ((1 - x)^a + (1 - y)^a)^{1 / a}\\right),\\ a \\in (0, \\infty)\\]</div><div>gegeben.</div><div><br></div><div>Spezialfälle</div><div>\\(a \\to 0\\) Drastisches Produkt</div><div>\\(a = 1\\) Lukasiewz'sche Norm</div><div>\\(a \\to \\infty\\) Minimumsnorm</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "bWb5FM?jZ5",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ordnungsisomorphismus",
+                "Ein Ordnungsisomorphismus von \\([0, 1]\\) ist eine mit \\(\\le\\) verträgliche bijektive Funktion \\(f: [0, 1] \\to [a, 1]\\) für ein \\(a \\in [0, 1)\\)<div><br></div><div>\\(f\\) ist also monoton steigend und \\(f(0) = a\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dUv&]dSijA",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "generatoren",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.9 Ordnungsisomorphismus",
+                "Für einen Ordnungsisomorphismus \\(f: [0, 1] \\to [a, 1]\\) und eine archimedische t-Norm \\(T_G\\), ist durch<div>\\[T_f(x, y) = f^{-1} (\\max (T_G (f(x), f(y)), a))\\]</div><div>eine archimedische t-Norm gegeben</div>",
+                "Ordnungsisomorphismus \\(f\\) und archimedische t-Norm \\(T_G\\)",
+                "Konstruktion weiterer t-Norm"
+            ],
+            "flags": 0,
+            "guid": "I*Q!JBPe{7",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "generatoren",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "P-Generator",
+                "Man wählt für \\(T_G\\) die Produktnorm \\(T_P\\). Dann ist<div>\\[P_f(x, y) = f^{-1} \\left(\\max \\left(T_P(f(x), f(y)), a \\right)\\right)\\]</div><div>Man nennt \\(f\\) einen P-Generator der t-Norm \\(T = P_f\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B#R!#U}&[~",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "generatoren",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "L-Generator",
+                "Wähl man für \\(T_G\\) die Lukasiewicz'sche t-Norm \\(T_L\\), dann erhält man<div>\\[L_g(x, y) = g^{-1} (\\max (T_L(g(x), g(y)), a)\\]</div><div>\\(g\\) nennt man L-Generator der t-Norm \\(T = L_g\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vxLZ8$*~Z~",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "generatoren",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 6.12",
+                "Jede archimedische t-Norm \\(T\\) besitzt einen L-Generator. Bei nilpontenten t-Normen ist \\(g\\) ein Automorphismus, d.h. \\(a = 0\\)",
+                "Archimedische oder nilpotente t-Norm",
+                "Generator bzw. g-Funktion"
+            ],
+            "flags": 0,
+            "guid": "zB$2Pd?uo@",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "generatoren",
+                "kapitel6",
+                "normen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Scharfe Negation",
+                "Die scharfe Negation ist eine einstellige Funktion \\(-: \\{0, 1\\} \\to \\{0, 1\\}\\).&nbsp;<div>Bei Mengen enstpricht die Negation dem Mengenkomplement</div>",
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x\\)</th><th style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">\\(\\bar x\\)</th></tr></thead>\n                <tbody><tr><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr><tr><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr></tbody></table>"
+            ],
+            "flags": 0,
+            "guid": "F(.z:x.ixA",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Negation",
+                "Eine Funktion \\(N: [0, 1] \\to [0, 1]\\) heißt unscharfe Negation, wenn sie für \\(x, y \\in [0, 1]\\) folgende Axiome erfüllt<div><br></div><div>(N1) Randbedingungen</div><div>\\[N(0) = 1, N(1) = 0\\]</div><div>(N2) Monotones Fallen</div><div>\\[x \\le y \\Rightarrow N(x) \\ge N(y)\\]</div><div><br></div><div>Optional</div><div>(N3) Stetigkeit</div><div>(N4) Involution</div><div>\\[N(N(x)) = x \\forall x \\in [0, 1]\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q<G6_(Lqj:",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 7.1",
+                "Jede involutive Negation \\(N\\) ist auf \\[0, 1\\] stetig, bijektiv und streng monoton fallend.",
+                "involutive Negation \\(N\\)",
+                "Eigenschaften der Negation"
+            ],
+            "flags": 0,
+            "guid": "gmsH@BFbB#",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 7.2 Fixpunktsatz",
+                "(i) Jede Negation hat höchstens einen Fixpunkt<div>(ii) Jede stetige Negation hat genau einen Fixpunkt im offenen Intervall \\((0, 1)\\)</div>",
+                "Negation bzw. stetige Negation",
+                "Fixpunkt"
+            ],
+            "flags": 0,
+            "guid": "jOUWC5baBD",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kontradiktionsprinzip",
+                "In der klassischen (zweiwertigen) Logik:<div>\\[a \\land \\bar a = 0\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L>YsNKL`/=",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tertium Non Datur",
+                "In der klassischen Logik:<br>\\[a \\lor \\bar a = 1\\]",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K)BT:8Ci!%",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Natürliche Negation \\(N_T\\)",
+                "Die (gemäß Kontradiktionsprinzip) natürliche Negation \\(N_T\\) zu einer t-Norm \\(T\\) ist definiert durch<div>\\[N_T (x) = \\sup \\{y: T(x, y) = 0\\}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "p32r56$tTc",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 7.3",
+                "Für jede t-Norm \\(T\\) ist \\(N_T\\) eine Negation",
+                "t-Norm \\(T\\)",
+                "Negation"
+            ],
+            "flags": 0,
+            "guid": "/x1pjpp(:",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gödel-Negation",
+                "Mit \\(T_M(x, y) = \\min(x, y)\\) gilt&nbsp;<div>\\[N_{T_M} (x) = \\sup \\{z: \\min(x, z) = 0\\}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jvhI5_({pU",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Produkt Negation",
+                "Mit \\(T_P (x, y) = x \\cdot y\\) erhalten wir<div>\\[N_{T_P} (x) = N_\\gamma (x) = \\begin{cases}1 &amp;,\\ x = 0\\\\0 &amp;, \\text{ sonst}\\end{cases}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vT]bkkSO]1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Standardnegation",
+                "Für \\(T_L (x, y) = \\max (x + y - 1, 0)\\) erhalten wir<div>\\[N_{T_L}(x) = \\sup \\left\\{z: \\max(x + z - 1, 0) = 0 \\right\\} = 1 - x\\]</div><div>Diese Negation heißt Standardnegation</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M#4//?gB.q",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Negaion Drastisches Produkt",
+                "Die Negation mit dem drastischen Produkt erüfllt nicht das Kontradiktionsprinzip<div>\\[T_D(x, N_{T_D} (x)) \\not = 0\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k5Q6^7<@BC",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 7.4",
+                "Über die Negation zu stetigen t-Normen kann man folgende Aussagen machen<div><br></div><div>(i) Für strikte oder idempotente t-Normen ist \\(N\\), die natürliche Negation</div><div>(ii) Bei nilpotenten t-Normen ist die natürliche Negation \\(N_T\\) immer involutiv</div>",
+                "stetige t-Norm \\(T\\)",
+                "Eigenschaften der Negation"
+            ],
+            "flags": 0,
+            "guid": "ll/DN1M6@T",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sugeno-Negation",
+                "Die Sugeno-Negation ist durch<div>\\[N_a(x) = \\frac{1 - x}{1 + ax}, \\text{ mit } a \\in (-1, \\infty)\\]</div><div>gegeben.</div><div>Sugeno-Negation ist stetig und involutiv</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "L9>V:m~eD1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yager-Negation",
+                "Durch<div>\\[N_a (x) = (1 - x^a)^{1/a},\\ a \\in (0, \\infty)\\]</div><div>ist die Yager-Negation definiert.</div><div>Sie ist stetig und involutiv \\(\\forall a \\in (0, \\infty)\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ItGf,8,fii",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel7",
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Scharfe Disjunktion",
+                "Die (zweistellige) scharfe Disjunktion ist eine Funktion \\(\\lor : \\{0, 1\\}^2 \\to \\{0, 1\\}\\)<div>Bei Mengen entspricht die Disjunktion der Vereinigung</div>",
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x\\)</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(y\\)</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x \\lor y\\)</th></tr></thead>\n                <tbody><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr></tbody></table>"
+            ],
+            "flags": 0,
+            "guid": "JD?ZMLZPbF",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "s-Norm",
+                "Die unscharfen Disjunktionen werden als s-Normen bezeichnet.<div>Eine s-Norm (t-Conorm, Co-t-Norm) ist eine Funktion \\(S: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:</div><div>(S1) Kommutativität</div><div>(S2) Assoziaitivtät</div><div>(S3) Monotonie</div><div>(S4) Nullelement</div><div><br></div><div>Optional</div><div>(S5) Stetigkeit</div><div>(S6) Idempotenz</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o{%+!8QA`S",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "deMorgan'sche Gesetze",
+                "In einer Boole'schen Logik gelten die deMorgan'schen Gesetze<div>\\[\\bar {(x \\lor y)} \\equiv \\bar x \\land \\bar y\\]</div><div>und</div><div>\\[\\bar {(x \\land y)} \\equiv \\bar x \\lor \\bar y\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yVHT2o[@J5",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dualität<div><br></div><div>Wenn für eine t-Norm \\(T\\), eine Negation \\(N\\) und eine s-Norm \\(S\\) gilt:<div>{{c1::\\[N(S(x, y)) = T(N(x), N(y))\\]}}</div><div>dann heißt S dual zu T bezüglich N.<br><br>Gilt</div><div>{{c1::\\[N(T(x, y)) = S(N(x), N(y))\\]}}</div><div>dann heißt T dual zu S bezüglich N</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "r9~{mv47nr",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 8.1 DeMorgan'sches Tripel",
+                "Ist N involutiv, dann ist durch<div>\\[S(x, y) = N(T(N(x), N(y)))\\]</div><div>die zu T bezüglich N duale s-Norm gegeben.</div><div>T ist dann auch dual zu S bezüglich N.</div>",
+                "Negation \\(N\\) involutiv<div>t-Norm \\(T\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "DWA`$/_8P&",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "deMorgan'sches Tripel",
+                "Wenn Satz 8.1 gilt, dann heißen \\(S\\) und \\(T\\) dual bezüglich \\(N\\).<div>\\((N, T, S)\\) heißt deMorgan'sches Tripel</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "AQndxS=),.",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "s-Norm Archimedisch",
+                "Eine s-Norm heißt archimedisch (strikt, nilpotent), wenn sie zu einer archimedischen (strikten, nilpotenten) t-Norm dual ist",
+                ""
+            ],
+            "flags": 0,
+            "guid": "u)6etD<_sg",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Natürliche Dualität",
+                "Ist eine s-Norm \\(S\\) zu einer t-Norm \\(T\\) bezüglich deren natürlicher Negation \\(N_T\\) dual, so heißt sie natürlich dual zu \\(T\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wA-:,Q9__-",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maximumsnorm",
+                "Die Maximumsnorm \\(S_M\\) zu \\(T_M\\) und \\(N(x) = 1 - x\\) ist durch&nbsp;<div>\\[S_M(x, y) = \\max(x, y)\\]&nbsp;</div><div>gegeben.</div><div><br></div><div>\\(S_M\\) ist idempotent und distributiv.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "MxA:/01jdg",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Probabilistische Summe",
+                "Zu der t-Norm \\(T_P(x, y) = x \\cdot y\\) bezgülich der Standardnegation \\(N(x) = 1 - x\\) ist die duale s-Norm durch die probabilistische Summe<div>\\[S_P(x, y) = x + y - x \\cdot y\\]</div><div>gegeben.</div><div>\\(S_P\\) ist archimedisch und strikt, da \\(T_P\\) archimedisch und strikt</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "LIiKz`O<=0",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lukasiewicz'sche s-Norm",
+                "Zu \\(T_L(x, y) = \\max(x + y - 1, 0\\) und der natürlichen Negation \\(N_{T_L} (x) = 1 - x\\) ist mit<div>\\[S_L(x, y) = \\min (x + y, 1)\\]</div><div>die natürliche duale s-Norm gegeben.</div><div>\\(S_L\\) ist archmedisch und nilptotent.<br>Das Kontradiktionsprinzip und tertium non datur sind erfüllt.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B$81nUd7C+",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "disjunktion",
+                "kapitel8"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 8.2 Unverträglichkeitssatz 1",
+                "Seien \\(T, S, N\\) eine t-Norm, eine s-Norm und eine stetige Negation. Es gelte&nbsp;<div>\\[T(x, N(x)) = 0, S(x, (N(x)) = 1 \\qquad \\forall x \\in [0, 1]\\].<div>Dann sind \\(T, S\\) weder distributiv noch idempotent</div></div>",
+                "Seien \\(T, S, N\\) eine t-Norm, eine s-Norm und eine stetige Negation. Es gelte \\(T(x, N(x)) = 0, S(x, (N(x)) = 1\\qquad \\forall x \\in [0, 1]\\).",
+                "Distributivität, Idempotenz"
+            ],
+            "flags": 0,
+            "guid": "J->40YxZuU",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel8",
+                "unverträglichkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 8.3 Unverträglichkeitssatz II",
+                "Seien \\(T, S, N\\) eine t-Norm, eine s-Norm und eine stetige Negation. Gilt wenigstens eines der beiden Distributivgesetze für \\(T, S\\), so gilt das Kontradiktionsprinzip oder das Prinzip des ausgeschlossenen Dritten (tertium non datur) nicht.<br>Ist \\(T\\) idempotent, so gilt das Kontradiktionsprinzip nicht.<br>Ist \\(S\\) idempotent, so gilt das Gesetz des ausgeschlossenen Dritten nicht.",
+                "Seien \\(T, S, N\\) eine t-Norm, eine s-Norm und eine stetige Negation.<br>Eines der beiden Distributivgesetze für \\(T, S\\) gilt.",
+                "Kontradiktionsprinzip, Tertium non datur"
+            ],
+            "flags": 0,
+            "guid": "k(GZ?I19er",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel8",
+                "unverträglichkeit"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Implikation",
+                "Die scharfe Implikation ist eine Funktion \\(\\rightarrow: \\{0, 1\\}^2 \\to \\{0, 1\\}\\)<div>Sie lässt sich in der scharfe Logik durch Äquivalenzen darstellen</div><div>\\[(x \\rightarrow y) \\equiv \\bar x \\lor y \\equiv \\bar x \\lor (x \\land y)\\]</div>",
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x\\)</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\(y\\)</th><th style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">\\((x \\rightarrow y)\\)</th></tr></thead>\n                <tbody><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">0</td></tr><tr><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td><td style=\"width:33%; text-align:center; padding: 2px; border: 1px solid black;\">1</td></tr></tbody></table>"
+            ],
+            "flags": 0,
+            "guid": "MYei*=rQUa",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe (axiomatische) Implikation",
+                "Eine unscharfe (axiomatische) Implikation ist eine Funktion \\(I: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:<div><br></div><div>(I1) Randbedingungen</div><div>\\[I(0, x) = 1\\]</div><div>\\[I(1, x) = x\\]</div><div>\\[I(x, 1) = 1\\]<br></div><div><br></div><div>(I2) Monotonie</div><div>\\[x \\le y \\Rightarrow I(x, u) \\ge I(y, z) \\land I(z, x) \\le I(z,y)\\]</div><div><br></div><div>(I3) Umkehrschluss</div><div>\\[I(x, y) = I(I(y, 0), I(x, 0))\\]</div><div><br></div><div>(I4) Prämissenvertauschung</div><div>\\[I(x, I(y, z)) = I(y, I(x, z))\\]</div><div><br></div><div>Optional</div><div>(I5) Stetigkeit</div><div>(I6) Selbstimplikation</div><div>\\[I(x, x) = 1\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "C]M>fsd#um",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "S-Implikation",
+                "Eine Funktion \\(I^S: [0, 1]^2 \\to [0, 1]\\) die durch die s-Norm \\(S\\) und eine Negation \\(N\\) als&nbsp;<div>\\[I^S(x, y) = S(N(x), y)\\]</div><div>gegeben ist, heißt unscharfe (S-)Implikation</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rE9L1>Wp?j",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 9.1 Eigenschaften der S-Implikation<div><br></div><div>Sei \\(I^S (x, y)\\) die von \\(S\\) und \\(N\\) erzeugte S-Implikation<div><br></div><div>(i) \\(I^S(x, y)\\) erfüllt die Axiome&nbsp;{{c1::(I1), (I2) und (I4)}}</div><div>(ii) Ist \\(N\\) eine Involution, gilt zusätzlich {{c1::(I3)}}</div><div>(iii) Sind \\(S\\) und \\(N\\) stetig, folgt {{c1::(I5)}}</div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dOsqhbvL{G",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maximumsnorm Implikation",
+                "Mit \\(S_M(x, y) = \\max(x, y)\\) folgt<div>\\[I^S_M (x, y) = \\max(1 - x, y)\\]</div><div><br></div><div>Es gelten (I1)-(I5)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f:LaGzC5$d",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Probabilistische Summe Implikation",
+                "Mit \\(S_P(x, y) =x + y - xy\\) folgt<div>\\[I^S_P (x, y) = 1 - x + xy\\]</div><div><br></div><div>Es gelten (I1)-(I5)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rOl@V.^8}[",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Implikation Lukasiewicz'sche s-Norm",
+                "Für \\(S_L(x,y ) = \\min(x + y, 1)\\) ist<div>\\[I_L^S(x,y) = \\min (1-x + y, 1)\\]</div><div>Es gelten (I1)-(I6)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "f`Y,C8=_..",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Q-Implikation",
+                "Eine Funktion \\(I^Q: [0, 1]^2 \\to [0,1]\\), die durch ein Tripel \\((N, T, S)\\) als<div>\\[I^Q(x, y) = S(N(x), T(x, y))\\]</div><div>gegeben ist, heißt unscharfe (Q-)Implikation</div><div><br></div><div>Sie ist im Allgemeinen keine axiomatische Implikation</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Dlr3[}9ICP",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Q-Implikation Minimumsnorm",
+                "Für das Tripel \\(T_M(x, y) = \\min (x, y), N(x) = 1 - x, S_M(x, y) = \\max(x, y)\\) ist die Q-Implikation durch<div>\\[I^Q_M(x, y) = \\max((1 - x), \\min(x, y))\\]</div><div>gegeben.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s*3u+l}RY<",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Q-Implikation Produktnorm",
+                "Für das Tripel \\(T_P(x, y) = x \\cdot y, N(x) = 1 - x, S_P(x, y) = x + y - x \\cdot y\\) ist die Q-Implikation durch<div>\\[I^Q_P(x, y) = 1 - x + x^2 y\\]</div><div>gegeben.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "i/Zuqnln$_",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Q-Implikation Lukasiewicz'sche Norm",
+                "Für das Tripel \\(T_L(x, y) =\\max(x + y - 1, 0), N(x) = 1 - x, S_L(x, y) =\\min(x + y, 1)\\) ist die Q-Implikation durch<div>\\[I^Q_L(x, y) = \\min (1 - x + \\max(x + y -1, 0), 1)\\]</div><div>gegeben.</div><div><br></div><div>Es gilt: \\(I_L^Q = I_M^S\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Gw^M*ZJ4GT",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "R-Implikation",
+                "Eine Funktion \\(I^R: [0, 1]^2 \\to [0, 1]\\), die durch eine t-Norm \\(T\\) als&nbsp;<div>\\[I^R(x, y) =&nbsp; \\sup \\left\\{z: T(x, z) \\le y \\right\\}\\]</div><div>gegeben ist, heißt unscharfe (R-)Implikation.</div><div>\\(I^R\\) heißt dann Residuum von \\(T\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "I@zu}+(#h,",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gödel-Implikation",
+                "Zu \\(T_M(x, y) = \\min(x, y)\\) ist die R-Implikation:<div>\\[I_M^R(x, y) = \\gamma(x, y) = \\begin{cases}1 &amp;\\text{, falls } x \\le y\\\\ y &amp; \\text{, falls } x &gt; y\\end{cases}\\]<br><div><br></div></div><div>\\(\\gamma\\) heißt Gödel-Implikation</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hx{T,2Oa,#",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "R-Implikation Produktnorm",
+                "Zu \\(T_P(x, y) = x \\cdot y\\) ist die R-Implikation:<div>\\[I_P^R(x, y) = \\begin{cases}1 &amp;\\text{, falls } x \\le y\\\\ \\frac{y}{x} &amp; \\text{, falls } x &gt; y\\end{cases}\\]<br><div><br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Q<r4<gYe+c",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "R-Implik",
+                "Zu \\(T_L(x, y) = \\max(x + y -1, 0\\) entspricht die R-Implikation der S-Implikation:<div>\\[I_L^R(x, y) = \\min(1 -x + y, 1)\\]<br><div><br><div><br></div></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "gGk~VJKNDt",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 9.2",
+                "Für eine nilpotente t-Norm \\(T\\), ihre natürliche Negation \\(N_T\\) und die natürliche duale s-Norm \\(S\\) gilt:<div>\\[I^R(x, y) = I^S(x, y)\\]</div>",
+                "nilpotente t-Norm \\(T\\)<div>natürliche Negation \\(N_T\\)</div><div>natürliche duale s-Norm \\(S)</div>",
+                "\\(I^R\\), \\(I^S\\)"
+            ],
+            "flags": 0,
+            "guid": "PFBP2.pnQ+",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nicht Axiomatische Implikationsoperatoren",
+                "<div>1. Mandani-Operator \\(I^{MAM}(x, y) = \\min(x, y)\\)<br></div><div>2. Produkt-Operator \\(I^{P}(x, y) = x \\cdot y\\)</div>"
+            ],
+            "flags": 0,
+            "guid": "O#3f:u;?t",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel9"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Scharfe Relation",
+                "Eine scharfe Relation ist eine scharfe Teilmenge \\(R \\subseteq U_1 \\times \\cdots \\times U_n\\) des kartesischen Produkts der Universen \\(U_1, \\ldots, U_n\\)<div><br></div><div>Also</div><div>\\[R \\in \\mathscr{P}(U_1 \\times \\cdots \\times U_n)\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Ft2yXSpA_a",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel10",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Relation",
+                "Eine (n-stellige) unscharfe Relation auf den Universen \\(U_1, \\ldots, U_n\\) ist eine unscharfe Menge \\(\\tilde R \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_n\\)<div>Damit ist \\(\\tilde R\\) durch</div><div>\\[\\mu_{\\tilde R}: U_1 \\times \\cdots U_n \\to [0, 1]\\]</div><div>gegeben.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iF%7y.!eON",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Projektion",
+                "Zu einer unscharfen Relation \\(\\tilde R \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_n)\\) ist für \\(k \\le n (k \\in \\mathbb{N})\\) die Projektion \\(\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_k)\\) durch<div><br></div><div>\\[\\mu_{\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k} (u_1, \\ldots, u_k) = \\sup_{(u_{k + 1}, \\ldots, u_n) \\in U_{k+1} \\times \\cdots \\times U_n} \\{ \\mu_{\\tilde R}(u_1, \\ldots,u_n)\\}\\]</div><div><br></div><div>gegeben</div>",
+                "<img src=\"paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png\">"
+            ],
+            "flags": 0,
+            "guid": "mVW#J-GKF,",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "implikation",
+                "kapitel10"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zylinderbildung",
+                "Die Zylinderbildung \\((\\tilde R \\uparrow U_1 \\times \\cdots \\times U_n) \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_n)\\) von \\(\\tilde R \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_k)\\) ist durch<div><br></div><div>\\[\\mu_{\\tilde R \\uparrow U_1 \\times \\cdots \\times U_n} (u_1, \\ldots, u_n) = \\mu_{\\tilde R} (u_1, \\ldots, u_k)\\]</div><div>mit \\(k \\le n\\) gegeben.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kT>5UuU(|R",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 10.1",
+                "Für eine unscharfe Relation \\(\\tilde R \\mathbb{F}(U_1 \\times \\ldots \\times U_n)\\) gilt<div><br></div><div>\\[\\tilde R \\subseteq (\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k) \\uparrow U_1 \\times \\cdots \\times U_n\\]</div><div><br></div><div><img src=\"paste-8e8c7a38685619a5c47ac8152c0d728ff75afdb8.png\"><br></div>",
+                "Unscharfe Relation \\(R\\)",
+                "Wiederherstellung der Relation aus Projektion"
+            ],
+            "flags": 0,
+            "guid": "f#5Q_%Ztmk",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel10",
+                "relation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Durchschnitt von Relationen \\(\\tilde R \\cap_T \\tilde S\\):<div>\\[\\mu_{\\tilde R \\cap_T \\tilde S} (u_1, \\ldots, u_n) =&nbsp;{{c1::T(\\mu_{\\tilde R} (u_1, \\ldots, u_n),\\mu_{\\tilde S}(u_1, \\ldots, u_n))}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nSII%~LH+P",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel10",
+                "relation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vereinigung von Relationen \\(\\tilde R \\cup_T \\tilde S\\):<div>\\[\\mu_{\\tilde R \\cup_T \\tilde S} (u_1, \\ldots, u_n) =&nbsp;{{c1::S(\\mu_{\\tilde R} (u_1, \\ldots, u_n),\\mu_{\\tilde S}(u_1, \\ldots, u_n))}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wH+{<6w#+2",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel10",
+                "relation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Komplement von Relationen \\(\\bar {\\tilde R}^N\\):<div>\\[\\mu_{\\bar {\\tilde R}^N} (u_1, \\ldots, u_n) =&nbsp;{{c1::N(\\mu_{\\tilde R} (u_1, \\ldots, u_n))}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "wDyVT/JBO1",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel10",
+                "relation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Scharfe Komposition<br><br>Sei \\(P \\in \\mathscr{P}(U\\times V) , Q \\in \\mathscr{P}(V \\times W)\\), dann \\(R = P \\circ Q\\) und \\((u, w) \\in U \\times W\\):<br><br><div>\\[(u, w) \\in P \\circ Q \\Leftrightarrow&nbsp;{{c1::\\exists v \\in V: (u, v) \\in P \\land (v, w) \\in Q}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kwfm]t-<>Q",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel11",
+                "komposition",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften der Scharfen Komposition<div>Gelten auch für die unscharfe Komposition mit \\(\\cup = \\cup_{S_M}\\) und \\(\\cap = \\cap_{T_M}\\)<br><div><br></div><div>Assoziativität</div><div>{{c1::\\[P \\circ (Q \\circ R) = (P \\circ Q) \\circ R\\]}}</div><div><br></div><div>Distributivität von links bzw rechts bzgl. \\(cup\\)</div><div>{{c2::<div>\\[P \\circ (Q \\cup R) = (P \\circ Q) \\cup (P \\circ R)\\]</div><div>\\[(P \\cup Q) \\circ R = (P \\circ R) \\cup (Q \\circ R)\\]</div>}}<br></div><div><br></div><div>Schwache Distributivität von links bzw. rechts bzgl \\(\\cap\\)</div><div>{{c3::<div>\\[P \\circ (Q \\cap R) \\subseteq (P \\circ Q) \\cap (P \\circ R)\\]</div><div>\\[(P \\cap Q) \\circ R \\subseteq (P \\circ R) \\cap (Q \\circ R)\\]</div>}}<br></div><div><br></div><div>Links- bzw. Rechts-Monotonie bzgl. \\(\\subseteq\\)</div><div>{{c4::<div>\\[P \\subseteq R \\Rightarrow P \\circ Q \\subseteq R \\circ Q\\]</div><div><div>\\[P \\subseteq R \\Rightarrow Q \\circ P \\subseteq Q \\circ R\\]</div></div>}}<br></div></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tTyEj<d0EJ",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel11",
+                "komposition",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfe Standardkomposition",
+                "Für unscharfe Relationen \\(\\tilde P \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\cdots W), \\tilde Q \\in \\mathbb{F}(W \\times V_1 \\times \\cdots \\times V_n)\\) ist die sup-min-Komposition \\(\\tilde P \\circ \\tilde Q \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\times V_1 \\times \\cdots \\times V_n)\\) über die charakteristische FUnktion als<div><br></div><div>\\[\\mu_{\\tilde P \\circ \\tilde Q} (u_1, \\ldots, u_m, v_1, \\ldots, v_n) = \\sup_{w \\in W} \\{\\min&nbsp; \\{ \\mu_{\\tilde P}(u_1, \\ldots, u_m, w), \\mu_{\\tilde Q} (w, v_1, \\ldots, v_n)\\}\\}\\]</div><div><br></div><div>definiert</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hLJ,Oz%-f{",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel11",
+                "komposition",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "sub-t-Komposition",
+                "Für unscharfe Relationen \\(\\tilde P \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\cdots W), \\tilde Q \\in \\mathbb{F}(W \\times V_1 \\times \\cdots \\times V_n)\\) und eine t-Norm \\(T\\) ist die sup-t-Komposition \\(\\tilde P \\circ^t \\tilde Q \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\times V_1 \\times \\cdots \\times V_n)\\) über die charakteristische FUnktion als<div><br></div><div>\\[\\mu_{\\tilde P \\circ^t \\tilde Q} (u_1, \\ldots, u_m, v_1, \\ldots, v_n) = \\sup_{w \\in W} \\left\\{T&nbsp; \\left(\\mu_{\\tilde P}(u_1, \\ldots, u_m, w), \\mu_{\\tilde Q} (w, v_1, \\ldots, v_n)\\right)\\right\\}\\]</div><div><br></div><div>definiert</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NKGDl=Ugz8",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel11",
+                "komposition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verallgemeinerte t-Norm",
+                "Die n-stellige t-Norm \\(T_n\\) ist rekursiv als Verallgemeinerung einer zweistelligen t-Norm \\(T\\) durch<div><br></div><div>\\(n = 1: T_1 (x_1) = x_1\\)</div><div>\\(n = 2: T_2(x_1, x_2) = T(x_1, x_2)\\)<br>\\(n &gt; 2: T_n(x_1, \\ldots, x_n) = T(T_{n-1}(x_1, \\ldots, x_{n-1}), x_n)\\)</div><div><br></div><div>definiert.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "I3A#&yt,oG",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel11",
+                "komposition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verallgemeinerte s-Norm",
+                "Die n-stellige s-Norm \\(S_n\\) ist rekursiv als Verallgemeinerung einer zweistelligen s-Norm \\(S\\) durch<div><br></div><div>\\(n = 1: S_1 (x_1) = x_1\\)</div><div>\\(n = 2: S_2(x_1, x_2) = S(x_1, x_2)\\)<br>\\(n &gt; 2: S_n(x_1, \\ldots, x_n) = S(S_{n-1}(x_1, \\ldots, x_{n-1}), x_n)\\)</div><div><br></div><div>definiert.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B|Z~pLa`>U",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel11",
+                "komposition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "s-t-Komposition",
+                "Für unscharfe Relationen \\(\\tilde P \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\cdots W), \\tilde Q \\in \\mathbb{F}(W \\times V_1 \\times \\cdots \\times V_n)\\) und eine t-Norm \\(T\\) und eine s-Norm \\(S\\) ist die s-t-Komposition \\(\\tilde P {}^S\\circ^T \\tilde Q \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_m \\times V_1 \\times \\cdots \\times V_n)\\) über die charakteristische Funktion als<div><br></div><div>\\[\\mu_{\\tilde P {}^S\\circ^T \\tilde Q} (u_1, \\ldots, u_m, v_1, \\ldots, v_n) = S \\left\\{T&nbsp; (\\mu_{\\tilde P}(u_1, \\ldots, u_m, w), \\mu_{\\tilde Q} (w, v_1, \\ldots, v_n))\\vert w \\in W \\right\\}\\]</div><div><br></div><div>definiert</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "s6H8LZ`j>/",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel11",
+                "komposition"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Relationengleichung",
+                "Relationengleichungen exisitieren grundsätzlich in 3 Ausprägungen:<br><br>&nbsp;\\[\\tilde A \\circ \\tilde Q = \\tilde B\\]<br><div>(1) Zu \\(\\tilde A\\) und \\(\\tilde Q\\) finde \\(\\tilde B\\)</div><div>(2) Zu \\(\\tilde Q\\) und \\(\\tilde B\\) finde \\(\\tilde A\\)</div><div>(3) Zu \\(\\tilde A\\) und \\(\\tilde B\\) finde \\(\\tilde Q\\)<br></div><div><br></div><div>Wobei (1) deutlich einfacher ist als (2) und (3), da (2) und (3) die Lösung des inversen Problems erfordern</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "M.`8EbG}`-",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lösbarkeit von Relationengleichungen",
+                "Eine Relationengleichung \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) heißt lösbar \\(\\Leftrightarrow \\exists \\tilde Q\\)<div><br></div><div>Relationengleichungen können natürlich keine, eine oder mehrere Lösungen haben</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "pR40@z!9m}",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.1 Größte Lösung Relationengleichungen<div><br></div><div>Seien \\(\\tilde A \\in \\mathbb{F}(U), \\tilde B \\in \\mathbb{F}(V)\\). Es gilt:</div><div>(1) \\(\\tilde Q^* \\in \\mathbb{F}(U \\times V)\\) mi{{c2::t \\(\\mu_{\\tilde Q^*} (u, v) = \\gamma (\\mu_{\\tilde A} (u), \\mu_{\\tilde B} (v))\\)}}, basierend auf der Gödel-Implikation \\(\\gamma\\), ist die eindeutige bestimmte größte unscharfe Menge mit \\(\\tilde A \\circ \\tilde Q \\subseteq \\tilde B\\), wobei \\(\\gamma\\) die Gödel-Implikation bezeichnet.</div><div><br></div><div>(2) Die Gleichung \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) ist lösbar gdw.</div><div>{{c1::\\[\\max_{u \\in U} \\{\\mu_{\\tilde A}(u)\\} \\ge \\max_{v \\in V} \\{\\mu_{\\tilde B} (v)\\}\\]}}</div><div>In diesem Fall ist \\(\\tilde Q^*\\) die eindeutig bestimmte größte Lösung.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "H/;~@yKGFd",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.2 Größte Lösung bei max-P-Kompositionen<div><br></div><div>Seien \\(\\tilde A \\in \\mathbb{F}(U), \\tilde B \\in \\mathbb{F}(V)\\). Es gilt:</div><div>(1) \\(\\tilde Q^* \\in \\mathbb{F}(U \\times V)\\) mit&nbsp;</div><div>{{c1::\\[\\mu_{\\tilde Q^*} (u, v) = I^R_P (\\mu_{\\tilde A} (u), \\mu_{\\tilde B} (v))\\]}}</div><div><br></div><div>ist die eindeutig bestimmte größte unscharfe Menge mit \\(\\tilde A \\circ^P \\tilde Q \\subseteq \\tilde B\\)</div><div><br></div><div>(2) Die Gleichung \\(\\tilde A \\circ^P \\tilde Q = \\tilde B\\) ist lösbar gdw.</div><div>{{c2::\\[\\max_{u \\in U} \\{\\mu_{\\tilde A}(u)\\} \\ge \\max_{v \\in V} \\{\\mu_{\\tilde B} (v)\\}\\]}}</div><div>In diesem Fall ist \\(\\tilde Q^*\\) die eindeutig bestimmte größte Lösung.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "FMmR9~T/o7",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.3 Minimale Lösungen<div><br></div><div>Sei \\(\\mathbf{\\tilde Q}\\) die Menge aller Lösungen von \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) und sei \\(&nbsp; \\mathbf {\\tilde Q_*} \\subseteq \\mathbf{\\tilde Q}\\) die Menge der minimalen Elemente von \\(\\tilde Q\\). Dann gilt:</div><div><br></div><div>\\[\\tilde Q_* \\in \\mathbf{\\tilde Q_*} \\Leftrightarrow \\forall v \\in V: \\exists u_0 \\in U: {{c1::\\mu_{\\tilde Q_*} (u_0, v) = \\mu_{\\tilde B} (v) \\land \\mu_{\\tilde A} (u_0) \\ge \\mu_{\\tilde B}(v) \\land [ u \\not = u_0 \\Rightarrow \\mu_{\\tilde Q_*} (u, v) = 0]}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "QIrg;vo^?T",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.4 Alle Lösungen<div><br></div><div>Sei \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) lösbar, \\(\\tilde Q^*\\) die maximale Lösung und \\(\\mathbb{\\tilde Q_*}\\) die Menge der minimalen Lösungen. Dann gilt&nbsp;</div><div>\\[\\tilde A \\circ \\tilde Q \\tilde B \\Leftrightarrow {{c1::\\exists \\tilde Q_* \\in \\mathbb{\\tilde Q_*}: \\tilde Q_* \\subseteq \\tilde Q \\subseteq \\tilde Q^*}}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yomp]W5dIf",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel12",
+                "relationengleichungen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.5 Maximale Lösung von Gleichungssystemen<div><br></div><div>Zu \\(\\tilde A_i \\in \\mathbb{F}(U)\\) und \\(\\tilde B_i \\in \\mathbb{F}(V)\\) sei \\(\\tilde Q_i^*\\) gegeben durch</div><div>\\(\\mu_{\\tilde Q_i^*} (u, v) = \\gamma \\left(\\mu_{\\tilde A_i}(u), \\mu_{\\tilde B_i}(v)\\right) \\text{ für&nbsp; } i = 1, \\ldots, m\\)</div><div><br></div><div>(1) \\(\\tilde Q^* = {{c1::\\cap_{i=1}^m \\tilde Q_i^*}}\\) ist die eindeutig bestimmte größte unscharfe Menge</div><div>\\(\\tilde Q \\in \\mathbb{F}(U \\times V)\\) mit \\(\\tilde A_i \\circ \\tilde Q \\subseteq \\tilde B_i \\forall i \\in \\{1, \\ldots, m\\}\\)</div><div>(2) Falls das Gleichungssystem \\(\\tilde A_i \\circ \\tilde Q = \\tilde B_i, i = 1,\\ldots, m\\) eine Lösung besitzt ist \\(\\tilde Q^*\\) die eindeutig bestimmte größte Lösung</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "v{BmWF1_5;",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "gleichungssysteme",
+                "kapitel12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.6 Lösbarkeit des Gleichungssystems<div><b><br></b></div><div><b>Notwendige Bedingung</b></div><div>Eine notwendige Bedingung für die Lösbarkeit des Gleichungssystems \\(\\tilde A_i \\circ \\tilde Q = \\tilde B_i, i = 1, \\ldots, m\\) ist</div><div>{{c1::\\[\\max_{u \\in U} \\left\\{\\mu_{\\tilde A_i} (u) \\right\\} \\ge \\max_{v \\in V} \\left\\{\\mu_{\\tilde B_i} (v) \\right\\} \\text{ für } i = 1, \\ldots, m\\]}}</div><div><br></div><div><b>Hinreichende Bedingung</b></div><div>Falls zu jedem \\(i = 1, \\ldots, m\\) ein \\(u_i \\in U\\) existiert mit {{c2::\\(\\mu_{\\tilde A_i} (u_i) = 1\\)}} und {{c2::\\(\\mu_{\\tilde A_j} (u_i) = 0 \\) für \\(j \\not = i\\)}} ist dies hinreichend für die Lösung des Gleichungssystems.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "m$8PoSe9Cy",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "gleichungssysteme",
+                "kapitel12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition Zulässige Auswahlfunktion<div>Zu einem lösbaren Gleichungssystem \\(\\tilde A_i \\circ \\tilde Q = \\tilde B_i, i = 1, \\ldots, m\\) mit der größte Lösung \\(\\tilde Q^*\\) sei durch \\(\\mathbb{\\tilde Q_*^i}\\) zu jedem \\(i\\) die Menge der minimalen Lösungen von \\(\\tilde A_i \\circ \\tilde Q = \\tilde B_i\\) gegeben.</div><div>Dann heißt die Funktion \\(S: \\{1,\\ldots,m\\} \\to \\mathbb{F}(U \\times V)\\) eine zulässige Auswahlfunktion, wenn</div><div><br></div><div>(1) {{c1::\\(S(i) \\in \\mathbf{Q_*^i}, i = 1, \\ldots, m\\)}} und</div><div>(2) {{c2::\\(\\cup_{i=1}^m S(i) \\subseteq \\tilde Q^*\\)}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "keIY.J2Voj",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "gleichungssysteme",
+                "kapitel12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.7 Lösbares Gleichungssystem Auswahlfunktion",
+                "Für ein lösbares Gleichungssystem besteht die Menge<div>\\[\\mathbb{\\tilde Q}_\\cup = \\left\\{\\cup_{i=1}^m S(i) \\vert \\text{S ist zulässige Auswahlfunktion} \\right\\}\\]</div><div>nur aus Lösungen des Gleichungssystems und enthält alle minimalen Lösungen</div>",
+                "Lösbares Gleichungssystem und Auswahlfunktion",
+                "Lösungsmenge"
+            ],
+            "flags": 0,
+            "guid": "JFE6&~?tXk",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "gleichungssysteme",
+                "kapitel12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 12.8 Alle Lösungen Gleichungssystem",
+                "Die Menge aller Lösungen \\(\\mathbb{\\tilde Q}\\) eines lösbaren Gleichungssystems ist durch<div>\\[\\mathbb{\\tilde Q} = \\left\\{\\tilde Q \\vert \\exists \\tilde Q_* \\in \\mathbb{\\tilde Q_*} : \\tilde Q_* \\subseteq \\tilde Q \\subseteq \\tilde Q^*\\right\\}\\]</div><div>gegeben</div>",
+                "Lösbares Gleichungssystem",
+                "Menge aller Lösungen"
+            ],
+            "flags": 0,
+            "guid": "Nsu`V*DKbb",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "gleichungssysteme",
+                "kapitel12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Linguistischer Term",
+                "Die unscharfe Menge \\(\\tilde A \\in \\mathbb{F}(U)\\) heißt linguistischer Term auf \\(U\\) \\(\\Leftrightarrow\\) die Zugehörigkeitsfunktion \\(\\mu_{\\tilde A}: U \\to [0, 1]\\) ein auf \\(U\\) definiertes Konzept er natürlichen Sprache repräsentiert.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "PZ~e_0E.n#",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Linguistisches Prädikat",
+                "Sei \\(\\tilde A\\) ein linguistischer Term auf \\(U\\) und \\(x \\in U\\), dann heißt der Ausdruck \"\\(x\\) is \\(\\tilde A\\)\" linguistisches Prädikat auf \\(U\\).",
+                ""
+            ],
+            "flags": 0,
+            "guid": "td:YKY)L`?",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Linguistische Variable",
+                "Sei \\(x \\in U\\) und sei zusätzlich ein linguistisches Prädikat \"\\(x\\) is \\(\\tilde A\\)\" gegeben.<div>Dann heißt \\(x\\) linguistisches Variable auf \\(U\\).&nbsp;</div><div>Eine linguistische Variable repräsentiert damit eine unscharfe Beobachtung</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jfA7@^?{xw",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Linguistische Regel",
+                "Seien \"\\(x\\) is \\(\\tilde A\\)\" und \"\\(y\\) is \\(\\tilde B\\)\" linguistische Prädikate auf \\(U\\) bzw. \\(V\\). Dann heißt der Ausdruck \"IF \\(x\\) is \\(\\tilde A\\) THEN \\(y\\) is \\(\\tilde B\\)\" linguistische Regel.&nbsp;<br>Man schreibt auch \\([\\tilde A \\Rightarrow \\tilde B]\\)",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mP64?9epqW",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Modus Ponens",
+                "Schlussfigur des Modus Ponens:<div><img src=\"paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png\"><br></div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "tE$dFzC=:^",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verallgemeinerter Modus Ponens",
+                "<img src=\"paste-a35119009e10a87abc5b6a551f4247c04b0812f3.png\">",
+                ""
+            ],
+            "flags": 0,
+            "guid": "k%)RJ9Zk4m",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "s-t-Inferenz",
+                "Je nach eingesetzter Komposition für den verallgemeinrten Modus Ponens nennt man diesen <i>s-t-Inferenz</i>&nbsp;oder <i>max-min-Inferenz</i>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "If(H!K#U7|",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gültigkeit des Schlusses",
+                "Ein Schluss von \\(\\tilde A \\in \\mathbb{F}(U)\\) nach \\(\\tilde B \\in \\mathbb{F}(V)\\) mittels \\(\\tilde Q \\in \\mathbb{F}(U \\times V)\\) heißt gültig, wenn gilt:<div>\\[\\tilde A \\circ \\tilde Q \\subseteq \\tilde B\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "vFJTw/MBc|",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Setze das linguistische Prädikat \"\\(x\\) is \\(\\tilde A\\) AND \\(y\\) is \\(\\tilde B\\)\" in unscharfe Logik um, wenn<div>\\(\\tilde A \\in \\mathbb{F}(U)\\) und \\(\\tilde B \\in \\mathbb{F}(V)\\)</div>",
+                "<div>\\[(x, y) \\text{ is } [\\tilde A \\uparrow U \\times V] \\cap [\\tilde B \\uparrow U \\times V]\\]</div><div>oder</div>\\[(x, y) \\text{ is } \\tilde A \\cap \\tilde B\\]"
+            ],
+            "flags": 0,
+            "guid": "n(9wb)1bGm",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Setze das linguistische Prädikat \"\\(x\\) is \\(\\tilde A\\) OR \\(y\\) is \\(\\tilde B\\)\" in unscharfe Logik um, wenn<div>\\(\\tilde A \\in \\mathbb{F}(U)\\) und \\(\\tilde B \\in \\mathbb{F}(V)\\)</div>",
+                "<div>\\[(x, y) \\text{ is } [\\tilde A \\uparrow U \\times V] \\cup [\\tilde B \\uparrow U \\times V]\\]</div><div>oder</div>\\[(x, y) \\text{ is } \\tilde A \\cup \\tilde B\\]"
+            ],
+            "flags": 0,
+            "guid": "b{#,G9#J#?",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition FITA",
+                "FITA steht für <i>first infer than aggregate</i>. Dabei wird zuert jede Regel einzeln abgearbeitet und dann die Ergebnismengen aggregiert",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Hada-GnbBP",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition FATI",
+                "FATI steht für&nbsp;<i>first aggregate then infer</i>. Dabei werden zuerst alle Regeln in eine gemeinsame Regel aggregiert und diese dann durchgeführt",
+                ""
+            ],
+            "flags": 0,
+            "guid": "eYJz>xna$}",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Freiheitsgrade beim approximativen Schließen",
+                "<ul>\n<li>Wahl der Implikationsrelation \\(\\tilde Q\\)</li>\n<li>Wahl des Inferenzmechanismus \\(\\circ\\)</li>\n<li>Die Frage nach globaler oder lokaler Regelandwendung</li>\n<li>Auswahl des Aggregationsmechanismus</li>\n<li>Wahl des Normentripels</li>\n</ul>"
+            ],
+            "flags": 0,
+            "guid": "L8fz;xZ>>j",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Possibilitätsverteilungen",
+                "Sei \\(x\\) eine Variable auf \\(U\\). Eine Possibilitätsverteilung der Variablen \\(x\\) ist eine unscharfe Menge \\(\\tilde A\\) gegeben durch die Abbildung<div>\\[\\mu_{\\tilde A}: U \\to [0, 1]\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NooAUs1[o[",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel13",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spezifität",
+                "Seien \\(\\tilde A\\) und \\(\\tilde A'\\) Possibilitätsverteilungen auf \\(U\\). \\(\\tilde A\\) heißt mindestens so spezifisch wie \\(\\tilde A' \\Leftrightarrow \\forall x \\in U: \\mu_{\\tilde A} (x) \\le \\mu_{\\tilde A'}(x)\\)<div>Also:</div><div>\\[\\tilde A \\subseteq \\tilde A'\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nd12Ld`e1W",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzip der minimalen Spezifität",
+                "Possibilitätsverteilungen sollen immer so spezifisch wie möglich angegeben werden, jedoch nicht spezifischer als das vorhandene possibilistische Wissen erlaubt.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iB@n$!(TZy",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kombination von Probabilistischen Verteilungen",
+                "",
+                "\\[\\mu_{[\\tilde A, \\tilde B]} (x, y, z) = \\min (\\mu_{\\tilde A}(x, y), \\mu_{\\tilde B} (y, z))\\]"
+            ],
+            "flags": 0,
+            "guid": "FrSN31rkN#",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Komposition von Probabilistischen Verteilungen",
+                "",
+                "\\[\\mu_{\\tilde A \\circ \\tilde B} (x, z) = \\max_{y \\in V} \\left\\{ \\min (\\mu_{\\tilde A}(x, y), \\mu_{\\tilde B} (y, z))\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "sFT3uKni@9",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Größte Lösung bei unscharfen Probabilitätsverteilungen von&nbsp;<div>\\[\\tilde A \\circ \\tilde Q \\subseteq \\tilde B\\]</div><div>ist durch</div><div>{{c1::\\[\\mu_{\\tilde Q^*} (x, y) = \\gamma(\\mu_{\\tilde A}(x), \\mu_{\\tilde B}(y))\\]}}</div><div>gegeben</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "K?D?:w-)yX",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 14.2 Auswertung mehrerer Regeln bei Possibilistischem Schließen<div><br></div><div>Zu \\(i \\in \\{1, \\ldots, n\\}\\) seien die Possiblitätsverteilungen \\(\\tilde A^i \\in \\mathbb{F}(U)\\) und \\(\\tilde B^i \\in \\mathbb{F}(V)\\) gegeben. Die Possibilitätsverteilung \\(\\tilde Q^*\\) mit</div><div>{{c1::<div>\\[\\mu_{\\tilde Q^*} (x, y) = \\min_{i \\in \\{1, \\ldots,n\\} } \\left\\{\\gamma (\\mu_{\\tilde A^i}(x), \\mu_{\\tilde B^i} (y))\\right\\}\\]</div><div></div>}}<br></div><div>ist die eindeutig definierte größte Possiblitätsverteilung, welche die Ungleichung</div><div>\\[\\tilde A^i \\circ \\tilde Q \\subseteq \\tilde B^i\\]</div><div>für \\(i = 1, \\ldots, n\\) erfüllt.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "JPxT06!=U,",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verwendung von Information bei Possiblistischem Schließen",
+                "Bei possiblistischer Interpretation wird Information <i>negativ </i>verwendet, d.h. je mehr Information vorliegt, desto mehr die die Möglichkeit des Bereichs, über den keine Aussage gemacht wurd, eingeschränkt."
+            ],
+            "flags": 0,
+            "guid": "j$8PxbQ(>O",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "kapitel14",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Informationsverwendung bei Evidenzgestütztem Schließen",
+                "Bei evidenzgestützter Interpretation wird Information&nbsp;<i>positiv&nbsp;</i>verwendet, d.h. je mehr Information vorliegt, desto mehr wird die Aussage für den betrachteten Bereich gestützt."
+            ],
+            "flags": 0,
+            "guid": "Kw`Rx@s9JN",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Evidenzverteilung",
+                "Sei \\(x\\) eine Variable auf \\(U\\). Eine Evidenzverteilung der Variablen \\(x\\) ist eine unscharfe Menge \\(\\tilde A\\) gegeben durch die Abbildung<div>\\[\\mu_{\\tilde A}: U \\to [0, 1]\\]</div><div>Für \\(x \\in U\\) gibt \\(\\mu_{\\tilde A}(x)\\) den Grad an, zu dem \"\\(x\\) is \\(\\tilde A\\)\" unterstützt wird.</div><div>Man nennt \\(\\tilde A\\) auch Evidenzverteilung auf \\(U\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "THwtZ14O]",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzip der minimalen Komplettierung",
+                "Evidenzverteilungen sollen immer so komplett wie möglich angegeben werden, jedoch nicht kompletter als das vorhandene Wissen erlaubt.",
+                ""
+            ],
+            "flags": 0,
+            "guid": "o|~!Y+THpP",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kompomsition Evidenzgestütztes Schließen",
+                "",
+                "\\[\\mu_{[\\tilde A, \\tilde B]} (x, y, z) = \\min (\\mu_{\\tilde A} (x, y), \\mu_{\\tilde B}(y, z))\\]"
+            ],
+            "flags": 0,
+            "guid": "BSc42M.4Ts",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Komposition Evidenzgestützes Schließen",
+                "",
+                "\\[\\mu_{\\tilde A \\circ \\tilde B} (x, z) = \\max_{y \\in V} \\left\\{ \\min (\\mu_{\\tilde A} (x, y), \\mu_{\\tilde B}(y, z))\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "ssG<lInjO3",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Minimale Allgemeine Lösung Evidenzgestützes Schließen",
+                "",
+                "\\[\\mu_{\\tilde Q^+} (x, y) = \\max \\left\\{\\tilde Q_* (x, y) \\vert \\tilde Q_* \\in \\mathbf{\\tilde Q_*}\\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "zXL~*/x3Q#",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Epsilon-Operator",
+                "Der&nbsp; \\(\\epsilon\\)-Opterator \\(\\epsilon: [0,1]^2 \\to [0,1 ]\\) ist definiert durch<div>\\[\\epsilon (a, b) = \\begin{cases}0 &amp; \\text{, falls } a &lt; b\\\\ 0 &amp; \\text{, sonst}\\end{cases}\\]</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yTz-6+1}Mi",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 15.3 Minimale Allgemeine Lösung Evidenzgestützt",
+                "Für die minimale allgemeine Lösung \\(\\tilde Q_+\\) von \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) gilt:<div>\\[\\mu_{\\tilde Q_+} (x, y) = \\varepsilon (\\mu_{\\tilde A}(x), \\mu_{\\tilde B}(y))\\]</div>",
+                "Gleichung \\(\\tilde A \\circ \\tilde Q = \\tilde B\\), \\(\\varepsilon\\)",
+                "Minimale allgemeine Lösung"
+            ],
+            "flags": 0,
+            "guid": "jp]A8o3A0[",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Minimale Repräsentative Lösung",
+                "Die Evidenzverteilung \\(\\tilde Q^{MAM}\\) heißt minimale repräsentative Lösung der Gleichung \\(\\tilde A \\circ \\tilde Q = \\tilde B\\)",
+                "\\[\\mu_{\\tilde Q^{MAM}} (x, y) = \\max \\left\\{\\tilde Q_+ (x, y) \\vert \\tilde Q_+ \\text{ist minimale allgemeine Lösung von } \\tilde A \\circ \\tilde Q = \\tilde B' \\land \\tilde B' \\subseteq \\tilde B \\right\\}\\]"
+            ],
+            "flags": 0,
+            "guid": "e~%aDvCWC1",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 15.4&nbsp;<div><br></div><div>Die minimale repräsentative Lösung ist eine Lösung der Gleichung</div><div>{{c2::\\[\\tilde A \\circ \\tilde Q^{MAM} = \\tilde B\\]}}</div><div><br></div><div>und falls lösbar gilt:</div><div>{{c1::\\[\\mu_{\\tilde Q^{MAM} } (x, y) = \\min(\\mu_{\\tilde A} (x), \\mu_{\\tilde B} (y))\\] }}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "BD~*_@,dv?",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Satz 15.6<div><br></div><div>Zu \\(i \\in \\{1, \\ldots, n\\}\\) seien die Evidenzverteilungen \\(\\tilde A^i \\in \\mathbb{F}(U)\\) und \\(\\tilde B^i \\in \\mathbb{F}(V)\\) gegeben. Die Evidenzverteilung \\(\\bar{ \\tilde Q}^{MAM}\\) mit</div><div>\\[ \\mu_{\\bar {\\tilde Q}^{MAM}} (x, y) = {{c1::\\max_{i \\in \\{1, \\ldots, n\\} } \\left\\{\\min(\\mu_{\\tilde A^i}(x), \\mu_{\\tilde B^i}(y)\\right\\} }}\\]</div><div>ist die minimale repräsentative Lösung des Gleichungssystems.</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "hIwD_gZ<Lg",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel15",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regelkreis",
+                "In einem Regelkreis berchnet der Regler die Stellgröße abhängig vom Regelfehler, also der Differenz aus Sollwert und gemessenem Istwert, in der Art, so dass die Regeldifferenz ausgeglichen wird.<div>Abängig von der Stellgröße beeinflusst das Stellglied das Verhalten der Strecke, also des zu regelnden realen Systems.</div>",
+                "<img src=\"paste-5a6cfb706167ddef143255c0414acbc5e91633c7.png\">"
+            ],
+            "flags": 0,
+            "guid": "c>Ukh0#w?.",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel16",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unscharfer Regler",
+                "Der Unscharfe Regler enthält die Regelung in Form einer unscharfen Regelbasis.<br>Deshalb benötigt er eine Fuzzifizierung und Defuzzifizierung.",
+                "<img src=\"paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png\">"
+            ],
+            "flags": 0,
+            "guid": "snKca7UEu$",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "kapitel16",
+                "schließen",
+                "wiederholung"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "f6a9ae3466534fdf916a61f66c7554c0-oa-1",
+                "Komponenten des unscharfen Reglers",
+                "<img src=\"unscharfer_regler.png\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-1-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-1-A.svg\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "+kl3P42J2",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "f6a9ae3466534fdf916a61f66c7554c0-oa-2",
+                "Komponenten des unscharfen Reglers",
+                "<img src=\"unscharfer_regler.png\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-2-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-2-A.svg\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "BZbI!}:Asa",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "f6a9ae3466534fdf916a61f66c7554c0-oa-3",
+                "Komponenten des unscharfen Reglers",
+                "<img src=\"unscharfer_regler.png\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-3-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-3-A.svg\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "Lv+9,;-yan",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "f6a9ae3466534fdf916a61f66c7554c0-oa-4",
+                "Komponenten des unscharfen Reglers",
+                "<img src=\"unscharfer_regler.png\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-4-Q.svg\" />",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-4-A.svg\" />",
+                "<img src=\"f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg\" />"
+            ],
+            "flags": 0,
+            "guid": "cX%U,%y>[(",
+            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "tags": [
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maximumsmethode",
+                "Für die Umwandlung in eine scharfe Stellgröße \\(\\hat y\\), nimmt sie den maximalen Wert von \\(\\mu_{\\tilde B}\\) an:",
+                "\\[\\hat y =\\mathop{\\mathrm{argmax}}_{y \\in Y} \\mu_{\\tilde B} (y)\\]"
+            ],
+            "flags": 0,
+            "guid": "xK*PE%$~KV",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "defuzzifierung",
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mean of Maxima",
+                "Die Mean-Of-Maxima-Methode ist eine Erweiterung der Maximumsmethode, die anwendbar ist, wenn die Stellgröße aus den rrelen Zahlen und damit die unscharfe Stellgröße eine unscharfe Größe ist.",
+                "\\[\\hat y = \\frac{1}{\\int \\limits_{\\substack{\\bar y \\in \\mathop{\\mathrm{argmax}}&nbsp;&nbsp;\\mu_{\\tilde B} (y)\\\\y \\in Y}} 1\\ d \\bar y} \\int \\limits_{\\substack{\\bar y \\in \\mathop{\\mathrm{argmax}}&nbsp;\\mu_{\\tilde B} (y)\\\\y \\in Y}} 1\\ d \\bar y\\]<br>"
+            ],
+            "flags": 0,
+            "guid": "c{mE6Iy)AB",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "defuzzifierung",
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Flächenschwerpunkt",
+                "Der Flächenschwerpunkt berechnet den Schwerpunkt der unscharfen Stellgröße als scharfe Stellgröße:",
+                "\\[\\hat y = \\frac{1}{\\int \\limits_{y \\in Y} \\mu_{\\tilde B}(y)\\ dy} \\int \\limits_{y \\in Y} y \\cdot \\mu_{\\tilde B}(y)\\ dy\\]"
+            ],
+            "flags": 0,
+            "guid": "NN$s*%^v:f",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "defuzzifierung",
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Possibilistischer Regler",
+                "Der Possiblistische Regler verwendet das Possiblistische Schließen für die Inferenz.<br><br>Dementsprechend erhalten wir als Schlussregel:<div>\\[\\mu_{\\tilde B'} (y) = \\gamma (\\mu_{\\tilde A}(\\hat x), \\mu_{\\tilde B}(y))\\]</div><div><br></div><div>Bei mehreren Regeln wird das FITA-Prinzip verwendet</div><div><br></div><div>\\[\\mu_{\\tilde B'} (y) = \\min_i \\left\\{\\gamma (\\mu_{\\tilde A^i}(\\hat x), \\mu_{\\tilde B^i}(y))\\right\\}\\]<br></div>",
+                "<img src=\"paste-23e7cd2803a0ca626bdf3a35de9e9af6cdcd151a.png\">"
+            ],
+            "flags": 0,
+            "guid": "NPD!QCo1|=",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "defuzzifierung",
+                "kapitel16",
+                "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mandani Regler",
+                "Der Mandani Regler verwendet das Evidenzgestützte Schließen für die Inferenz.<br><br>Dementsprechend erhalten wir als Schlussregel:<div>\\[\\mu_{\\tilde B'} (y) = \\min (\\mu_{\\tilde A}(\\hat x), \\mu_{\\tilde B}(y))\\]</div><div><br></div><div>Bei mehreren Regeln wird das FITA-Prinzip verwendet</div><div><br></div><div>\\[\\mu_{\\tilde B'} (y) = \\max_i \\left\\{\\gamma (\\mu_{\\tilde A^i}(\\hat x), \\mu_{\\tilde B^i}(y))\\right\\}\\]</div>",
+                "<img src=\"paste-e5da894b000be525bc1d4ae7e28b1392730cfd28.png\">"
+            ],
+            "flags": 0,
+            "guid": "OMRb4nmN_^",
+            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "tags": [
+                "defuzzifierung",
+                "kapitel16",
+                "schließen"
             ]
         }
     ]
