@@ -89,12 +89,18 @@
         "f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg",
         "fuzzy_mengen.png",
         "paste-23e7cd2803a0ca626bdf3a35de9e9af6cdcd151a.png",
+        "paste-3d658834d113e97557fb75f8bd5647d65c9f0dec.jpg",
+        "paste-4bf12cf066085fdb2211cc04f5ceb1ff0f96797c.jpg",
         "paste-5a6cfb706167ddef143255c0414acbc5e91633c7.png",
         "paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png",
         "paste-8e8c7a38685619a5c47ac8152c0d728ff75afdb8.png",
+        "paste-a09c39f083f011fc6ac770b163a55f808c6e75e1.jpg",
         "paste-a35119009e10a87abc5b6a551f4247c04b0812f3.png",
         "paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png",
+        "paste-bece7e8d874eee752d41fac9ecfec154dc550d07.jpg",
+        "paste-dcef1e518a292f0de329280ca2a730cde48d0401.jpg",
         "paste-e5da894b000be525bc1d4ae7e28b1392730cfd28.png",
+        "paste-eb32f2d8a29aa4a3c7a9cc5d20bc082c581c151c.jpg",
         "paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png",
         "unscharfer_regler.png"
     ],
@@ -398,7 +404,9 @@
             ],
             "sortf": 0,
             "tags": [
-                "futur_simple"
+                "",
+                "negation",
+                ""
             ],
             "tmpls": [
                 {
@@ -708,7 +716,7 @@
             "data": "",
             "fields": [
                 "Satz 1.3",
-                "Unscharfe Mengen sind durch ihre \\(\\alpha\\) -Schnitte eindeutig definiert. Für \\(\\tilde A, \\tilde B \\in \\mathbb{F}(U)\\) gilt also<div>\\[\\tilde A = \\tilde B \\Leftrightarrow \\tilde A_\\alpha = \\tilde B_\\alpha \\forall \\alpha \\in [0, 1]\\]</div>",
+                "Unscharfe Mengen sind durch ihre \\(\\alpha\\) -Schnitte eindeutig definiert. Für \\(\\tilde A, \\tilde B \\in \\mathbb{F}(U)\\) gilt also<div>\\[\\tilde A = \\tilde B \\Leftrightarrow \\tilde A_\\alpha = \\tilde B_\\alpha\\qquad \\forall \\alpha \\in [0, 1]\\]</div>",
                 "2 Unscharfe Mengen \\(\\tilde A, \\tilde B\\)",
                 "Alpha-Schnitte"
             ],
@@ -1047,7 +1055,7 @@
             "data": "",
             "fields": [
                 "LR-Funktion",
-                "Eine monoton fallende Funktion \\(f: \\mathbb{R}^+ \\{0\\} \\mapsto [0, 1)\\) heißt LR-Funktion",
+                "Eine monoton fallende Funktion \\(f: \\mathbb{R}^+ \\mapsto [0, 1)\\) heißt LR-Funktion",
                 ""
             ],
             "flags": 0,
@@ -1060,8 +1068,8 @@
             "data": "",
             "fields": [
                 "LR-Darstellung",
-                "Eine unscharfe Zahl \\(tilde A\\) besitzt eine LR-Darstellung gdw. es zwei LR-Funktionen \\(L\\) und \\(R\\) sowie Skalare \\(\\alpha &gt; 0, \\beta &gt; 0\\) und \\(m\\) gibt, so dass",
-                "\\[\\mu_{\\tilde A} (x) = \\begin{cases}<br>L \\left(\\frac{m - x}{\\alpha}\\right) &amp; \\text{ falls } x &lt; m\\\\<br>1 &amp; \\text{ falls } x = m\\\\<br>R \\left(\\frac{m - x}{\\beta}\\right) &amp; \\text{ falls } x &gt; m\\\\\\end{cases}\\]"
+                "Eine unscharfe Zahl \\(\\tilde A\\) besitzt eine LR-Darstellung gdw. es zwei LR-Funktionen \\(L\\) und \\(R\\) sowie Skalare \\(\\alpha &gt; 0, \\beta &gt; 0\\) und \\(m\\) gibt, so dass",
+                "\\[\\mu_{\\tilde A} (x) = \\begin{cases}<br>L \\left(\\frac{m - x}{\\alpha}\\right) &amp; \\text{ falls } x &lt; m\\\\<br>1 &amp; \\text{ falls } x = m\\\\<br>R \\left(\\frac{x - m}{\\beta}\\right) &amp; \\text{ falls } x &gt; m\\\\\\end{cases}\\]"
             ],
             "flags": 0,
             "guid": "J8iM+#[I2v",
@@ -1120,7 +1128,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Erweiterung bijektivier Funktion",
+                "Erweiterung bijektiver Funktion",
                 "Die unscharfe Erweiterung einer bijektiven Funktion \\(f\\), ist durch<div>\\[\\mu_{\\tilde B} (v) = \\mu_{\\tilde A}(u), \\qquad \\text{mit } f(u) = v\\]</div><div>gegeben</div>",
                 ""
             ],
@@ -1137,7 +1145,7 @@
             "data": "",
             "fields": [
                 "Erweiterung nicht bijektiver einstelliger Funktionen",
-                "Wir erhalten als Erweiterung für bijektive einstellige Funktionen<div>\\[\\mu_{\\tilde B} (v) = \\max_{\\substack{u \\in U\\\\ f(u) = v\\\\}} \\mu_{\\tilde A}(u)\\]</div>",
+                "Wir erhalten als Erweiterung für nicht bijektive einstellige Funktionen<div>\\[\\mu_{\\tilde B} (v) = \\max_{\\substack{u \\in U\\\\ f(u) = v\\\\}} \\mu_{\\tilde A}(u)\\]</div>",
                 ""
             ],
             "flags": 0,
@@ -1153,7 +1161,7 @@
             "data": "",
             "fields": [
                 "Allgemeines Erweiterungsprinzip",
-                "Für Relation \\(R\\) definieren wir<div>\\[\\mu_{\\tilde C} (w) = \\sup_{\\substack{(u,v ) \\in U \\times V\\\\ f(u, v) = w\\\\}} \\min(\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v)\\]</div>",
+                "Für Relation \\(R\\) definieren wir<div>\\[\\mu_{\\tilde C} (w) = \\sup_{\\substack{(u,v ) \\in U \\times V\\\\ f(u, v) = w\\\\}} \\min(\\mu_{\\tilde A}(u), \\mu_{\\tilde B}(v))\\]</div>",
                 ""
             ],
             "flags": 0,
@@ -1301,7 +1309,7 @@
             "fields": [
                 "Unscharfe Negation durch Erweiterung",
                 "",
-                "\\[- \\ \\mu_{(- \\tilde A)} (w) = \\sup \\left\\{\\mu_{\\tilde A}(-w)\\right\\} = \\mu_{\\tilde A} (-w)\\]"
+                "\\[\\mu_{(- \\tilde A)} (w) = \\sup \\left\\{\\mu_{\\tilde A}(-w)\\right\\} = \\mu_{\\tilde A} (-w)\\]"
             ],
             "flags": 0,
             "guid": "hHrN?j3al?",
@@ -3926,6 +3934,48 @@
                 "defuzzifierung",
                 "kapitel16",
                 "schließen"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeichne die Gödelnegation<div><img src=\"paste-eb32f2d8a29aa4a3c7a9cc5d20bc082c581c151c.jpg\"><br></div>",
+                "<img src=\"paste-4bf12cf066085fdb2211cc04f5ceb1ff0f96797c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Ipihy^|i-0",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeichne die Standardnegation<div><img src=\"paste-bece7e8d874eee752d41fac9ecfec154dc550d07.jpg\"><br></div>",
+                "<img src=\"paste-a09c39f083f011fc6ac770b163a55f808c6e75e1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CKPG>utFcU",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "negation"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeichne die Negation zum drastischen Produkt<div><img src=\"paste-3d658834d113e97557fb75f8bd5647d65c9f0dec.jpg\"><br></div>",
+                "<img src=\"paste-dcef1e518a292f0de329280ca2a730cde48d0401.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "D/PIS7wS]d",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": [
+                "negation"
             ]
         }
     ]
