@@ -93,18 +93,20 @@
         "paste-4bf12cf066085fdb2211cc04f5ceb1ff0f96797c.jpg",
         "paste-5a6cfb706167ddef143255c0414acbc5e91633c7.png",
         "paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png",
+        "paste-7bd717ac3af7e0dab2c039445f91bc5e1996a0fa.png",
         "paste-8e8c7a38685619a5c47ac8152c0d728ff75afdb8.png",
         "paste-a09c39f083f011fc6ac770b163a55f808c6e75e1.jpg",
         "paste-a35119009e10a87abc5b6a551f4247c04b0812f3.png",
         "paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png",
         "paste-bece7e8d874eee752d41fac9ecfec154dc550d07.jpg",
+        "paste-c400adad9d6a11c14479b979467f8dc7635c8a8f.png",
         "paste-dcef1e518a292f0de329280ca2a730cde48d0401.jpg",
         "paste-e5da894b000be525bc1d4ae7e28b1392730cfd28.png",
         "paste-eb32f2d8a29aa4a3c7a9cc5d20bc082c581c151c.jpg",
         "paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png",
         "unscharfer_regler.png"
     ],
-    "mid": 1523896690546,
+    "mid": "1593095968576",
     "name": "Unscharfe Mengen",
     "note_models": [
         {
@@ -419,6 +421,90 @@
                     "name": "Card 1",
                     "ord": 0,
                     "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Frage",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Antwort",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Prüfer",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Prüfungnr",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Jahr",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Prüfungsfragen",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Antwort}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Frage}}"
                 }
             ],
             "type": 0,
@@ -1506,7 +1592,7 @@
             "data": "",
             "fields": [
                 "Unscharfe Prädikate",
-                "Unscharfe Mengen \\(\\tilde P\\) lassen sich als unscharfe Prädikate interpretieren. \\(\\mu_{\\tilde P} (u)\\) gibt den Wahrheitsgrad der Aussage \"u is \\(\\tilde P\\)\" an, also den Akzeptansgrad von \\(\\tilde P\\) für \\(u\\)",
+                "Unscharfe Mengen \\(\\tilde P\\) lassen sich als unscharfe Prädikate interpretieren. \\(\\mu_{\\tilde P} (u)\\) gibt den Wahrheitsgrad der Aussage \"\\(u\\) is \\(\\tilde P\\)\" an, also den Akzeptansgrad von \\(\\tilde P\\) für \\(u\\)\"",
                 ""
             ],
             "flags": 0,
@@ -1749,7 +1835,7 @@
             "data": "",
             "fields": [
                 "Iterative Anwendung von t-Normen",
-                "Für eine t-Norm \\(T\\) und \\(n \\in \\mathbb{N}\\) sei \\(T^{(n)}: [0, 1] \\to [0, 1]\\) definiert durch<div>\\[T^{(0)} (x) = 1\\]</div><div>\\[T^{(n + 1)} (x) = T(T^{(n)} (x), x\\]<br></div>",
+                "Für eine t-Norm \\(T\\) und \\(n \\in \\mathbb{N}\\) sei \\(T^{(n)}: [0, 1] \\to [0, 1]\\) definiert durch<div>\\[T^{(0)} (x) = 1\\]</div><div>\\[T^{(n + 1)} (x) = T(T^{(n)} (x), x)\\]<br></div>",
                 ""
             ],
             "flags": 0,
@@ -3977,6 +4063,216 @@
             "tags": [
                 "negation"
             ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Unterschied zwischen einer Wahrscheinlichkeitsdichtefunktion und einer Zugehörigkeitsfunktion",
+                "Eine Wahrscheinlichkeitsdichtefunktion ist eine Funktion die von den reellen Zahlen auf die reellen Zahlen abbildet, nicht-negativ, integrierbar und normiert (ihr Integral über die reellen Zahlen ist 1). Eine (unscharfe) Zugehörigkeitsfunktion hingegen bildet von einem beliebigen Universum auf \\[[0, 1]\\] ab",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "wAABTtiU?/",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie kann man eine unscharfe Menge auf Konvexität prüfen",
+                "Alpha-Schnitt einzeichen -&gt; Nicht zusammenhängend -&gt; Nicht konvex",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "jxN>RYm|%2",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie kann man mit unscharfen Zahlen rechnen",
+                "Mit dem Erweiterungsprinzip kann man die entsprechenden Operatoren erweitern. Wir haben in der Übung Regeln für das Rechnen mit unscharfen Zahlen in der LR-Darstellung aufgestellt. Außerdem kann man eine Lösung mit Abtastung und Alpha-Schnitten approximieren<div><br></div>",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "wZ/xw%=RI?",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Vor- und Nachteile von Approximation durch Abtastung bzw. Alpha-Schnitte",
+                "Alpha Schnitte erhalten Konvexitöt - Abtastung im Allgemeinen nicht<br><br>Alpha-Schnitte sind immer exakt - die Punkte, die mit der Abtastung berechnet werden i.A. approximativ<br><br>Bei Abtastung gibt eine Laufzeitschranke - bei Alpha-Schnitte im Allgemeinen nicht",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "uO~6Qx&G@@",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum gibt es bei Approximation durch Alpha-Schnitte keine Laufzeitschranke?",
+                "Man kann das Problem einen Alpha-Schnitt zu bestimmen auf das Bestimmen von Nullstellen reduzieren. Die Nullstellensuche ist allgemein als unentscheidbar bekannt.",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "FIfMp,Sxg.",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Leiten Sie die natürliche Negation aus dem Tertium Non Datur her",
+                "Tertium Non Datur \\(x \\lor \\bar x = 1\\)<div>Explizit \\(\\bar x = \\land \\{y | x \\lor y = 1\\}\\)</div><div>Konjunktion durch Infimum und Disjunktion durch S-Norm ersetzen</div><div>\\(N_S(x) = \\inf \\{y | S(x, y) = 1 \\}\\)</div>",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "lXX]v6gNdM",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Aussagen sind bei bestimmten T-Normen äquivalent",
+                "<div>Satz 6.8:</div>\\(T\\) stetige, archimedische t-Norm:<div>* \\(T\\) ist nilpotent</div><div>* \\(T\\) besitzt mindestens ein nilpotentes Element</div><div>* \\(T\\) besitzt wenigstens einen Nullteiler</div><div>* \\(T\\) ist nicht strikt</div>",
+                "Dr.-Ing. Pfaff",
+                "11756",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "C5W!tt}C8a",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was verbinden sie mit der Gauß-Verteilung?",
+                "Die Gauß-Verteilung beschreibt Unsicherheit, also die Wahrscheinlichkeit, ob ein Ereignis eintritt oder nicht",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "pVXFgDz)`D",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wo ist der Unterschied zwischen einer Gauß-Verteilung und einer unscharfen Menge?",
+                "Die gesamte Fläche unter der Kurve muss 1 sein",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "NU!KOgQ7j1",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wieso reicht es mit einem Alpha-Schnitt die Nicht-Konvexität zu zeigen?",
+                "Eine unscharfe Größe ist konvex gdw. alle ihre Alpha-Schnitte konvex sind. Hier ex. ein Alpha-Schnitt, der nicht konvex ist, also kann die unscharfe Größe nicht konvex sein",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "EL-n?*U}z|",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erkläre den Konvexitätsbegriff von Mengen graphisch",
+                "<img src=\"paste-7bd717ac3af7e0dab2c039445f91bc5e1996a0fa.png\">",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "QGj>@~t1C!",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erkläre den Konvexitätsbegriff von Funktionen graphisch",
+                "<img src=\"paste-c400adad9d6a11c14479b979467f8dc7635c8a8f.png\">",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "cMK/t3/uzg",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gibt es einen Zusammenhang zwischen dem Konvexitätsbegriff scharfer Mengen und dem einer Funktion?",
+                "Eine Funktion ist konvex gdw. die Menge, die oberhalb des Graphen liegt, konvex ist",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "C-TgH;M,K9",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum haben Minimum und Produktnorm immer die Gödel-Negation als natürliche Negation?",
+                "Satz 7.4<div>Für strikte und idempotente t-normen ist die Gödel-Negation immer die natürliche Negation</div>",
+                "Dr.-Ing. Pfaff",
+                "11890",
+                "2019"
+            ],
+            "flags": 0,
+            "guid": "CU(;y*<.sR",
+            "note_model_uuid": "4413bfd6-b796-11ea-96ee-f0d5bf9cf059",
+            "tags": []
         }
     ]
 }
