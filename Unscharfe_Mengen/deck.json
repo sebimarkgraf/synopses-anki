@@ -24,7 +24,8 @@
                 "bury": false,
                 "delays": [
                     1.0,
-                    10.0
+                    10.0,
+                    60.0
                 ],
                 "initialFactor": 2500,
                 "ints": [
@@ -106,7 +107,7 @@
         "paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png",
         "unscharfer_regler.png"
     ],
-    "mid": "1593095968576",
+    "mid": "1593463293528",
     "name": "Unscharfe Mengen",
     "note_models": [
         {
@@ -398,7 +399,7 @@
             "req": [
                 [
                     0,
-                    "all",
+                    "any",
                     [
                         0
                     ]
@@ -2045,7 +2046,7 @@
             "data": "",
             "fields": [
                 "Hamacher-t-Norm",
-                "Die Hamacher-t-Norm erfüllt (T1)-(T5)<div>Interessante Spezialfälle sind&nbsp;</div><div>\\(a = 0\\)</div><div>\\(a = 1\\) Produktnorm</div><div>\\(a \\to \\infty\\) Drastisches Produkt</div>",
+                "Die Hamacher-t-Norm erfüllt (T1)-(T5)<div><br></div><div>\\[T_a(x, y) = \\frac{xy}{a + (1 - a)(x + y - xy)}, \\quad a \\in [0, \\infty)\\]</div><div><br><div>Interessante Spezialfälle sind&nbsp;</div><div>\\(a = 0\\)</div><div>\\(a = 1\\) Produktnorm</div><div>\\(a \\to \\infty\\) Drastisches Produkt</div></div>",
                 ""
             ],
             "flags": 0,
@@ -2180,7 +2181,7 @@
             "data": "",
             "fields": [
                 "Unscharfe Negation",
-                "Eine Funktion \\(N: [0, 1] \\to [0, 1]\\) heißt unscharfe Negation, wenn sie für \\(x, y \\in [0, 1]\\) folgende Axiome erfüllt<div><br></div><div>(N1) Randbedingungen</div><div>\\[N(0) = 1, N(1) = 0\\]</div><div>(N2) Monotones Fallen</div><div>\\[x \\le y \\Rightarrow N(x) \\ge N(y)\\]</div><div><br></div><div>Optional</div><div>(N3) Stetigkeit</div><div>(N4) Involution</div><div>\\[N(N(x)) = x \\forall x \\in [0, 1]\\]</div>",
+                "Eine Funktion \\(N: [0, 1] \\to [0, 1]\\) heißt unscharfe Negation, wenn sie für \\(x, y \\in [0, 1]\\) folgende Axiome erfüllt<div><br></div><div>(N1) Randbedingungen</div><div>\\[N(0) = 1, N(1) = 0\\]</div><div>(N2) Monotones Fallen</div><div>\\[x \\le y \\Rightarrow N(x) \\ge N(y)\\]</div><div><br></div><div>Optional</div><div>(N3) Stetigkeit</div><div>(N4) Involution</div><div>\\[N(N(x)) = x \\quad \\forall x \\in [0, 1]\\]</div>",
                 ""
             ],
             "flags": 0,
@@ -2196,7 +2197,7 @@
             "data": "",
             "fields": [
                 "Satz 7.1",
-                "Jede involutive Negation \\(N\\) ist auf \\[0, 1\\] stetig, bijektiv und streng monoton fallend.",
+                "Jede involutive Negation \\(N\\) ist auf \\[[0, 1] \\] stetig, bijektiv und streng monoton fallend.",
                 "involutive Negation \\(N\\)",
                 "Eigenschaften der Negation"
             ],
@@ -2342,8 +2343,8 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Negaion Drastisches Produkt",
-                "Die Negation mit dem drastischen Produkt erüfllt nicht das Kontradiktionsprinzip<div>\\[T_D(x, N_{T_D} (x)) \\not = 0\\]</div>",
+                "Negation Drastisches Produkt",
+                "Die Negation mit dem drastischen Produkt erfüllt nicht das Kontradiktionsprinzip<div>\\[T_D(x, N_{T_D} (x)) \\not = 0\\]</div>",
                 ""
             ],
             "flags": 0,
@@ -2558,7 +2559,7 @@
             "data": "",
             "fields": [
                 "Probabilistische Summe",
-                "Zu der t-Norm \\(T_P(x, y) = x \\cdot y\\) bezgülich der Standardnegation \\(N(x) = 1 - x\\) ist die duale s-Norm durch die probabilistische Summe<div>\\[S_P(x, y) = x + y - x \\cdot y\\]</div><div>gegeben.</div><div>\\(S_P\\) ist archimedisch und strikt, da \\(T_P\\) archimedisch und strikt</div>",
+                "Zu der t-Norm \\(T_P(x, y) = x \\cdot y\\) bezüglich der Standardnegation \\(N(x) = 1 - x\\) ist die duale s-Norm durch die probabilistische Summe<div>\\[S_P(x, y) = x + y - x \\cdot y\\]</div><div>gegeben.</div><div>\\(S_P\\) ist archimedisch und strikt, da \\(T_P\\) archimedisch und strikt</div>",
                 ""
             ],
             "flags": 0,
@@ -2574,7 +2575,7 @@
             "data": "",
             "fields": [
                 "Lukasiewicz'sche s-Norm",
-                "Zu \\(T_L(x, y) = \\max(x + y - 1, 0\\) und der natürlichen Negation \\(N_{T_L} (x) = 1 - x\\) ist mit<div>\\[S_L(x, y) = \\min (x + y, 1)\\]</div><div>die natürliche duale s-Norm gegeben.</div><div>\\(S_L\\) ist archmedisch und nilptotent.<br>Das Kontradiktionsprinzip und tertium non datur sind erfüllt.</div>",
+                "Zu \\(T_L(x, y) = \\max(x + y - 1, 0)\\) und der natürlichen Negation \\(N_{T_L} (x) = 1 - x\\) ist mit<div>\\[S_L(x, y) = \\min (x + y, 1)\\]</div><div>die natürliche duale s-Norm gegeben.</div><div>\\(S_L\\) ist archmedisch und nilptotent.<br>Das Kontradiktionsprinzip und tertium non datur sind erfüllt.</div>",
                 ""
             ],
             "flags": 0,
@@ -2641,7 +2642,7 @@
             "data": "",
             "fields": [
                 "Unscharfe (axiomatische) Implikation",
-                "Eine unscharfe (axiomatische) Implikation ist eine Funktion \\(I: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:<div><br></div><div>(I1) Randbedingungen</div><div>\\[I(0, x) = 1\\]</div><div>\\[I(1, x) = x\\]</div><div>\\[I(x, 1) = 1\\]<br></div><div><br></div><div>(I2) Monotonie</div><div>\\[x \\le y \\Rightarrow I(x, u) \\ge I(y, z) \\land I(z, x) \\le I(z,y)\\]</div><div><br></div><div>(I3) Umkehrschluss</div><div>\\[I(x, y) = I(I(y, 0), I(x, 0))\\]</div><div><br></div><div>(I4) Prämissenvertauschung</div><div>\\[I(x, I(y, z)) = I(y, I(x, z))\\]</div><div><br></div><div>Optional</div><div>(I5) Stetigkeit</div><div>(I6) Selbstimplikation</div><div>\\[I(x, x) = 1\\]</div>",
+                "Eine unscharfe (axiomatische) Implikation ist eine Funktion \\(I: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:<div><br></div><div>(I1) Randbedingungen</div><div>\\[I(0, x) = 1\\]</div><div>\\[I(1, x) = x\\]</div><div>\\[I(x, 1) = 1\\]<br></div><div><br></div><div>(I2) Monotonie</div><div>\\[x \\le y \\Rightarrow I(x, z) \\ge I(y, z) \\land I(z, x) \\le I(z,y)\\]</div><div><br></div><div>(I3) Umkehrschluss</div><div>\\[I(x, y) = I(I(y, 0), I(x, 0))\\]</div><div><br></div><div>(I4) Prämissenvertauschung</div><div>\\[I(x, I(y, z)) = I(y, I(x, z))\\]</div><div><br></div><div>Optional</div><div>(I5) Stetigkeit</div><div>(I6) Selbstimplikation</div><div>\\[I(x, x) = 1\\]</div>",
                 ""
             ],
             "flags": 0,
@@ -2865,7 +2866,7 @@
             "fields": [
                 "Satz 9.2",
                 "Für eine nilpotente t-Norm \\(T\\), ihre natürliche Negation \\(N_T\\) und die natürliche duale s-Norm \\(S\\) gilt:<div>\\[I^R(x, y) = I^S(x, y)\\]</div>",
-                "nilpotente t-Norm \\(T\\)<div>natürliche Negation \\(N_T\\)</div><div>natürliche duale s-Norm \\(S)</div>",
+                "nilpotente t-Norm \\(T\\)<div>natürliche Negation \\(N_T\\)</div><div>natürliche duale s-Norm \\(S\\)</div>",
                 "\\(I^R\\), \\(I^S\\)"
             ],
             "flags": 0,
