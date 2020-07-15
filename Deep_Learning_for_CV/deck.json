@@ -2,12 +2,12 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "b4932900-c389-11ea-b4ba-4ccc6a605f05",
-    "deck_config_uuid": "b4933238-c389-11ea-b4ba-4ccc6a605f05",
+    "deck_config_uuid": "785a3ef0-c664-11ea-b2ca-4ccc6a605f05",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "b4933238-c389-11ea-b4ba-4ccc6a605f05",
+            "crowdanki_uuid": "785a3ef0-c664-11ea-b2ca-4ccc6a605f05",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -57,6 +57,7 @@
     "media_files": [
         "paste-0cdce6d5dd97706da258a7271a2e0c6653b118a4.jpg",
         "paste-11c18a27bc1fabb337d6fc55b37da0ed6e81c205.jpg",
+        "paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg",
         "paste-17cfcf185593f16eaed63461d39f4e0f58523d3c.jpg",
         "paste-20fa823acb82dae77d01e3cc3dd4fb1e6ec921af.jpg",
         "paste-251234abd5b4837088489bfa13def3e621b795db.jpg",
@@ -774,7 +775,7 @@
             "data": "",
             "fields": [
                 "{{c1::<b>Recall</b>}} is the ratio of {{c2::relevant items retrieved}}&nbsp;to {{c2::relevant items in a collection}}",
-                "<img src=\"paste-989e7638b86cb849f9830860bddb86efb870f4cd.jpg\">"
+                "<img src=\"paste-989e7638b86cb849f9830860bddb86efb870f4cd.jpg\"><div><img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\"><br></div>"
             ],
             "flags": 0,
             "guid": "DiAS?j:z+*",
@@ -786,7 +787,7 @@
             "data": "",
             "fields": [
                 "{{c1::<b>Precision</b>}} is the ratio of {{c2::relevant items retrieved}} to {{c2::total items retrieved}}",
-                "<img src=\"paste-2f4bc43cfe5695dd0772a69a3aebd6403109ed6e.jpg\">"
+                "<img src=\"paste-2f4bc43cfe5695dd0772a69a3aebd6403109ed6e.jpg\"><div><img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\"><br></div>"
             ],
             "flags": 0,
             "guid": "I&31wcDnT2",
@@ -798,7 +799,7 @@
             "data": "",
             "fields": [
                 "The {{c1::<b>\\(F\\) or \\(F_1\\) Measure</b>}} can be calculated as:<div><br></div><div>\\[F = \\frac{2 \\cdot precision \\cdot recall}{(precision + recall)}\\]</div>",
-                ""
+                "<img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\">"
             ],
             "flags": 0,
             "guid": "GjCO@QA$vK",
@@ -893,7 +894,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<b><u>Simple Clustering Approaches: {{c1::Divisive Clustering}}</u></b><div>1. {{c2::Constract a single cluster using all points}}</div><div>2. {{c2::Split clusters with largest inter-cluster distance until clustering is satisfactory}}</div>",
+                "<b><u>Simple Clustering Approaches: {{c1::Divisive Clustering}}</u></b><div>1. {{c2::Construct a single cluster using all points}}</div><div>2. {{c2::Split clusters with largest inter-cluster distance until clustering is satisfactory}}</div>",
                 ""
             ],
             "flags": 0,
