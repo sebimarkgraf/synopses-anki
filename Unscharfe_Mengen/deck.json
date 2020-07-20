@@ -55,17 +55,6 @@
     "extendNew": 10,
     "extendRev": 50,
     "media_files": [
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-1-A.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-1-Q.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-2-A.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-2-Q.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-3-A.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-3-Q.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-4-A.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-4-Q.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-5-A.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-5-Q.svg",
-        "c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg",
         "eb6d49b202bb497289db445f534b8eb0-oa-1-A.svg",
         "eb6d49b202bb497289db445f534b8eb0-oa-1-Q.svg",
         "eb6d49b202bb497289db445f534b8eb0-oa-10-A.svg",
@@ -99,24 +88,52 @@
         "f6a9ae3466534fdf916a61f66c7554c0-oa-4-Q.svg",
         "f6a9ae3466534fdf916a61f66c7554c0-oa-O.svg",
         "fuzzy_mengen.png",
+        "paste-00070756a29e8ec135560e71da7cbd4087800e6b.png",
+        "paste-022b84f02f0da64db40a61eeb5f005ebc6fd52e6.png",
+        "paste-049187468bffe3724ff364da7759dd0bf0ac65a4.png",
+        "paste-0b4ff4f93e27959a984d08295eb9c675f8f4f6db.png",
+        "paste-12a2fe95d441d70cc25f0623feaa7b2de118ad00.png",
+        "paste-1cbbeae684c3e36d626b59dd75676c6bcb9137cf.png",
         "paste-23e7cd2803a0ca626bdf3a35de9e9af6cdcd151a.png",
+        "paste-24441d1e8b0e59e6ec6e62fae2624102bb91f5fe.png",
+        "paste-2f337cd778ce453a2dffbb70f81c3774ee57cd40.png",
+        "paste-33e17d38d6a85e88fad85f2b0bacc37120a88028.png",
         "paste-3d658834d113e97557fb75f8bd5647d65c9f0dec.jpg",
+        "paste-3dfba0e8b9bb5a2b88976d1ee9c31a1a1c958542.png",
+        "paste-456511a480bd77e61fe018c0a4cc4a09c54f1850.png",
+        "paste-4820b8e216471a65e23d62eb676917a33f069630.png",
         "paste-4bf12cf066085fdb2211cc04f5ceb1ff0f96797c.jpg",
         "paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png",
         "paste-7bd717ac3af7e0dab2c039445f91bc5e1996a0fa.png",
+        "paste-7e72b6d1c8ed47be5dd540df00816f1da55b92cf.png",
+        "paste-7eb8f2ad834f1ba23ee09a10408df6a3b5eb59a5.png",
+        "paste-82b044f7e1abf44c86233a08df9f726d170e9394.png",
+        "paste-8dcdecd6f39d0132c25ec5986d7fa4d278424b1b.png",
         "paste-8e8c7a38685619a5c47ac8152c0d728ff75afdb8.png",
+        "paste-8ea8a03f6bd9f606a3a591bfec55ded848de4ed0.png",
         "paste-92fe29d32702ce140b3ca822c1fd920733735de7.png",
+        "paste-9330f5887e13cb29fbd804e8f6498e126e55ac4a.png",
+        "paste-9416d63a6898657a49a4d7dc10c516190dc83791.png",
+        "paste-96bd21e234b8410d14e51977fc16f6be7e33b8dc.png",
         "paste-980f1f873393b20918a0b978bd7ecadc4edc9f56.png",
+        "paste-9e6ac1da0735415b05e1669a709470b66d3a3cc1.png",
+        "paste-9f0d3d56ea5fbc1cb3ee21bc5459181ed870f98d.png",
         "paste-a09c39f083f011fc6ac770b163a55f808c6e75e1.jpg",
         "paste-a35119009e10a87abc5b6a551f4247c04b0812f3.png",
         "paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png",
         "paste-bece7e8d874eee752d41fac9ecfec154dc550d07.jpg",
         "paste-c400adad9d6a11c14479b979467f8dc7635c8a8f.png",
+        "paste-d670bb837d446d1b872d0e87d00faae1d6b709cd.png",
+        "paste-d96324425e6f47d644d61f32056f0c3ae53ed782.png",
         "paste-dcef1e518a292f0de329280ca2a730cde48d0401.jpg",
         "paste-e5da894b000be525bc1d4ae7e28b1392730cfd28.png",
         "paste-eb32f2d8a29aa4a3c7a9cc5d20bc082c581c151c.jpg",
+        "paste-ebc2014a2561496a7d21906b15b816776a2aa56b.png",
+        "paste-ed8d4ed6bf7261915224221113552be937658211.png",
         "paste-eed2822ffc2bba452536fb1fc4ceee609f7150f5.png",
-        "tmpoif1tql0.png",
+        "paste-f43efafb731918ef52bbd00d494b8e6dc01c8ef2.png",
+        "paste-f70a7c807e5225f5e935e18693cf3c4a807a1b69.png",
+        "paste-f762cf63b334d7e6e40da60e9f16b218146f8481.png",
         "unscharfer_regler.png"
     ],
     "mid": 1523896690542,
@@ -534,6 +551,75 @@
             ],
             "type": 0,
             "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}\n\na {\n  text-decoration: none;\n}\n\n.links {\n display: flex;\n justify-content: center;\n margin-top: 10px;\n}",
+            "flds": [
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Aufgabe",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Lösung",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Liberation Sans",
+                    "media": [],
+                    "name": "Video",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Quiz",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [
+                "",
+                "quiz",
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{Aufgabe}}\n<hr>\n{{cloze:Lösung}}\n\n\n<div class=\"links\">\n<a href=\"{{text:Video}}\" class=\"button\">Video</a>\n</div>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{Aufgabe}}\n<hr>\n{{cloze:Lösung}}\n"
+                }
+            ],
+            "type": 1,
+            "vers": []
         }
     ],
     "notes": [
@@ -663,7 +749,7 @@
             "fields": [
                 "Unscharfe Menge Typ K",
                 "Unscharfen Menge von höherem Typen bildern anstatt auf eine feste Zugehörigkeit wieder auf eine Unscharfe Menge ab.<br>Dabei sind Typ 1 die bekannten Unscharfen Mengen.<br>Eine Auflösung erfolgt rekursiv.",
-                "Für \\(k=1\\): \\(\\mu_{\\tilde A}: U \\to [0,1]\\)<br><br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)<br>Teilmenge der Menge aller unscharfen Mengen von Typ \\(k-1\\)"
+                "Für \\(k=1\\): \\(\\mu_{\\tilde A}: U \\to [0,1]\\)<br>Für \\(k &gt; 1\\): \\(\\mu_{\\tilde A}: U \\to L\\)<br>Teilmenge der Menge aller unscharfen Mengen von Typ \\(k-1\\)"
             ],
             "flags": 0,
             "guid": "AV`!jSi,rC",
@@ -1644,13 +1730,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "t-Norm",
-                "Eine t-Norm (Dreiecksnorm) ist eine binäre Operationen auf \\([0, 1]\\), also eine Funktion \\(T: [0,1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:",
-                "(T1) Kommutativität<div>(T2) Assoziaitivität</div><div>(T3) Monotonie</div><div>(T4) Einselement</div><div><br>Optionale Eigenschaften</div><div>(T5) Stetigkeit auf \\([0, 1]^2\\)</div><div>(T6) Idempotenz</div>"
+                "Eine<b> t-Norm (Dreiecksnorm)</b> ist eine binäre Operationen auf \\([0, 1]\\), also eine Funktion \\(T: [0,1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:<div><br></div><div>(T1) {{c1::Kommutativität}}<div>(T2) {{c2::Assoziaitivität}}</div><div>(T3) {{c3::Monotonie}}</div><div>(T4) {{c4::Einselement}}</div><div><br>Optionale Eigenschaften</div><div>(T5) {{c5::<b>Stetigkeit</b> auf \\([0, 1]^2\\)}}</div><div>(T6) {{c5::Idempotenz}}</div></div>",
+                ""
             ],
             "flags": 0,
             "guid": "i|G{G!?rmu",
-            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
             "tags": [
                 "kapitel6",
                 "normen"
@@ -2064,8 +2149,8 @@
             "data": "",
             "fields": [
                 "Hamacher-t-Norm",
-                "Die Hamacher-t-Norm erfüllt (T1)-(T5)<div><br></div><div>\\[T_a(x, y) = \\frac{xy}{a + (1 - a)(x + y - xy)}, \\quad a \\in [0, \\infty)\\]</div><div><br><div>Interessante Spezialfälle sind&nbsp;</div><div>\\(a = 0\\)</div><div>\\(a = 1\\) Produktnorm</div><div>\\(a \\to \\infty\\) Drastisches Produkt</div></div>",
-                ""
+                "Die <b>Hamacher-t-Norm</b> erfüllt (T1)-(T5)<div><br></div><div>\\[T_a(x, y) = \\frac{xy}{a + (1 - a)(x + y - xy)}, \\quad a \\in [0, \\infty)\\]</div><div><br><div>Interessante Spezialfälle sind&nbsp;</div><div>\\(a = 0\\)</div><div>\\(a = 1\\) Produktnorm</div><div>\\(a \\to \\infty\\) Drastisches Produkt</div></div>",
+                "<img src=\"paste-2f337cd778ce453a2dffbb70f81c3774ee57cd40.png\">"
             ],
             "flags": 0,
             "guid": "iJ)Yxt+PYS",
@@ -2081,7 +2166,7 @@
             "fields": [
                 "Yager-t-Norm",
                 "Die Yager-t-Norm ist durch<div>\\[T_a(x, y) = 1 - \\min \\left(1, ((1 - x)^a + (1 - y)^a)^{1 / a}\\right),\\ a \\in (0, \\infty)\\]</div><div>gegeben.</div><div><br></div><div>Spezialfälle</div><div>\\(a \\to 0\\) Drastisches Produkt</div><div>\\(a = 1\\) Lukasiewz'sche Norm</div><div>\\(a \\to \\infty\\) Minimumsnorm</div>",
-                ""
+                "<img src=\"paste-d96324425e6f47d644d61f32056f0c3ae53ed782.png\">"
             ],
             "flags": 0,
             "guid": "bWb5FM?jZ5",
@@ -2279,7 +2364,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<div>Die (gemäß Kontradiktionsprinzip) {{c1::natürliche Negation}}&nbsp;\\(N_T\\) zu einer t-Norm \\(T\\) ist definiert durch<div>\\[N_T (x) = {{c2::\\sup \\{y: T(x, y) = 0\\}}}\\]</div></div>",
+                "<div>Die (gemäß Kontradiktionsprinzip) {{c1::natürliche Negation}} \\(N_T\\) zu einer t-Norm \\(T\\) ist definiert durch<div>\\[N_T (x) = {{c2::\\sup \\{y: T(x, y) = 0\\} }}\\]</div></div>",
                 ""
             ],
             "flags": 0,
@@ -2440,7 +2525,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "<u><b>s-Norm</b></u><div>Die unscharfen Disjunktionen werden als <b>s-Normen</b> bezeichnet.<div>Eine <b>s-Norm</b> (t-Conorm, Co-t-Norm) ist eine Funktion \\(S: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:</div><div>(S1) {{c1::Kommutativität}}</div><div>(S2) {{c1::Assoziaitivtät}}</div><div>(S3) {{c1::Monotonie}}</div><div>(S4) {{c1::Nullelement}}</div><div><br></div><div>Optional</div><div>(S5) {{c2::Stetigkeit}}</div><div>(S6) {{c2::Idempotenz}}</div></div>",
+                "<u><b>s-Norm</b></u><div>Die unscharfen Disjunktionen werden als <b>s-Normen</b> bezeichnet.<div>Eine <b>s-Norm</b> (t-Conorm, Co-t-Norm) ist eine Funktion \\(S: [0, 1]^2 \\to [0, 1]\\), die für \\(x, y, z \\in [0, 1]\\) folgende Axiome erfüllt:</div><div>(S1) {{c1::Kommutativität}}</div><div>(S2) {{c2::Assoziativtät}}</div><div>(S3) {{c3::Monotonie}}</div><div>(S4) {{c4::Nullelement}}</div><div><br></div><div>Optional</div><div>(S5) {{c5::Stetigkeit}}</div><div>(S6) {{c5::Idempotenz}}</div></div>",
                 ""
             ],
             "flags": 0,
@@ -2537,13 +2622,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Natürliche Dualität",
-                "Ist eine s-Norm \\(S\\) zu einer t-Norm \\(T\\) bezüglich deren natürlicher Negation \\(N_T\\) dual, so heißt sie natürlich dual zu \\(T\\)",
+                "<div>Ist eine s-Norm \\(S\\) zu einer t-Norm \\(T\\) bezüglich deren {{c2::natürlicher Negation \\(N_T\\) dual}}, so heißt sie {{c1::natürlich dual zu \\(T\\)}}<br></div>",
                 ""
             ],
             "flags": 0,
             "guid": "wA-:,Q9__-",
-            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
             "tags": [
                 "disjunktion",
                 "kapitel8",
@@ -2941,7 +3025,7 @@
             "data": "",
             "fields": [
                 "Projektion",
-                "Zu einer unscharfen Relation \\(\\tilde R \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_n)\\) ist für \\(k \\le n (k \\in \\mathbb{N})\\) die Projektion \\(\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_k)\\) durch<div><br></div><div>\\[\\mu_{\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k} (u_1, \\ldots, u_k) = \\sup_{(u_{k + 1}, \\ldots, u_n) \\in U_{k+1} \\times \\cdots \\times U_n} \\{ \\mu_{\\tilde R}(u_1, \\ldots,u_n)\\}\\]</div><div><br></div><div>gegeben</div>",
+                "Zu einer unscharfen Relation \\(\\tilde R \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_n)\\) ist für \\(k \\le n (k \\in \\mathbb{N})\\) die <b>Projektion</b> \\(\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k \\in \\mathbb{F}(U_1 \\times \\cdots \\times U_k)\\) durch<div><br></div><div>\\[\\mu_{\\tilde R \\downarrow U_1 \\times \\cdots \\times U_k} (u_1, \\ldots, u_k) = \\sup_{(u_{k + 1}, \\ldots, u_n) \\in U_{k+1} \\times \\cdots \\times U_n} \\{ \\mu_{\\tilde R}(u_1, \\ldots,u_n)\\}\\]</div><div><br></div><div>gegeben</div>",
                 "<img src=\"paste-6d0be7b554e445e1cfe6621b551acd3bce5dc03a.png\">"
             ],
             "flags": 0,
@@ -3342,7 +3426,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Sei \\(x \\in U\\) und sei zusätzlich ein linguistisches Prädikat \"\\(x\\) is \\(\\tilde A\\)\" gegeben.<div>Dann heißt \\(x\\) {{c1::linguistisches Variable}}&nbsp;auf \\(U\\).&nbsp;</div>",
+                "Sei \\(x \\in U\\) und sei zusätzlich ein linguistisches Prädikat \"\\(x\\) is \\(\\tilde A\\)\" gegeben.<div>Dann heißt \\(x\\) {{c1::linguistische Variable}}&nbsp;auf \\(U\\).&nbsp;</div>",
                 "<div>Eine linguistische Variable repräsentiert damit eine unscharfe Beobachtung<br></div>"
             ],
             "flags": 0,
@@ -3499,7 +3583,7 @@
             "data": "",
             "fields": [
                 "Freiheitsgrade beim approximativen Schließen",
-                "<ul>\n<li>Wahl der Implikationsrelation \\(\\tilde Q\\)</li>\n<li>Wahl des Inferenzmechanismus \\(\\circ\\)</li>\n<li>Die Frage nach globaler oder lokaler Regelandwendung</li>\n<li>Auswahl des Aggregationsmechanismus</li>\n<li>Wahl des Normentripels</li>\n</ul>"
+                "<ul style=\"text-align: left\" ><br><li>Wahl der Implikationsrelation \\(\\tilde Q\\)</li><br><li>Wahl des Inferenzmechanismus \\(\\circ\\)</li><br><li>Die Frage nach globaler oder lokaler Regelandwendung</li><br><li>Auswahl des Aggregationsmechanismus</li><br><li>Wahl des Normentripels</li><br></ul>"
             ],
             "flags": 0,
             "guid": "L8fz;xZ>>j",
@@ -3824,13 +3908,12 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Unscharfer Regler",
-                "Der Unscharfe Regler enthält die Regelung in Form einer unscharfen Regelbasis.<br>Deshalb benötigt er eine Fuzzifizierung und Defuzzifizierung.",
+                "Der {{c1::Unscharfe Regler}}&nbsp;enthält die Regelung in Form {{c2::einer unscharfen Regelbasis.}}<br>Deshalb benötigt er eine {{c3::Fuzzifizierung}} und {{c3::Defuzzifizierung}}.",
                 "<img src=\"paste-aa55af4c2f1a27455a49280d108a96cb7b538d15.png\">"
             ],
             "flags": 0,
             "guid": "snKca7UEu$",
-            "note_model_uuid": "ae1acdf0-8552-11ea-95a2-4494fca6223c",
+            "note_model_uuid": "5d4fbd2c-b234-11ea-8783-f0d5bf9cf059",
             "tags": [
                 "kapitel16",
                 "schließen",
@@ -4272,115 +4355,1275 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "c4ae4c295de24035a03d8385d8b8ba0c-oa-1",
-                "Speech Production",
-                "<img src=\"tmpoif1tql0.png\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-1-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-1-A.svg\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg\" />"
+                "Wie lautet die Potenzmenge \\(\\mathbb{P}(U)\\) für \\(U= \\{a, b, c\\}\\)",
+                "\\[\\mathbb{P}(U) = {{c1::\\{\\emptyset, \\{a\\}, \\{b\\}, \\{c\\}, \\{a, b\\}, \\{a, c\\},\\{b, c\\}, \\{a, b, c\\}\\} }}\\]",
+                "<a href=\"https://youtu.be/PK4IaTgyA7s?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=33\">https://youtu.be/PK4IaTgyA7s?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=33</a>"
             ],
             "flags": 0,
-            "guid": "v-dv+?9#ZA",
-            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "guid": "Cz*+zJ?=OM",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
             "tags": [
-                "speech"
+                "quiz"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "c4ae4c295de24035a03d8385d8b8ba0c-oa-2",
-                "Speech Production",
-                "<img src=\"tmpoif1tql0.png\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-2-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-2-A.svg\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg\" />"
+                "Wie viele Elemente hat die Potenzmenge <br>\\(\\mathbb{P}(U)\\) für \\(U = \\{a, b, c\\}\\) ",
+                "Sie hat {{c1::\\(2^n = 2^3 = 8\\)}} Elemente.",
+                "<a href=\"https://youtu.be/PK4IaTgyA7s?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=117\">https://youtu.be/PK4IaTgyA7s?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=117</a>"
             ],
             "flags": 0,
-            "guid": "B=wqNV6;f.",
-            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "guid": "COTw.Z<{DY",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
             "tags": [
-                "speech"
+                "quiz"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "c4ae4c295de24035a03d8385d8b8ba0c-oa-3",
-                "Speech Production",
-                "<img src=\"tmpoif1tql0.png\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-3-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-3-A.svg\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg\" />"
+                "Wie viele Elemente hätte die Potenzmenge bei einer dreiwertigen Logik bei einem Universum mit \\(n\\) Elementen",
+                "Sie hätte {{c1::\\(3^n\\)}} Elemente",
+                "<a href=\"https://youtu.be/ESdg-70WzXY?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=32\">https://youtu.be/ESdg-70WzXY?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=32</a>"
             ],
             "flags": 0,
-            "guid": "Nwv(*{Uc~:",
-            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "guid": "n6uJ<FdJGM",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
             "tags": [
-                "speech"
+                "quiz"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "c4ae4c295de24035a03d8385d8b8ba0c-oa-4",
-                "Speech Production",
-                "<img src=\"tmpoif1tql0.png\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-4-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-4-A.svg\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg\" />"
+                "Welche Menge wird beschrieben durch \\(\\tilde A_0\\)",
+                "{{c1::Das gesamte Universum \\(U\\)}}<br>",
+                "<a href=\"https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=69\">https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=69</a>"
             ],
             "flags": 0,
-            "guid": "m@C_}T4&3b",
-            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "guid": "ciUZ(kU)<~",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
             "tags": [
-                "speech"
+                "quiz"
             ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "c4ae4c295de24035a03d8385d8b8ba0c-oa-5",
-                "Speech Production",
-                "<img src=\"tmpoif1tql0.png\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-5-Q.svg\" />",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-5-A.svg\" />",
-                "<img src=\"c4ae4c295de24035a03d8385d8b8ba0c-oa-O.svg\" />"
+                "Welche Menge wird beschrieben durch \\(\\tilde A_{\\bar 1}\\)?",
+                "Unabhängig von \\(\\tilde A\\) ist dies {{c1::die leere Menge \\(\\emptyset\\)}}<br>",
+                "<a href=\"https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=134\">https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=134</a>"
             ],
             "flags": 0,
-            "guid": "x*J3Me|E&u",
-            "note_model_uuid": "5d473e5e-b234-11ea-8783-f0d5bf9cf059",
+            "guid": "P[vy_v<Q{r",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
             "tags": [
-                "speech"
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die Menge \\(\\tilde A_{\\bar 0}\\) ist die ... der Funktion \\(\\mu_{\\tilde A}\\)",
+                "Die Menge \\(\\tilde A_{\\bar 0}\\) ist die&nbsp;{{c1::Trägermenge}} der Funktion \\(\\mu_{\\tilde A}\\)",
+                "<a href=\"https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=190\">https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=190</a>"
+            ],
+            "flags": 0,
+            "guid": "O$SO26LWC2",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum gilt für \\(\\tilde A \\in \\mathbb{F}(U)\\) und \\(\\alpha_1, \\alpha_2 \\in [0, 1]\\)&nbsp;<div>\\[\\alpha_1 \\ge \\alpha_2 \\Rightarrow \\tilde A_{\\alpha_1} \\subseteq \\tilde A_{\\alpha_2}\\]</div>",
+                "\\[\\forall x \\in \\tilde A_{\\alpha_1} \\text{ gilt } {{c1::\\mu_{\\tilde A}(x) \\ge \\alpha_1 \\ge \\alpha_2 \\Rightarrow x \\in \\tilde A_{\\alpha_2} }}\\]",
+                "<a href=\"https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=199\">https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=199</a>"
+            ],
+            "flags": 0,
+            "guid": "C6RIFSp|U",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Für eine surjektive Zugehörigkeitsfunktion gilt \\(\\alpha_1 \\ge \\alpha_2 \\Leftrightarrow \\tilde A_{\\alpha_1} \\subseteq \\tilde A_{\\alpha 2}\\)",
+                "<div>\\(\\Rightarrow\\)</div>\\[\\forall x \\in \\tilde A_{\\alpha_1} \\text{ gilt } \\mu_{\\tilde A}(x) \\ge \\alpha_1 \\ge \\alpha_2 \\Rightarrow x \\in \\tilde A_{\\alpha_2}\\]<div><br><div>\\(\\Leftarrow\\)</div><div>Zeige Kontrapunkt<br>{{c1::\\(\\alpha_1 &lt; \\alpha_2 \\overset{surjektiv}{\\Rightarrow}\\exists x: \\mu_{\\tilde A}(x) = \\alpha_1 &lt; \\alpha_2 \\Rightarrow \\tilde A_{\\alpha_1} \\not \\subseteq \\tilde A_{\\alpha_2}\\)}}</div></div>",
+                "<a href=\"https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=390\">https://youtu.be/-fV89eE62GE?list=PLC4EN0QuF7u3qCoXN4GjHxLh_naallEpI&amp;t=390</a>"
+            ],
+            "flags": 0,
+            "guid": "iS5<9pTU.",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche dieser Mengen ist konvex?<div><img src=\"paste-9416d63a6898657a49a4d7dc10c516190dc83791.png\"><br></div>",
+                "{{c1::<img src=\"paste-ed8d4ed6bf7261915224221113552be937658211.png\">}}",
+                "<a href=\"https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=109\">https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=109</a>"
+            ],
+            "flags": 0,
+            "guid": "Ae)>UY@lW",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sind folgende Funktionen konvex?<div><img src=\"paste-ebc2014a2561496a7d21906b15b816776a2aa56b.png\"><br></div>",
+                "{{c1::<img src=\"paste-9330f5887e13cb29fbd804e8f6498e126e55ac4a.png\">}}",
+                "<a href=\"https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=191\">https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=191</a>"
+            ],
+            "flags": 0,
+            "guid": "c5B]hF,+0)",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lässt sich die Bedingung für die Konvexität von Funktionen als Formel schreiben?",
+                "\\[\\forall x, y \\in \\mathbb{R}: {{c1::f(\\lambda x + (1 - \\lambda)y) \\le \\lambda f(x) + (1 - \\lambda)f(y)}}\\]",
+                "<a href=\"https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=235\">https://youtu.be/C1xN4KpySn0?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=235</a>"
+            ],
+            "flags": 0,
+            "guid": "F,a,LUJF>)",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sind folgende UM konvex?<br><img src=\"paste-1cbbeae684c3e36d626b59dd75676c6bcb9137cf.png\"><br>",
+                "{{c1::<img src=\"paste-3dfba0e8b9bb5a2b88976d1ee9c31a1a1c958542.png\">}}",
+                "<a href=\"https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=33\">https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=33</a>"
+            ],
+            "flags": 0,
+            "guid": "O,J#$$v)0o",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sind die Zugehörigkeitsfunktionen konvexer UM konvex, konkav oder keines von beidem?",
+                "Sie sind {{c1::keins von beidem (aber: quasikonkav)}}",
+                "<a href=\"https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=154\">https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=154</a>"
+            ],
+            "flags": 0,
+            "guid": "p%`&w*IcGh",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Die \\(\\alpha\\)-Schnitte besitzen eine besondere Eigenschaft, welche?",
+                "Alle \\(\\alpha\\)-Schnitte sind {{c1::konvexe Mengen}}",
+                "<a href=\"https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=219\">https://youtu.be/lpo6Wl3ZTZM?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=219</a>"
+            ],
+            "flags": 0,
+            "guid": "B_aKob0vX1",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was lässt sich über die Monotonie der Zugehörigkeitsfunktion einer unscharfen Zahl sagen?",
+                "Die Zugehörigkeitsfunktion ist {{c1::bis zum Kern monoton steigend, ab dem Kern monoton fallend}}",
+                "<a href=\"https://youtu.be/LL-xSST4biU?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=106\">https://youtu.be/LL-xSST4biU?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=106</a>"
+            ],
+            "flags": 0,
+            "guid": "wI4:8QAbT$",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gibt es unscharfe Zahlen, die weder positiv noch negativ sind?",
+                "{{c1::Ja<div><br></div><div><img src=\"paste-12a2fe95d441d70cc25f0623feaa7b2de118ad00.png\">}}<div><br></div></div>",
+                "<a href=\"https://youtu.be/D9mWh4mAgzA?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=62\">https://youtu.be/D9mWh4mAgzA?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=62</a>"
+            ],
+            "flags": 0,
+            "guid": "M`-2M<?mLI",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ist die UM \\(\\tilde A\\) mit \\(\\mu_{\\tilde A} (x) = \\begin{cases}1 &amp;, x = a\\\\0 &amp;, \\text{ sonst}\\end{cases}\\) eine unscharfe Zahl?",
+                "{{c1::Ja}}, man nennt eine solche Zahl {{c1::scharfes Singleton}}",
+                "<a href=\"https://youtu.be/gVXRjkfG4YE?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=25\">https://youtu.be/gVXRjkfG4YE?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=25</a>"
+            ],
+            "flags": 0,
+            "guid": "vuS%*L+7tk",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ist die UM \\(\\tilde A\\) mit \\(\\mu_{\\tilde A} (x) = \\begin{cases}c &amp;, x = a\\\\0 &amp;, \\text{ sonst}\\end{cases}\\) eine unscharfe Zahl?",
+                "{{c1::Nein}}, es ist {{c1::keine unscharfe Zahl, da der Kern leer ist}}",
+                "<a href=\"https://youtu.be/gVXRjkfG4YE?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=59\">https://youtu.be/gVXRjkfG4YE?list=PLC4EN0QuF7u1tydbm_x7Nf5p9M4JDFDP6&amp;t=59</a>"
+            ],
+            "flags": 0,
+            "guid": "cxia;u`&uX",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften gelten für die illustrierte Funktion?<div><img src=\"paste-00070756a29e8ec135560e71da7cbd4087800e6b.png\"><br></div>",
+                "Die Funktion ist {{c1::injektiv, aber nicht surjektiv}}",
+                "<a href=\"https://youtu.be/ScqrNBAh_nk?list=PLC4EN0QuF7u2AWUO4joXbez42PQbR-_-O&amp;t=229\">https://youtu.be/ScqrNBAh_nk?list=PLC4EN0QuF7u2AWUO4joXbez42PQbR-_-O&amp;t=229</a>"
+            ],
+            "flags": 0,
+            "guid": "n$*VY<i-(7",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum reicht das Maximum beim Erweiterungsprinzip für scharfe Potenzmengen?<div><img src=\"paste-9e6ac1da0735415b05e1669a709470b66d3a3cc1.png\"><br></div>",
+                "Die Menge kann {{c1::nur \\(0, 1\\) enthalten}}",
+                "<a href=\"https://youtu.be/qCZgE9X-bQ8?list=PLC4EN0QuF7u2AWUO4joXbez42PQbR-_-O&amp;t=296\">https://youtu.be/qCZgE9X-bQ8?list=PLC4EN0QuF7u2AWUO4joXbez42PQbR-_-O&amp;t=296</a>"
+            ],
+            "flags": 0,
+            "guid": "P.l3l@{V*$",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Elemente sind in \\(C = \\bar f(A, B)\\) enthalten?<div><img src=\"paste-24441d1e8b0e59e6ec6e62fae2624102bb91f5fe.png\"><br></div>",
+                "Es sind {{c1::\\(w_1, w_2, w_3\\)}} enthalten",
+                ""
+            ],
+            "flags": 0,
+            "guid": "fd&,8f3hP)",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum wird die Division nicht analog zur unscharfen Addition erweitert?",
+                "Weil die Division nicht {{c1::auf \\(\\mathbb{R} \\times \\mathbb{R}\\), sondern auf \\(\\mathbb{R} \\times (\\mathbb{R} \\backslash 0)\\)}} definiert ist.",
+                "<a href=\"https://youtu.be/bp95dDbQULQ?list=PLC4EN0QuF7u0BBcZFtFEPXNFyPo7TL6R6&amp;t=217\">https://youtu.be/bp95dDbQULQ?list=PLC4EN0QuF7u0BBcZFtFEPXNFyPo7TL6R6&amp;t=217</a>"
+            ],
+            "flags": 0,
+            "guid": "g:{|F8014G",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften hat die scharfe Konjunktion?",
+                "Sie ist {{c1::kommutativ}}, {{c1::assoziativ}} und {{c1::monoton}}",
+                "<a href=\"https://youtu.be/yAxJuQkpkZE?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=114\">https://youtu.be/yAxJuQkpkZE?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=114</a>"
+            ],
+            "flags": 0,
+            "guid": "J^.!8b[}wq",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Axiome erfüllt die Minimumsnorm \\(T_M\\)?<div><img src=\"paste-7e72b6d1c8ed47be5dd540df00816f1da55b92cf.png\"><br></div>",
+                "Die Minimumsnorm erfüllt die Axiome {{c1::(T1) bis (T6)}}",
+                "<a href=\"https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=105\">https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=105</a>"
+            ],
+            "flags": 0,
+            "guid": "O-i[8B400(",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Aximome erfüllt die Produktnorm?<div><img src=\"paste-8ea8a03f6bd9f606a3a591bfec55ded848de4ed0.png\"><br></div>",
+                "Die Produktnorm erfüllt die Axiome {{c1::(T1) is (T5)}}",
+                "<a href=\"https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=188\">https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=188</a>"
+            ],
+            "flags": 0,
+            "guid": "uwZdUTsf@;",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Aximome erfüllt die Lukasiewitz'sche t-Norm?<div><img src=\"paste-7eb8f2ad834f1ba23ee09a10408df6a3b5eb59a5.png\"><br></div>",
+                "Sie erfüllt die Axiome {{c1::(T1)-(T5)}}",
+                "<a href=\"https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=284\">https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=284</a>"
+            ],
+            "flags": 0,
+            "guid": "k>bD+OJ?X9",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Axiome erfüllt das Drastische Produkt?<div><img src=\"paste-f70a7c807e5225f5e935e18693cf3c4a807a1b69.png\"><br></div>",
+                "Es erfüllt die Axiome {{c1::(T1)-(T4)}}",
+                "<a href=\"https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=499\">https://youtu.be/v_TD16mTZug?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=499</a>"
+            ],
+            "flags": 0,
+            "guid": "o9z%*hQN`q",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie: Das drastische Produkt ist die schwächste t-Norm",
+                "{{c1::\\[\\forall (x, y) \\in (0, 1)^2: T_D(x, y) = 0 \\le T(x, y)\\]}}",
+                "<a href=\"https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=214\">https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=214</a>"
+            ],
+            "flags": 0,
+            "guid": "jrl>n~qrl*",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie: Die Minimumsnorm ist die stärkste t-Norm",
+                "\\[{{c1::T(x, y) \\overset{(T3)}{\\le} T(1, y) \\overset{(T4)}{=} y}}\\]<div>\\[{{c1::T(x, y) \\overset{(T1)}{=} T(y, x) \\overset{(T3)}{\\le} T(1, x) \\overset{(T4)}{=} x}}\\]</div><div>\\[\\Leftrightarrow T(x, y) \\le \\min (x, y) = T_M(x, y)\\]</div>",
+                "<a href=\"https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=218\">https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=218</a>"
+            ],
+            "flags": 0,
+            "guid": "I&,;yp{Ka=",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie \\(T_L \\le T_P\\)",
+                "Fall 1: \\({{c1::\\max(x + y - 1, 0) = 0 \\qquad 0 \\le x \\cdot y}}\\)<div>Fall 2: \\({{c1::\\max(x + y - 1, 0) = x + y - 1}}\\)</div><div>{{c1::\\(x + y - 1 \\le xy \\Leftrightarrow x - 1 \\le xy - y \\Leftrightarrow&nbsp; x - 1 \\le (x -1) y \\Leftrightarrow 1 \\ge y\\)}}</div>",
+                "<a href=\"https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=561\">https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=561</a>"
+            ],
+            "flags": 0,
+            "guid": "sGYW?ibRmM",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "expertenquiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum gilt sogar \\(T_D &lt; T_L &lt; T_P &lt; T_M\\)",
+                "<div>{{c1::Wähle \\(x = y = \\frac{2}{3}\\)<br>\\(T_D (x, y) = 0\\)<div>\\(T_L (x, y) = \\frac{1}{3}\\)</div><div>\\(T_P (x, y) = \\frac{4}{9}\\)</div><div>\\(T_M (x, y) = \\frac{2}{3}\\)</div>}}<br></div>",
+                "<a href=\"https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=647\">https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=647</a>"
+            ],
+            "flags": 0,
+            "guid": "HpWil3$Ia{",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Handelt es sich bei der Ordnung \\(\\le\\) für t-Normen um eine Halbordnung oder Totalordnung?",
+                "{{c1::Halbordnung, zeige durch Beispiel}}",
+                "<a href=\"https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=697\">https://youtu.be/ZT4ElnUczM4?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=697</a>"
+            ],
+            "flags": 0,
+            "guid": "xI<Ma3|cNk",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie: \\(T_M\\) ist die einzige idempotente t-Norm",
+                "Sei T eine t-Norm mit \\(\\forall x \\in [0, 1]: T(x, x) = x\\)<div>Fall 1: {{c1::\\(x = y: T(x, y) = T(x, x) = x = min(x, y)\\)}}</div><div>Fall 2: {{c1::\\(y &gt; x: x = T(x, 1) \\ge T(x, y) \\ge T(x, x) = x\\)</div><div>Somit \\(T(x, y) = x = \\min(x, y)\\)}}</div><div>Fall 3: {{c1::\\(y &lt; x\\) Analog}}</div><div>Somit \\(T(x, y) = \\min (x, y) = T_M(x, y)\\)</div>",
+                "<a href=\"https://youtu.be/qM_XSmbUtyA?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=48\">https://youtu.be/qM_XSmbUtyA?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=48</a>"
+            ],
+            "flags": 0,
+            "guid": "fdboMd((4k",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "expertenquiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lauten die Formeln für \\(T^{(1)} (x), T^{(2)} (x), T^{(3)} (x)\\)?",
+                "{{c1::\\[T^{(1)} (x) = T(T^{(0)} (x), x) = T(1, x) = x\\]<div>\\[T^{(2)} (x) = T(T^{(1)} (x), x) = T(x, x)\\]</div><div>\\[T^{(3)} (x) = T(T^{(2)} (x), x) = T(T(x, x), x)\\]</div>}}<br>",
+                "<a href=\"https://youtu.be/qM_XSmbUtyA?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=299\">https://youtu.be/qM_XSmbUtyA?list=PLC4EN0QuF7u2lI-xT2GpdYjlCzCumFnf_&amp;t=299</a>"
+            ],
+            "flags": 0,
+            "guid": "lk(m$.ej{z",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Füllen Sie die Wahrheitstabelle für die scharfe Negation aus",
+                "<table class=\"table_class_basic_full_width\" style=\"font-size: 85%; width: 100%; border-collapse: collapse; border: 1px solid black;\">\n                <thead><tr><th style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">\\(x\\)</th><th style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">\\(\\bar x\\)</th></tr></thead>\n                <tbody><tr><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">{{c1::\\(0\\)}}</td><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">{{c1::\\(1\\)}}</td></tr><tr><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">{{c1::\\(1\\)}}</td><td style=\"width:50%; text-align:center; padding: 2px; border: 1px solid black;\">{{c1::\\(0\\)}}</td></tr></tbody></table>",
+                "<a href=\"https://youtu.be/yYdN3aLRIbY?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=53\">https://youtu.be/yYdN3aLRIbY?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=53</a>"
+            ],
+            "flags": 0,
+            "guid": "suizzdmw1(",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Art der Monotonie liegt für die scharfe Negation vor?",
+                "{{c1::Monotones Fallen}}",
+                "<a href=\"https://youtu.be/yYdN3aLRIbY?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=56\">https://youtu.be/yYdN3aLRIbY?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=56</a>"
+            ],
+            "flags": 0,
+            "guid": "fi=lG?Fau7",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie die strenge Monotonie für involutive Negationen",
+                "Erhalte Monotonie aus {{c1::\\((N2)\\)}}<br>Noch zu zeigen {{c1::\\(x &lt; y \\Rightarrow N(x) \\neq N(y)\\):}}<div>Zeige durch: {{c1::\\(N(x) = N(y) \\Rightarrow x = y \\Rightarrow x \\not &lt; y\\)}}</div><div><br></div><div>{{c1::\\[\\forall (x, y) \\in [0, 1]^2: N(x) = N(y) \\Rightarrow N(N(x)) = N(N(y)) \\Rightarrow x = y\\]}}<br><br></div>",
+                "<a href=\"https://youtu.be/xwl7PBnJV6M?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=148\">https://youtu.be/xwl7PBnJV6M?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=148</a>"
+            ],
+            "flags": 0,
+            "guid": "inh`Gj`0yu",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie die Bijektivität der involutiven Negation",
+                "1. Möglichkeit: {{c1::Bijektivität ist notwendig für die Existenz einer Umkehrfunktion}}<div>2. Möglichkeit:{{c2::</div><div> Zeige Injektivität und Surjektivität</div><div>Injektiviät durch strenge Monotonie schon gezeigt</div><div>Surjektivität: \\(\\forall x \\in [0, 1]: N(N(x)) = x \\Rightarrow \\forall x \\in [0, 1] \\exists y \\in [0, 1]: N(y) = x\\)</div>}}",
+                "<a href=\"https://youtu.be/xwl7PBnJV6M?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=161\">https://youtu.be/xwl7PBnJV6M?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=161</a>"
+            ],
+            "flags": 0,
+            "guid": "O#36U8??Tu",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie Fixpunktsatz (i) \"Jede Negation hat höchstens einen Fixpunkt\"",
+                "Seien \\(d\\) und \\(e\\) Fixpunkte:<div>{{c1::<div>\\[d \\le e \\overset{(N2)}{\\Rightarrow} N(d) \\ge N(e) \\Rightarrow d \\ge e\\]</div><div>Also \\(d = e\\)</div>}}<br></div>",
+                "<a href=\"https://youtu.be/nfswID2PdFU?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=27\">https://youtu.be/nfswID2PdFU?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=27</a>"
+            ],
+            "flags": 0,
+            "guid": "yrb:I^`T;{",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie Fixpunktsatz (ii) \"Jede stetige Negation hat genau einen Fixpunkt\"",
+                "<div>Noch zu zeigen: Negation hat mindestens einen Fixpunkt</div>{{c1::Betrachte als Nullstellenproblem \\(N(x) - x = 0\\)<div>Dann \\(x = 0: N(0) - 0 = 1 - 0 = 1\\) und \\(x = 1: N(1) - 1 = 0 - 1 = -1\\)<br>Verwende Nullstellensatz von Bolzano da stetig&nbsp;</div><div>Somit existiert Nullstelle, also auch Fixpunkt</div>}}<br>",
+                "<a href=\"https://youtu.be/nfswID2PdFU?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=86\">https://youtu.be/nfswID2PdFU?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=86</a>"
+            ],
+            "flags": 0,
+            "guid": "wwX2++&F!C",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "expertenquiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet das Kontradiktionsprinzip im scharfen Fall?",
+                "{{c1::\\(a \\land \\bar a = 0\\)}}",
+                "<a href=\"https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=9\">https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=9</a>"
+            ],
+            "flags": 0,
+            "guid": "eVp+B@|0:/",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet das <b>Tertium non datur</b> im scharfen Fall?",
+                "{{c1::\\[a \\lor \\bar a = 1\\]}}<br>",
+                "<a href=\"https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=42\">https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=42</a>"
+            ],
+            "flags": 0,
+            "guid": "v+j)6yWCf+",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie, dass (N1) für jede natürliche Negation gilt",
+                "{{c1::\\(N(0) = \\sup \\{y \\in [0, 1] | T(0, y) = 0\\} \\overset{(T1)}{=} \\sup [0, 1] =&nbsp; 1\\)<div>\\(N(1) = \\sup \\{y \\in [0, 1] | T(1, y) = 0\\} \\overset{(T1)}{=} \\sup \\{0\\} = 0\\)</div>}}<br>",
+                "<a href=\"https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=195\">https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=195</a>"
+            ],
+            "flags": 0,
+            "guid": "jVriGK.&jl",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie, dass (N2) für jede natürliche Negation gilt",
+                "Zu zeigen: \\(x \\le y \\Rightarrow N_T(x) \\ge N_T(y)\\)<br>Trivial: \\(x = y \\Rightarrow N_T(x) = N_T(y)\\)<br>Noch zu zeigen: \\(x &lt; y \\Rightarrow N_T(x) \\ge N_T(y)\\)<br><div>{{c1::Annahme: \\(N_T(x) &lt; N_T(y)\\)<div>Dann: \\(\\exists c: N_T(x) &lt; c &lt; N_T(y)\\) und es gilt:</div><div><img src=\"paste-33e17d38d6a85e88fad85f2b0bacc37120a88028.png\"><br></div><div><br></div><div>\\(T(x, c) &gt; 0\\), da \\(c &gt; \\sup \\{z \\in [0, 1] | T(x, z) = 0\\}\\)</div><div>\\(T(y, c) = 0\\), da \\(c &lt; \\sup \\{z \\in [0, 1] | T(y, z) = 0\\}\\)</div><div>Also \\(T(x, c) &gt; T(y, c)\\)</div><div>Wegen Monotonie der t-Norm gilt aber:</div><div>\\(x &lt; y \\Rightarrow T(x, c) \\le T(y, c)\\)&nbsp;<br>Widerspruch!<br></div>}}<br></div>",
+                "<a href=\"https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=289\">https://youtu.be/nbXhLEmRVVk?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=289</a>"
+            ],
+            "flags": 0,
+            "guid": "Dv%K8y,s(|",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "expertenquiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die natürliche Negation zur Minimumsnorm",
+                "{{c1::\\[N_{T_M}(x) = \\sup \\{y \\in [0, 1] | T_M(x, y) = 0\\}\\]<div>\\[N_{T_M}(x) = \\begin{cases}1 &amp;, x = 0\\\\ 0 &amp;, \\text{ sonst }\\end{cases}\\]</div><div>Auch genannt Gödelnegation \\(N_\\gamma\\)</div>}}<br>",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=6\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=6</a>"
+            ],
+            "flags": 0,
+            "guid": "wwW^j=?EwM",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die natürliche Negation zur Produktnorm",
+                "{{c1::\\[N_{T_P}(x) = \\sup \\{y \\in [0, 1] | T_M(x, y) = 0\\}\\]<div>\\[N_{T_P}(x) = \\begin{cases}1 &amp;, x = 0\\\\ 0 &amp;, \\text{ sonst }\\end{cases}\\]</div><div>Auch genannt Gödelnegation \\(N_\\gamma\\)</div>}}<br>",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=196\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=196</a>"
+            ],
+            "flags": 0,
+            "guid": "nuE@iyCy5/",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die natürliche Negation zur Lukasiewicz t-Norm",
+                "<div>{{c1::\\[N_{T_L} (x) = \\sup \\{y \\in [0, 1] | \\max(x + y - 1, 0) = 0\\}\\]<div>Für \\(\\max(x + y - 1, 0) = 0\\) muss gelten</div><div>\\[x + y - 1 \\le 0 \\Leftrightarrow y \\le 1 - x\\]</div><div>\\[N_{T_L} (x) = 1 - x\\]</div><div><img src=\"paste-96bd21e234b8410d14e51977fc16f6be7e33b8dc.png\"></div>}}<br></div>",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=209\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=209</a>"
+            ],
+            "flags": 0,
+            "guid": "Fe6Tp169@f",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die natürliche Negation zum drastischen Produkt",
+                "1. Fall \\(x = 1\\): {{c1::\\(N_{T_D} (1) = 0\\)}}<div>2. Fall \\(x = 0\\): {{c1::\\(N_{T_D} (0) = 1\\)}}</div><div>3. Fall \\(x \\in (0, 1)\\): {{c1::\\(N_{T_D} (x) = \\sup [0, 1) = 1\\)}}</div>",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=504\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=504</a>"
+            ],
+            "flags": 0,
+            "guid": "FewH>HSzs[",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeichnen Sie die Negationen ein<div><img src=\"paste-022b84f02f0da64db40a61eeb5f005ebc6fd52e6.png\"><br></div>",
+                "{{c1::<img src=\"paste-82b044f7e1abf44c86233a08df9f726d170e9394.png\">}}",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=600\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=600</a>"
+            ],
+            "flags": 0,
+            "guid": "b13]A{ADLN",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie, dass die Gödelnegation die natürliche Negation für jede idempotente t-Norm ist",
+                "{{c1::Nur die Minimumsnorm ist idempotent und für diese wurde es bereits bewiesen}}",
+                "<a href=\"https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=642\">https://youtu.be/zQ65H4FetYM?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=642</a>"
+            ],
+            "flags": 0,
+            "guid": "Pd-EruT8la",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie: Die Sugeno-Negation \\(N_a^S\\) ist involutiv",
+                "{{c1::\\(N_a^S(N_a^S(x)) = \\frac{1 - N_a^S(x)}{1 + a N_a^S(x)} = \\frac{1 - \\frac{1 - x}{1 + ax} }{1 + a \\frac{1 - x}{1 + ax} } = \\frac{1 + ax - 1 +x}{1 + ax - a - ax}\\)<div>\\[ = \\frac{ax + x}{1 +a} = \\frac{1+a}{1+a} x = x\\]</div>}}<br>",
+                "<a href=\"https://youtu.be/e7Nlk5HwG9w?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=37\">https://youtu.be/e7Nlk5HwG9w?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=37</a>"
+            ],
+            "flags": 0,
+            "guid": "z%5&<kZf+P",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie: Die Yager-Negation \\(N_a^Y\\) ist involutiv",
+                "{{c1::\\[N(N(x)) = N(1-x^a)^{1/a} = (1 - ((1 - x^a)^{1/a})^a)^{1/a} = (1 - (1-x^a))^{1/a})\\]<div>\\[(x^a)^{1/a} = x\\]</div>}}<br>",
+                "<a href=\"https://youtu.be/e7Nlk5HwG9w?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=199\">https://youtu.be/e7Nlk5HwG9w?list=PLC4EN0QuF7u2QOq40TxRvAvVLnvZhkmHJ&amp;t=199</a>"
+            ],
+            "flags": 0,
+            "guid": "H54w1KfN*X",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften teilt die scharfe Disjunktion mit der scharfen Konjunktion?",
+                "* {{c1::Kommutativität}}<br>* {{c1::Assoziativität}}<br>* {{c1::Monotonie}}",
+                "<a href=\"https://youtu.be/ovpE0iypJbI?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=52\">https://youtu.be/ovpE0iypJbI?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=52</a>"
+            ],
+            "flags": 0,
+            "guid": "guf59E-RS+",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie (S1) für \\(S(x, y) = N(T(N(x), N(y)))\\)",
+                "{{c1::\\[S(x, y) = N(T(N(x), N(y))) \\overset{(T1)}{=} N(T(N(y), N(x))) = S(y, x)\\]}}",
+                "<a href=\"https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=82\">https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=82</a>"
+            ],
+            "flags": 0,
+            "guid": "Ak[k+GkhT8",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie (S3) für \\(S(x, y) = N(T(N(x), N(y)))\\)",
+                "Sei \\(x \\le y\\)&nbsp;<div>{{c1::<div>\\[\\Rightarrow N(x) \\ge N(y)\\]</div><div>\\[\\Rightarrow T(N(x), N(z)) \\ge T(N(y), N(z))\\]</div><div>\\[\\Rightarrow N(T(N(x), N(z))) \\le N(T(N(y), N(z))\\]</div><div><div>\\[\\Rightarrow S(x, z) \\le (S(y,z)\\]</div></div>}}<br></div>",
+                "<a href=\"https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=317\">https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=317</a>"
+            ],
+            "flags": 0,
+            "guid": "gGN%.Kl+M2",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beweisen Sie (S4) für \\(S(x, y) = N(T(N(x), N(y)))\\)",
+                "{{c1::\\(S(0, x) = N(T(N(0), N(x))) = N(T(1, N(x)) = N(N(x)) \\overset{involutiv}{=} x\\)}}",
+                "<a href=\"https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=422\">https://youtu.be/ZjbMYYdKieg?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=422</a>"
+            ],
+            "flags": 0,
+            "guid": "Ok@Fb4+IAO",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie zu \\(T_M(x, y) = \\min(x, y)\\) und \\(N(x) = 1 - x\\) die duale s-Norm",
+                "<div>{{c1::\\[S_M(x, y) = N(T_M(N(x), N(y))) = 1 - T_M(N(x), N(y)) = 1 - \\min(1 - x, 1 - y)\\]<div>\\[= 1 - (1 + \\min(-x, -y)) = 1 - (1 - \\max(x, y)) = \\max(x, y)\\]&nbsp;</div><div><br></div><div><img src=\"paste-049187468bffe3724ff364da7759dd0bf0ac65a4.png\"></div>}}<br></div>",
+                "<a href=\"https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=20\">https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=20</a>"
+            ],
+            "flags": 0,
+            "guid": "HCVtTOI06g",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie zu \\(T_P(x, y) = x \\cdot y\\) und \\(N(x) = 1 - x\\) die duale s-Norm",
+                "{{c1::\\[S_P(x, y) = N(T_P(N(x), N(y))) =&nbsp; 1 - (1 - x) \\cdot (1 - y) = 1 - (1 - x - y + xy) = x + y - xy\\]}}",
+                "<a href=\"https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=149\">https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=149</a>"
+            ],
+            "flags": 0,
+            "guid": "ixr22,-V5(",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie zu \\(T_L(x, y) = \\max(x + y - 1, 0)\\) und \\(N(x) = 1 - x\\) die duale s-Norm",
+                "{{c1::\\[S_L(x, y) = N(T_L(N(x), N(y))) = 1 - \\max(1 - x + 1 - y - 1, 0) = 1 - \\max(1 - x - y, 0)\\]<div>\\[= 1 + \\min(x + y - 1, 0) = \\min(x + y, 1)\\]</div>}}<br>",
+                "<a href=\"https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=265\">https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=265</a>"
+            ],
+            "flags": 0,
+            "guid": "cJS:Q4+t`I",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie zu \\(T_D(x, y)\\) und \\(N(x) = 1 - x\\) die duale s-Norm",
+                "<div>{{c1::\\[S_D(x, y) = \\begin{cases}x &amp; \\text{für } y = 0\\\\<div>y &amp; \\text{für } x = 0\\\\<br></div><div>1 &amp; \\text{sonst}\\end{cases}\\]</div>}}<br></div>",
+                "<a href=\"https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=526\">https://youtu.be/bNEXMv4Vcs4?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=526</a>"
+            ],
+            "flags": 0,
+            "guid": "gTWAF@Tf.e",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie für den 1. Unverträglichkeitssatz, dass \\(T\\) und \\(S\\) nicht idempotent sind",
+                "<div>Sei \\(e\\) ein Fixpunkt der Negation \\(N(e) = e\\)</div>Aufgrund Kontradiktionsprinzip: \\(T(e, e) = T(e, N(e)) = 0\\)<br>Aufgrund Tertium non datur: \\(S(e, e) = S(e, N(e)) = 1\\)<div><br></div><div>{{c1::<div>Nur \\(T_M\\) und \\(S_M\\) sind idempotent:</div><div>\\(\\min(e, e) = e \\neq 0\\)</div><div>\\(\\max(e, e) = e \\neq 1\\)&nbsp;</div>}}<br></div>",
+                "<a href=\"https://youtu.be/jBU62MPx-2Q?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=107\">https://youtu.be/jBU62MPx-2Q?list=PLC4EN0QuF7u3lz7UUXV_lPnI7J7XoSfXj&amp;t=107</a>"
+            ],
+            "flags": 0,
+            "guid": "r^E%)#Q?qn",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zeigen Sie für den 1. Unverträglichkeitssatz, dass die Distributivgesetze nicht gelten",
+                "<div>Sei \\(e\\) ein Fixpunkt der Negation \\(N(e) = e\\)</div>Aufgrund Kontradiktionsprinzip: \\(T(e, e) = T(e, N(e)) = 0\\)<br>Aufgrund Tertium non datur: \\(S(e, e) = S(e, N(e)) = 1\\)<div><br></div><div>Zeige \\(S(x, T(y, z)) = T(S(x, y), S(x, z))\\) nicht erfüllt.</div><div>{{c1::<div>\\[S(e, T(e, e)) = S(e, T(e, N(e)) = S(e, 0) = e\\]</div><div>\\[T(S(e, e), S(e, e)) = T(S(e, N(e)), S(e, N(e)) = T(1, 1) = 1\\]</div><div>Fixpunkt \\(e \\in (0,1)\\), daher können rechte und linke Seite nicht gleich sein.</div>}}<br></div><div><br>Zeige analog \\(T(x, (S(y, u)) \\neq S(T(x, y), T(x, z))\\)</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "t$fT_]1~x4",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Geben Sie alle Weisen an, auf die die Implikation als Disjunktion von Konjunktionstermen geschrieben werden kann",
+                "<img src=\"paste-d670bb837d446d1b872d0e87d00faae1d6b709cd.png\"><br>{{c1::<div>\\[\\bar x \\lor y\\]</div><div>\\[\\bar x \\land \\bar y \\lor y \\]</div><div><div>\\[\\bar x \\lor x \\land y\\]</div><div>\\[x \\land y \\lor \\bar x \\land y \\lor \\bar x \\land \\bar y\\]</div>}}<br></div>",
+                "<a href=\"https://youtu.be/InjxaRq3J94?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=167\">https://youtu.be/InjxaRq3J94?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=167</a>"
+            ],
+            "flags": 0,
+            "guid": "P_<s`0V%l@",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gilt (I1) für die S-Implikation?",
+                "\\(I^S(x, y) = S(N(x), y)\\)<div><br></div><div>{{c1::<div>Ja.<br>\\(I^S(0, x) = S(N(0), x) = S(1, x) = 1\\)<br>\\(I^S(1, x) = S(N(1) , x) = S(0, x) = x\\)</div><div>\\(I^S(x, 1) = S(N(x), 1) = 1\\)</div>}}<br></div>",
+                "<a href=\"https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=98\">https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=98</a>"
+            ],
+            "flags": 0,
+            "guid": "MF?[dH`o[}",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gilt (I2) für die S-Implikation",
+                "\\(I^S(x, y) = S(N(x), y)\\)<br><br>\\(x \\le y\\):<br><div>{{c1::</div><div>\\[\\Rightarrow N(x) \\ge N(y)\\]</div><div>\\[\\Rightarrow S(N(x), z) \\ge S(N(y), z)\\]</div><div>\\[\\Rightarrow I^S(x, z) \\ge I^S(y, z)\\]<div>}}</div></div><div><br></div><div>\\(x \\le y\\):</div><div>{{c1::<div>\\[\\Rightarrow&nbsp; S(N(z), x) \\le S(N(z), y)\\]</div><div><div>\\[\\Rightarrow I^S(z, x) \\le I^S(z, y)\\]</div></div>}}<br></div>",
+                "<a href=\"https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=126\">https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=126</a>"
+            ],
+            "flags": 0,
+            "guid": "oz,3il,@uH",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gilt (I4) für die S-Implikation?",
+                "\\(I^S(x, y) = S(N(x), y)\\)<div><br></div><div>{{c1::<div>\\[I^S(x, I^S(y, z)) = S(N(x), S(N(y), z)) = S(N(x), S(z, N(y)))\\]</div><div>\\[= S(S(N(x), z), N(y)) = S(N(y), S(N(x), z)) = I^S(y, I^S(x, z))\\]</div>}}<br></div>",
+                "<a href=\"https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=295\">https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=295</a>"
+            ],
+            "flags": 0,
+            "guid": "piC~q}q]d1",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die S-Implikation für",
+                "die Maximumsnorm mit der Standardnegation<br>{{c1::\\[I_M^S(x, y) = \\max(1 - x, y)\\]}}<div><div><br></div><div>die probabilistische Summe mit der Standardnegation</div><div>{{c2::\\[I_P^S(x, y) = (1 - x) + y - (1 - x) y = 1 - x + xy\\]}}</div><div><br>die Lukasiewicz'sche s-Norm mit der Standardnegation<br>{{c3::\\[I_L^S(x, y) = \\min(1 - x + y, 1) \\]}}</div></div>",
+                "<a href=\"https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=386\">https://youtu.be/WIAB0gCGPQk?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=386</a>"
+            ],
+            "flags": 0,
+            "guid": "q&S6@MpKh[",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wann gilt (I1) für die Q-Implikation?",
+                "\\(I^Q(x, y) = S(N(x), T(x, y))\\)<br><br>{{c1::\\[I^Q(0, x) = S(N(0), T(0, x)) = S(1, 0) = 1\\]<div>\\[I^Q(x, 1) = S(N(x) , T(x, 1)) = S(N(x) , x) = 1\\]</div><div>\\(\\Rightarrow \\) <b>Tertium non datur</b></div><div>\\[I^Q(1, x) = S(N(1), T(1, x)) = S(0, x) = x\\]</div>}}<br>",
+                "<a href=\"https://youtu.be/nV4LFi4-xi0?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=40\">https://youtu.be/nV4LFi4-xi0?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=40</a>"
+            ],
+            "flags": 0,
+            "guid": "kV<Z+<i&It",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die Q-Implikation für",
+                "die Minimumsnorm mit der Maximumsnorm mit der Standardnegation<div>{{c1::\\[I_M^Q(x, y) = \\max(1 - x, \\min(x, y))\\]}}<br><div><br></div><div>die Produktnorm mit der probabilistischen Summe und der Standardnegation</div><div>{{c2::\\[I_P^Q(x, y) = (1 - x) + xy - (1 - x) xy = 1 - x + x^2 y\\]<br>}}</div><div></div></div><br>",
+                "<a href=\"https://youtu.be/nV4LFi4-xi0?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=149\">https://youtu.be/nV4LFi4-xi0?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=149</a>"
+            ],
+            "flags": 0,
+            "guid": "I2lAG1uiv7",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmen Sie die R-Implikation für die Minimumsnorm",
+                "\\(I^R(x, y) = \\sup \\{z: T(x, z) \\le y\\}\\)<div><br></div><div>{{c1::\\[I_M^R(x, y) = \\sup \\{z: \\min(x, z) \\le y\\} = \\begin{cases} 1 &amp; x \\le y\\\\ y &amp; x &gt; y\\end{cases}\\]<div><br></div><div><img src=\"paste-4820b8e216471a65e23d62eb676917a33f069630.png\"></div>}}<br></div>",
+                "<a href=\"https://youtu.be/PTtGJxIuAR4?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=67\">https://youtu.be/PTtGJxIuAR4?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=67</a>"
+            ],
+            "flags": 0,
+            "guid": "bH+4G|cK-Y",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erfüllen der Mamdami Operator \\(I^{MAM}(x,y) = \\min(x, y) \\) und der Produkt Operator \\(I^P(x, y) = xy\\) alle Axiome?",
+                "{{c1::Nein, beide verletzen die erste Randbedingungen}}",
+                "<a href=\"https://youtu.be/5Q3DchEGhxE?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=39\">https://youtu.be/5Q3DchEGhxE?list=PLC4EN0QuF7u0uzyEs_KfaIMLh1vrJVtFw&amp;t=39</a>"
+            ],
+            "flags": 0,
+            "guid": "M4h5*=_hu[",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was erhält man als Ergebnis der Verkettung von Zylinderbildung und Projektion, wenn die Projektion die durch die Zylinderbildung hinzugefügten Universen wieder \"entfernt\"?",
+                "{{c1::Die originale Relation}}",
+                "<a href=\"https://youtu.be/WOg_kwiLP8U?list=PLC4EN0QuF7u2LvWj-Uxrmapk97-zJJP0t&amp;t=258\">https://youtu.be/WOg_kwiLP8U?list=PLC4EN0QuF7u2LvWj-Uxrmapk97-zJJP0t&amp;t=258</a>"
+            ],
+            "flags": 0,
+            "guid": "MEU`(qaAIZ",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was erhält man als Ergebnis der Verkettung von Projektion der letzten \\(n-k\\) Universen und einer Zylinderbildung auf selbigen Universen?",
+                "{{c1::Eine Teilmenge der originalen Relation}}",
+                "<a href=\"https://youtu.be/WOg_kwiLP8U?list=PLC4EN0QuF7u2LvWj-Uxrmapk97-zJJP0t&amp;t=358\">https://youtu.be/WOg_kwiLP8U?list=PLC4EN0QuF7u2LvWj-Uxrmapk97-zJJP0t&amp;t=358</a>"
+            ],
+            "flags": 0,
+            "guid": "N?%#>0@+?H",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gegeben \\(P \\in \\mathbb{P}(U \\times V), Q \\in \\mathbb{P}(V \\times W)\\), Element welcher Potenzmenge ist \\(R = P \\circ Q\\)",
+                "\\(R\\) ist Element in {{c1::\\(\\mathbb{P}(U \\times W)\\)}}",
+                "<a href=\"https://youtu.be/bdS5lZRk9xc?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=26\">https://youtu.be/bdS5lZRk9xc?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=26</a>"
+            ],
+            "flags": 0,
+            "guid": "rrdkO|HAUj",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Geben Sie die Zugehörigkeitsfunktion \\(\\mu_R\\) der scharfen Relation \\(R = P \\circ Q\\) für \\(P \\in \\mathbb{P}(U \\times V), Q \\in \\mathbb{P}(V \\times W)\\) an.<br>Nutzen Sie hierbei die Zugehörigkeitsfunktionen \\(\\mu_P\\) und \\(\\mu_Q\\).",
+                "{{c1::\\[\\mu_R(u, w) = \\max_{v \\in V} \\min (\\mu_P (u, v), \\mu_Q(v,w))\\]}}",
+                "<a href=\"https://youtu.be/gBLYlQzW6Y4?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=89\">https://youtu.be/gBLYlQzW6Y4?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=89</a>"
+            ],
+            "flags": 0,
+            "guid": "fi098G/N(.",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was muss man an&nbsp;<div>\\[\\mu_R(u, w) = \\max_{v \\in V} \\min (\\mu_P (u, v), \\mu_Q(v,w))\\]</div><div>ändern um damit unscharfe Relationen \\(\\tilde P \\in \\mathbb{F}(U \\times V), \\tilde Q \\in \\mathbb{F}(V \\times W)\\) zu betrachten?</div>",
+                "{{c1::\\[\\mu_{\\tilde P \\circ \\tilde Q}(u, w) = \\sup_{v \\in V} \\min (\\mu_{\\tilde P} (u, v), \\mu_{\\tilde Q}(v,w))\\]}}",
+                "<a href=\"https://youtu.be/gBLYlQzW6Y4?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=124\">https://youtu.be/gBLYlQzW6Y4?list=PLC4EN0QuF7u1ZG-fa6dGpZe6LC7_G7ry1&amp;t=124</a>"
+            ],
+            "flags": 0,
+            "guid": "sq:p3M$qqU",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sei eine Relationengleichung \\(\\tilde A \\circ \\tilde Q = \\tilde B\\) gegeben.<br>Wenn \\(\\tilde A\\) und \\(\\tilde Q\\) bekannt sind und \\(\\tilde B\\) unbekannt ist, wie geht man vor, um \\(\\tilde B\\) zu bestimmen?",
+                "{{c1::Berechnung der Komposition}}",
+                "<a href=\"https://youtu.be/ArssYm9YDQo?list=PLC4EN0QuF7u3iazciNqBrfDT54dDa5FCr&amp;t=34\">https://youtu.be/ArssYm9YDQo?list=PLC4EN0QuF7u3iazciNqBrfDT54dDa5FCr&amp;t=34</a>"
+            ],
+            "flags": 0,
+            "guid": "u8a=u)Dj85",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f43efafb731918ef52bbd00d494b8e6dc01c8ef2.png\"><br>Was lässt sich über \\(b\\) sagen, wenn \\(a\\) gilt?",
+                "{{c1::Regel ist anwendbar, \\(b\\) gilt}}",
+                "<a href=\"https://youtu.be/C14XsPf1FRk?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=31\">https://youtu.be/C14XsPf1FRk?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=31</a>"
+            ],
+            "flags": 0,
+            "guid": "GEqz0bN8#8",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f43efafb731918ef52bbd00d494b8e6dc01c8ef2.png\"><br>Was lässt sich über \\(b\\) sagen, wenn \\(a\\) nicht gilt?",
+                "{{c1::Regel ist nicht anwendbar, keine Information über \\(b\\) ableitbar}}",
+                "<a href=\"https://youtu.be/C14XsPf1FRk?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=51\">https://youtu.be/C14XsPf1FRk?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=51</a>"
+            ],
+            "flags": 0,
+            "guid": "f>Qw-2dlZ7",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-456511a480bd77e61fe018c0a4cc4a09c54f1850.png\">",
+                "{{c1::<img src=\"paste-8dcdecd6f39d0132c25ec5986d7fa4d278424b1b.png\">}}",
+                "<a href=\"https://youtu.be/3G7CVSFrkr4?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=173\">https://youtu.be/3G7CVSFrkr4?list=PLC4EN0QuF7u2gPYgx8aj8NaEmbJ_APVm9&amp;t=173</a>"
+            ],
+            "flags": 0,
+            "guid": "CqNQE`9Y9>",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sehen vollständiges Unwissen und präzises Wissen für possibilistisches Schließen aus?",
+                "Vollständiges Unwissen: {{c1::\\(\\forall x \\in U: \\mu_{\\tilde A}(x) = 1\\)}}<br>Präzises Wissen: {{c1::\\(\\mu_{\\tilde A}(x') = 1 \\land \\forall x \\in U \\{x'\\}: \\mu_{\\tilde A}(x) = 0\\)}}",
+                "<a href=\"https://youtu.be/xubbKbLhowk?list=PLC4EN0QuF7u1xlojbEOkfHJPpu6EfaKAy&amp;t=129\">https://youtu.be/xubbKbLhowk?list=PLC4EN0QuF7u1xlojbEOkfHJPpu6EfaKAy&amp;t=129</a>"
+            ],
+            "flags": 0,
+            "guid": "sN[bY86<z6",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sehen vollständiges Unwissen und präzises Wissen für evidenzgestützes Schließen aus?",
+                "Vollständiges Unwissen: {{c1::\\(\\forall x \\in U: \\mu_{\\tilde A}(x) = 0\\)}}<br>Präzises Wissen: {{c1::\\(\\mu_{\\tilde A}(x') = 1 \\land \\forall x \\in U \\\\ \\{x'\\}: \\mu_{\\tilde A}(x) = 0\\)}}",
+                "<a href=\"https://youtu.be/P_DDf_KM9a0?t=114\">https://youtu.be/P_DDf_KM9a0?t=114</a>"
+            ],
+            "flags": 0,
+            "guid": "If;+Oe-n)N",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-0b4ff4f93e27959a984d08295eb9c675f8f4f6db.png\"><div>Ist dies ein Regelkreis?</div>",
+                "<div>{{c1::Nein, die Rückkopplung fehlt<div><img src=\"paste-9f0d3d56ea5fbc1cb3ee21bc5459181ed870f98d.png\"></div>}}<br></div>",
+                "<a href=\"https://youtu.be/yH061kRy8LU?list=PLC4EN0QuF7u3GniJHPde1XMJhJW_T57uZ&amp;t=38\">https://youtu.be/yH061kRy8LU?list=PLC4EN0QuF7u3GniJHPde1XMJhJW_T57uZ&amp;t=38</a>"
+            ],
+            "flags": 0,
+            "guid": "Jqqv9zajO",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f762cf63b334d7e6e40da60e9f16b218146f8481.png\"><br>Leiten sie aus dem unscharfen Intervall eine scharfe Zahl ab",
+                "Lösung 1:&nbsp;{{c1::Mean of Maxima}}<div>Lösung 2:&nbsp;{{c1::Flächenschwerpunkt}}</div>",
+                "<a href=\"https://youtu.be/0-0rKL-GT6c?list=PLC4EN0QuF7u3GniJHPde1XMJhJW_T57uZ&amp;t=108\">https://youtu.be/0-0rKL-GT6c?list=PLC4EN0QuF7u3GniJHPde1XMJhJW_T57uZ&amp;t=108</a>"
+            ],
+            "flags": 0,
+            "guid": "BK-#z#[8B:",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie kann die Ausgabe eines Sensors, der eine scharfe Zahl liefert in eine unscharfe Zahl umgewandelt werden?",
+                "Lösung 1: {{c2::Jede scharfe Zahl kann als Singleton verwendet werden.}}<div>Lösung 2: {{c1::Wandle in Dreieckszahl mit Genauigkeit um}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "Lj0F<%*SG@",
+            "note_model_uuid": "bfa79bac-ca5d-11ea-9a4d-f0d5bf9cf059",
+            "tags": [
+                "quiz"
             ]
         }
     ]
