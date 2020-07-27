@@ -2,12 +2,12 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "b4932900-c389-11ea-b4ba-4ccc6a605f05",
-    "deck_config_uuid": "785a3ef0-c664-11ea-b2ca-4ccc6a605f05",
+    "deck_config_uuid": "c64460fc-d030-11ea-8dff-4ccc6a605f05",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "785a3ef0-c664-11ea-b2ca-4ccc6a605f05",
+            "crowdanki_uuid": "c64460fc-d030-11ea-8dff-4ccc6a605f05",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -61,7 +61,9 @@
         "paste-17cfcf185593f16eaed63461d39f4e0f58523d3c.jpg",
         "paste-20fa823acb82dae77d01e3cc3dd4fb1e6ec921af.jpg",
         "paste-251234abd5b4837088489bfa13def3e621b795db.jpg",
+        "paste-2ac3f67661e5bef6bcdbb9911bcc1b3574a828d0.jpg",
         "paste-2b0b09ec69924a833ae32d0fcfc182a6072ba77c.jpg",
+        "paste-2d6212469a278d46cb9c3a42c9797b64e4ada798.jpg",
         "paste-2e57bb42b9ee20c88957954fd1b96f27fc05d1fe.jpg",
         "paste-2f4bc43cfe5695dd0772a69a3aebd6403109ed6e.jpg",
         "paste-33f3cb2eaba52dc6594a10788e2a0edf2d785ee7.jpg",
@@ -103,7 +105,9 @@
         "paste-91e084a527a85c11e4e270a53c7b4023f1029ce7.jpg",
         "paste-92feed4eb3c61a4a4e31c44d1964c9fd2e655fc6.jpg",
         "paste-94137be2a17d958ce6e420683a92d76f78952ffb.jpg",
+        "paste-95d934f1733bd4188e044442b7c479f3dd229e6b.jpg",
         "paste-989e7638b86cb849f9830860bddb86efb870f4cd.jpg",
+        "paste-9a0051866a76fcb6b28954769d395710c48476fa.jpg",
         "paste-9a519c904d7f48bfa92bef3c2e0ea939555f4a68.jpg",
         "paste-9e8bfb6770086c3167e3aa97b2bb668b65a75719.jpg",
         "paste-9fd9794b9ec56a24bce0d1f0ea03028dd184219a.jpg",
@@ -121,7 +125,9 @@
         "paste-bdbd2d0f07417b2e5fce1bea102d27f9b1a6a710.jpg",
         "paste-be1152b074bbfab802c15bc5ca1ae4bf4d441be6.jpg",
         "paste-c03b09b053bd458cebd141c72201874768181748.jpg",
+        "paste-c3d924fa54e0b94730e119af0dcd73cf095620f2.jpg",
         "paste-c6fc5f37f8f5e777558412230d966f38aa058f3b.jpg",
+        "paste-c723de1f98a70b9b66d09d7cc9b30588ecdaa5b3.jpg",
         "paste-c750999d0a1d47f3d5d9f1faad3ca7d786280504.jpg",
         "paste-c915b39b5a8b460f6fa17294e2d82cbc10b56ac3.jpg",
         "paste-cb87d0fc9043cccc6052a798fa177a6ab7d18ca8.jpg",
@@ -132,6 +138,7 @@
         "paste-d166686c3f263b0fad795eda851c5befb948b78d.jpg",
         "paste-d2215a2c6b87bb8e8049f58984f75defcf018b3c.jpg",
         "paste-d4727de895c665df734f10f5c421bedeb291226a.jpg",
+        "paste-d5d584199122e7c380c538c2b0d90ab301dbeda4.jpg",
         "paste-d98a9f26f02a290a7cf1cb1299647be39044e643.jpg",
         "paste-dd47f6aeb0d576412df56b2a7ec7a34a495af001.jpg",
         "paste-e753deefd963091526f0e402ea4dbeb028f0c1da.jpg",
@@ -152,7 +159,7 @@
     "note_models": [
         {
             "__type__": "NoteModel",
-            "crowdanki_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "crowdanki_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
             "flds": [
                 {
@@ -275,7 +282,7 @@
             ],
             "flags": 0,
             "guid": "s2!X?X)CPC",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -299,7 +306,7 @@
             ],
             "flags": 0,
             "guid": "Mxo)98_~@6",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -311,7 +318,7 @@
             ],
             "flags": 0,
             "guid": "pOmT-m&wa}",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -323,7 +330,7 @@
             ],
             "flags": 0,
             "guid": "E={5WLbAr[",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -335,7 +342,7 @@
             ],
             "flags": 0,
             "guid": "c?X=[;*g.a",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -359,7 +366,7 @@
             ],
             "flags": 0,
             "guid": "M{^Z@_u01?",
-            "note_model_uuid": "b4938c42-c389-11ea-b4ba-4ccc6a605f05",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
             "tags": []
         },
         {
@@ -1547,6 +1554,90 @@
             ],
             "flags": 0,
             "guid": "t.d^Eo0Rd3",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Modeling {{c1::<b>Uncertainty</b>}} is important due to the possibility of it {{c2::preventing or detecting catastrophic failure}} in deep learning applications",
+                "<img src=\"paste-c3d924fa54e0b94730e119af0dcd73cf095620f2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "wl.DXSdfrr",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Predictive</b>}} Uncertainty, meaning the {{c2::model's confidence in its predictions}}, can be divided into {{c2::Model Uncertainty (epistemic)}} and {{c2::Data Uncertainty (aleatoric)}}, the latter of which can be divided further into {{c3::homoscedastic}} and {{c3::heteroscedastic}} Uncertainty",
+                "<img src=\"paste-9a0051866a76fcb6b28954769d395710c48476fa.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pSpelxt%Sq",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Aleatoric</b> Uncertainty models the {{c1::inherent noise in the data}}, which is {{c2::irreducable}}, but {{c2::can be learned}}<div><br></div><div><b>Homoscedastic</b> (Aleatoric) Uncertainty means the uncertainty is {{c1::the same for all inputs (e.g. due to an imprecise sensor)}} while <b>Heteroscedastic</b> (Aleatoric) Uncertainty means the uncertainty {{c1::can vary with the input}}</div>",
+                "<img src=\"paste-d5d584199122e7c380c538c2b0d90ab301dbeda4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AbV@($rw6<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Epistemic</b> Uncertainty measures the {{c1::<b>model</b> uncertainty}}, i.e. what the {{c1::<b>model</b>}} doesn't know, which is {{c1::reducible}}",
+                "<img src=\"paste-2d6212469a278d46cb9c3a42c9797b64e4ada798.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kLG<q}DFa[",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Approaches for&nbsp;<b>quantifying</b> Epistemic Uncertainty include:</u><div>- {{c1::Bayesian Neural Networks}}, i.e. {{c2::using a distribution over each weight instead of pseudo-probability point estimates}}</div><div>- {{c1::Confidence Calibration}}<i> (not discussed further in the lecture)</i></div><div>- {{c1::Ensemble}}, i.e. {{c2::training many models and detecting disagreements}}</div>",
+                "<i>Dropout is a variational approximation of a Bayesian Neural Network and can be used to quantify the model uncertainty!</i><div><img src=\"paste-c723de1f98a70b9b66d09d7cc9b30588ecdaa5b3.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "DetN]kd.z",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Zero-Shot Learning</b>}} is the task of {{c2::recognizing classes that were never seen before}} by {{c2::leveraging a semantic embedding}}<div><br></div><div>This is expressed as recognizing unseen visual samples \\(x^{unseen}\\) given \\(x^{seen}\\) corresponding to the labels \\(y^{seen}\\) and {{c2::a semantic embedding \\(\\phi(y):\\ Y \\rightarrow S\\)}} under the Zero-Shot condition:<div><br></div><div>{{c3::\\[y^{unseen} \\cap y^{seen} = \\emptyset\\]}}</div></div>",
+                "<img src=\"paste-2ac3f67661e5bef6bcdbb9911bcc1b3574a828d0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "nIUT>?O$~0",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::<b>Domain Adaptation</b>}} task provides {{c2::training data}} and {{c2::the ground truth}} from a {{c3::source domain}} and {{c2::unlabeled training data}} from a {{c3::target domain}}<div><br></div><div>Assuming {{c3::both domains share the same classes}}, the task is to {{c3::adapt the image task performed on the source domain}} to the {{c3::target domain}}</div>",
+                "<img src=\"paste-95d934f1733bd4188e044442b7c479f3dd229e6b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q%}MT/yC}K",
             "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
             "tags": []
         }
