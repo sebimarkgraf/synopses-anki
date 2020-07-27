@@ -1,0 +1,1645 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "b4932900-c389-11ea-b4ba-4ccc6a605f05",
+    "deck_config_uuid": "c64460fc-d030-11ea-8dff-4ccc6a605f05",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "c64460fc-d030-11ea-8dff-4ccc6a605f05",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Deep Learning for Computer Vision",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-0cdce6d5dd97706da258a7271a2e0c6653b118a4.jpg",
+        "paste-11c18a27bc1fabb337d6fc55b37da0ed6e81c205.jpg",
+        "paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg",
+        "paste-17cfcf185593f16eaed63461d39f4e0f58523d3c.jpg",
+        "paste-20fa823acb82dae77d01e3cc3dd4fb1e6ec921af.jpg",
+        "paste-251234abd5b4837088489bfa13def3e621b795db.jpg",
+        "paste-2ac3f67661e5bef6bcdbb9911bcc1b3574a828d0.jpg",
+        "paste-2b0b09ec69924a833ae32d0fcfc182a6072ba77c.jpg",
+        "paste-2d6212469a278d46cb9c3a42c9797b64e4ada798.jpg",
+        "paste-2e57bb42b9ee20c88957954fd1b96f27fc05d1fe.jpg",
+        "paste-2f4bc43cfe5695dd0772a69a3aebd6403109ed6e.jpg",
+        "paste-33f3cb2eaba52dc6594a10788e2a0edf2d785ee7.jpg",
+        "paste-34c3e307cc6154f4cf83a857b849a2b20c7661c7.jpg",
+        "paste-366399e23e2d3bd98c302aa1309e1a09168e22a9.jpg",
+        "paste-39828eb71870a02e3cf4fb9cf1884c495ec844e0.jpg",
+        "paste-3e75bd8514ea29f8a8e9171fdf461959260e9fcd.jpg",
+        "paste-42aca418d611f86a00ab8912482424737bf07508.jpg",
+        "paste-48d5e751a604bb8994abc0f64cbd9e8b6b71e6c5.jpg",
+        "paste-490cbfdc1b378156c9032ac28a88367f94e0c785.jpg",
+        "paste-4c390ea4073dbe933d716310f355f3270b0cf7fc.jpg",
+        "paste-4e686d580e834b1fffaf0a46b0cd78e18227e4d8.jpg",
+        "paste-4e8fa8de29bd1b75472d771701971f3a26ffbe08.jpg",
+        "paste-52634b737ac433ac202571b2e0225ec0eb1d2aa1.jpg",
+        "paste-59a67bab1e2c3700c2d8f97b9566ab2561574fc8.jpg",
+        "paste-5a4ca976a54464e14ca5ecf58a070faa2107f147.jpg",
+        "paste-5cd803b41c11645c35564ad1fbaa6369b51f82c6.jpg",
+        "paste-5dd2e19ddb2b9a4161f610fb39ca15e66804e402.jpg",
+        "paste-5ea218517225ec74e857f1c06bb5b27b88988803.jpg",
+        "paste-5f628055010192544e14a7410f2da5ba2d857b81.jpg",
+        "paste-5fc75b5ef7db608d8aa3c4324570a55187492206.jpg",
+        "paste-64791ecfcf4760512f6fbd42d2a92dc1643f990c.jpg",
+        "paste-661e8ca674ab9d24e7312bc9a8d5cba07b39595d.jpg",
+        "paste-674f12c98757e3aea3a3ecccc6c820905d0d5163.jpg",
+        "paste-6abeff5157a14f9a6d8b235a629ef8931d98b890.jpg",
+        "paste-6bd9c2293a66a76106b2b87c6f2fdb04e1658fcd.jpg",
+        "paste-6cb42c8cdaddced764b8b5419b189822865e6220.jpg",
+        "paste-6ea287313f05e2a2d1cde982aee425bd14ae1e7a.jpg",
+        "paste-7095a49cf2dee97f8d3275793c48942af0592131.jpg",
+        "paste-74626584d6ad1c117f53b9ad41326933b4d07279.jpg",
+        "paste-74c69842949d27f2f9b3d21535de5f231ba3e2c2.jpg",
+        "paste-7ae67ca0fd9e9f82c1bacfa4b8b0142c011108e5.jpg",
+        "paste-7cf7b30537b003654860b07886dccc9076b0b7e9.jpg",
+        "paste-7e911702925479ea3d70b1a3d3944653ae02fba0.jpg",
+        "paste-800cb3b94ed453ea11da1eeac40c238f44efd1a0.jpg",
+        "paste-8500b87eb3d41cc154dc3ad17868f60f934124dc.jpg",
+        "paste-8c189263ebacce960ee58a1baed8a7bd84afb6a4.jpg",
+        "paste-8da9f6547ce2b324e70e039dcf55ee2a6f1de420.jpg",
+        "paste-91e084a527a85c11e4e270a53c7b4023f1029ce7.jpg",
+        "paste-92feed4eb3c61a4a4e31c44d1964c9fd2e655fc6.jpg",
+        "paste-94137be2a17d958ce6e420683a92d76f78952ffb.jpg",
+        "paste-95d934f1733bd4188e044442b7c479f3dd229e6b.jpg",
+        "paste-989e7638b86cb849f9830860bddb86efb870f4cd.jpg",
+        "paste-9a0051866a76fcb6b28954769d395710c48476fa.jpg",
+        "paste-9a519c904d7f48bfa92bef3c2e0ea939555f4a68.jpg",
+        "paste-9e8bfb6770086c3167e3aa97b2bb668b65a75719.jpg",
+        "paste-9fd9794b9ec56a24bce0d1f0ea03028dd184219a.jpg",
+        "paste-a1637d43ce1a95e15349fe3f9d87222585bc6f9b.jpg",
+        "paste-a1e00d58c7ed818d7806a21357da32ed668c4e0e.jpg",
+        "paste-a89635344a93074352c41f4f37ee0b338d446e7a.jpg",
+        "paste-a8977a31a937fabd9aa043193cd916846d849b01.jpg",
+        "paste-ac86b2188c74ca77e7c3b07ce78c4143d5e9bd28.jpg",
+        "paste-accf5eb150065fab04f37f8e9720710675bfe624.jpg",
+        "paste-b37ad51b89d1d08d53f6af0bc961ddf4943f4c0a.jpg",
+        "paste-b424c47bb7fdbaefb8e472a9ccf1ad630cf4e126.jpg",
+        "paste-b71a2824ed09c73a114354132a64a50eac7b605b.jpg",
+        "paste-b88bf5584bcdcef65cf30769528d535604f2a3e3.jpg",
+        "paste-ba0bcf5eb87c64df34df89a64fa97688f7c15aa7.jpg",
+        "paste-bdbd2d0f07417b2e5fce1bea102d27f9b1a6a710.jpg",
+        "paste-be1152b074bbfab802c15bc5ca1ae4bf4d441be6.jpg",
+        "paste-c03b09b053bd458cebd141c72201874768181748.jpg",
+        "paste-c3d924fa54e0b94730e119af0dcd73cf095620f2.jpg",
+        "paste-c6fc5f37f8f5e777558412230d966f38aa058f3b.jpg",
+        "paste-c723de1f98a70b9b66d09d7cc9b30588ecdaa5b3.jpg",
+        "paste-c750999d0a1d47f3d5d9f1faad3ca7d786280504.jpg",
+        "paste-c915b39b5a8b460f6fa17294e2d82cbc10b56ac3.jpg",
+        "paste-cb87d0fc9043cccc6052a798fa177a6ab7d18ca8.jpg",
+        "paste-cbb07e092932901ee2b127b3e9a5b3a79bec0a9f.jpg",
+        "paste-cc239d583cabda48506961c865103ac279c07d30.jpg",
+        "paste-cc52069fd0a960ac7b6cfc9e0f7e52bf821fe0a5.jpg",
+        "paste-cfd9e23f1968b52c3713c3120c386ae8ca1fb8ef.jpg",
+        "paste-d166686c3f263b0fad795eda851c5befb948b78d.jpg",
+        "paste-d2215a2c6b87bb8e8049f58984f75defcf018b3c.jpg",
+        "paste-d4727de895c665df734f10f5c421bedeb291226a.jpg",
+        "paste-d5d584199122e7c380c538c2b0d90ab301dbeda4.jpg",
+        "paste-d98a9f26f02a290a7cf1cb1299647be39044e643.jpg",
+        "paste-dd47f6aeb0d576412df56b2a7ec7a34a495af001.jpg",
+        "paste-e753deefd963091526f0e402ea4dbeb028f0c1da.jpg",
+        "paste-e99ddf40ec427912dd37aedf521d1a94d7450c5e.jpg",
+        "paste-ed99acba6aa3a75c6e513fc2813e2ac58d0a096e.jpg",
+        "paste-ef76bc9acd1ad22fd1b9e60de1012545cd8574a4.jpg",
+        "paste-f01d2e5b0c90168ff29feba0cdba6429ab1b9f5c.jpg",
+        "paste-f3eef0619ab232c66b02d7ee8e29638b7f6d0e02.jpg",
+        "paste-f6490dde4cecab68dc095089fd29438fa25a6da3.jpg",
+        "paste-faa15fe61b36db91e39fa6bb443789c6c4f25eeb.jpg",
+        "paste-fbec6840d8599a47b64839cef323482bb3135cfe.jpg",
+        "paste-fc0103c86bd37cb37b91d49e6e356111b5471bc9.jpg",
+        "paste-fcbf80ea800fda7a473ed1a9fed8570ef8c38d89.jpg",
+        "paste-fd51334ba5c7843467e79d0091ad48982ca4c609.jpg"
+    ],
+    "mid": 1490021512285,
+    "name": "Deep Learning for Computer Vision",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Nimbus Sans",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{Front}}\n<hr id=answer>\n{{Back}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the general structure of a <b>Single-Layer Perceptron</b> (as designed by Frank Rosenblatt)?",
+                "<img src=\"paste-fbec6840d8599a47b64839cef323482bb3135cfe.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "s2!X?X)CPC",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A <b>Single-Layer Perceptron</b> without an activation function performs {{c1::Linear Regression}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B~)igGeKy+",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the general structure of a <b>Multi-Layer Perceptron</b>?",
+                "<img src=\"paste-9e8bfb6770086c3167e3aa97b2bb668b65a75719.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Mxo)98_~@6",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the formula for <b>Forward Propagation</b> for a node&nbsp;<i>y</i>&nbsp;with an activation function&nbsp;<i>f</i>, a weight matrix&nbsp;<i>W</i>, input&nbsp;<i>x</i>&nbsp;and bias&nbsp;<i>b?</i>",
+                "The result of the activation function being applied to the sum of the weighted input and the bias:<i><br><br>y = f(Wx + b)</i>"
+            ],
+            "flags": 0,
+            "guid": "pOmT-m&wa}",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why can't the mapping between layers of the network be <b>linear</b> (i.e. why is the activation function non-linear)?",
+                "A composition of linear functions is linear - the network would collapse to a regression model"
+            ],
+            "flags": 0,
+            "guid": "E={5WLbAr[",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the mathematical definition of the <b>softmax</b> function and what does it do in the case of Deep Learning?",
+                "Softmax yields a probability distribution, describing the probability that a feature x belongs to a class c<sub>k</sub><div><br></div><div>For a model&nbsp;θ&nbsp;softmax is defined as:<div>\\[p(y = c_k | x; \\Theta) = \\frac{e^{\\Theta^T_kx}}{\\sum_j e^{\\Theta^T_jx}}\\]</div></div>"
+            ],
+            "flags": 0,
+            "guid": "c?X=[;*g.a",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A <b>hidden unit</b>, i.e. a node in a hidden layer, can be thought of as a {{c1::classifier}} or {{c1::feature computer}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "yA4$`~Ps0v",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Why is it advantageous to have a network with <b>many</b> layers?",
+                "Data with a hierarchical structure is well exploited with a hierarchical model architecture where intermediate features can be re-used"
+            ],
+            "flags": 0,
+            "guid": "M{^Z@_u01?",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "When training, the idea is to {{c1::improve the weights by small amounts}} depending on the {{c2::gradient of the loss function (\\(\\rightarrow\\) <b>Gradient Descent</b>)}}",
+                "<img src=\"paste-accf5eb150065fab04f37f8e9720710675bfe624.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "mq!H6y5+WS",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Formula for updating the weights \\(\\Theta\\) using the loss function \\(L\\) and the step size \\(\\eta\\), i.e. <b>Gradient Descent</b>:<div><br></div><div>{{c1::\\[\\Theta \\leftarrow \\Theta - \\eta \\frac{\\partial L}{\\partial \\Theta}\\]}}</div>",
+                "<img src=\"paste-accf5eb150065fab04f37f8e9720710675bfe624.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "igWI@1ACCj",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Batch Gradient Descent</b> updates the weights using a gradient based on the {{c1::entire data set}} for every epoch, which is {{c2::memory intensive for large data sets}}, but {{c3::guaranteed to converge to a global minimum for convex error surfaces}} and a&nbsp;{{c3::local minimum for non-convex error surfaces}}",
+                "<img src=\"paste-2b0b09ec69924a833ae32d0fcfc182a6072ba77c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "O5b+HQHcT&",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Stochastic Gradient Descent</b> (or mini-batch Gradient Descent) {{c1::approximates the gradient}} with a {{c1::mini-batch of examples}}, which {{c2::almost guarantees convergence towards the global minimum for a convex error surface}} and a {{c2::local minimum for a non-convex error surface}}",
+                "<img src=\"paste-92feed4eb3c61a4a4e31c44d1964c9fd2e655fc6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "lJ,1xKq9[t",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If the <b>training rate </b>hyperparameter \\(\\eta\\) is too large, the {{c1::loss will fluctuate around the minimum or even diverge}}, but if it is too small, the {{c2::convergence will be very slow}}",
+                "<br><img src=\"paste-9fd9794b9ec56a24bce0d1f0ea03028dd184219a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "f>3xn64R_y",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A challenge for <b>Gradient Descent</b> is the fact that {{c1::most error surfaces are highly non-convex}}",
+                "<img src=\"paste-661e8ca674ab9d24e7312bc9a8d5cba07b39595d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AH*fW*]W78",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The problem of choosing the correct learning rate can be mitigated using the {{c1::<b>momentum</b> hyperparameter \\(\\mu\\) (usually \\(0.9\\))}}, which {{c2::takes the gradient from previous steps into account}}:<div><br></div><div><div>{{c3::\\[\\Delta_t = \\mu\\Delta_{t-1} - \\eta \\frac{\\partial L(\\Theta)}{\\partial \\Theta}\\]}}</div><div><div><br></div><div>{{c4::\\[\\Theta \\leftarrow \\Theta + \\Delta_t\\]}}</div></div></div><div><br></div><div>The {{c1::<b>momentum</b>}} {{c5::accelerates if the gradients change in the same direction}} and {{c5::decelerates when the direction changes}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "xmUK*6cG4?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>Nesterov Accelerated Gradient</b>}} is a modification of the momentum approach and calculates the gradient {{c2::at the future approximate position before updating}}",
+                "<img src=\"paste-d4727de895c665df734f10f5c421bedeb291226a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o`x1`XNOSf",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div><u>Gradient Descent Optimization Strategies:</u></div><div><br></div>{{c1::<b>Adagrad</b>}} uses different {{c2::learning rates}} for each {{c2::weight}}, depending on the past gradients, whereas {{c1::<b>Adadelta</b>}} extends {{c1::<b>Adagrad</b>}} with a {{c4::less aggressive learning rate decay}}.<div><br></div><div>Furthermore, the popular {{c1::<b>Adam</b>}} optimization uses the {{c6::second moments of the gradients (basically}} {{c1::<b>Adadelta</b>}}&nbsp;{{c6::with momentum)}}</div>",
+                "<img src=\"paste-a1637d43ce1a95e15349fe3f9d87222585bc6f9b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gn-j,R=kWb",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Activation Functions: Sigmoid</u><div><br></div><div><b>Formula</b>:</div><div>{{c1::\\[\\sigma(x) = \\frac{1}{(1 + e^{-x})}\\]}}</div><div><br></div><div><b>Graph</b>:</div><div>{{c2::<img src=\"paste-d98a9f26f02a290a7cf1cb1299647be39044e643.jpg\">}}</div><div><br></div><div><b>Drawbacks</b>:</div><div>- {{c3::Vanishing gradients at either tail of 1 or 0}}</div><div>- {{c4::Outputs are not zero-centered}}</div>",
+                "<i>Common in the past, rarely used today</i>"
+            ],
+            "flags": 0,
+            "guid": "e`NS%U&{u_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Activation Functions: Tanh</u><div><br></div><div><b>Formula</b>:</div><div>\\[tanh(x)\\]</div><div><br></div><div><b>Graph</b>:</div><div>{{c1::<img src=\"paste-dd47f6aeb0d576412df56b2a7ec7a34a495af001.jpg\">}}</div><div><br></div><div><b>Drawbacks</b>:</div><div>- {{c2::Vanishing gradients at either tail of 1 or 0}}</div>",
+                "<i>Similar to Sigmoid, but zero-centered</i>"
+            ],
+            "flags": 0,
+            "guid": "Krj&WFmD6n",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Activation Functions: Rectified Linear Unit (ReLU)</u><div><br></div><div><b>Formula</b>:</div><div>{{c1::\\[f(x) = max(0, x)\\]}}</div><div><br></div><div><b>Graph</b>:</div><div>{{c2::<img src=\"paste-4c390ea4073dbe933d716310f355f3270b0cf7fc.jpg\">}}</div><div><br></div><div><b>Drawbacks</b>:</div><div>- {{c3::Large gradient flow could cause weights to update in such a way that the neuron will never activate again}}</div>",
+                "<i>Simple, inexpensive, no vanishing gradient</i>"
+            ],
+            "flags": 0,
+            "guid": "sn}Ud=(}X9",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Activation Functions: Leaky Rectified Linear Unit (ReLU)</u><div><br></div><div><b>Formula</b>:</div><div>{{c1::\\[f(x) = 1(x &lt; 0)(\\alpha x) + 1(x \\geq 0)(x)\\]}}</div><div><br></div><div><b>Graph</b>:</div><div>{{c2::<img src=\"paste-5dd2e19ddb2b9a4161f610fb39ca15e66804e402.jpg\">}}</div><div><br></div><div><b>Advantage over ReLU</b>:</div><div>- {{c3::Attempts to fix \"dying ReLu\" issue for x &lt; 0 by having a small negative slope}}</div>",
+                "<i>\\(\\alpha\\) is a small constant</i>"
+            ],
+            "flags": 0,
+            "guid": "kKg-x02wW)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Advice on <b>choosing an Activation Function</b>:</u><div><br></div><div>Use {{c1::ReLU}} with a well-adjusted learning rate to prevent {{c1::\"dead\" units}}. If the latter are a concern, use {{c1::Leaky ReLU or Maxout (ReLU Generalization by Goodfellow)}}. {{c1::Tanh}} usually performs worse than these. Also never use {{c1::Sigmoid}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "jQfc@_18$g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Convolutional Neural Networks</b> {{c1::filter and pool}} input data repeatedly to {{c2::reduce resource waste, get fewer, more meaningful parameters and find local correlations}}, making more out of the input data than a simple, fully-connected approach",
+                "<img src=\"paste-be1152b074bbfab802c15bc5ca1ae4bf4d441be6.jpg\"><img src=\"paste-251234abd5b4837088489bfa13def3e621b795db.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "z^R~z#Y6,}",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A <b>convolution layer </b>{{c1::filters (and often reduces)}} the input data in a {{c1::non-linear fashion}} using a {{c1::kernel}}, resulting in a {{c2::feature map}} representing a {{c2::higher-level feature}}",
+                "<img src=\"paste-c750999d0a1d47f3d5d9f1faad3ca7d786280504.jpg\"><div><i>(usually the output has more feature maps than the input due to multiple convolutions being used)</i><br></div>"
+            ],
+            "flags": 0,
+            "guid": "MN!_gi6r:=",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Pooling</b> is the act of {{c1::combining the response of a spatial patch}}, i.e. {{c1::compressing a set of data points to their essential response}} while {{c1::reducing noise and increasing robustness}}. Popular methods include taking the {{c2::sum/average}} of a patch&nbsp;or its {{c2::maximum}}",
+                "<img src=\"paste-b71a2824ed09c73a114354132a64a50eac7b605b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "m&OFZL}id$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A typical feed-forward CNN (Convolutional Neural Network) performs the<b> following steps</b>:<div><br></div><div>{{c1::<img src=\"paste-366399e23e2d3bd98c302aa1309e1a09168e22a9.jpg\">}}</div>",
+                "<i>(the non-linearity step runs the data through an activation function like ReLU)</i>"
+            ],
+            "flags": 0,
+            "guid": "T$|Ce?@7/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Data augmentation</b> {{c1::increases the volume of available training data}}&nbsp;by {{c1::applying various transformations}} like {{c1::cropping, reflections and flipping}} in the case of image data",
+                "<img src=\"paste-d2215a2c6b87bb8e8049f58984f75defcf018b3c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GY=Zr+TaiX",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Dropout</b> {{c1::randomly sets neuron outputs to 0}} in order to {{c1::reduce dependencies between neurons}} as no single neuron can then {{c1::rely on other neurons being switched on}}",
+                "<img src=\"paste-cfd9e23f1968b52c3713c3120c386ae8ca1fb8ef.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "DA~eJj!V}:",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Batch Normalization</b> (<i>according to the lecture!</i>) combats the {{c1::Internal Covariance Shift (ICS)}} problem, which basically means that {{c1::parameter initialization and changes in the input distribution of each layer affect the learning rate}}<div><br></div><div>This means {{c2::normalizing the input layer}} by {{c2::re-centering and re-scaling the data}}, resulting in {{c2::zero-mean unit-variance activations}} and {{c2::improved performance}}</div>",
+                "<i>(it has been argued that Batch Normalization does not improve performance by combating ICS, but by smoothing the objective function - the lecture might be outdated since Batch Normalization was introduced in 2015 and its effects are still a topic of discussion)</i>"
+            ],
+            "flags": 0,
+            "guid": "MHc@,gZOJ}",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "CNNs are especially <b>relevant</b> today due to recent improvements regarding {{c1::data set availability and GPU power}}, working particularily well with {{c1::image data}} and being useful for {{c1::feature extraction}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "zusM`y>gr(",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Instead of just classifying an image, a {{c1::<b>feature extractor</b>}} actually {{c2::describes (or \"features\") the image}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "ohWA>o7y@Y",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Extracting features</b> can be achieved by {{c1::removing the last layer (softmax layer) of a deep network}} and {{c1::using the hidden unit values as features}}",
+                "<i>An example of this is provided by DeCAF (A Deep Convolutional Activation Feature for Generic Visual Recognition)</i><div><br></div><div><img src=\"paste-39828eb71870a02e3cf4fb9cf1884c495ec844e0.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "tV|O)u!ZU|",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>ResNet</b>, a popular deep architecture, uses network layers to {{c1::fit a residual mapping}} instead of {{c1::the direct underlying mapping}}. The hypothesis behind this is that {{c2::\"it would be easier to push the residual to zero than to fit an identity mapping by a stack of non-linear layers\"}}",
+                "<i>(regardless of why, the most important thing is that it works)</i><div><img src=\"paste-74626584d6ad1c117f53b9ad41326933b4d07279.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "PTI4>h@tsz",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The <b>goal</b> of <b>object detection</b> is to {{c1::localize each instance using a bounding box}} and to {{c2::classify each bounding box to the corresponding object class}}, which is useful for {{c3::robotics, self-driving cars or surveillance}}",
+                "<img src=\"paste-7ae67ca0fd9e9f82c1bacfa4b8b0142c011108e5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t+KHgufni]",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::<b>regression model</b>}} can be used for object detection, but is limited by the {{c2::need for variable sized outputs}}",
+                "<img src=\"paste-f6490dde4cecab68dc095089fd29438fa25a6da3.jpg\"><div><img src=\"paste-8da9f6547ce2b324e70e039dcf55ee2a6f1de420.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "H0{$@pJ:A{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>Sliding Window Approach</b>}} only checks a small part of an image at a time and tries to {{c2::classify each image patch into the corresponding object class}}",
+                "<img src=\"paste-64791ecfcf4760512f6fbd42d2a92dc1643f990c.jpg\"><div><img src=\"paste-a89635344a93074352c41f4f37ee0b338d446e7a.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "v1q<.FtVZ!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The Sliding Window Approach can be <b>extended</b> to recognize different sized objects by {{c1::applying the Sliding Window at different scales of the image}}",
+                "<img src=\"paste-c6fc5f37f8f5e777558412230d966f38aa058f3b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Gzpm+>rr6(",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The Sliding Window Approach can be very <b>time-consuming</b>, which can be <b>mitigated</b> by {{c1::using a very fast classifier (e.g. Histogram of Oriented Gradients (HOG), DPM)}} and/or {{c2::running the classifier only on some locations and scales (i.e. region proposals)}}",
+                "<img src=\"paste-7e911702925479ea3d70b1a3d3944653ae02fba0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q86KLCQh.o",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Image Patch Classification</b> can be done using the {{c1::Histogram of Oriented Gradients}}&nbsp;(HOG) approach with a {{c2::Support Vector Machine}} (SVM), which is {{c3::very fast}}, but {{c3::does not cope well with deformable objects}}",
+                "<img src=\"paste-6cb42c8cdaddced764b8b5419b189822865e6220.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CR/s^=LgG1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Region Proposal Methods</b> try to find \"{{c1::blobby image regions}}\" of different sizes that are {{c1::likely to contain objects}} in a {{c2::class-agnostic manner}}",
+                "<img src=\"paste-94137be2a17d958ce6e420683a92d76f78952ffb.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "oN5cYLWifa",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Objectness</b>}} is a metric for how {{c2::likely an image window contains an object of any category}}, usually calculated using {{c3::8x8 image regions from which 64D normed gradients are extracted}}<div><br></div><div>Efficiency can be increased using {{c4::Binarized Normed Gradients (BING)}}, which {{c5::approximate the normed gradients with a set of basis vectors}}</div>",
+                "<img src=\"paste-11c18a27bc1fabb337d6fc55b37da0ed6e81c205.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "r$J76EQF0h",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Selective Search</b>}} is another Region Proposal Approach, which {{c2::splits images based on color}} and {{c3::iteratively merges them based on the similarity of the regions}}, hierarchically grouping them from the bottom up",
+                "<img src=\"paste-ed99acba6aa3a75c6e513fc2813e2ac58d0a096e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "i9JHS^$>g1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Recall</b>}} is the ratio of {{c2::relevant items retrieved}}&nbsp;to {{c2::relevant items in a collection}}",
+                "<img src=\"paste-989e7638b86cb849f9830860bddb86efb870f4cd.jpg\"><div><img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "DiAS?j:z+*",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Precision</b>}} is the ratio of {{c2::relevant items retrieved}} to {{c2::total items retrieved}}",
+                "<img src=\"paste-2f4bc43cfe5695dd0772a69a3aebd6403109ed6e.jpg\"><div><img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "I&31wcDnT2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>\\(F\\) or \\(F_1\\) Measure</b>}} can be calculated as:<div><br></div><div>\\[F = \\frac{2 \\cdot precision \\cdot recall}{(precision + recall)}\\]</div>",
+                "<img src=\"paste-13ba59649c88b381c21c8c3f0135f87782c870ef.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GjCO@QA$vK",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Usually, deep multiclass detectors rely on <b>variants of three steps</b>:</u><div>1. {{c1::Generate bounding boxes (\"proposals\")}}</div><div>2. {{c2::Resample pixels/features in boxes to uniform size}}</div><div>3. {{c3::Apply a high quality classifier}}</div><div><br></div><div>A {{c4::Single Shot MultiBox Detector (SSD)}} optimizes performance at step {{c4::2 by trying to avoid resampling}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mbrU*d<d=t",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The core idea of a <b>Single Shot MultiBox Detector</b> is to {{c1::use a set of fixed default boxes at each position in a feature map}} and perform {{c2::object classification and box regression for each default box}}. Applying boxes at different layers with different sizes in the ConvNet avoids {{c3::the need for rescaling}}",
+                "<img src=\"paste-17cfcf185593f16eaed63461d39f4e0f58523d3c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "b7K)9eps]G",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "An {{c1::<b>Image Segmentation</b>}} task entails {{c2::partitioning an image}} into {{c2::meaningful regions}} with respect to {{c2::a particular application}}, based on measurements like {{c3::grey-level, color, texture, depth or motion (in video)}}",
+                "<img src=\"paste-6abeff5157a14f9a6d8b235a629ef8931d98b890.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Ris[/EYPUP",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Segmenting an image is <b>necessary</b> for {{c1::extracting reasonable local features}} like {{c1::color or texture}}, but also {{c2::simplifying the image representation}} into {{c2::more meaningful parts for ease of analysis}}",
+                "<img src=\"paste-cbb07e092932901ee2b127b3e9a5b3a79bec0a9f.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kmn6h6z+yo",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "There is often {{c1::<b>more than a single \"correct\" segmentation</b>}}<div><br></div><div>Instead, the segmentation depends on {{c1::world knowledge}}, which is {{c1::hard to represent}}</div>",
+                "<img src=\"paste-5cd803b41c11645c35564ad1fbaa6369b51f82c6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "j|oyGqu9fX",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u><b>Popular Image Segmentation methods</b> include:</u><div>- {{c1::Thresholding}}</div><div>- {{c1::Clustering}}</div><div>- {{c1::Region Growing}}</div><div>- {{c1::Watershed}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "dSJ>cUi]o9",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b><u>Simple Clustering Approaches: {{c1::Agglomerative Clustering}}</u></b><div>1. {{c2::Make each point a separate cluster}}</div><div>2. {{c2::Merge clusters with smallest inter-cluster distance until clustering is satisfactory}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "N_qdJo]GFI",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b><u>Simple Clustering Approaches: {{c1::Divisive Clustering}}</u></b><div>1. {{c2::Construct a single cluster using all points}}</div><div>2. {{c2::Split clusters with largest inter-cluster distance until clustering is satisfactory}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "O8ZWaXPKN1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A <b>major difficulty</b> with clustering approaches is the {{c1::choice of inter-cluster distances}}, i.e. a {{c1::stopping criterion}} marking the clustering as {{c1::satisfactory}}<div><br></div><div>Alternatively, assuming that {{c2::there should be a given number of clusters}}, the problem can be formulated as an {{c2::optimization task}}</div>",
+                "<i>(see k-means for an example)</i><div><img src=\"paste-b424c47bb7fdbaefb8e472a9ccf1ad630cf4e126.jpg\"><i><br></i></div>"
+            ],
+            "flags": 0,
+            "guid": "Q(/2/g5!54",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b><u>K-means Algorithm:</u></b><div>1. Choose {{c1::initial mean values for <i>k</i> regions}}</div><div>2. Classify {{c1::<i>n</i> pixels by assigning them to the \"closest\" mean}}</div><div>3. Recompute {{c1::the means as the average of samples in their (new) classes}}</div><div>4. Continue until {{c1::there is no change in mean values}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "e:TU%h2?PR",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Semantic Segmentation</b>}} segments objects in an image and {{c2::classifies each segment to the corresponding object category}}",
+                "<img src=\"paste-f3eef0619ab232c66b02d7ee8e29638b7f6d0e02.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M]OEKfbr[k",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b><u>Applications for semantic segmentation:</u></b><div>- {{c1::Street segmentation}}, e.g. to assist {{c1::autonomous driving}} or {{c1::visually impaired poeple}}</div><div>- {{c1::Robotics}}</div><div>- {{c1::Biomedical imagery}}, e.g. {{c1::radiological or pathological data}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "uy4%9KP0C6",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Unpooling</b>}} is the process of {{c2::upsampling data points}}, e.g. using {{c2::bilinear interpolation}}",
+                "<img src=\"paste-cc52069fd0a960ac7b6cfc9e0f7e52bf821fe0a5.jpg\"><div><img src=\"paste-a1e00d58c7ed818d7806a21357da32ed668c4e0e.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "e,<05lRO>X",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Instance Segmentation</b>}} not only classifies each pixel to an object, but also {{c2::marks the instance it belongs to}}",
+                "<img src=\"paste-490cbfdc1b378156c9032ac28a88367f94e0c785.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QIid5to!o`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>ROI</b> (Region of Interest) <b>Pooling</b>}} takes a list of {{c2::region proposals}} and converts them to a {{c2::fixed shape}}, which is necessary due to object detection networks having a {{c2::fixed image size requirement}}",
+                "<img src=\"paste-8500b87eb3d41cc154dc3ad17868f60f934124dc.jpg\"><div><img src=\"paste-3e75bd8514ea29f8a8e9171fdf461959260e9fcd.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Nkoid.MtE$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Since region proposals use float coordinates and ROI Pooling needs integers, the coordinates are {{c1::<b>quantized</b>}}, which {{c1::breaks the pixel-to-pixel alignment}}<div><br></div><div>This can be avoided by using {{c2::ROI Align}} instead</div>",
+                "<img src=\"paste-9a519c904d7f48bfa92bef3c2e0ea939555f4a68.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "D/Z,:Hd~HT",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>ROI Align</b>}} uses {{c2::bilinear interpolation}} instead of {{c2::quantizing the coordinates}} like naive ROI Pooling",
+                "<img src=\"paste-ac86b2188c74ca77e7c3b07ce78c4143d5e9bd28.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "PaE:rOBt4N",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Recurrent Neural Networks</b> (RNNs)}} provide internal {{c2::memory}} that {{c2::remembers the previous hidden state}}, which is useful for computations on input that is part of a {{c2::sequence}}, like frames in a video or words in a sentence",
+                "<img src=\"paste-6bd9c2293a66a76106b2b87c6f2fdb04e1658fcd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "v-SNc;h0|1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Vanilla RNN</b>}} has a {{c2::single hidden (state) vector <i>h</i>}} and an output <i>y</i> depending on it, with respective weights applied to {{c3::the input}}, {{c3::the hidden state}}&nbsp;and {{c3::the output}}",
+                "<img src=\"paste-8c189263ebacce960ee58a1baed8a7bd84afb6a4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kom@w}TOv.",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neural networks with single inputs and single outputs are {{c1::<b>standard feed-forward networks</b> like the MLP or CNNs}}",
+                "<img src=\"paste-7095a49cf2dee97f8d3275793c48942af0592131.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "s;$PX,OAVo",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neural networks with a single input and a stream of outputs are typically used for {{c1::<b>Image Captioning</b>}}",
+                "<img src=\"paste-91e084a527a85c11e4e270a53c7b4023f1029ce7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "oF.9yy#&J^",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neural networks with a stream of inputs and a single output are typically used for {{c1::<b>Stream Classification</b>}} like {{c1::action recognition}} or {{c1::sentiment classification}}",
+                "<img src=\"paste-20fa823acb82dae77d01e3cc3dd4fb1e6ec921af.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "HE0~ClF^b_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neural networks with a stream of inputs and a stream of outputs, also called {{c1::\"sequence-to-sequence\" models}}, are typically used in {{c1::<b>Machine Translation</b>}}",
+                "<img src=\"paste-a8977a31a937fabd9aa043193cd916846d849b01.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ACv9`?o6Dd",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Neural networks with a stream of inputs and a stream of instantaneous outputs (unlike sequence-to-sequence models) are typically used in {{c1::<b>Per-Frame Video Classification</b>}}",
+                "<img src=\"paste-e99ddf40ec427912dd37aedf521d1a94d7450c5e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jLk6O.+}wq",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::<b>one-hot vector</b>}} is a vector where {{c2::all bits except for one are zero}}<div><br></div><div>Likewise, a {{c1::<b>one-cold vector</b>}} is a vector where {{c2::all bits except for one are one}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "phZy|VG49d",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vanilla RNN has <b>problems</b> with {{c1::vanishing or exploding gradients}}, which can be avoided by using {{c1::Long Short-Term Memory (LSTMs)}} instead",
+                "<img src=\"paste-5f628055010192544e14a7410f2da5ba2d857b81.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "n#S:$}RUt`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>LSTM</b> uses a complex model with {{c1::two hidden states \\(C_t\\) and \\(h_t\\)}}<div><br></div><div>The input and {{c1::the first hidden state \\(h_{t-1}\\)}} go through four different gates, generating the output and updating the {{c1::two hidden states}}</div>",
+                "<img src=\"paste-800cb3b94ed453ea11da1eeac40c238f44efd1a0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "O,~a8i.xEz",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>forget gate</b>}} in LSTM allows for {{c2::resetting cell state information}}",
+                "<img src=\"paste-ba0bcf5eb87c64df34df89a64fa97688f7c15aa7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "eO>Q0Qa9nb",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>input gate</b>}} in LSTM considers {{c2::what to include from the new input}}&nbsp;based on {{c2::the previous hidden state and the new input}}",
+                "<img src=\"paste-f01d2e5b0c90168ff29feba0cdba6429ab1b9f5c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "i/?.to|l2?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The <b>second hidden state</b> in LSTM is {{c1::partially or completely forgotten}}&nbsp;depending on the {{c1::forget gate}}&nbsp;and then {{c2::combined with the modulated information from the new input}}",
+                "<img src=\"paste-faa15fe61b36db91e39fa6bb443789c6c4f25eeb.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ls`Jx:q&2(",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>output gate</b>}} in LSTM considers {{c2::how much to pass on to the new hidden state}} based on {{c2::the previous hidden state and the new input}}",
+                "<img src=\"paste-33f3cb2eaba52dc6594a10788e2a0edf2d785ee7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "e],YhOL#}]",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "LSTM reduces the problem of <b>exploding or vanishing gradients</b> by establishing an {{c1::easy gradient flow}} where gradients are {{c1::added, not multiplied}}, making the cell state a {{c1::through line with minor interactions}}",
+                "<img src=\"paste-d166686c3f263b0fad795eda851c5befb948b78d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "HbFd82}h%!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "An {{c1::<b>embedding</b>}} is a {{c2::relatively low-dimensional space}}&nbsp;into which {{c2::high-dimensional vectors}}&nbsp;can be translated, ideally capturing {{c3::semantics of the input}}&nbsp;by placing {{c3::semantically similar inputs close together}}",
+                "<img src=\"paste-5fc75b5ef7db608d8aa3c4324570a55187492206.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g9Ob7`Iw%2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Image Captioning</b>}} describes {{c2::the content of an image}} in {{c2::natural language}}",
+                "<img src=\"paste-fc0103c86bd37cb37b91d49e6e356111b5471bc9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "A|&uHA^|n#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Image Captioning</b> can be achieved by connecting a {{c1::CNN}} for {{c2::feature extraction}} with an {{c1::RNN}} for {{c2::description generation}}",
+                "<img src=\"paste-74c69842949d27f2f9b3d21535de5f231ba3e2c2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gcOG&r.+iN",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Evaluation metrics</b> for Image Captioning include {{c1::BLEU (BiLingual Evaluation Understudy)}} and {{c1::METEOR (Metric for Evaluation of Translation with Explicit ORdering)}}",
+                "<img src=\"paste-fd51334ba5c7843467e79d0091ad48982ca4c609.jpg\"><div><img src=\"paste-5ea218517225ec74e857f1c06bb5b27b88988803.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "dlsJ~MiTl3",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Image Captioning can be <b>improved</b> by modeling {{c1::Attention}}, e.g. by {{c2::highlighting \"salient\" (jumping, prominent) image regions}}",
+                "<img src=\"paste-c915b39b5a8b460f6fa17294e2d82cbc10b56ac3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Dk[DT$Qurj",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Visual Question Answering</b>}} involves {{c2::answering questions using image data}}, incorporating vision and language abilities",
+                "<img src=\"paste-cb87d0fc9043cccc6052a798fa177a6ab7d18ca8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "iHLA#I;ByL",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Common Visual Question Answering <b>data sets</b> include {{c1::VQA (MS-COCO + Abstract Scenes)}}, {{c1::CLEVR}} and {{c1::GQA}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "iF(B8+aQEk",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u><b>Approaches for Visual Question Answering</b> include:</u><div>- {{c1::Global Embedding}}</div><div>- {{c1::Attention-based Approaches}}</div><div>- {{c1::Compositional Models}}</div><div>- {{c1::Memory Nets}}</div><div>- {{c1::Graph Neural Networks}}</div><div>- {{c1::Neural Networks for Videos}}</div>",
+                "<img src=\"paste-52634b737ac433ac202571b2e0225ec0eb1d2aa1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "l`feil/EJE",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Global Embedding</b>}} for VQA embedds the image with a {{c2::CNN}} and the question using a {{c2::LSTM}}, producing the answer by fusing them together",
+                "<img src=\"paste-42aca418d611f86a00ab8912482424737bf07508.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "h|D@X&,B2A",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Attention-based Networks</b>}} like {{c1::SAN (Stacked Attention Network)}} solve the VQA problem using a {{c2::CNN}} for the image model and a&nbsp;{{c2::CNN}} or {{c2::LSTM}} for the question model, stacking {{c3::attention layers}} to allow for {{c3::multi-step reasoning}}",
+                "<img src=\"paste-4e8fa8de29bd1b75472d771701971f3a26ffbe08.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "rs*X*},{}/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Compositional models</b>}} solve the VQA task by {{c2::performing smaller steps}} using {{c2::specific neural networks}}",
+                "<img src=\"paste-674f12c98757e3aea3a3ecccc6c820905d0d5163.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "l+=}6g7sa|",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Dynamic Memory Networks</b> (DMNs)}} tackle the VQA task using a {{c2::working memory}}, embedding knowledge as a {{c2::set of facts inside a GRU (Gated Recurrent Unit, similar to LSTM)}} and a question as the {{c2::last hidden state of a second GRU}}",
+                "<img src=\"paste-0cdce6d5dd97706da258a7271a2e0c6653b118a4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "EY;g.9/D`K",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Graph Neural Networks</b>}} tackle {{c2::complex relational VQA tasks}} using a structure {{c2::primed for relational reasoning}}",
+                "<img src=\"paste-fcbf80ea800fda7a473ed1a9fed8570ef8c38d89.jpg\"><div><img src=\"paste-ef76bc9acd1ad22fd1b9e60de1012545cd8574a4.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Dk}JY9|}Rf",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>CNN models with <b>different temporal connectivity patterns</b> (in this case for video processing):</u><div>- {{c1::Single Frame}} \\(\\rightarrow\\) {{c2::no temporal information, sees one frame at a time}}</div><div>- {{c1::Late Fusion}} \\(\\rightarrow\\) {{c2::separate pathways for two frames <i>n</i> frames apart, temporal information only available to last layers}}</div><div>- {{c1::Early Fusion}} \\(\\rightarrow\\) {{c2::incorporate temporal information early, modify convolutional filters in the first layer}}</div><div>- {{c1::Slow Fusion}} \\(\\rightarrow\\) {{c2::more temporal information for layers higher in the hierarchy, learning at different scales}}</div>",
+                "<img src=\"paste-5a4ca976a54464e14ca5ecf58a070faa2107f147.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M5eSF>MH).",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>P-CNN</b>}} is a {{c2::pose-based CNN}} that {{c2::extracts appearance and motion CNN descriptors}} for each {{c2::frame}} and {{c2::aggregates them over time}} to {{c2::form a video descriptor}}, which is useful for the goal of {{c3::(human)&nbsp;action recognition}}",
+                "<img src=\"paste-59a67bab1e2c3700c2d8f97b9566ab2561574fc8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "y5S8kQM8-g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In addition to 2D convolutions in space, {{c1::<b>3D convolutions</b>}} in {{c1::space-time}} are also possible, as implemented in {{c1::C3D}}",
+                "<img src=\"paste-b37ad51b89d1d08d53f6af0bc961ddf4943f4c0a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "wWG*H|*4hA",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Two-stream</b>}} CNNs handle both a {{c2::spatial}} and a {{c2::temporal}} stream separately",
+                "<img src=\"paste-e753deefd963091526f0e402ea4dbeb028f0c1da.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "rTkgE#kt/{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Choices that need to be made for an<b> Action Recognition Architecture</b>:</u><div>- {{c1::Type of convolutional and layer operators}}, i.e. {{c2::2D vs. 3D kernels}}</div><div>- {{c1::Input streams}}, i.e. {{c2::RGB, precomputed optical flow, depth, human bounding boxes etc.}}</div><div>- {{c1::Fusion strategy across multiple frames}}, i.e. {{c2::feature aggregation over time (see temporal connectivity patterns) or recurrent layers (see LSTM)}}</div>",
+                "<i>Modern architectures are usually a combination of the above!</i>"
+            ],
+            "flags": 0,
+            "guid": "EC2+ic$u`g",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Self-Supervised Learning</b>}} tries to leverage {{c2::unlabeled}} data by using {{c2::the inherent structure of the data itself}} for supervision instead of {{c2::labels}}<div><br></div><div>This is done by training with a {{c3::proxy objective}} like {{c3::reconstruction (see Autoencoders and Colorization)}}, {{c3::context and positioning of image patches}} or {{c3::temporal order of video frames}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "E%FuaWLc,e",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Autoencoders</b>}} try to learn a {{c2::compact representation}} of a given input by {{c2::\"forcing it through a bottleneck\"}}, {{c2::i.e. compressing and decompressing it}}",
+                "<div><i>Example of self-supervised learning (reconstruction)!</i><br></div><div><img src=\"paste-34c3e307cc6154f4cf83a857b849a2b20c7661c7.jpg\"><i><br></i></div>"
+            ],
+            "flags": 0,
+            "guid": "c8I7741$)1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Colorization</b>}} is the task of {{c2::colorizing a grayscale version of an image}}",
+                "<img src=\"paste-7cf7b30537b003654860b07886dccc9076b0b7e9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "v.6J:{VkLl",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::<b>Generative Model</b>}} generates {{c2::new samples from the same distribution as the training data it has been given}}<div><br></div><div>In the case of {{c1::<b>Implicit Generative Models</b>}}, a network is trained to {{c2::model this underlying distribution}}, the accuracy of which can be judged by {{c2::taking samples}}</div>",
+                "<img src=\"paste-4e686d580e834b1fffaf0a46b0cd78e18227e4d8.jpg\"><div><img src=\"paste-6ea287313f05e2a2d1cde982aee425bd14ae1e7a.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "fspCQZUo`?",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The idea behind {{c1::<b>Generative Adversarial Networks</b> (GANs)}} is to train two different networks, one of which {{c2::tries to produce realistic-looking samples (generator)}} while the other {{c2::tries to figure out whether an image is produced by the generator (discriminator)}}",
+                "<i>\"The generator tries to fool the discriminator\"</i><div><img src=\"paste-bdbd2d0f07417b2e5fce1bea102d27f9b1a6a710.jpg\"><i><br></i></div>"
+            ],
+            "flags": 0,
+            "guid": "L}X=.m(`d!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A <b>good model</b> resulting from a GAN should produce {{c1::high quality, realistic images}} with {{c1::high diversity}} while {{c1::generalizing}} instead of {{c1::reproducing the training samples}}<div><br></div><div>GANs can be evaluated using the {{c2::Inception Score}}, the {{c2::Fréchet Inception Distance}} and the {{c2::Nearest Neighbor method}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "G]>)cDawNV",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The <b>Inception Score</b> evaluates GANs by using a {{c1::pre-trained classifier}} to {{c1::classify samples}}, making it possible to compare the {{c2::label distribution in the data set}} to the {{c2::label distribution from generated samples}}<div><br></div><div>The resulting score gets worse when {{c3::samples of a certain class are not generated (low class diversity)}} or the {{c3::output is of bad quality, making the classifier not give useful predictions (low sample quality)}}</div>",
+                "<i>The inception score does not account for sample diversity, only class diversity! This can be alleviated by taking a look at the Fréchet Inception Distance</i>"
+            ],
+            "flags": 0,
+            "guid": "A/>~y(2@(8",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The <b>Fréchet Inception Distance</b> evaluates the GAN's {{c1::sample diversity}} by comparing the {{c2::distribution of features}} of the generated samples vs. the original data, which can be computed using a {{c2::pre-trained model}}",
+                ""
+            ],
+            "flags": 0,
+            "guid": "$GhWyo+X7",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The ability of a GAN to <b>generalize</b> can be evaluated by searching the {{c1::Nearest Neighbors}} of generated images among the training images in {{c1::feature space}}",
+                "<img src=\"paste-2e57bb42b9ee20c88957954fd1b96f27fc05d1fe.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "u46lLP/H+Q",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The two standard <b>pathological behaviors</b> when training GANs are:</u><div>- {{c1::Oscillations without convergence}}</div><div>- {{c1::\"Mode Collapse\", i.e. the generator concentrating on only a small sub-population of modes}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kft20sy[9)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Practical applications for GANs require the ability to sample from a {{c1::<b>conditional</b>}} distribution, e.g. for {{c2::next-frame prediction}}, {{c2::semantic segmentation}} or {{c2::image-to-image translation}}, which led to the creation of {{c1::<b>Conditional GANs</b>}}",
+                "<img src=\"paste-48d5e751a604bb8994abc0f64cbd9e8b6b71e6c5.jpg\"><div><img src=\"paste-cc239d583cabda48506961c865103ac279c07d30.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "E-APP2W4>I",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Image-to-Image translation</b> tasks include e.g. {{c1::edges to realistic photos}}, {{c1::images to segmentation maps (Segmantic Segmentation)}} or {{c1::gray-scale images to color images (Colorization)}}<div><br></div><div>Common GANs to solve these issues are {{c2::Pix2Pix}} for {{c2::paired data (same content available in both styles)}} and {{c2::Cycle GAN}} for {{c2::unpaired data}}</div>",
+                "<img src=\"paste-c03b09b053bd458cebd141c72201874768181748.jpg\"><div><img src=\"paste-b88bf5584bcdcef65cf30769528d535604f2a3e3.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "t.d^Eo0Rd3",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Modeling {{c1::<b>Uncertainty</b>}} is important due to the possibility of it {{c2::preventing or detecting catastrophic failure}} in deep learning applications",
+                "<img src=\"paste-c3d924fa54e0b94730e119af0dcd73cf095620f2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "wl.DXSdfrr",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Predictive</b>}} Uncertainty, meaning the {{c2::model's confidence in its predictions}}, can be divided into {{c2::Model Uncertainty (epistemic)}} and {{c2::Data Uncertainty (aleatoric)}}, the latter of which can be divided further into {{c3::homoscedastic}} and {{c3::heteroscedastic}} Uncertainty",
+                "<img src=\"paste-9a0051866a76fcb6b28954769d395710c48476fa.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pSpelxt%Sq",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Aleatoric</b> Uncertainty models the {{c1::inherent noise in the data}}, which is {{c2::irreducable}}, but {{c2::can be learned}}<div><br></div><div><b>Homoscedastic</b> (Aleatoric) Uncertainty means the uncertainty is {{c1::the same for all inputs (e.g. due to an imprecise sensor)}} while <b>Heteroscedastic</b> (Aleatoric) Uncertainty means the uncertainty {{c1::can vary with the input}}</div>",
+                "<img src=\"paste-d5d584199122e7c380c538c2b0d90ab301dbeda4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AbV@($rw6<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Epistemic</b> Uncertainty measures the {{c1::<b>model</b> uncertainty}}, i.e. what the {{c1::<b>model</b>}} doesn't know, which is {{c1::reducible}}",
+                "<img src=\"paste-2d6212469a278d46cb9c3a42c9797b64e4ada798.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kLG<q}DFa[",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Approaches for&nbsp;<b>quantifying</b> Epistemic Uncertainty include:</u><div>- {{c1::Bayesian Neural Networks}}, i.e. {{c2::using a distribution over each weight instead of pseudo-probability point estimates}}</div><div>- {{c1::Confidence Calibration}}<i> (not discussed further in the lecture)</i></div><div>- {{c1::Ensemble}}, i.e. {{c2::training many models and detecting disagreements}}</div>",
+                "<i>Dropout is a variational approximation of a Bayesian Neural Network and can be used to quantify the model uncertainty!</i><div><img src=\"paste-c723de1f98a70b9b66d09d7cc9b30588ecdaa5b3.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "DetN]kd.z",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Zero-Shot Learning</b>}} is the task of {{c2::recognizing classes that were never seen before}} by {{c2::leveraging a semantic embedding}}<div><br></div><div>This is expressed as recognizing unseen visual samples \\(x^{unseen}\\) given \\(x^{seen}\\) corresponding to the labels \\(y^{seen}\\) and {{c2::a semantic embedding \\(\\phi(y):\\ Y \\rightarrow S\\)}} under the Zero-Shot condition:<div><br></div><div>{{c3::\\[y^{unseen} \\cap y^{seen} = \\emptyset\\]}}</div></div>",
+                "<img src=\"paste-2ac3f67661e5bef6bcdbb9911bcc1b3574a828d0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "nIUT>?O$~0",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::<b>Domain Adaptation</b>}} task provides {{c2::training data}} and {{c2::the ground truth}} from a {{c3::source domain}} and {{c2::unlabeled training data}} from a {{c3::target domain}}<div><br></div><div>Assuming {{c3::both domains share the same classes}}, the task is to {{c3::adapt the image task performed on the source domain}} to the {{c3::target domain}}</div>",
+                "<img src=\"paste-95d934f1733bd4188e044442b7c479f3dd229e6b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q%}MT/yC}K",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        }
+    ]
+}
