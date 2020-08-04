@@ -1,0 +1,2444 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "3e1e2cd3-d651-11ea-9ace-7cb27daf4b6d",
+    "deck_config_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2
+                ],
+                "order": 0,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "2020-02-19-17-45-49.png",
+        "2020-02-19-17-57-00.png",
+        "2020-02-19-17-58-30.png",
+        "2020-02-19-18-03-51.png",
+        "2020-02-19-18-04-54.png",
+        "2020-02-19-18-19-18.png",
+        "2020-02-19-18-19-35.png",
+        "2020-02-19-19-55-50.png",
+        "2020-02-19-19-57-25.png",
+        "2020-02-19-19-58-14.png",
+        "2020-02-19-19-58-36.png",
+        "2020-02-19-19-59-51.png",
+        "2020-02-19-20-02-24.png",
+        "2020-02-19-20-03-49.png",
+        "2020-02-20-12-26-50.png",
+        "2020-02-20-12-39-09.png",
+        "2020-02-20-13-54-26.png",
+        "paste-0bedfbf81e64433e3b5c1756515a09c39d15c10d.jpg",
+        "paste-0e36150c430cb7e26a122bca4998c22aa3e64cf3.jpg",
+        "paste-0e7f11d32021967372bd335d4c01cc56a25f63bb.jpg",
+        "paste-129544d2e6e4260f54d45d4361332bf9ed3f9cd4.jpg",
+        "paste-15fa0b60f322d2c453111c90352b8c7953f65fc0.jpg",
+        "paste-18bd4f91a1a117243bedb32e474c39a5c42213e9.jpg",
+        "paste-1e237cc6e3169d56cf1278565c49a9ea6bd7b302.jpg",
+        "paste-1e84caeba234f38db5001d683431ce3e7c259019.jpg",
+        "paste-1efe92c23d3d6ed7da5af45096d26e38c80f8033.jpg",
+        "paste-246d05198df2b1869b7c6ad67986d79dd42e8501.jpg",
+        "paste-2b762779d950784dea7840d1b0a5ed684333edca.jpg",
+        "paste-3156129b8291fe2190e1f8c3b5334808b798030e.jpg",
+        "paste-352f85391dcb164675646aa71c5bfce07639abf1.jpg",
+        "paste-3dabe1132633900cc03feb2e030ad22942358b72.jpg",
+        "paste-3f420f5a8355bd29adb8711709c5424c971895da.jpg",
+        "paste-3ffe9bf4b3d0ee519ab2d166f872599c5cef63db.jpg",
+        "paste-482e9df903c7133b52893c2b32e10a29ab12d28e.jpg",
+        "paste-4e04b52a7683e07d02c2191a609051e1efdec59a.jpg",
+        "paste-53e296a4fed778165d7313294a50259e58f872d5.jpg",
+        "paste-55215c033575bf48c4db5f349a1c1b147ede9fbc.jpg",
+        "paste-5c7b4abdc1dcd746e5954003cdb8d1ee8a0ccf68.jpg",
+        "paste-5f116dffb7a3c76de7706c334d2e0b63a9720394.jpg",
+        "paste-6076a1d11b00149c16bc4f6f4c5ce61f7d995aca.jpg",
+        "paste-632a75825cf10d4c471f9e5fea60617e2ca56ce5.jpg",
+        "paste-6cc3e6438960c3ccdab5ce4ffff82cb018b278a2.jpg",
+        "paste-714a73d2b810c258736ec3402cd1d0314f11e2ab.jpg",
+        "paste-75829190e9f1c00de3edee207b57afde640d6673.jpg",
+        "paste-77d9c369ba6f992bc4b781e00e1cf05097afe9b6.jpg",
+        "paste-7da39d139efca18fd60aedd4f27c12b4988560c1.jpg",
+        "paste-7dd94c17cd9b76c149e0b842644aa321de12ade8.jpg",
+        "paste-800899fc04ec0448a188513f1bcd37aaaeaba833.jpg",
+        "paste-817590dd652b063a6f3cd38285469f7cf5165ffb.jpg",
+        "paste-86c66a6db42558b96ee5b471f7d723121ac06cd6.jpg",
+        "paste-8fa1e00b701a574fdaabf7a00862f14d3b435d06.jpg",
+        "paste-906625c4619a9415d23d535b33f61d2d054643c4.jpg",
+        "paste-91e8a9c8acb2d74b13c4a97305712ec0796bd5bd.jpg",
+        "paste-94b26bebbe11569bb901302c5b0b429e34b0293a.jpg",
+        "paste-9af08b0a6b1f1a6ae32bcfd2b7c526232a759951.jpg",
+        "paste-9b77f3b4c89f6a8eb7032898e3a4e039bf689dcb.jpg",
+        "paste-9ca71db041fe2248fe8a55a0445c593605e94d6a.jpg",
+        "paste-9d54c8cfe400d7bbbba5ebc536a2e8fb6bf2807d.jpg",
+        "paste-9d8551467c0ef13afc74d8273e3d0a4b14da3613.jpg",
+        "paste-9ebcab616a670ef2eec7c970ac1b5ef01c08b5e3.jpg",
+        "paste-a22790742c53e33b189f62b7f0fd3103a0064b0c.jpg",
+        "paste-a5805414055df04e130b4d4d903166f10c37a58e.jpg",
+        "paste-af1db443441af101046d3de289bb1dd92322cb8a.jpg",
+        "paste-b1e9f371657b5930dbdeb6be4be43af3d7c89780.jpg",
+        "paste-b5169d2accaf4fd1b697cb75f8eadc29ecb2fcdd.jpg",
+        "paste-b692fca0d84c77e8ffa5f71898f95841d96b05f4.jpg",
+        "paste-c57d9651865c7cae831e066d5f062fd89ca9aaca.jpg",
+        "paste-c92fff3afa3c8ee15a3c8bcac243c5ae02bfaf3e.jpg",
+        "paste-cc78fb929ebc6e1dbc92a7166ac49018ec5f70f1.jpg",
+        "paste-d669a51798c5489d48a4f1decaff012e27cfbf6a.jpg",
+        "paste-dd28a5145a03fb2611e6b6484ef1612256adbc45.jpg",
+        "paste-dd592bf1ab2dfbfa4fbaeac089885bfd3f87b208.jpg",
+        "paste-e584b504bb269cf90ddd6de570ddb7a4f302649b.jpg",
+        "paste-e9cbb363eb2274cdcf0d6e779feebd7b36c005c3.jpg",
+        "paste-ea7a180730bd5ac1a50534747c52834b83cc0c85.jpg",
+        "paste-ec8a1cad7318a4a63d190db7eccff1e435d73714.jpg",
+        "paste-ef529bbf1c7419a2264cfda635c07e366ead9e2d.jpg",
+        "paste-f61981f7338d60748e15b608f27a57bd9b410134.jpg",
+        "paste-f8204a7f667d72269e524e173cf7c0b79dc2f6be.jpg",
+        "paste-fb635b4cc0238d3d71f2fdab3a4a5d6f5ce6bd4c.jpg",
+        "paste-ff444e630d60ad2559c2140ef11d7b2791b17ed6.jpg"
+    ],
+    "name": "Computational Intelligence",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was kennzeichnet einen EA?",
+                "Metaheuristischer/ Stochastischer Ansatz"
+            ],
+            "flags": 0,
+            "guid": "DtG3Y^X4_H",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Art von Problemen löst man mit EAs und welche nicht?",
+                "Probleme, fuer welche es keine analytischen/ mathematischen Loesungen gibt.<br>Probleme, bei denen keine Online Reaktionen erforderlich sind."
+            ],
+            "flags": 0,
+            "guid": "K%;]NETBzw",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet Multimodalität und was Unimodalität?",
+                "Multimodalitaet bezeichnet die evaluierung einer besten Loesung aus einer Menge an Loesungsvorschlaegen.<br>Bei dem Unimodalen Ansatz wird die einzige Loesung eines Problems betrachtet."
+            ],
+            "flags": 0,
+            "guid": "Ba!RKZd`oL",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein globales Optimum und was ein lokales?",
+                "Ein globales Optimum ist die optimalste Loesung in Hinblick auf das Gesamtproblem.<div>Ein lokales Optimum hingegen beschraenkt sich auf einen abgegrenzten Bereich. Es ist liefert also hoechstens eine nichtechte Teilmenge der Gesamtloesungen.</div>"
+            ],
+            "flags": 0,
+            "guid": "bU|?k.W^pO",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften von Optimierungsproblemen: Eigenschaften der Parameter",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "GF9c~fZGyf",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften von Optimierungsproblemen: Art oder Klassifizierung des Problems",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "sF=l*O:~O{",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet Polynomialzeit?",
+                "Die Polynomialzeit ist die Rechenzeit einer deterministischen Rechenmaschine, welche mit der Problemgroesse nicht schneller als die Polynomialfunktion waechst."
+            ],
+            "flags": 0,
+            "guid": "JWm?HXu~W0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet die O-Notation?",
+                "Die O-Notaion, auch genannt Landau Symbole, beschreiben das asymptotische Verhalten von Funktionen und Folgen<div><br></div><div>Beispiele</div><div><img src=\"paste-dd592bf1ab2dfbfa4fbaeac089885bfd3f87b208.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "s2{({$o0t=",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet die NP-Eigenschaft eines Problems in der Praxis?",
+                "<img src=\"paste-3dabe1132633900cc03feb2e030ad22942358b72.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AzZe)/l0s<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beispiele NP-vollständiger Probleme",
+                "<img src=\"paste-4e04b52a7683e07d02c2191a609051e1efdec59a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "I.!vgs`M8C",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist Mehrziel-Optimierung?",
+                "Ein GA wird in Hinblick auf die Optimierung mehrer Problemstellungen gleichzeitig trainiert.<div>Diese koennen sich u.U. widersprechen.</div>"
+            ],
+            "flags": 0,
+            "guid": "pOt%>%/(6~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was versteht man unter Pareto-Menge und Pareto-Front?",
+                "Die Pareto Menge ist die Menge aller optimalen Loesungen die ein Individuum erreichen kann ohne, einem anderen Schaden zuzufuegen."
+            ],
+            "flags": 0,
+            "guid": "D{u_~AeiPc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die gewichtete Summe und wie funktioniert sie?",
+                "<img src=\"paste-482e9df903c7133b52893c2b32e10a29ab12d28e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "H/#T}Gv$}p",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welcher Zusammenhang besteht zwischen der gewichtetem Summe und der Pareto-Front?",
+                "<img src=\"paste-d669a51798c5489d48a4f1decaff012e27cfbf6a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jWWEj)~15o",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Vor- und Nachteile haben Pareto-Optimierung und die gewichtete Summe?",
+                "Pareto Optimierung<div><img src=\"paste-6cc3e6438960c3ccdab5ce4ffff82cb018b278a2.jpg\"><br></div><div><br></div><div>Gewichtete Summe</div><div><img src=\"paste-1e84caeba234f38db5001d683431ce3e7c259019.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "zdyo!3bqv+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein lokales Suchverfahren?",
+                "Ein Suchverfahren, welches sich auf eine echte Teillmenge des Gesamtsuchraumes beschraenkt."
+            ],
+            "flags": 0,
+            "guid": "o*T;h(G!.w",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beispiele für lokale Suchverfahren?",
+                "<img src=\"paste-af1db443441af101046d3de289bb1dd92322cb8a.jpg\"><div><img src=\"paste-9ebcab616a670ef2eec7c970ac1b5ef01c08b5e3.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "qp?uqSD6Y4",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wichtige Eigenschaften vieler numerischer lokaler Suchverfahren?",
+                "Es wird eine Loesung oftmals nur iterrativ approximativ erreicht.<br>Der Loesungsweg ist jedoch reproduzierbar, da keine stochastischen Groessen mit einfliessen."
+            ],
+            "flags": 0,
+            "guid": "d*cjD%$|t[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nennen Sie drei etablierte Metaheuristiken",
+                "<img src=\"paste-7da39d139efca18fd60aedd4f27c12b4988560c1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "F3d{>Gc&zS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was besagen die No-free-Lunch-Theoreme?",
+                "Bezogen auf die Menge aller mathematisch möglichen Probleme sind<br>alle Suchalgorithmen im Durchschnitt gleich gut (oder gleich schlecht)."
+            ],
+            "flags": 0,
+            "guid": "DC?QBm`/Uu",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konsequenz aus den No-free-Lunch-Theoremen für Suchverfahren wie die EAs",
+                "Metaheuristik mit möglichst viel Anwendungswissen anpassen:<br>- an das Problem oder besser<br>- an die Problemklasse"
+            ],
+            "flags": 0,
+            "guid": "H5$sqBOBE>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Genotyp und Phänotyp?",
+                "<img src=\"paste-0e36150c430cb7e26a122bca4998c22aa3e64cf3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "h&e?xK-|6K",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein Chromosom?",
+                "<img src=\"paste-ec8a1cad7318a4a63d190db7eccff1e435d73714.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "wSOivFp*2L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zuordnung zwischen Gen und Merkmal?",
+                "<img src=\"paste-15fa0b60f322d2c453111c90352b8c7953f65fc0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gGA)(=Rq6G",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine Population?",
+                "Eine Auspraegung mehrer Individuen"
+            ],
+            "flags": 0,
+            "guid": "ir12xRtQeX",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeuten Mutation und Rekombination?",
+                "Mutation beschreibt die spontane zufaellige Veraenderung des Erbmaterials.<div>Die Rekombination beschreibt hingegen die zufaellige Vermischung der einfachen elternlichen Chromosomsaetze.</div>"
+            ],
+            "flags": 0,
+            "guid": "f/EI|6O(*J",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet Selektion?",
+                "Bewirkt, dass die im Sinne der Umweltbedingungen Besten ihre Erbanlage mit hoeherer Wkeit and die Folgegeneration weitergeben"
+            ],
+            "flags": 0,
+            "guid": "p@4vE,-O)`",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die genotypische Varianz einer Population?",
+                "Die genotypische Varianz einer Population ist wesentlich fuer die Anpassungsfaehigkeit einer Art an Umweltaenderungen"
+            ],
+            "flags": 0,
+            "guid": "I&%l3$RoK2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeuten Isolation und Migration? Vergleich zur Panmixie",
+                "Isolation: Geographische Abgrenzung bewirkt Aufteilung einer Population<div><br><div>Migration: Bewirkt Austausch von staerker differenziertem Erbmaterial</div><div><br><div>Panmixie: Parnerwahl und Nachkommensakzeptanz nur innerhalb des Demes</div></div></div>"
+            ],
+            "flags": 0,
+            "guid": "hc}o[SeJ7G",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzipien der Informationsverarbeitung der Evolution",
+                "<img src=\"paste-ff444e630d60ad2559c2140ef11d7b2791b17ed6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "fJy;PXnx0m",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Codierung der klassischen Formen der ES und der GAs?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "vpv@|**~w2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Teilschritte eines EA (Ablaufschema)",
+                "<img src=\"paste-8fa1e00b701a574fdaabf7a00862f14d3b435d06.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "L^w5;Y$]y3",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verfahren zur Erzeugung einer Startpopulation:",
+                "<div><div>-&nbsp;zufaellige&nbsp;Erzeugung</div><div>-&nbsp;nicht&nbsp;zufaellig&nbsp;erzeugte&nbsp;Individuen&nbsp;sollten&nbsp;20&nbsp;Prozent&nbsp;nicht&nbsp;uebersteigen,&nbsp;da&nbsp;nur&nbsp;eine&nbsp;grosse&nbsp;genotypische&nbsp;Divergenz&nbsp;eine&nbsp;breite&nbsp;Suche&nbsp;erlaubt</div><div>-&nbsp;Loesungen&nbsp;des&nbsp;bisherigen&nbsp;Systems&nbsp;oder&nbsp;aehnlichen&nbsp;Aufgabe</div><div>-&nbsp;Erbebnisse&nbsp;der&nbsp;Heuristiken</div></div>"
+            ],
+            "flags": 0,
+            "guid": "B<ud_9gkKs",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Anteil nicht zufällig erzeugter Lösungen an einer Startpopulation? Warum?",
+                "Nicht mehr als 20 Prozent um eine genotypische Diversitaet und eine breite Suche zu erlauben"
+            ],
+            "flags": 0,
+            "guid": "gPRU]|1$>F",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verfahren zur Partnerwahl",
+                "<div><div>-&nbsp;*rein&nbsp;zufaellig*:&nbsp;schlecht</div><div>-&nbsp;*fitness-proportional*:&nbsp;bessere&nbsp;Individuen&nbsp;koennen&nbsp;sich&nbsp;zu&nbsp;schnell&nbsp;durchsetzen.&nbsp;Schlechtere&nbsp;haben&nbsp;nur&nbsp;eine&nbsp;geringe&nbsp;Chance&nbsp;zur&nbsp;Vermehrung</div><div>-&nbsp;*Rangbasierte&nbsp;Selektion*:&nbsp;Auswahl&nbsp;basiert&nbsp;auf&nbsp;festen&nbsp;Wahrscheinlichkeiten&nbsp;eines&nbsp;Rangplatzes&nbsp;anstelle&nbsp;von&nbsp;relativen&nbsp;Fitnessunterschieden.</div></div>"
+            ],
+            "flags": 0,
+            "guid": "Q3GUEhBeo#",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bewirkt Ranking und wozu dient es?",
+                "<div><div>Auswahl&nbsp;basiert&nbsp;auf&nbsp;festen&nbsp;Wahrscheinlichkeiten&nbsp;eines&nbsp;Rangplatzes&nbsp;anstelle&nbsp;von&nbsp;relativen&nbsp;Fitnessunterschieden.</div><br><div>&nbsp;&nbsp;&nbsp;&nbsp;Ziele:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Steuerung&nbsp;des&nbsp;Selektionsdrucks</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Entkopplung&nbsp;der&nbsp;Reproduktionswahrscheinlichkeiten&nbsp;von&nbsp;Fitnessunterschieden</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Ausgleich&nbsp;fuer&nbsp;schlechtere&nbsp;Individuen&nbsp;auf&nbsp;Kosten&nbsp;der&nbsp;Besseren</div></div>"
+            ],
+            "flags": 0,
+            "guid": "wE+j^)u9qN",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Anforderungen an Mutationen",
+                "1. Erreichbarkeit von jedem Punkt des Suchraums<br>2. Keine Bevorzugung von Teilen oder Richtungen im Suchraum (keine Drift)<br>3. Einstellbarkeit der Mutationsstärke"
+            ],
+            "flags": 0,
+            "guid": "CisPe*;LX{",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Einige Mutationen",
+                "<img src=\"paste-352f85391dcb164675646aa71c5bfce07639abf1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "H-7c*pIihE",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was leisten Crossover und Rekombination?",
+                "Erzeugung eines oder zweier Nachkommen aus den Chromosomen der Eltern"
+            ],
+            "flags": 0,
+            "guid": "qYeKD.n(fl",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Beispiele für Crossover und Rekombination",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "ug1:,yIsR6",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dauer von Fitnessberechnungen in Relation zur Evolution",
+                "<img src=\"paste-3f420f5a8355bd29adb8711709c5424c971895da.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Nh-_Ee{pg_",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grundlegende Klassifizierung der Akzeptanzverfahren für Nachkommen",
+                "<img src=\"paste-0bedfbf81e64433e3b5c1756515a09c39d15c10d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "waPJ?+&?#]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ES-Akzeptanzregeln? Welche davon ist elitär?",
+                "<img src=\"paste-817590dd652b063a6f3cd38285469f7cf5165ffb.jpg\"><div>Plus Strategie ist elitaer</div>"
+            ],
+            "flags": 0,
+            "guid": "siMuTp{4m6",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gängige Abbruchkriterien",
+                "<div><div>-&nbsp;Zeitlimit</div><div>-&nbsp;Generationslimit</div><div>-&nbsp;Qualitaetsvorgabe</div><div>-&nbsp;Stagnationskriterien</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Keine&nbsp;Verbesserung&nbsp;des&nbsp;Besten&nbsp;seit&nbsp;*n*&nbsp;Generationen&nbsp;(schaerferes&nbsp;Kriterium)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Keine&nbsp;Nachkommensakzeptanz&nbsp;seit&nbsp;*n*&nbsp;Generationen&nbsp;(umfassendere&nbsp;Stagnation)</div></div>"
+            ],
+            "flags": 0,
+            "guid": "q[BrG1R,r;",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Strukturierte Populationen: Was ist das, wozu braucht man das?",
+                "Allgemein gilt fuer die Diskutierten Populationen, dass jeder mit jedem Nachkommen erzeugen kann. Strukturierte Populationen schlagen hier die Bruecke zur Biologie:<div><img src=\"paste-c57d9651865c7cae831e066d5f062fd89ca9aaca.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "h~+t,oa)TN",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Parameter von Nachbarschafts- oder Diffusionsmodellen:",
+                "<img src=\"paste-cc78fb929ebc6e1dbc92a7166ac49018ec5f70f1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "xMDG1O!0wG",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Akzeptanzregeln&nbsp;der strukturierten Nachbarschaftsmodelle&nbsp;sind elitaer und wie macht man die anderen Akzeptanzregeln elitär?",
+                "<div><div>-&nbsp;better&nbsp;parent:&nbsp;Das&nbsp;kind&nbsp;muss&nbsp;besser&nbsp;sein&nbsp;als&nbsp;das&nbsp;Elter&nbsp;(elitaer)</div><div>-&nbsp;local&nbsp;least:&nbsp;Das&nbsp;Kind&nbsp;muss&nbsp;besser&nbsp;sein&nbsp;als&nbsp;das&nbsp;Schlechteste&nbsp;im&nbsp;Deme</div><div>-&nbsp;always:&nbsp;Akzeptiere&nbsp;immer&nbsp;den&nbsp;jeweils&nbsp;besten&nbsp;Nachkommen</div><div>-&nbsp;local&nbsp;least&nbsp;und&nbsp;always&nbsp;werden&nbsp;zu&nbsp;elitaeren&nbsp;Strategien&nbsp;wenn&nbsp;das&nbsp;Kind&nbsp;besser&nbsp;sein&nbsp;muss&nbsp;als&nbsp;das&nbsp;Elter,&nbsp;sofern&nbsp;dieses&nbsp;das&nbsp;lokal&nbsp;Beste&nbsp;ist</div></div>"
+            ],
+            "flags": 0,
+            "guid": "s9A:c5l6sK",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aufbau und Arbeitsweise der Ringstruktur",
+                "<img src=\"paste-9b77f3b4c89f6a8eb7032898e3a4e039bf689dcb.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "D:*%g_?q{3",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nachbarschaftsmodelle: Vergleich der Ringstruktur mit 2D-Strukturen wie Kreuz und Stern",
+                "<div><div>-&nbsp;Kreuz</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Verbreitung&nbsp;des&nbsp;Besten&nbsp;ueber&nbsp;Generationen&nbsp;am&nbsp;schnellsten</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Selektionsdruck&nbsp;hoch</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Schnelle&nbsp;aber&nbsp;ggf.&nbsp;suboptimale&nbsp;Ergebnisse</div><div>-&nbsp;Ring</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Langsame&nbsp;Verbreitung&nbsp;des&nbsp;Besten</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Gefahrm&nbsp;nur&nbsp;ein&nbsp;Suboptimum&nbsp;zu&nbsp;finden&nbsp;gering</div><div>-&nbsp;Stern</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Mittlere&nbsp;Geschwindigkeit&nbsp;bei&nbsp;der&nbsp;Verbreitung</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Selektionsdruck&nbsp;hoch</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Schnelle&nbsp;aber&nbsp;ggf.&nbsp;suboptimale&nbsp;Ergebnisse</div></div>"
+            ],
+            "flags": 0,
+            "guid": "fz_Hy0!~7|",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Parallelisierung und Ring: Speed-up in Theorie und Praxis",
+                "<img src=\"paste-b692fca0d84c77e8ffa5f71898f95841d96b05f4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "k@ee^>TB|L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Konvergenz von EAs?",
+                "Ein EA konvergiert gegen das Optimum sofern ein solches existert.<div>Es ist allerdings&nbsp; keine Aussage ueber die Konvergenzgeschwindigkeit moeglich</div>"
+            ],
+            "flags": 0,
+            "guid": "IZp%kq}d}B",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was kennzeichnet die ES?",
+                "<img src=\"paste-2b762779d950784dea7840d1b0a5ed684333edca.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "v@[{[C[2`+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Erzeugung von Nachkommen bei der ES",
+                "<img src=\"paste-94b26bebbe11569bb901302c5b0b429e34b0293a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Mpn)yl`X*k",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften der ES?",
+                "<img src=\"paste-906625c4619a9415d23d535b33f61d2d054643c4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CmLG89>e~P",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Strategieparameter der ES?",
+                "<img src=\"paste-1efe92c23d3d6ed7da5af45096d26e38c80f8033.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "c.yJx~37Ud",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "ES und kombinatorische Optimierung?",
+                "<img src=\"paste-e9cbb363eb2274cdcf0d6e779feebd7b36c005c3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "i~[|Jw*{$$",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was kennzeichnet die klassischen Genetischen Algorithmen?",
+                "<img src=\"paste-129544d2e6e4260f54d45d4361332bf9ed3f9cd4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "uv}DC2,_UI",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Varianten der GA",
+                "<img src=\"paste-ea7a180730bd5ac1a50534747c52834b83cc0c85.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "v%6ygBk3s?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nachteile der binären Codierung bei nicht-binären Problemen:",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "K[>BQlZ1Vo",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Anwendungsgebiete der GA",
+                "<img src=\"paste-7dd94c17cd9b76c149e0b842644aa321de12ade8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g+`|@;17E.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Strategieparameter der GAs?",
+                "<img src=\"paste-f8204a7f667d72269e524e173cf7c0b79dc2f6be.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "h1KCWwCy?>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "EAs: Was beeinflusst die Balance zwischen Breiten- und Tiefensuche (exploration vs. exploitation)?",
+                "<img src=\"paste-86c66a6db42558b96ee5b471f7d723121ac06cd6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "qR>mXT<0VQ",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist bei der Wahl der Populationsgröße für EAs zu beachten?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "IL[XZg}$}s",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Grundideen?",
+                "<img src=\"paste-55215c033575bf48c4db5f349a1c1b147ede9fbc.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "w=dPyl5ZQ<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Codierung in GLEAM (Gene)?",
+                "Mittels des Genmodels. Codierung der Entscheidungsvariablen in Genen, mittels folgender Regeln<div><img src=\"paste-e584b504bb269cf90ddd6de570ddb7a4f302649b.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "j:z|=mFPro",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Codierung in GLEAM (Chromosome)?",
+                "Gene werden in Chromosomen nach Typen klassifiziert:<div><img src=\"paste-75829190e9f1c00de3edee207b57afde640d6673.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Dr04V.$|hu",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Segmentierung in GLEAM?",
+                "Zusammenhaengende Gene bilden Einheiten innerhalb des Chromosoms, welches in Form einer linearen Liste mit Listenkopf repraesentiert wird:<div><img src=\"paste-6076a1d11b00149c16bc4f6f4c5ce61f7d995aca.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "d51~<j$qhr",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was unterscheidet das Aktions- vom Genmodell?",
+                "<img src=\"paste-ef529bbf1c7419a2264cfda635c07e366ead9e2d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ems`WV$Yf>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Wie sieht der Zeitbezug aus?",
+                "<img src=\"paste-5c7b4abdc1dcd746e5954003cdb8d1ee8a0ccf68.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jg^g/V_l.]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Aktionen zur Zeitsteuerung?",
+                "<img src=\"paste-632a75825cf10d4c471f9e5fea60617e2ca56ce5.jpg\"><div><img src=\"paste-5f116dffb7a3c76de7706c334d2e0b63a9720394.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Qw`ZqeemLc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Aktionen der Robotersteuerung?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "vo$V/Nk!W5",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Robotersteuerung:&nbsp;Soll man die Achsnummer als Parameter codieren?",
+                "<img src=\"paste-1e237cc6e3169d56cf1278565c49a9ea6bd7b302.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "u`eT8-`rv^",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie funktioniert die Nachkommenerzeugung in GLEAM?",
+                "<img src=\"paste-9ca71db041fe2248fe8a55a0445c593605e94d6a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "|`P#Wm%o[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Eigenschaften der Mutation „relative Parameteränderung“?",
+                "<img src=\"paste-9d8551467c0ef13afc74d8273e3d0a4b14da3613.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "k+mgQFN|@R",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gen- oder aktionsbezogene Mutationen in GLEAM?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "j^P]J]Z,$p",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Segmentbezogene Mutationen in GLEAM?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "y&gY.{iCL7",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Crossover-Operatoren: Zusammenhang zu den Segmenten",
+                "Die Standard Crossoveroperatoren bauen alle auf den Segmentgrenzen auf"
+            ],
+            "flags": 0,
+            "guid": "v[uxdM&*{x",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Crossover-Operatoren: Welche?",
+                "<img src=\"paste-77d9c369ba6f992bc4b781e00e1cf05097afe9b6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "q~KRIwG:j;",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Wie entstehen illegale Nachkommen bei 1- und n-Punktcrossover und was passiert mit ihnen?",
+                "<img src=\"paste-246d05198df2b1869b7c6ad67986d79dd42e8501.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "m4.uAI=r^X",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Reparaturmöglichkeiten bei unzulässiger Genreihenfolge?",
+                "<img src=\"paste-fb635b4cc0238d3d71f2fdab3a4a5d6f5ce6bd4c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "iCTrK3A/on",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vor- und Nachteile von Verschieben und Zurückstellen bei unzulässigen Genreihenfolgen?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "fPIO^r$n;O",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bewertung in GLEAM?",
+                "<img src=\"paste-dd28a5145a03fb2611e6b6484ef1612256adbc45.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g,6saSkub,",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Stagnationsbezogene Abbruchkriterien?",
+                "<div><div>-&nbsp;Generationen&nbsp;ohne&nbsp;Deme&nbsp;Verbeserung&nbsp;(Verbesserung&nbsp;des&nbsp;Besten)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Schaerferes&nbsp;Kriterium,&nbsp;da&nbsp;Verbesserung&nbsp;eher&nbsp;ausbleibt&nbsp;als:</div><div>-&nbsp;Generationen&nbsp;ohne&nbsp;Akzeptanz&nbsp;(keine&nbsp;Nachkommenakzeptanz&nbsp;im&nbsp;Deme)</div></div>"
+            ],
+            "flags": 0,
+            "guid": "CYJqXKtE*S",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was versteht man unter Stagnation und Konvergenz und in welchem Verhältnis stehen sie<br>zueinander?",
+                "<img src=\"paste-0e7f11d32021967372bd335d4c01cc56a25f63bb.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AQavW2D_mW",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ziele der Roboterbahnplanung mit GLEAM?",
+                "<img src=\"paste-800899fc04ec0448a188513f1bcd37aaaeaba833.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GkK{sR@[DR",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Alternativen bei der Bewertung einer Kollision?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "(4t/.g9M)",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "GLEAM: Wie senkt man den Selektionsdruck?",
+                "- Akzeptanzregel: \"Akzeptiere immer den besten Nachkommen\"<div>- Ranking Parameter auf 1 setzen</div>"
+            ],
+            "flags": 0,
+            "guid": "NVx*2~6+5[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was passiert bei minimalem Selektionsdruck?",
+                "Es Steht nurnoch der beste Nachkomme zur Akzeptanz.<div>Das Ergebnis schwankt dann stark. Ein beliebiges Nachkomme kann das beste Elter ersetzen</div><div><br></div><div>???</div>"
+            ],
+            "flags": 0,
+            "guid": "d6S|*Ug|$k",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was unterscheidet elitäres von nicht-elitärem „Akzeptiere alle“?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "l[}f%RKxg%",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein hybrider EA?",
+                "Kombination von Evolutionaerem Algorithmus und lokaler Suche<div><img src=\"paste-714a73d2b810c258736ec3402cd1d0314f11e2ab.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "q9NA~~YDlR",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum Hybridisierung?",
+                "<img src=\"paste-f61981f7338d60748e15b608f27a57bd9b410134.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "tlbx73u~K#",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hybridisierung: Arten der Hybridisierung?",
+                "1. Initialisierung der Startpopulation u.A. mit Vorwissen<div>2. Nachoptimierung der EA Ergebnisse und somit kompensierung der Konvergenzschwaeche</div><div>3. Verbesserung der EA Nachkommen mittels lokaler Suchverfahren</div><div>4. Aufgabenteilung und Bearbeitung durch verschiedene aufgabenbezogene Verfahren</div>"
+            ],
+            "flags": 0,
+            "guid": "wEh[gax|Qr",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was kennzeichnet einen MA?",
+                "<img src=\"paste-a22790742c53e33b189f62b7f0fd3103a0064b0c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M7^~n8>0<]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "MA: Woher kommt der Name? Metapher?",
+                "<img src=\"paste-18bd4f91a1a117243bedb32e474c39a5c42213e9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "A=R=%O]{)+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist Lamarcksche und was Baldwin Evolution?",
+                "<img src=\"paste-9af08b0a6b1f1a6ae32bcfd2b7c526232a759951.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g-rU|a2JA@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vor- und Nachteile von Lamarckscher und Baldwin Evolution?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "NGFJ&{P/zN",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kombination von Diffusionsmodell und Lamarckscher Evolution?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "Rb_gOS!AKp",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gestaltungsmöglichkeiten eines MA?",
+                "<img src=\"paste-53e296a4fed778165d7313294a50259e58f872d5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "rD|4L+axvR",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "MA: Lohnt der Aufwand der lokalen Suche?",
+                "<img src=\"paste-b5169d2accaf4fd1b697cb75f8eadc29ecb2fcdd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CV78l8v~y<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wünschenswerte Eigenschaften von Testfällen?",
+                "<img src=\"paste-c92fff3afa3c8ee15a3c8bcac243c5ae02bfaf3e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "MErYW`@SIT",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum dreht man manche Testfunktionen?",
+                "Um die Schwierigkeit zu erhoehen. Es ist somit ausgeschlossen, dass der Algorithmus eine Achsenabhaengige Loesung findet"
+            ],
+            "flags": 0,
+            "guid": "J0HtM/ffd2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Arten der Performancemessung?",
+                "- Vergleich der benoetigten Evalutionen yur Erreichung einer Zielqualitaet<div>- Bewschleunigungsfaktor gegenueber Basis Algo</div><div>???</div>"
+            ],
+            "flags": 0,
+            "guid": "vTHBmjI[3L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "MA: Relevanz der Meme-Auswahl?",
+                "Wesentlich fuer den Erfolg"
+            ],
+            "flags": 0,
+            "guid": "u2Ps.O-,@H",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Worauf basiert das vorgestellte Adaptionsschema und wie misst man die verwendeten Größen?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "fAwnwwtt{L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Strategieparameter (siehe Frage 101) kann man so adaptieren?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "qlx#]91g]y",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "MA-Einfluss auf die Populationsgröße?",
+                "<img src=\"paste-9d54c8cfe400d7bbbba5ebc536a2e8fb6bf2807d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "w]Z(Pjc)%L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was kann man von der Adaption erwarten?",
+                "<div><div>-&nbsp;Verbesserung&nbsp;wegen</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;der&nbsp;besseren&nbsp;Einstellung&nbsp;der&nbsp;Strategieparameter</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;der&nbsp;dynamischen&nbsp;Apassung&nbsp;der&nbsp;Strategieparameter&nbsp;waehrend&nbsp;eines&nbsp;Evaluationslaufs</div><div>-&nbsp;Verschlechterung&nbsp;wegen</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;des&nbsp;Aufwands&nbsp;zur&nbsp;Einstellung&nbsp;der&nbsp;Strategieparameter</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;der&nbsp;oder&nbsp;den&nbsp;Generationen&nbsp;mit&nbsp;schlecht&nbsp;eingestellten&nbsp;Strategieparameter</div></div>"
+            ],
+            "flags": 0,
+            "guid": "A%XT`$H]6C",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vergleich des adaptiven multimemetischen Algorithmus‘ mit einfachen MAs bezüglich<br>Performance und Handhabbarkeit?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "KR_TyL5-$v",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Teilaufgaben sind beim praktischen EA-Einsatz zu lösen?",
+                "???"
+            ],
+            "flags": 0,
+            "guid": "F|UPvGp5y=",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Voraussetzungen müssen für den EA-Einsatz erfüllt sein?",
+                "<img src=\"paste-3156129b8291fe2190e1f8c3b5334808b798030e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "f?*Sci0&di",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kriterien für ein praxistaugliches Optimierungsverfahren samt Erläuterung der Kriterien",
+                "<img src=\"paste-a5805414055df04e130b4d4d903166f10c37a58e.jpg\"><div><br></div>"
+            ],
+            "flags": 0,
+            "guid": "djr,aU8GJZ",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bei welchen Kriterien haben EAs und MAs oder AMMAs potentiell Probleme?",
+                "<img src=\"paste-3ffe9bf4b3d0ee519ab2d166f872599c5cef63db.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QfO}JNP36:",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "EA,MA,AMMA"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition Computational Intelligence",
+                "<div><div>umfasst&nbsp;alle&nbsp;Gebiete,&nbsp;die&nbsp;sich&nbsp;mit&nbsp;der&nbsp;Nachbildung&nbsp;biologischer&nbsp;und&nbsp;menschlicher&nbsp;Problemlösungsstrategien&nbsp;im&nbsp;Computer&nbsp;beschäftigen</div></div>"
+            ],
+            "flags": 0,
+            "guid": "dOg0)V:t8|",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum benoetigt man CI",
+                "<div><div>Lösen&nbsp;von&nbsp;Aufgaben...&nbsp;:</div><div>-&nbsp;bei&nbsp;denen&nbsp;kein&nbsp;wissenschaftlich&nbsp;begründetes&nbsp;mathematisches&nbsp;Modell&nbsp;(\"White-Box-Modell\")&nbsp;oder&nbsp;Lösungsverfahren&nbsp;vorliegt,&nbsp;die&nbsp;der&nbsp;Mensch&nbsp;aber&nbsp;trotzdem&nbsp;irgendwie&nbsp;kann:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;durch&nbsp;Lernen&nbsp;von&nbsp;Beispielen&nbsp;und/oder</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;durch&nbsp;Versuch&nbsp;und&nbsp;Fehler&nbsp;und/oder</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;regelbasiertes&nbsp;\"Expertenwissen\"</div><div>-&nbsp;bei&nbsp;denen&nbsp;andere&nbsp;Verfahren&nbsp;keine&nbsp;befriedigende&nbsp;Lösung&nbsp;finden(schlechte&nbsp;Lösungsqualität&nbsp;oder&nbsp;zu&nbsp;lange&nbsp;Rechenzeiten)</div></div>"
+            ],
+            "flags": 0,
+            "guid": "v>C@f>8qgw",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Abgrenzung zu aehnlichen Gebieten</div>",
+                "<div><div>-&nbsp;Soft&nbsp;computing:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;teilweise&nbsp;Synonym&nbsp;zu&nbsp;Computational&nbsp;Intelligence</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Aufzählung&nbsp;Fuzzy,&nbsp;Neuronale&nbsp;Netze,&nbsp;Evolutionäre&nbsp;Algorithmen</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Betonung&nbsp;approximativer&nbsp;Lösung&nbsp;für&nbsp;schwer&nbsp;berechenbare&nbsp;Probleme</div><div>-&nbsp;Künstliche&nbsp;Intelligenz&nbsp;(engl.&nbsp;Artificial&nbsp;Intelligence)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;stärkere&nbsp;Betonung&nbsp;regelbasierter&nbsp;Entscheidungsprozesse</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;verwendet&nbsp;meist&nbsp;Symbole</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;basiert&nbsp;auf&nbsp;klassischer&nbsp;binärer&nbsp;Logik</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;in&nbsp;letzter&nbsp;Zeit&nbsp;wieder&nbsp;allgemeiner&nbsp;interpretiert,&nbsp;insbesondere&nbsp;für&nbsp;autonome&nbsp;Entscheidungen&nbsp;von&nbsp;Maschinen</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;symbolische&nbsp;Welt:&nbsp;Go,&nbsp;Schach&nbsp;usw.</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;subsymbolische&nbsp;Welt:&nbsp;autonomes&nbsp;Fahren,&nbsp;Sprachassistenten&nbsp;usw.</div></div>"
+            ],
+            "flags": 0,
+            "guid": "bI;ZNy}%1X",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition scharfer Mengen",
+                "<div><div>-&nbsp;Aufzählung&nbsp;aller&nbsp;Elemente,&nbsp;z.B.</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;natürliche&nbsp;Zahlen&nbsp;zwischen&nbsp;1&nbsp;und&nbsp;3</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Grundfarben&nbsp;in&nbsp;RGB-Skala</div><div>-&nbsp;Angeben&nbsp;charakteristischer&nbsp;Eigenschaften,&nbsp;z.B.</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Menge&nbsp;angenehmer&nbsp;Raumtemperaturen</div><div>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;Menge&nbsp;positiv&nbsp;reeller&nbsp;Zahlen</div></div>"
+            ],
+            "flags": 0,
+            "guid": "by3;ex)[~J",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition Fuzzy Mengen",
+                "<ul>\n<li>Linguistischer Term (auch: Linguistischer Wert):\n<ul>\n<li>qualitative Beschreibung einer Eigenschaft</li>\n<li>Beispiele: WARM, KALT, HEISS</li>\n<li>erhält Bedeutung durch Zuordnung einer Fuzzy-Menge</li>\n</ul>\n</li>\n<li>Fuzzy-Menge besteht aus geordneten Zahlenpaaren (x, μA(x)):\n<ul>\n<li>x: Element des im allgemeinen numerischen Grundbereiches</li>\n<li>μA(x): Zugehörigkeitsfunktion (ZGF) mit Werten aus dem Intervall [0,1]</li>\n</ul>\n</li>\n<li>Linguistische Variable\n<ul>\n<li>Größe, deren Werte linguistische Terme sind</li>\n<li>Beispiel: TEMPERATUR= { KALT, WARM,\n HEISS } (im Gegensatz zur \"normalen\" reellwertigen Variablen \n\"Temperatur\" mit Werten in Grad Celsius !)</li>\n</ul>\n</li>\n<li>Indizierung für mehrere \nlinguistische Variable und Terme: Menge Al,i für den i-ten \nlinguistischen Term der l-ten linguistischen Variablen</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "d2L_A]Jlz?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Arten der Zugehoerigkeitsfunktionen",
+                "<img src=\"2020-02-19-17-45-49.png\">"
+            ],
+            "flags": 0,
+            "guid": "p4VOD]LXS_",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Standardpartitionen: Vorteile",
+                "Vorteile:\n<ul>\n<li>eindeutig durch wenige Parameter beschreibbar</li>\n<li>gute Interpretierbarkeit</li>\n<li>Rechenvorteile</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "jB:=XFj,y",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Standardpartitionen: Parametrierung",
+                "<li><div>Wahl der ZGF-Parameter</div>\n<ul>\n<li>Expertenwissen:\n<ul>\n<li>Befragung einer oder mehrerer Personen, was unter den linguistischen Termen (wie WARM, KALT usw.) zu verstehen ist</li>\n<li>u.U. geeignet zusammenfassen und in Standardpartition überführen</li>\n</ul>\n</li>\n<li>Einfache Heuristiken\n<ul>\n<li>Kleinste und größte mögliche Werte bestimmen</li>\n<li>andere Stützpunkte so verteilen, dass entweder</li>\n</ul>\n</li>\n<li>die Abstände zwischen den Stützpunkten gleich sind (\"äquidistant\")</li>\n<li>ungefähr gleich viele Messwerte (\"Datentupel\") pro Term zu erwarten sind (\"äquifrequent\")</li>\n<li>Kompliziertere datenbasierte Entwurfsverfahren (siehe Vorlesung \"Datenanalyse für Ingenieure\" im Sommersemester)</li></ul></li>"
+            ],
+            "flags": 0,
+            "guid": "mu)VP@FU2w",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Operatoren fuer Und/Oder/Implikationen",
+                "<img src=\"2020-02-19-17-57-00.png\">"
+            ],
+            "flags": 0,
+            "guid": "De|OvrcD?,",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften t-Norm/ t-Konorm",
+                "<img src=\"2020-02-19-17-58-30.png\">"
+            ],
+            "flags": 0,
+            "guid": "uoT-R#qC`?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unterrschiede Mamdi- Singleton und Takagi-Sugeno-Systeme",
+                "<img src=\"2020-02-19-18-03-51.png\">"
+            ],
+            "flags": 0,
+            "guid": "J!43e@DgJd",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Unterschiede von Varianten in der Interferenz",
+                "<img src=\"2020-02-19-18-04-54.png\">"
+            ],
+            "flags": 0,
+            "guid": "wtk>qz%/ZS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Defuzzifizierung: Maximummethode",
+                "<img src=\"2020-02-19-18-19-18.png\">"
+            ],
+            "flags": 0,
+            "guid": "v]ICBu>Yd}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Defuzzifizierung: COGS methode",
+                "<img src=\"2020-02-19-18-19-35.png\">"
+            ],
+            "flags": 0,
+            "guid": "I]DVdx7Ji@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Defuzzifizierung: Fallen bei der Schwerpunktmethode",
+                "<ul>\n<li>Trapezfunktionen als Randzugehörigkeitsfunktionen unzulässig (defuzzifizierter Wert)</li>\n<li>asymmetrische Dreieckfunktionen am Rand u.U. problematisch (z.B. m1 =m2 =0,\nb1 =0, b2 =1: defuzzifizierter Wert kann Maximum der ZGF nicht erreichen)</li>\n<li>Reparatur durch \"erweiterte \nSchwerpunktmethode\", die dann ohne Rücksichtauf wirkliche ZGF b1 =b2 \nsetzt, so dass alle Werte aus dem Definitionsbereich im Ergebnis der \nDefuzzifizierung auftreten können</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "pH#u$w|sHy",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grundlegende Eigenschaften von Fuzzy-Systemen",
+                "<ul>\n<li>fast alle Fuzzy Systeme statisch:\n<ul>\n<li>Ausgang hängt nur von den Eingangsgrößen, nicht von inneren Zuständen ab</li>\n<li>kann als nichtlineares Kennfeld interpretiert werden</li>\n<li>Fuzzy Systeme mit interner Dynamik werden in dieser Vorlesung nicht behandelt</li>\n</ul>\n</li>\n<li>Dynamik entsteht durch Vor oder Nachschalten von meist linearen Teilsystemen wie Integrator/Summe, Differenz/Differenzierer</li>\n<li>auch TS Systeme können durch geeignete Eingänge oder Rückkopplungen von Ausgängen dynamisch gestaltet werden</li>\n<li>Nichtlinearität des Fuzzy-Reglers \nbedeutet Schwierigkeiten beim Nachweisen von Eigenschaften des \ngeschlossenen Regelkreises (z.B. Stabilität, Robustheit usw.)</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "b]*D1R|S/h",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fuzzy-Reglern: Konventioneller Regler",
+                "<img src=\"paste-b1e9f371657b5930dbdeb6be4be43af3d7c89780.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "moEB0&Q&Xd",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fuzzy Regler: Adaptiver Regler",
+                "<img src=\"paste-91e8a9c8acb2d74b13c4a97305712ec0796bd5bd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q}=)gC[=~<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Implementierung und Software von Fuzzy Systemen",
+                "<ul>\n<li>Befragung von Experten</li>\n<li>Einfache Heuristiken (z.B. zum Entwurf von Zugehörigkeitsfunktionen)</li>\n<li>Lernen aus Daten\n<ul>\n<li>Aufstellen und Bewerten von Regeln, z.B. auf Basis von Entscheidungsbäumen</li>\n<li>Clustern zum Entwurf von Zugehörigkeitsfunktionen</li>\n<li>Optimieren von Fuzzy Systemen auf der Basis von Evolutionären Algorithmen</li>\n<li>für Takagi Sugeno Systeme:\n<ul>\n<li>Aufteilen des Zustandsraums in geeignete Bereiche</li>\n<li>Identifizieren der Konklusionen mit Hilfe von linearen Methoden</li>\n</ul>\n</li>\n<li>Neuro Fuzzy Systeme:\n<ul>\n<li>Anlernen eines Neuronalen Netzes, das aufgrund seiner Struktur direkt in ein</li>\n<li>Fuzzy Systeme umgewandelt werden kann</li>\n</ul>\n</li>\n</ul>\n</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "mBmW9NiaF>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzipielle Beschreibung biologischer Neuronen",
+                "Ausgänge (Axonen) feuern Spikes nach dem Ja-Nein Prinzip, wenn Erregung über einer bestimmten Schwelle liegt.\nJe stärker die Aktivierung, desto häufiger treten Spikes auf.<div><br></div><div><img src=\"2020-02-19-19-55-50.png\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "FZB_%a9!Dq",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vereinfachung von kuenstlichen- im Vergleich zu biologischen Neuronalen Netzen",
+                "<ul>\n<li>Weniger Neuronen, 10 bis 1000</li>\n<li>Keine Modellierung der Spikes, zu kompliziert</li>\n<li>Statisches Ein-Ausgangsverhalten\nKennzeichen: lernfähig, dezentral, parallel</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "d:P}4+:VHi",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aufbau eines kuenstlichen Neurons",
+                "<img src=\"2020-02-19-19-57-25.png\">"
+            ],
+            "flags": 0,
+            "guid": "C4vEA8jn->",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bestimmung des Zustands eines kuenstlichen Neurons",
+                "<img src=\"2020-02-19-19-58-14.png\">"
+            ],
+            "flags": 0,
+            "guid": "D{^OX%z{cx",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aktivierungsfunktionen eines kuenstlichen Neurons",
+                "<img src=\"2020-02-19-19-58-36.png\">"
+            ],
+            "flags": 0,
+            "guid": "J,iJaG4B~E",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Verbindungsstrukturen eines Neuronalen Netzes",
+                "<img src=\"2020-02-19-19-59-51.png\">"
+            ],
+            "flags": 0,
+            "guid": "p.,hqsi!i0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Moegliche Lernverfahren bei NN",
+                "<ul>\n<li>Überwachtes Lernen\n<ul>\n<li>Ausgangsgröße bekannt</li>\n<li>Backpropagation oder Levenberg-Marquardt Algorithmus</li>\n</ul>\n</li>\n<li>Reinforcement Learning\n<ul>\n<li>Qualitätsbewertung einer Ausgangsgröße</li>\n</ul>\n</li>\n<li>Unüberwachtes Lernen (Clustern)\n<ul>\n<li>Hebb’sches Lernen</li>\n<li>Lernverfahren für Kohonen-Karten</li>\n</ul>\n</li>\n<li>Teilüberwachtes Lernen\n<ul>\n<li>Ausgangsgröße ist nur ein Teil der Lerndaten bekannt</li>\n</ul>\n</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "DvY<~}l*|]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grundprinzip Hebb'sches Lernen",
+                "Idee: „Verbindung zwischen Neuronen werden verstärkt, wenn diese gleichzeitig aktiv sind“<div><img src=\"2020-02-19-20-02-24.png\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "C#o{RaBv/n",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften von MLP Netzen",
+                "<div>MLP Netze sind statische Netze!</div>\n<ul>\n<li>die Neuronen in mehreren Schichten (Ebenen) angeordnet sind</li>\n<li>Feedforward-Netz</li>\n<li>Bestimmung des Zustands:\ngewichtete Summe mit Absolutterm</li>\n<li>Aktivierungsfunktion für verdeckte Schicht meist Tansig-oder Sigmoid-Funktion</li></ul><div><img src=\"2020-02-19-20-03-49.png\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "QKHCDI;vJB",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grundprinzip der Lernverfahren fuer MLP Netze",
+                "&nbsp;???"
+            ],
+            "flags": 0,
+            "guid": "NZW!@A%x#X",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzip RBF Netze",
+                "<div>Neuronen in drei Schichten:</div>\n<ul>\n<li>Eingabeschicht</li>\n<li>nur <b>eine</b> Schicht mit RBF-Neuronen</li>\n<li>Ausgabeschicht&nbsp;<br></li></ul><div><img src=\"2020-02-20-12-26-50.png\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "TW6f<0X%*",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lernen von RBF Netzen",
+                "Platzieren der RBF-Neuronen am Datentupel mit dem größten Fehler\nJedes RBF-Neuron wird umso stärker angeregt, je ähnlicher die Einsgangswerte xxx dem jeweiligen Parametervektor www sind.\n-&gt; Jedes Neuron hat nur <b> lokale </b> Wirkung."
+            ],
+            "flags": 0,
+            "guid": "CZFOn;(f+#",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aufbau Kohonen Karte",
+                "<img src=\"2020-02-20-12-39-09.png\">"
+            ],
+            "flags": 0,
+            "guid": "hO;m[b~*`3",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften Kohonen Karte",
+                "<div>Feedforward-Netz mit RBF-Neuronen</div>\n<ul>\n<li>biologisch motiviert aus dem Aufbau der Hinrinde</li>\n<li>selbstorganisierend</li>\n<li>Ausgangsgröße ist nicht bekannt</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "@$3O2<bur",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lernverfahren Kohonen Karte",
+                "<div>Vom Prinzip her wie k-means:</div>\n<div>Neuronen werden in die Nähe von \nDatentupeln gezogen (minimeren des Abstands) und die Gewichte werden so \nbestimmt, dass sie wichtige Bereiche der Eingangsdaten abdecken.</div>"
+            ],
+            "flags": 0,
+            "guid": "oMidv@g+h8",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grundidee des Deep Learning",
+                "<div>Eingang: Bilder\nAusgang: Label oder Segmentierung</div>\n<div>Struktur:</div>\n<ul>\n<li>Feedforward-Netz</li>\n<li>Convolution mit gekoppelten Parametern und lokaler Zuweisung</li>\n<li>Max-Pooling zur Reduktion der Auflösung</li>\n<li>ReLU Aktivierungsfunktion</li>\n<li>Batch-Normalization (Verbesserung der Parameteroptimerung)</li>\n<li>Dropout</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "QnUstug~p%",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aufbau GAN",
+                "Aufbau\n<div>Modell besteht aus zwei Netzen:</div>\n<ul>\n<li><b> Generator </b> , der Bilder auf Basis von zufälligem Rauschen erstellt</li>\n<li><b> Diskriminator </b> , binärer Klassifikator zwischen echten und generierten Bildern</li></ul><div><img src=\"2020-02-20-13-54-26.png\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "oqcnpub,gb",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Training GAN",
+                "Training\n<ul>\n<li>Diskriminator: Binäre Klassifikation zwischen echten und von G\ngenerierten Bildern</li>\n<li>Generator: Anpassen der Gewichte, so dass der Diskriminator\ngetäuscht wird</li>\n<li>Abwechselndes Trainieren von G und D</li>\n<li>da die beiden Modelle gegensätzliche Ziele haben,\nspricht man von adversarial network</li>\n<li>im Optimalfall werden beide Netze kontinuierlich\nbesser und die Qualität der erzeugten Bilder steigt</li></ul>"
+            ],
+            "flags": 0,
+            "guid": "K;te1vRTJ4",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "CI,FY,NN,KNN"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Nachteil, wenn es mehr Gene als zu optimierende Parameter geben kann?",
+                "Es kann zu genotypischen Aenderungen ohne phaenotypische Auswirkung kommen"
+            ],
+            "flags": 0,
+            "guid": "G$jP%~}Xd(",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        }
+    ]
+}
