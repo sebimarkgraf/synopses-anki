@@ -1,0 +1,2095 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "d1d6b7e8-dc02-11ea-8bc1-4ccc6a605f05",
+    "deck_config_uuid": "f0a742dc-dc02-11ea-8bc1-4ccc6a605f05",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "f0a742dc-dc02-11ea-8bc1-4ccc6a605f05",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Mensch Maschine Interaktion",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 25,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-00646557ecd0fa72b4d4d943786f5de4eae747b9.jpg",
+        "paste-08dd45e4df26e0b2593eccf5436a9b84a1f83db9.jpg",
+        "paste-09ab873b291c4bf6a91597ac91cc1b9a13932c31.jpg",
+        "paste-13f42b65bf8d9a09eccabb620483326690e28e8c.jpg",
+        "paste-1f92a78e2c70dda0d71574e66f1f0d9e0a0a7e18.jpg",
+        "paste-200c1916f04c0cfcbddc7063423171163e48b7fc.jpg",
+        "paste-20a951d23ebd65f5cd538ad4cc352a7ddb213100.jpg",
+        "paste-243584b46b97aed3ec1aac598c6505a152c5b46c.jpg",
+        "paste-2b88db7f5d1d3661bbe8eb5bab7bcaa8e8f3a665.jpg",
+        "paste-2ba4cbbd585c449ee5385b8a65bb3e6cb06f53d2.jpg",
+        "paste-2db4deb77fd2f0456f7d231534935dae00b68b05.jpg",
+        "paste-3226eed6854a02fa2cd4c6e8e9cf2b08f97d3ef7.jpg",
+        "paste-3475473b3eb063ae35f8fbe6bd4e0b6fe2e80e16.jpg",
+        "paste-37974d388253d52b2aa261d93ccefcb01915e6de.jpg",
+        "paste-38ff54192cfeaa6e5b15456f3e576ea91c3a498d.jpg",
+        "paste-3f14561717c16966476822a8f7684779021d7f51.jpg",
+        "paste-4049513429697c56e9e4749e5488cdf6c5a046e1.jpg",
+        "paste-405494c86e2dcbe4901be574c8ee1c009ea34b1a.jpg",
+        "paste-41da354390f0fa4253d4cd39a16212e0667d9f48.jpg",
+        "paste-4aa2fca7df8f6044773dcbc75b704d88d9e2c8f6.jpg",
+        "paste-4bc4a596e2775f9919168e864b8293b0b0bd3444.jpg",
+        "paste-4ec378280d1919cd1b004879ababb3645c2db05d.jpg",
+        "paste-51663300b4a11050d5a6ce60217fb2108f3b6de4.jpg",
+        "paste-570923ad4495e8f2a81614497426732e585e81e8.jpg",
+        "paste-5fb3b73df7c62e296689dba2be36df6fd56b126f.jpg",
+        "paste-65d11a9a8eddd033c3693752176db26e91409009.jpg",
+        "paste-689ebc89138c3527f8f598269eb6ca8813792a13.jpg",
+        "paste-6c34cec3f9f961b4829cab55ff94a0f60a55b773.jpg",
+        "paste-7202454f00733a2b6b5aecbb69bb0336aa457525.jpg",
+        "paste-76d424a3aa0de664b36457a9c6e1bf371cbd6625.jpg",
+        "paste-792fb1853155a72c97bc34dde0093f8bdd9996dd.jpg",
+        "paste-7e0b6766889396f6bceecc275121b63ca21abb1b.jpg",
+        "paste-819d2e0535e637fb920e4fc54f5da61145345422.jpg",
+        "paste-83e708d83a8080b07689f5db94c6e90ac2614df4.jpg",
+        "paste-852dc6700a59a7dbe277ac1556b0e0e9d417610f.jpg",
+        "paste-88a35c297a6a29a6de5c9381be6c6b9da4638743.jpg",
+        "paste-8fe3c622c1d7a767125e6c71ca59ca3c549b16af.jpg",
+        "paste-9680797e17686b12f6c6c9017477cc70ea53aa0c.jpg",
+        "paste-974218c028d3f2b7a647f24411c61be3f03eae21.jpg",
+        "paste-9c13651ea9931db85a463820ca764307bff7de1b.jpg",
+        "paste-ae86b0ce63642432dd1511a62dea8d9a7c9a1bd1.jpg",
+        "paste-af0b8abfb6ff66db07a601fb0cca1a7e4d242ede.jpg",
+        "paste-b283c0bcaf3efd1a1d24474228de8a8658d947e7.jpg",
+        "paste-b33d7ec22db51cd92714e05fa3b410820b1fdd57.jpg",
+        "paste-b6037ce7e7f2666373c796d13f0fb3fc9eb8175c.jpg",
+        "paste-b7fc97a8b077479f8e9c2db0e0b204a044c2c31c.jpg",
+        "paste-b96383b5a8b852ec4355bacfb064f4d602b2aa6a.jpg",
+        "paste-bf39c388ac2c43f64db41efb76b0b75980ad9a4a.jpg",
+        "paste-c0812858609a6a0024f595626ac06aadf3052958.jpg",
+        "paste-c4e75796dab10ff8db800323941374901185d96c.jpg",
+        "paste-c67bd910edf0b3762e1b0b14fd7a5be4d58e80aa.jpg",
+        "paste-cbe50cbe9c7b8c2fc88c5c4d765e4da439c8c353.jpg",
+        "paste-d0a6a50cdec2bbfb8c48ba22a66f102e123e8c8b.jpg",
+        "paste-d2d924f72f161f9c5990511753ed19984823a317.jpg",
+        "paste-d35116df48a0734800bbbb69196abeda7d5e99c7.jpg",
+        "paste-d4d66f484f39fa68c971f14cff880f47b9d80603.jpg",
+        "paste-d6e3a785d619b91d51227cca1091fde61a489569.jpg",
+        "paste-d724b7d67d876724603e3841eaee326fc2ab5697.jpg",
+        "paste-dc23cb00a098ee5f0aac2b4cc8ff81f8f51046dc.jpg",
+        "paste-e0a326d51561310773a00f5ffaab3022c436056d.jpg",
+        "paste-e15485f1d1a056ef0c37811e2153a8ad44daa3c7.jpg",
+        "paste-e34089400ae8dbffb1d23f8a69563800fe2c7a17.jpg",
+        "paste-e69287425b63f5d70bbb4b20348b1b82b8694e52.jpg",
+        "paste-ec6a0597851aa575238f21b0932b15504e7a9c60.jpg",
+        "paste-f1c43af0f8e6b8b2d3a04e76ef845f48baba5729.jpg",
+        "paste-f2878c7167bcf5b016215fd18c8d4d91d0d7c96e.jpg"
+    ],
+    "name": "Mensch Maschine Interaktion",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.cloze {\n font-weight: bold;\n color: blue;\n}\n.nightMode .cloze {\n color: lightblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{cloze:Text}}<br>\n{{Extra}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "{{cloze:Text}}\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n#frage {\n font-family: arial;\n font-size: 20px;\n padding: 10px;\n text-align: center;\n border-style: dashed;\n}\n\n#header {\n font-family: arial;\n font-size: 12px;\n text-align: center;\n font-weight: bold;\n}\n\n#header2 {\n font-family: arial;\n font-size: 12px;\n text-align: center;\n}\n\n#options {\n font-family: arial;\n font-size: 18px;\n text-align: left;\n}\n\n#answer {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n font-weight: bold;\n color: lightskyblue;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Klausur",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Aufgabe",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Nimbus Sans",
+                    "media": [],
+                    "name": "Frage",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Optionen",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Antwort",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "MMI Klausuraufgabe",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 2,
+            "tags": [
+                ""
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n<hr id=answer>\n<div id=answer>{{Antwort}}</div>\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<div id=header>{{Klausur}}, {{Aufgabe}}</div>\n<div id=header2>(No official solution released, answers are not verified!)</div>\n<br>\n<div id=frage>{{Frage}}</div>\n<br>\n<div id=options>{{Optionen}}</div>\n\n<script defer>\n    // for Anki 2.1\n    MathJax.Hub.Config({ TeX: { extensions: [\"color.js\"] }});\n</script>\n<script type=\"text/x-mathjax-config\">\n    MathJax.Hub.processSectionDelay = 0;\n    MathJax.Hub.Config({\n        TeX: { extensions: [\"color.js\"] },\n        messageStyle: 'none',\n        showProcessingMessages: false,\n        tex2jax: {\n            inlineMath: [ ['$','$'], ['\\\\(','\\\\)'] ],\n            displayMath: [ ['$$','$$'], ['\\\\[','\\\\]'] ],\n            processEscapes: true\n        }\n        });\n</script>\n<script type=\"text/javascript\">\n    (function () {\n        if (typeof MathJax === \"undefined\") {\n            var script = document.createElement('script');\n            script.type = 'text/javascript';\n            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';\n            document.body.appendChild(script);\n        }\n    })();\n</script>"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u><b>Definition: {{c1::Pervasive Computing}}</b></u><div><br></div><div>{{c1::<b>Pervasive Computing</b>}}, also called {{c2::Ubiquitous Computing}}, is the {{c3::growing trend of embedding computational capability (e.g. microprocessors) into everyday objects}} to {{c4::make them effectively communicate and perform useful tasks}} in a way that {{c5::minimizes the end user's need to interact with computers as computers}}.</div>",
+                "<img src=\"paste-4aa2fca7df8f6044773dcbc75b704d88d9e2c8f6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q.o`m+U<Mu",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u><b>Definition: {{c1::Mensch-Maschine-Interaktion / Human-Computer-Interaction}}</b></u><div><br></div><div>{{c1::<b>Mensch-Maschine-Interaktion / Human-Computer-Interaction</b>}} studies the {{c2::design and use of computer technology}}, focused on the {{c3::interfaces between humans/users and computers}}. It is an important part of {{c4::Pervasive/Ubiquitous Computing}}.<br></div>",
+                "<img src=\"paste-d35116df48a0734800bbbb69196abeda7d5e99c7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "k-c^y#nBeN",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b><u>Definition: {{c1::PACT}}</u></b><div><br></div><div>{{c1::<b>PACT</b>}} is a {{c2::HCI design framework}} that focuses on {{c3::<b>P</b>eople undertaking <b>A</b>ctivities in <b>C</b>ontexts using <b>T</b>echnologies}}.</div>",
+                "<img src=\"paste-8fe3c622c1d7a767125e6c71ca59ca3c549b16af.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "DAd29}tSA1",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The two classes/times for studies and evaluation of HCI are {{c1::<b>formative</b>}}, i.e. {{c2::at the beginning to inform about context}} and {{c2::<b>summative</b>}}, i.e. {{c2::afterwards to judge the impact of the design}}.",
+                "<div><i>(a summative evaluation can be a formative one for the next step)</i></div><img src=\"paste-819d2e0535e637fb920e4fc54f5da61145345422.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "q_NFwG~)g9",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The four W's of iterative design and evaluation are:</u><div>1. {{c1::<b>Why</b>}}, i.e. {{c1::the study question}}, e.g. {{c1::does the user like the product?}}</div><div>2. {{c2::<b>What</b>}}, e.g. {{c2::a conceptual model, an early prototype, human behavior}}</div><div>3. {{c3::<b>Where</b>}}, i.e. {{c3::in nature or in a laboratory setting}}</div><div>4. {{c4::<b>When</b>}}, i.e. {{c4::formative vs. summative}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "nY1*{GSsh|",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The three study measures are {{c1::<b>effectiveness</b>}}, {{c1::<b>efficiency</b>}} and {{c1::<b>satisfaction</b>}}.",
+                "<img src=\"paste-1f92a78e2c70dda0d71574e66f1f0d9e0a0a7e18.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t~@2mJ04)$",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The four different classes of evaluation are:</u><div>1. {{c1::<b>Result Type</b> (\"why\")}}, i.e. {{c1::subjective vs. objective}} and {{c1::quantitative (numbers) vs. qualitative (text)}}</div><div>2. {{c2::<b>Evaluation Partner</b> (\"what\")}}, i.e. {{c2::user vs. expert}}</div><div>3. {{c3::<b>Setting</b> (\"where\")}}, i.e. {{c3::natural vs. controlled settings}}</div><div>4. {{c4::<b>Evaluation Time</b> (\"when\")}}, i.e. {{c4::inspective vs. retrospective}} and {{c4::short-term vs. long-term}}</div>",
+                "<img src=\"paste-9680797e17686b12f6c6c9017477cc70ea53aa0c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "P%~~g/t)V*",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The five key issues of data recording are:</u><div>1. {{c1::<b>Setting Goals</b>}}, i.e. {{c1::how the data will be analyzed once collected}}</div><div>2. {{c2::<b>Identifying Participants</b>}}, i.e. {{c2::deciding who to gather data from}}</div><div>3. {{c3::<b>Relationships with Participants</b>}}, i.e. {{c3::clear and professional with informed consent}}</div><div>4. {{c4::<b>Triangulation</b>}}, i.e. {{c4::collecting multiple data types to look at the data from different perspectives}}</div><div>5. {{c5::<b>Pilot Studies</b>}}, i.e. {{c5::small trials of the main study}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "rHdvf7v;$_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The three types of interviews are:</u><div>1. {{c1::<b>Structured Interviews</b>}}, i.e. {{c1::strictly following precise, pre-developed questions}}</div><div>2. {{c2::<b>Semi-Structured Interviews</b>}}, i.e. {{c2::a structured part + \"open\" questions (\"tell me your ideas on...\")}}</div><div>3. {{c3::<b>Unstructured Interviews</b>}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "GQ`DqV+gJ<",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A commonly used questionnaire scale is the {{c1::<b>Likert Scale</b>}}.",
+                "<img src=\"paste-00646557ecd0fa72b4d4d943786f5de4eae747b9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "kk@JRQ8;rh",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The five steps when running an interview are:</u><div>1. {{c1::<b>Introduction</b>}}, i.e. {{c1::introducing yourself, explaining the goals of the interview, getting consent}}</div><div>2. {{c2::<b>Warm-up</b>}}, i.e. {{c2::easy first questions}}</div><div>3. {{c3::<b>Main Body</b>}}, i.e. {{c3::the main questions in logical order}}</div><div>4. {{c4::<b>Cool-Off</b>}}, i.e. {{c4::easy questions to defuse tension}}</div><div>5. {{c5::<b>Closure</b>}}, i.e. {{c5::thanking the interviewee and signaling the end}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "NQy!yx-=ME",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>System Usability Scale (SUS)</b>}} is a {{c2::subjective, quick and dirty usability measurement standard}}.<div><br></div><div><b>Benefits</b>:</div><div>- {{c3::Easy scale (Likert)}}</div><div>- {{c3::Useful in small sample sizes}}</div><div>- {{c3::Decent validity}}</div><div><br></div><div><b>Restrictions</b>:</div><div>- {{c4::Score between 0-100 suggests percentages, even though they're not}}</div><div>- {{c4::Not diagnostic, just to classify, inconclusive for specific problems}}</div>",
+                "<img src=\"paste-2db4deb77fd2f0456f7d231534935dae00b68b05.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "s+bCttO6~_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>Think Aloud</b>}} technique serves the direct observation of someone, preferably a {{c2::non-expert}}, using an application while {{c3::constantly explaining what he/she is thinking}}.<div><br></div><div>It can be used to {{c4::categorize and solve obvious issues}} and {{c4::draw general conclusions}} about the application.</div>",
+                "<img src=\"paste-6c34cec3f9f961b4829cab55ff94a0f60a55b773.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ji5Gt]D:!c",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::<b>Experience Sampling Methodology (ESM)</b>}} is a study method&nbsp;where participants are asked to {{c2::fill out short questionnaires at various points throughout the day}}.",
+                "<img src=\"paste-cbe50cbe9c7b8c2fc88c5c4d765e4da439c8c353.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "PF]:?:`<p/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Sampling strategies for selecting participants:</u><div>1. {{c1::<b>Random Sampling</b>}}, i.e. {{c1::everyone has equal probability of being selected}}</div><div>2. {{c2::<b>Systematic Sampling</b>}}, i.e. {{c2::selection based on predefined criteria}}, e.g. {{c2::first come first serve}}</div><div>3. {{c3::<b>Stratified Sampling</b>}}, i.e. {{c3::controlled randomness by selecting randomly from different strata}}, e.g. {{c3::50/50 male/female, random selection within male and female subgroups}}</div><div>4. {{c4::<b>Samples of Convenience</b>}}, i.e. {{c4::volunteer-based}}</div>",
+                "<img src=\"paste-b7fc97a8b077479f8e9c2db0e0b204a044c2c31c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t4H]SB*yTE",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Rule of thumb</b> for estimating the percentage of issues found by \\(n\\) study participants when the average percentage of found issues across all participants is \\(p\\):<div><br></div><div>{{c1::\\[1 - (1 - p)^n\\]}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mBP>f@dK4T",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "To mitigate the effect of the task order on the results, the tasks are {{c1::rescheduled for each participant}}, e.g. using the {{c2::<b>Latin Square</b>}}.",
+                "<div><i><br></i></div><div><i>(this might not be possible if tasks depend on each other, or might be unnecessary if tasks are unrelated)</i></div><img src=\"paste-3475473b3eb063ae35f8fbe6bd4e0b6fe2e80e16.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "OHgF0DK@,W",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Heuristic Evaluations</b>}} can be used when {{c2::no regular users/only experts are available}} to test the design of a system.<div><br></div><div>Key issues in this case are {{c3::the expenses of hiring experts}}, {{c3::overlooking important issues}}, {{c3::mostly catching trivial issues}} and {{c3::the experts' biases}}.</div>",
+                "<i>(10 heuristics after Jakob Nielsen)</i><div><img src=\"paste-76d424a3aa0de664b36457a9c6e1bf371cbd6625.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "r5Ls[|8rsf",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The three types of attention in human information processing (HIP):</u><div>1. {{c1::<b>Selective Attention</b>}}, i.e. {{c1::willingly selecting the focus}}</div><div>2. {{c2::<b>Focused Attention</b>}}, i.e. {{c2::responding to external events}}</div><div>3. {{c3::<b>Divided Attention</b>}}, i.e. {{c3::simultaneously focusing on different events}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "mRo2UW:5+)",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Vigilance</b>}} describes the ability to {{c2::detect intermittent, unpredictable and infrequent signals over a long period of time}}, e.g. in the case of providing {{c3::quality control at an assembly line}}.",
+                "<img src=\"paste-ec6a0597851aa575238f21b0932b15504e7a9c60.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "N++o,ep7V",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>The six vigilance paradigms:</u><div><u><br></u><div>1. {{c1::<b>Free-Response Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c1::a target event occurs at any time, non-events are undefined}}, e.g. {{c1::power plant monitor supervision}}</div><div><br></div><div>2. {{c2::<b>Inspection Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c2::events occur at fairly regular intervals, some are events, most are non-targets}}, e.g. {{c2::quality control}}</div><div><br></div><div>3. {{c3::<b>Successive Vigilance Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c3::the target stimulus has to be remembered and successive events have to be compared}}, e.g. {{c3::detect of a color is darker than the initial one}}</div><div><br></div><div>4. {{c4::<b>Simultaneous Vigilance Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c4::all events needed for discrimination are present at the same time}}, e.g. {{c4::comparing many types of garment to a standard piece of fabric}}</div><div><br></div><div>5. {{c5::<b>Sensory Vigilance Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c5::signals represent changes in the auditory or visual intensity}}, e.g. {{c5::color changes}}</div><div><br></div><div>6. {{c6::<b>Cognitive Vigilance Paradigm</b>}}</div><div>\\(\\rightarrow\\) {{c6::signals represent \"information\"}}, e.g. {{c6::proofreading a manuscript}}</div></div>",
+                "<img src=\"paste-570923ad4495e8f2a81614497426732e585e81e8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "b+P*=*[[s!",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>State of the world vs. response in <b>Signal Detection Theory</b>:</u><div>{{c1::<img src=\"paste-d2d924f72f161f9c5990511753ed19984823a317.jpg\">}}</div>",
+                ""
+            ],
+            "flags": 0,
+            "guid": "B`4Y2m(A`.",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Sensitivity</b>}} is the {{c2::resolution of the signal detection mechanism}} and refers to the {{c3::separation of noise and signal distributions}}.",
+                "<img src=\"paste-2b88db7f5d1d3661bbe8eb5bab7bcaa8e8f3a665.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "op1;H)mC-8",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #1:</u><div><div>Organize information {{c1::into a small number of \"chunks\"}}.</div></div>",
+                "<img src=\"paste-e15485f1d1a056ef0c37811e2153a8ad44daa3c7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ndC1!qX*cI",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #2:</u><div>Try to create {{c1::short linear sequences of tasks}}.<br></div>",
+                "<img src=\"paste-e34089400ae8dbffb1d23f8a69563800fe2c7a17.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "P1&V>GBsHQ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #3:</u><div>Use {{c1::persistence}}. Do not {{c1::flash important information onto the screen for brief time periods}}.<br></div>",
+                "<img src=\"paste-bf39c388ac2c43f64db41efb76b0b75980ad9a4a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g2h)N-v<U#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #4:</u><div>Do not {{c1::\"overwrite\" the contents of working memory with additional tasks}}.<br></div>",
+                "<img src=\"paste-852dc6700a59a7dbe277ac1556b0e0e9d417610f.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "k9q,aaeP2/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #5:</u><div>Organize data fields to {{c1::match user expectations or input (e.g. automatic formatting for phone numbers)}}.<u><br></u></div>",
+                "<img src=\"paste-f1c43af0f8e6b8b2d3a04e76ef845f48baba5729.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o*@{&i(+!5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #6:</u><div>Provide {{c1::reminders or warnings of the current state}}.<u><br></u></div>",
+                "<img src=\"paste-792fb1853155a72c97bc34dde0093f8bdd9996dd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jR+}#A;;^#",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #7:</u><div>Provide ongoing {{c1::feedback on what is happening}}.<u><br></u></div>",
+                "<img src=\"paste-d724b7d67d876724603e3841eaee326fc2ab5697.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jd}-a(iL#J",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #8:</u><div>The user interface should behave in {{c1::consistent ways at all times}}.<u><br></u></div>",
+                "<img src=\"paste-405494c86e2dcbe4901be574c8ee1c009ea34b1a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "K+klV^wOF-",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Memory-based Design Guideline #9:</u><div>Terminology, icons and color should be {{c1::consistent between screens}}.<u><br></u></div>",
+                "<img src=\"paste-b96383b5a8b852ec4355bacfb064f4d602b2aa6a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "iTNG3tR,vQ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Visual perception</b>}} is the process of {{c2::extracting meaning from sensory information}}. It is concerned with {{c3::recognition and understanding}}.<div><br></div><div>{{c1::<b>Vision</b>}} is an easier process concerned with {{c2::detecting color, shapes or edges}}. Vision does not necessarily require {{c3::an understanding of the world surrounding us}}.</div>",
+                "<img src=\"paste-c67bd910edf0b3762e1b0b14fd7a5be4d58e80aa.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "vC=)lmp1a3",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Gestalt Laws}} are methods that the brain uses to {{c2::simplify recognition}}.",
+                "<img src=\"paste-4bc4a596e2775f9919168e864b8293b0b0bd3444.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yna?fx-wGK",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Proximity</u><div>Objects that are {{c1::close in space or time}} tend to be {{c1::perceived together}}.</div>",
+                "<img src=\"paste-3f14561717c16966476822a8f7684779021d7f51.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QfNS!Weo,2",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Law of Good Gestalt / Simplicity / Prägnanz</u><div>Complex figures are made sense of by {{c1::separating them into known, simple forms}}.</div>",
+                "<img src=\"paste-4ec378280d1919cd1b004879ababb3645c2db05d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "keU8h^O}$i",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Closure</u><div>Objects are perceived as {{c1::complete}} even if {{c1::there are gaps in the shape}}.</div>",
+                "<img src=\"paste-d6e3a785d619b91d51227cca1091fde61a489569.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "x?uK|Wx}SQ",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Continuity</u><div>Objects are perceived as {{c1::continuous and smooth}} instead of {{c1::disjointed}}.</div>",
+                "<img src=\"paste-3226eed6854a02fa2cd4c6e8e9cf2b08f97d3ef7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QS|vI?c(oi",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Common Fate Principle</u><div>Objects that {{c1::\"move\" together}} are {{c1::related}}.</div>",
+                "<img src=\"paste-dc23cb00a098ee5f0aac2b4cc8ff81f8f51046dc.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "vI2.7~v&iB",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Similarity</u><div>Similar figures tend to be {{c1::grouped together}}.</div>",
+                "<img src=\"paste-e0a326d51561310773a00f5ffaab3022c436056d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "IxJB&~=-+R",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Symmetry</u><div>Symmetry simplifies perception because {{c1::only one figure needs to be perceived}} and {{c1::others are just seen as symmetric multiplications}}.</div>",
+                "<img src=\"paste-7e0b6766889396f6bceecc275121b63ca21abb1b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "N%;&*=cH1c",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Part-Whole Relationship</u><div>The {{c1::same}} parts can create {{c1::different wholes}}.</div>",
+                "<img src=\"paste-2ba4cbbd585c449ee5385b8a65bb3e6cb06f53d2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "j5oB7on@39",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Area Principle</u><div>Objects with small areas tend to be seen as {{c1::figures}}, not the {{c1::ground}}.</div>",
+                "<img src=\"paste-38ff54192cfeaa6e5b15456f3e576ea91c3a498d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "z5qOuaaEOE",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Surroundedness Principle</u><div>An area that is surrounded will be seen as a {{c1::figure}} and the area that surrounds it will be seen as the {{c1::ground}}.</div>",
+                "<img src=\"paste-88a35c297a6a29a6de5c9381be6c6b9da4638743.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "p{~uwNZsy5",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Gestalt Laws: Common Region Principle</u><div>Objects located within the same {{c1::closed region}} are {{c1::chunked together}}.</div>",
+                "<img src=\"paste-f2878c7167bcf5b016215fd18c8d4d91d0d7c96e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "oB[(T,b`d{",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Other principles of perception: Stimulus Intensity</u><div>The {{c1::intensity}} of a stimulus is perceived before the {{c1::meaning is processed}}.</div>",
+                "<img src=\"paste-c0812858609a6a0024f595626ac06aadf3052958.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "I,mE>%E!.o",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Other principles of perception: Proportion</u><div>Proportions can represent {{c1::logical hierarchies}}.</div>",
+                "<img src=\"paste-b283c0bcaf3efd1a1d24474228de8a8658d947e7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "js@3^^q~b0",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Other principles of perception: Proportion (Golden Ratio)</u><div>The Golden Ratio expresses the relationship between {{c1::two aspects like width and height}}, which must be equal to {{c1::\\(0.618\\)}}.</div>",
+                "<img src=\"paste-ae86b0ce63642432dd1511a62dea8d9a7c9a1bd1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Du?`2xha4_",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<u>Other principles of perception: Screen Complexity</u><div>Optimum usability is reached when the screen is {{c1::neither overly simple nor overly complex}}.</div>",
+                "<img src=\"paste-37974d388253d52b2aa261d93ccefcb01915e6de.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "h0ZK2<k5AO",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Physical models</b>}} can predict {{c2::efficiency based on the physical aspects of a design}}. For example, {{c3::<b>Fitt's Law</b>}} can be used to {{c4::estimate the best size and location of a screen object}}.",
+                "<div><i>(Fitt's Law does not work well on touch interfaces due to, among others, the \"fat finger problem\")</i></div><img src=\"paste-5fb3b73df7c62e296689dba2be36df6fd56b126f.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gyEo|[M#zq",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::<b>Hick's Law</b>}} states that {{c2::the time needed to make a decision (e.g. a selection) is proportional to the log number of alternatives given}}.",
+                "<img src=\"paste-d0a6a50cdec2bbfb8c48ba22a66f102e123e8c8b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AR!05/S68/",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::Mental models}} provide {{c2::a basic, low-resolution understanding of what is going on}}.",
+                "<img src=\"paste-83e708d83a8080b07689f5db94c6e90ac2614df4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "z/Kysah)H@",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::Gulf of Execution}} describes a {{c2::mismatch between the user's intentions and the allowable actions}}.",
+                "<img src=\"paste-b33d7ec22db51cd92714e05fa3b410820b1fdd57.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "zStK/Z4m$>",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::Gulf of Evaluation}} describes a {{c2::mismatch between the user's expectations and the system's representation}}.",
+                "<img src=\"paste-243584b46b97aed3ec1aac598c6505a152c5b46c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Ch)Ty8wDd+",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "A {{c1::Hierarchical Task Analysis}} is a {{c2::graphical representation of a task structure}}.",
+                "<img src=\"paste-41da354390f0fa4253d4cd39a16212e0667d9f48.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Fk#/Q`qHdh",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "{{c1::GOMS (Goals, Operators, Methods, Selection Rules)}} is a tool for {{c2::Cognitive Load Analysis}}.",
+                "<img src=\"paste-689ebc89138c3527f8f598269eb6ca8813792a13.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "y|t21qQm-U",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The {{c1::Keyboard Level Model (KLM)}} is a design tool that can capture and calculate {{c2::the physical actions a user will have to carry out}} to {{c2::complete specific tasks}}.",
+                "<img src=\"paste-51663300b4a11050d5a6ce60217fb2108f3b6de4.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "zkYGt/!03:",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Contemporary GUIs are sometimes called {{c1::<b>WIMP</b>}} interfaces because they comprise {{c1::<b>W</b>indows, <b>I</b>cons, <b>M</b>enus and <b>P</b>ointers}}.",
+                "<img src=\"paste-9c13651ea9931db85a463820ca764307bff7de1b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t=lR|g14s`",
+            "note_model_uuid": "637bf2a0-afec-11ea-9b46-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A1. (a), 2pt (60pt overall)",
+                "<div>You want to run a PACT analysis. What does PACT mean?</div>",
+                "<div>&gt; Paper &amp; Pencil Analysis for Context and Technology</div><div>&gt; Person, Action, Context, Technique</div><div>&gt; People, Activity, Context, Technology</div><div>&gt; Public-Actions-in-Context Technique</div>",
+                "People, Activity, Context, Technology"
+            ],
+            "flags": 0,
+            "guid": "d^l&5$u=IC",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A1. (b), 2pt (60pt overall)",
+                "You have run a PACT analysis of the KVV website (public transportation). Give an example scenario (one sentence), in which you define P, A, C, and T. Mark the assignment to P, A, C and T.",
+                "",
+                "A <i>student</i> (P) uses the KVV <i>smartphone app</i> (T) to <i>find the fastest route</i> (A) to <i>his university</i> (C)"
+            ],
+            "flags": 0,
+            "guid": "k?qWpQG`Kg",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A2. (a), 1pt (60pt overall)",
+                "Printed text is presented to a user to inform him about a problem. Into which part of the working memory will this information go? (one correct answer)",
+                "&gt; Verbal part<div>&gt; Visuospatial part</div>",
+                "Verbal part"
+            ],
+            "flags": 0,
+            "guid": "kXz+Yk%IHb",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A2. (b), 1pt (60pt overall)",
+                "[Information] is displayed [to a user] in form of an icon. Into which part of the working memory will this information go? (one correct answer)",
+                "&gt; Verbal part<div>&gt; Visuospatial part</div>",
+                "Visuospatial part"
+            ],
+            "flags": 0,
+            "guid": "D!se9vQzeV",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 2pt (60pt overall)",
+                "Which types of text font are suited for slides? (multiple answers) Also, is a justified text alignment (\"Blockdarstellung\") suitable for slides?",
+                "&gt; Variable-Width Font<div>&gt; Fix-Width Font</div><div>&gt; Sans Serif Font</div><div>&gt; Serif Font</div><div><br></div><div>&gt; Yes / No</div>",
+                "Variable-Width Font, Sans Serif Font<div><br></div><div>No</div>"
+            ],
+            "flags": 0,
+            "guid": "jn}28Cgkd<",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (b), 2pt (60pt overall)",
+                "Name two phases of the reading process and explain them!",
+                "",
+                "1.) Distinguish letter and word shapes<div><br><div>2.) Associate meaning</div></div>"
+            ],
+            "flags": 0,
+            "guid": "d~j!k])lpK",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (c), 2pt (60pt overall)",
+                "Name two eye movements that take place during reading and explain them!",
+                "",
+                "Saccades: Quick, jerky movements, about 8-10 letters<div><br><div>Fixations: Intermittent pauses on areas of interest</div></div>"
+            ],
+            "flags": 0,
+            "guid": "nL`90.(}e1",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A4. (a), 1pt (60pt overall)",
+                "Have a look at both figures. Consider the following scenario: A user is using a mouse on a desktop PC. He already pressed button 1 and now wants to move to button 2 to press it. The Movement Time (MT) in this example is:<div><img src=\"paste-d4d66f484f39fa68c971f14cff880f47b9d80603.jpg\"><br></div>",
+                "&gt; The MT is the same in both examples<div><div>&gt; The MT of example 1 is about half of example 2</div><div>&gt; The MT of example 2 is about half of example 1</div><div><div>&gt; The MT of example 1 is about half of example 2 plus a factor \\(a\\)</div><div>&gt; The MT of example 2 is about half of example 1 plus a factor \\(a\\)</div><div><div>&gt; The MT of example 1 is logarithmically larger than of example 2</div><div>&gt; The MT of example 2 is logarithmically larger than of example 1</div><div>&gt; Cannot be said using Fitts' Law alone as button 1 is in the corner of the screen</div></div></div></div>",
+                "Cannot be said using Fitts' Law alone as button 1 is in the corner of the screen"
+            ],
+            "flags": 0,
+            "guid": "Rdn0|W54<.",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A4. (b), 2pt (60pt overall)",
+                "In the picture you see a command line as interaction style. Name two other styles!<div><img src=\"paste-c4e75796dab10ff8db800323941374901185d96c.jpg\"><br></div>",
+                "",
+                "Menu-Based Interface<div><br></div><div>Form Fill-In</div><div><br></div><div>Question and Answer</div><div><br></div><div>Direct Manipulation/Metaphors</div><div><br></div><div>Web Navigation</div><div><br></div><div>Three-Dimensional Environments</div><div><br></div><div>Zoomable Interface</div><div><br></div><div>Natural Language</div>"
+            ],
+            "flags": 0,
+            "guid": "wXJ@|C.hWN",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 1pt (60pt overall)",
+                "Does the NASA-TLX provide subjective (not comparable between different participants) results or objective results?",
+                "&gt; Subjective<div>&gt; Objective</div>",
+                "Subjective"
+            ],
+            "flags": 0,
+            "guid": "Pz)Djcicqp",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (b), 1pt (60pt overall)",
+                "Explain what happens in the second phase of the NASA-TLX test!",
+                "",
+                "(First phase: Answer questionnaire, scores based on a 100 point scale with increments of 5)<div><br></div><div>Second phase: Perform 15 pair-wise comparisons to assess the weight for each of the measures (i.e. answer the question \"Which factor is the more important contributor to work load for the task?\")</div>"
+            ],
+            "flags": 0,
+            "guid": "D8YD}dw]B{",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (c), 2pt (60pt overall)",
+                "Are higher NASA-TLX values always better (yes/no)? Explain!",
+                "",
+                "No, the optimum workload has to be determined case by case to prevent over- and underload"
+            ],
+            "flags": 0,
+            "guid": "B.&nA{!SH8",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (d), 2pt (60pt overall)",
+                "What are triggers for sending out experience sampling questionnaires? How can we prevent a participant from receiving multiple experience sampling prompts within a short time frame?",
+                "",
+                "Triggers: randomly, scheduled, at an event<div><br></div><div>Preventing short time frames: Use a scheduled approach or implement a cooldown time</div>"
+            ],
+            "flags": 0,
+            "guid": "zF!CJJDu.)",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (60pt overall)",
+                "You want to run a usability study using Cognitive Walkthrough. Which group of people do you invite to the study?",
+                "&gt; A representative group of end users, as they will use the system<div>&gt; Usability experts, as they are the best at exposing system weaknesses</div><div>&gt; Friends, because only these give me honest feedback</div><div>&gt; Students from campus, as they are easy to recruit</div><div>&gt; None at all, because Cognitive Walkthrough does not require any people</div>",
+                "Usability experts, as they are the best at exposing system weaknesses"
+            ],
+            "flags": 0,
+            "guid": "C:eshD~;{n",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (b), 1pt (60pt overall)",
+                "Which information do you have to provide to persons in a Cognitive Walkthrough?",
+                "",
+                "The experts have to know the assumptions about the user population, context of use and task details"
+            ],
+            "flags": 0,
+            "guid": "f+,VwqH){$",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (c), 2pt (60pt overall)",
+                "What are the differences between results gained in a Think Aloud study and interviews?",
+                "",
+                "Think Aloud: Inspective, free form, no active input from the interviewer during the process<div><br><div>Interviews: Retrospective, answer predetermined questions, possibly biased input from the interviewer</div></div>"
+            ],
+            "flags": 0,
+            "guid": "L{o]5@5EqO",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (d), 1pt (60pt overall)",
+                "You conduct a survey through an unstructured interview. One of the interviewers is very rude, another very friendly against the interviewees. Does this affect the results?",
+                "&gt; Yes<div>&gt; No</div>",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "k5M6B*nu9L",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (e), 1pt (60pt overall)",
+                "What would be the consequences if answering a questionnaire was not anonymous? (one correct answer)",
+                "&gt; Interviewees would be more precise in their answers, since they are perceived personally<div>&gt; Interviewees would be inhibited in their answers, because they cannot anticipate consequences</div><div>&gt; Interviewees would be more positive, as they hope for subsequent personal reward</div>",
+                "Interviewees would be inhibited in their answers, because they cannot anticipate consequences"
+            ],
+            "flags": 0,
+            "guid": "J6*N9ZPwwV",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (a), 3pt (60pt overall)",
+                "Name the three kinds of statistical data types that were introduced in the exercise! Name one example for each of these data types.",
+                "",
+                "Effectivity - percentage of tasks successfully completed<div><br></div><div>Efficiency - time spent to complete a task</div><div><br></div><div>Satisfaction - rating scale for satisfaction</div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"statistical data types\" explicitely, so take this answer with a grain of salt)</div>"
+            ],
+            "flags": 0,
+            "guid": "bB$p}!3|:0",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (b), 1pt (60pt overall)",
+                "Which condition need to be fulfilled so that a t-test can be applied to a sample of data?",
+                "",
+                "The sample must be sampled randomly from a population of interest and the data variables must follow a normal distribution<div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"t-tests\" explicitely, so take this answer with a grain of salt)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "f<i_yZDx83",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (c), 1pt (60pt overall)",
+                "What kind of correlation is measured by Pearson's correlation coefficient r and which values are possible?",
+                "",
+                "<div>The coefficient measures linear correlation and ranges from \\(-1\\) to \\(1\\)<br></div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention the \"Pearson Correlation Coefficient\" explicitely, so take this answer with a grain of salt)<br></div>"
+            ],
+            "flags": 0,
+            "guid": "P^bEK$uqkg",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 5pt (60pt overall)",
+                "Name the parts of the human working memory. Which kind of information is stored there?",
+                "",
+                "Articulatory Loop, remembers short strings of words by rehearsing them repeatedly<div><br></div><div>Visuospatial Sketchpad, remembers visual information / images</div>"
+            ],
+            "flags": 0,
+            "guid": "hi0}MYD!!E",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (b), 4pt (60pt overall)",
+                "Perform a chunking of the following phone number: \\(004972160841709\\).<div><br></div><div>Then perform an alternative chunking. Compare the two options regarding the possibility to remember the phone number.</div>",
+                "",
+                "Option 1.: \\(004\\ 972\\&nbsp;160\\&nbsp;841\\&nbsp;709\\)<div>Option 2.: \\(00497216\\ 0841709\\)</div><div><br></div><div>Option 1. is easier to remember due to the smaller chunks representing more meaningful units</div><div><br></div><div>(Note: Many other chunkings are possible, e.g. chunking every individual number, which is also less helpful than Option 1.)</div>"
+            ],
+            "flags": 0,
+            "guid": "v!?c?$>uj>",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (c), 2pt (60pt overall)",
+                "Describe the difference between recall and recognition.",
+                "",
+                "Recall: Active memory search to retrieve a particular piece of information without another information to compare it to<div><br></div><div>Recognition: Searching the memory for a piece of information that matches given information, which is way easier than recalling</div>"
+            ],
+            "flags": 0,
+            "guid": "OBwy1<8hN.",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A9. (a), 9pt (60pt overall)",
+                "The figure below shows a screenshot of the KIT website. Name 3 Gestalt Laws which were applied here. Explain each shortly (about 1-2 sentences). To improve your explanation, mark parts of the figure with your pen.<div><img src=\"paste-b6037ce7e7f2666373c796d13f0fb3fc9eb8175c.jpg\"><br></div>",
+                "",
+                "Law of Common Region, applies e.g. to the \"Schnelleinstieg\" (white box)<div><br></div><div>Law of Similarity, applies e.g. to the green buttons at the top</div><div><br></div><div>Law of Proximity, applies e.g. to the articles and images at the bottom</div>"
+            ],
+            "flags": 0,
+            "guid": "B[XGP`Z@M[",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (a), 3pt (60pt overall)",
+                "What types of attention were introduced in the lecture? Shortly describe each of them.",
+                "",
+                "Selective Attention: Willingly select focus<div><br></div><div>Focused Attention: Respond to external events</div><div><br></div><div>Divided Attention: Simultaneous focusing on different events</div>"
+            ],
+            "flags": 0,
+            "guid": "yi_$2MV8W-",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (b), 2pt (60pt overall)",
+                "What is the relation between vigilance and attention?",
+                "",
+                "Vigilance is an aspect of attention which refers to detecting a rare, unpredictable event or signal"
+            ],
+            "flags": 0,
+            "guid": "K.p/`cMT>c",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (c), 3pt (60pt overall)",
+                "What paradigms of vigilance did you get to know during the lecture? Name three of them and present an example for each one.",
+                "",
+                "Free-response paradigm, e.g. power plant monitor supervision<div><br></div><div>Inspection paradigm, e.g. quality control</div><div><br></div><div>Successive vigilance paradigm, e.g. detect of a color is darker than the initial target</div><div><br></div><div>(Simultaneous vigilance paradigm, e.g. compare many types of garment to a standard piece of fabric)</div><div><br></div><div>(Sensory vigilance paradigm, e.g. color changes)</div><div><br></div><div>(Cognitive vigilance paradigm, e.g. proofreading a manuscript)</div>"
+            ],
+            "flags": 0,
+            "guid": "BoS-0vsLH.",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (a), 2pt (60pt overall)",
+                "You want to evaluate your newly developed interactive system with a user study. You remember that depending on the method used, different memory systems are accessed. Assign the following methods (left) to the memory systems (right) by drawing a line between two dots.<div><img src=\"paste-65d11a9a8eddd033c3693752176db26e91409009.jpg\"><br></div>",
+                "",
+                "Think Aloud - Working Memory<div><br></div><div>Questionnaires - Semantic (facts, meaning, concepts)</div><div><br></div><div>Interviews - Episodic (experiences and events)</div><div><br></div><div>Motion Logging - Procedural (motor skills)</div>"
+            ],
+            "flags": 0,
+            "guid": "vr96)@>0u&",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (b), 1pt (60pt overall)",
+                "You want to evaluate your icon design. Which memory process takes place when a user sees an icon he knows?",
+                "&gt; Encoding<div>&gt; Recall</div><div>&gt; Recognition</div><div>&gt; Rehearsal</div>",
+                "Recognition"
+            ],
+            "flags": 0,
+            "guid": "o$?TI-rd?6",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (c), 1pt (60pt overall)",
+                "Which part of the memory does the process \"rehearsal\" access?",
+                "&gt; Sensory memory<div>&gt; Working memory</div><div>&gt; Long-term memory</div>",
+                "Long-term memory<div><br></div><div>(Note: might also be working memory, question is a bit vague)</div>"
+            ],
+            "flags": 0,
+            "guid": "CzH%zV0~Dn",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A4. (a), 2pt (60pt overall)",
+                "What are the main features of Don Norman's consideration of affordance?",
+                "",
+                "Perceived and actual properties"
+            ],
+            "flags": 0,
+            "guid": "woN6F&d1y^",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A4. (b), 2pt (60pt overall)",
+                "Name two of the three principles of Don Norman for designing user interfaces!",
+                "",
+                "Make usable properties visible<div><br></div><div>Use natural associations</div><div><br></div><div>(Give feedback)</div>"
+            ],
+            "flags": 0,
+            "guid": "sqB&5p~/v,",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A5. (b), 2pt (60pt overall)",
+                "Which of these operating interfaces can Fitts' Law be applied to?",
+                "&gt; Command line / text terminal without mouse<div>&gt; WIMP interfaces</div><div>&gt; Smartphone with touch screen</div><div>&gt; Voice control (e.g. Alexa, Siri)</div>",
+                "WIMP interfaces"
+            ],
+            "flags": 0,
+            "guid": "w6[F@P_N^6",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A6. (a), 3pt (60pt overall)",
+                "Name the three measurement classes to measure usability. Give one example for each measurement class.",
+                "",
+                "Effectivity: Percentage of tasks successfully completed<div><br></div><div>Efficiency:&nbsp;Time to complete a task</div><div><br></div><div>Satisfaction:&nbsp;Rating scale for satisfaction</div>"
+            ],
+            "flags": 0,
+            "guid": "xW$VXhpxZ)",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A6. (d), 2pt (60pt overall)",
+                "What are similarities and differences between Cognitive Walkthrough and Heuristic Evaluation?",
+                "",
+                "Similarities: both work without actual users, are usually performed by experts<div><br></div><div>Differences: walkthroughs follow a specific scenario, heuristics give general rules of thumb</div>"
+            ],
+            "flags": 0,
+            "guid": "wNg>,PWfen",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (a), 1pt (60pt overall)",
+                "What is the Gulf of Execution?",
+                "",
+                "The Gulf of Execution describes a mismatch between the user's intentions and the allowable actions"
+            ],
+            "flags": 0,
+            "guid": "nXM94:%vIN",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (b), 1pt (60pt overall)",
+                "Name each EEAC EXECUTION step and apply them to the interface shown in the figure. Name the step at which a problem occurs.<div><img src=\"paste-20a951d23ebd65f5cd538ad4cc352a7ddb213100.jpg\"><br></div>",
+                "",
+                "Forming Intention: Wanting to go upwards<div><br></div><div>Specifying Action: Press up button (problem here: which one is up?)</div><div><br></div><div>Executing Action: Choosing and pressing the button</div>"
+            ],
+            "flags": 0,
+            "guid": "hhh?QBJ_zT",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (c), 1pt (60pt overall)",
+                "What is meant by Gulf of Evaluation?",
+                "&gt; It is a lake of user interface evaluation capabilities based on the knowledge of Gestalt Laws<div>&gt; It describes the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions</div><div>&gt; It describes the difference between the planned evaluation of a user interface and the actual execution of the evaluation according to PACT</div>",
+                "It describes the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions"
+            ],
+            "flags": 0,
+            "guid": "hntS@s{w<0",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A9. (a), 3pt (60pt overall)",
+                "For which mode of operation is the interface most suitable? Assign!<div><img src=\"paste-09ab873b291c4bf6a91597ac91cc1b9a13932c31.jpg\"><br></div>",
+                "",
+                "Command Line Interface - frequently repeating complex tasks<div><br></div><div>WIMP - complex tasks that need much explanation</div><div><br></div><div>Voice Control - tasks new for the user</div>"
+            ],
+            "flags": 0,
+            "guid": "NQ?6utH/uG",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A1. (c), 1pt (60pt overall)",
+                "What is a Persona?",
+                "&gt; A particular person that you have observed in a user study<div>&gt; An instrument for measuring the characteristics of a person</div><div>&gt; A profile of an archetypical person in a domain</div>",
+                "A profile of an archetypical person in a domain"
+            ],
+            "flags": 0,
+            "guid": "G.Z[t0$]gT",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 3pt (60pt overall)",
+                "Label the illustration with the missing three memory systems.<div><img src=\"paste-af0b8abfb6ff66db07a601fb0cca1a7e4d242ede.jpg\"><br></div>",
+                "",
+                "1.: Sensory Stores<div><br></div><div>2.: Working Memory</div><div><br></div><div>3.: Long-Term Memory</div>"
+            ],
+            "flags": 0,
+            "guid": "z>&}qzH//]",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 3pt (60pt overall)",
+                "Fitts' Law can be used to determine the size and location of a screen object. Which 3 components does the law have?",
+                "",
+                "Index of Difficulty (ID): Quantifies the difficulty of a task based on width and distance<div><br></div><div>Movement Time (MT): Quantifies the time it takes to complete a task based on the difficulty of the task and two empirically derived coefficients</div><div><br></div><div>Index of Performance (IP): Based on the relationship between the time it takes to perform a task and the relative difficulty of the task</div>"
+            ],
+            "flags": 0,
+            "guid": "o)lmnq(h+@",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (60pt overall)",
+                "What does EEAC stand for?",
+                "&gt; Execution/Exit Action Cycle<div>&gt; Execution/Evaluation Action Cycle</div><div>&gt; Execution Exit Analysis Cycle</div><div>&gt; Execution Evaluation Analysis Cycle</div>",
+                "Execution/Evaluation Action Cycle"
+            ],
+            "flags": 0,
+            "guid": "yGgLD-MY&&",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A6. (b), 3.5pt (60pt overall)",
+                "Draw the EEAC (including the 7 stages).",
+                "",
+                "<img src=\"paste-974218c028d3f2b7a647f24411c61be3f03eae21.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "uqmMfy^`ZF",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 2pt (60pt overall)",
+                "In the design process, different types of scenarios are used: User Stories, Conceptual Scenarios, Concrete Scenarios and Use Cases. Assign the scenarios to their purpose by drawing a line between two dots.<div><img src=\"paste-e69287425b63f5d70bbb4b20348b1b82b8694e52.jpg\"><br></div>",
+                "",
+                "User Stories - used for understanding what people do and what they want<div><br></div><div>Conceptual Scenarios - used for generating ideas and specifying requirements</div><div><br></div><div>Concrete Scenarios - used for prototyping ideas and evaluation</div><div><br></div><div>Use Cases - used for documentation and implementation</div>"
+            ],
+            "flags": 0,
+            "guid": "sDsL$E>oQd",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A8. (b), 2pt (60pt overall)",
+                "Correct or wrong?<div><img src=\"paste-4049513429697c56e9e4749e5488cdf6c5a046e1.jpg\"><br></div>",
+                "",
+                "Correct, Correct, Correct, Wrong"
+            ],
+            "flags": 0,
+            "guid": "Hw(+a=i<bJ",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A1. (b), 5pt (68pt overall)",
+                "What are the steps to conduct an interview? Explain this briefly!",
+                "",
+                "Introduction - introduce yourself, explain the goals, present consent form<div><br></div><div>Warm-Up - easy questions</div><div><br></div><div>Main Body - questions in logical order</div><div><br></div><div>Cool-Off - easy questions to defuse tension</div><div><br></div><div>Closure - thank interviewee, signal the end</div>"
+            ],
+            "flags": 0,
+            "guid": "o~xgR1S0|",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A2. (b), 6pt (68pt overall)",
+                "The following table shows three methods that you can use in user studies: System Usability Scale (SUS), Think Aloud and measuring biometric parameters (e.g. heart rate). Please fill in the table to describe the methods. One response per cell is correct.<div><img src=\"paste-7202454f00733a2b6b5aecbb69bb0336aa457525.jpg\"><br></div>",
+                "",
+                "SUS: retrospective, subjective, qualitative, end user<div><br></div><div>Think Aloud: introspective, subjective, qualitative, end user</div><div><br></div><div>Biometric Parameters: introspective, objective, quantitative, end user</div>"
+            ],
+            "flags": 0,
+            "guid": "E<Xve;^7+U",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 3pt (68pt overall)",
+                "Scenario-based design... (3 correct answers)",
+                "&gt; Is based on a cyclic procedure<div>&gt; Is closed and thus difficult to expand through further scenarios</div><div>&gt; Serves mainly the formal representation of an HCI design process</div><div>&gt; Includes requirements</div><div>&gt; Does not require any documentation to not restrict creativity</div><div>&gt; May contain parts of evaluation</div>",
+                "<div>Serves mainly the formal representation of an HCI design process<br></div><div><br></div><div>Includes requirements<br></div><div><br></div><div>May contain parts of evaluation<br></div>"
+            ],
+            "flags": 0,
+            "guid": "N1H6+j7}s.",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (b), 1pt (68pt overall)",
+                "At which part of the scenario-based design are the descriptions for the system complete, that is, all system functionalities are covered with at least one scenario/story/case? (one correct answer)",
+                "&gt; Concrete Scenarios<div>&gt; Use Case</div><div>&gt; Conceptual Scenarios</div><div>&gt; User Stories</div>",
+                "Use Case"
+            ],
+            "flags": 0,
+            "guid": "yaMl5O._}q",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (c), 1pt (68pt overall)",
+                "Which part of the scenario-based design can contain code? (one correct answer)",
+                "&gt; Concrete Scenarios<div>&gt; Use Case</div><div>&gt; Conceptual Scenarios</div><div>&gt; User Stories</div>",
+                "Use Case"
+            ],
+            "flags": 0,
+            "guid": "N5`xh.C%q,",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (d), 1pt (68pt overall)",
+                "Do conceptual scenarios already contain the technology to be used in a project?",
+                "",
+                "No"
+            ],
+            "flags": 0,
+            "guid": "F~GssY}g=)",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (e), 1pt (68pt overall)",
+                "Can Elicitation / Gathering for requirement analysis be part of a scenario-based design?",
+                "",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "tBa*&:5zuy",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 1pt (68pt overall)",
+                "Can requirements be derived from user stories?",
+                "",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "Cm.]@RFkSY",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (b), 1pt (68pt overall)",
+                "Do functional requirements specify the how-characteristics and qualities of a system?",
+                "",
+                "No (that'd be non-functional requirements)"
+            ],
+            "flags": 0,
+            "guid": "KAAr)Atv;m",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (c), 1pt (68pt overall)",
+                "Do functional requirements specify what a system does?",
+                "",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "C0M?L#n{7H",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (d), 1pt (68pt overall)",
+                "Do requirements include an implementation specification?",
+                "",
+                "No"
+            ],
+            "flags": 0,
+            "guid": "j!T$YYR+q+",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (e), 5pt (68pt overall)",
+                "What does the MoSCoW prioritization mean with regard to requirements?&nbsp;",
+                "",
+                "<b>M</b>ust have: fundamental requirements without which the system will be useless/unworkable<div><br></div><div><b>S</b>hould have: would be essential if more time were available</div><div><br></div><div><b>C</b>ould have: of lesser importance, can be left out more easily</div><div><br></div><div><b>W</b>ant to have: will not have this time around, can wait</div>"
+            ],
+            "flags": 0,
+            "guid": "vU3nfN~jq;",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (68pt overall)",
+                "Which window arrangement is used for the smartphone app shown below?<div><img src=\"paste-200c1916f04c0cfcbddc7063423171163e48b7fc.jpg\"><br></div>",
+                "",
+                "Tiled Windows"
+            ],
+            "flags": 0,
+            "guid": "f/=wcB*<*9",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A7. (f), 4pt (68pt overall)",
+                "In complexity analysis for visual design you were introduced to methods to calculate complexity. Can the complexity be influenced by selecting a variable-width or fixed-width font? (one correct answer) Please explain!",
+                "&gt; A text block with a font of variable width is less complex<div>&gt; A text block with a font of fixed width is less complex</div><div>&gt; There is no difference in complexity</div>",
+                "A text block with a font of variable width is less complex (due to decreased line length)"
+            ],
+            "flags": 0,
+            "guid": "BE_[cV3|co",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 5pt (68pt overall)",
+                "Complete the following graphic with parts of human memory.<div><img src=\"paste-08dd45e4df26e0b2593eccf5436a9b84a1f83db9.jpg\"><br></div>",
+                "",
+                "<img src=\"paste-13f42b65bf8d9a09eccabb620483326690e28e8c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Q(Udi;=+$J",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A8. (b - d), 3pt (68pt overall)",
+                "From which part of memory is information recalled/recognized? Which process is faster?",
+                "",
+                "Recall - long-term memory<div><br></div><div>Recognition - working memory</div><div><br></div><div>Recognition is generally faster</div>"
+            ],
+            "flags": 0,
+            "guid": "Ol!X7tC6:N",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (b), 4pt (76pt overall)",
+                "Interviews/Observation/Video/Focus Groups/Workshops are typically used in elicitation/gathering. Explain why.",
+                "",
+                "They will identify artifacts used during the task (documents, forms, printouts, tools...) and provide additional insight which can be used further to generate User Studies"
+            ],
+            "flags": 0,
+            "guid": "eq9z<v[:YQ",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (c), 3pt (76pt overall)",
+                "In order to obtain precise answers, you formulate the question very precisely in a questionnaire. Thus, the question and the sentences contained therein are longer than average sentences. The answers you receive are now...",
+                "&gt; On average better, in the sense that they meet your question<div>&gt; On average worse, in the sense that they do not meet your question</div>",
+                "On average worse, in the sense that they do not meet your question (longer sentences always leave more room for interpretation)"
+            ],
+            "flags": 0,
+            "guid": "Mdp_wooaAI",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (d), 2pt (76pt overall)",
+                "When conducting a survey, you collect additional data about the user, e.g. gender, age, occupation etc. Does this make sense? (one correct answer)",
+                "&gt; Yes, but only because I can then show statistically who participated<div>&gt; No, because this is basically forbidden</div><div>&gt; No, because I can not derive any further results from that data</div><div>&gt; Yes, because with that data I can derive additional results</div>",
+                "Yes, because with that data I can derive additional results"
+            ],
+            "flags": 0,
+            "guid": "EYQ}^I{8=b",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A3. (c), 2pt (76pt overall)",
+                "Study methods are to be selected for the collection of user stories. You can choose from... (two correct answers)",
+                "&gt; SUS questionnaire<div>&gt; Current Behaviour Study</div><div>&gt; Proof of Concept Study</div><div>&gt; Unstructured Interview</div><div>&gt; Think Aloud</div><div>&gt; NASA-TLX</div>",
+                "Current Behaviour Study<div><br></div><div>Unstructured Interview</div>"
+            ],
+            "flags": 0,
+            "guid": "Lfd)go3d2W",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (a), 1pt (76pt overall)",
+                "In which task analysis methods is it possible to determine execution times? (two correct answers)",
+                "&gt; GOMS<div>&gt; KLM</div><div>&gt; HTA</div>",
+                "GOMS<div><br></div><div>KLM</div>"
+            ],
+            "flags": 0,
+            "guid": "si_;O6(ZDu",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (b), 1pt (76pt overall)",
+                "Can an HTA model be expanded successively, i.e. can you start with a rough structure of tasks and then add further sub-statements?",
+                "",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "kA@J9Kys5(",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (b), 1pt (76pt overall)",
+                "What are the smallest units in a GOMS description? Explain their properties using two examples.",
+                "",
+                "Operators = Actions<div><br></div><div>Simple activities, e.g. pressing a button (no conscious mental effort) or reading a short exercise description</div>"
+            ],
+            "flags": 0,
+            "guid": "jiFmZCDQyS",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A5. (a - d), 2pt (76pt overall)",
+                "True or false?<div>1. Requirements can be derived only from User Stories</div><div>2. Requirements can be derived only from a Scenario-based design</div><div>3. Non-functional requirements specify the how-characteristics and qualities of a system</div><div>4. Non-functional requirements specify what a system does</div>",
+                "",
+                "False, False, True, False"
+            ],
+            "flags": 0,
+            "guid": "PnGY:JXL1x",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A9. (a), 6pt (76pt overall)",
+                "Three-dimensional impressions can also be produced with two-dimensional effects. Name 3 and explain them!",
+                "",
+                "Light and Shade<div><br><div>Linear Perspective</div><div><br></div><div>Motion Parallax (objects far away move slower)</div><div><br></div><div>Overlap</div><div><br></div><div>Relative Size</div><div><br></div><div>Texture Gradient (textured = closer)</div></div>"
+            ],
+            "flags": 0,
+            "guid": "jT=%:~79^~",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (a), 1pt (76pt overall)",
+                "Do humans have a consistent information taxonomy?",
+                "",
+                "Yes"
+            ],
+            "flags": 0,
+            "guid": "L1p7#*i5O2",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (b), 2pt (76pt overall)",
+                "Which interaction style is particularly suitable for beginners? Set the following possibilities in descending order from very suitable to less suitable.",
+                "&gt; Command Line<div>&gt; Menu</div><div>&gt; Wizard</div>",
+                "Wizard (very suitable) &gt; Menu &gt; Command Line (less suitable)"
+            ],
+            "flags": 0,
+            "guid": "C-I5~O4XvA",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (c), 5pt (76pt overall)",
+                "You are designing a form that should have exactly the same colors on the screen as on paper. Is that easily possible? Explain.",
+                "",
+                "Not easily possible. The same impression can only be achieved under the same conditions, necessitating specific calibration. Reflective vs. self-illuminating displays use different color compositions and are perceived differently."
+            ],
+            "flags": 0,
+            "guid": "MZ#vVN?m]2",
+            "note_model_uuid": "c644a9b8-d030-11ea-8dff-4ccc6a605f05",
+            "tags": []
+        }
+    ]
+}
