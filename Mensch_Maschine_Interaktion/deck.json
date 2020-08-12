@@ -2,12 +2,12 @@
     "__type__": "Deck",
     "children": [],
     "crowdanki_uuid": "d1d6b7e8-dc02-11ea-8bc1-4ccc6a605f05",
-    "deck_config_uuid": "f0a742dc-dc02-11ea-8bc1-4ccc6a605f05",
+    "deck_config_uuid": "68a56384-dc82-11ea-85c3-4ccc6a605f05",
     "deck_configurations": [
         {
             "__type__": "DeckConfig",
             "autoplay": true,
-            "crowdanki_uuid": "f0a742dc-dc02-11ea-8bc1-4ccc6a605f05",
+            "crowdanki_uuid": "68a56384-dc82-11ea-85c3-4ccc6a605f05",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -187,28 +187,10 @@
             "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n#frage {\n font-family: arial;\n font-size: 20px;\n padding: 10px;\n text-align: center;\n border-style: dashed;\n}\n\n#header {\n font-family: arial;\n font-size: 12px;\n text-align: center;\n font-weight: bold;\n}\n\n#header2 {\n font-family: arial;\n font-size: 12px;\n text-align: center;\n}\n\n#options {\n font-family: arial;\n font-size: 18px;\n text-align: left;\n}\n\n#answer {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n font-weight: bold;\n color: lightskyblue;\n}",
             "flds": [
                 {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Klausur",
-                    "ord": 0,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
-                    "font": "Arial",
-                    "media": [],
-                    "name": "Aufgabe",
-                    "ord": 1,
-                    "rtl": false,
-                    "size": 20,
-                    "sticky": true
-                },
-                {
                     "font": "Nimbus Sans",
                     "media": [],
                     "name": "Frage",
-                    "ord": 2,
+                    "ord": 0,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -217,7 +199,7 @@
                     "font": "Arial",
                     "media": [],
                     "name": "Optionen",
-                    "ord": 3,
+                    "ord": 1,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -226,10 +208,28 @@
                     "font": "Arial",
                     "media": [],
                     "name": "Antwort",
-                    "ord": 4,
+                    "ord": 2,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Klausur",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Aufgabe",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
                 }
             ],
             "latexPost": "\\end{document}",
@@ -243,12 +243,12 @@
                     [
                         0,
                         1,
-                        2,
-                        3
+                        3,
+                        4
                     ]
                 ]
             ],
-            "sortf": 2,
+            "sortf": 0,
             "tags": [
                 ""
             ],
@@ -310,7 +310,7 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "The two classes/times for studies and evaluation of HCI are {{c1::<b>formative</b>}}, i.e. {{c2::at the beginning to inform about context}} and {{c2::<b>summative</b>}}, i.e. {{c2::afterwards to judge the impact of the design}}.",
+                "The two classes/times for studies and evaluation of HCI are {{c1::<b>formative</b>}}, i.e. {{c2::at the beginning to inform about context}} and {{c1::<b>summative</b>}}, i.e. {{c2::afterwards to judge the impact of the design}}.",
                 "<div><i>(a summative evaluation can be a formative one for the next step)</i></div><img src=\"paste-819d2e0535e637fb920e4fc54f5da61145345422.jpg\">"
             ],
             "flags": 0,
@@ -970,11 +970,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A1. (a), 2pt (60pt overall)",
                 "<div>You want to run a PACT analysis. What does PACT mean?</div>",
                 "<div>&gt; Paper &amp; Pencil Analysis for Context and Technology</div><div>&gt; Person, Action, Context, Technique</div><div>&gt; People, Activity, Context, Technology</div><div>&gt; Public-Actions-in-Context Technique</div>",
-                "People, Activity, Context, Technology"
+                "People, Activity, Context, Technology",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A1. (a), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "d^l&5$u=IC",
@@ -985,11 +985,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A1. (b), 2pt (60pt overall)",
                 "You have run a PACT analysis of the KVV website (public transportation). Give an example scenario (one sentence), in which you define P, A, C, and T. Mark the assignment to P, A, C and T.",
                 "",
-                "A <i>student</i> (P) uses the KVV <i>smartphone app</i> (T) to <i>find the fastest route</i> (A) to <i>his university</i> (C)"
+                "A <i>student</i> (P) uses the KVV <i>smartphone app</i> (T) to <i>find the fastest route</i> (A) to <i>his university</i> (C)",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A1. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "k?qWpQG`Kg",
@@ -1000,11 +1000,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A2. (a), 1pt (60pt overall)",
                 "Printed text is presented to a user to inform him about a problem. Into which part of the working memory will this information go? (one correct answer)",
                 "&gt; Verbal part<div>&gt; Visuospatial part</div>",
-                "Verbal part"
+                "Verbal part",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A2. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "kXz+Yk%IHb",
@@ -1015,11 +1015,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A2. (b), 1pt (60pt overall)",
                 "[Information] is displayed [to a user] in form of an icon. Into which part of the working memory will this information go? (one correct answer)",
                 "&gt; Verbal part<div>&gt; Visuospatial part</div>",
-                "Visuospatial part"
+                "Visuospatial part",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A2. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "D!se9vQzeV",
@@ -1030,11 +1030,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A3. (a), 2pt (60pt overall)",
                 "Which types of text font are suited for slides? (multiple answers) Also, is a justified text alignment (\"Blockdarstellung\") suitable for slides?",
                 "&gt; Variable-Width Font<div>&gt; Fix-Width Font</div><div>&gt; Sans Serif Font</div><div>&gt; Serif Font</div><div><br></div><div>&gt; Yes / No</div>",
-                "Variable-Width Font, Sans Serif Font<div><br></div><div>No</div>"
+                "Variable-Width Font, Sans Serif Font<div><br></div><div>No</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "jn}28Cgkd<",
@@ -1045,11 +1045,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A3. (b), 2pt (60pt overall)",
                 "Name two phases of the reading process and explain them!",
                 "",
-                "1.) Distinguish letter and word shapes<div><br><div>2.) Associate meaning</div></div>"
+                "1.) Distinguish letter and word shapes<div><br><div>2.) Associate meaning</div></div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "d~j!k])lpK",
@@ -1060,11 +1060,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A3. (c), 2pt (60pt overall)",
                 "Name two eye movements that take place during reading and explain them!",
                 "",
-                "Saccades: Quick, jerky movements, about 8-10 letters<div><br><div>Fixations: Intermittent pauses on areas of interest</div></div>"
+                "Saccades: Quick, jerky movements, about 8-10 letters<div><br><div>Fixations: Intermittent pauses on areas of interest</div></div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A3. (c), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "nL`90.(}e1",
@@ -1075,11 +1075,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A4. (a), 1pt (60pt overall)",
                 "Have a look at both figures. Consider the following scenario: A user is using a mouse on a desktop PC. He already pressed button 1 and now wants to move to button 2 to press it. The Movement Time (MT) in this example is:<div><img src=\"paste-d4d66f484f39fa68c971f14cff880f47b9d80603.jpg\"><br></div>",
                 "&gt; The MT is the same in both examples<div><div>&gt; The MT of example 1 is about half of example 2</div><div>&gt; The MT of example 2 is about half of example 1</div><div><div>&gt; The MT of example 1 is about half of example 2 plus a factor \\(a\\)</div><div>&gt; The MT of example 2 is about half of example 1 plus a factor \\(a\\)</div><div><div>&gt; The MT of example 1 is logarithmically larger than of example 2</div><div>&gt; The MT of example 2 is logarithmically larger than of example 1</div><div>&gt; Cannot be said using Fitts' Law alone as button 1 is in the corner of the screen</div></div></div></div>",
-                "Cannot be said using Fitts' Law alone as button 1 is in the corner of the screen"
+                "Cannot be said using Fitts' Law alone as button 1 is in the corner of the screen",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A4. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "Rdn0|W54<.",
@@ -1090,11 +1090,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A4. (b), 2pt (60pt overall)",
                 "In the picture you see a command line as interaction style. Name two other styles!<div><img src=\"paste-c4e75796dab10ff8db800323941374901185d96c.jpg\"><br></div>",
                 "",
-                "Menu-Based Interface<div><br></div><div>Form Fill-In</div><div><br></div><div>Question and Answer</div><div><br></div><div>Direct Manipulation/Metaphors</div><div><br></div><div>Web Navigation</div><div><br></div><div>Three-Dimensional Environments</div><div><br></div><div>Zoomable Interface</div><div><br></div><div>Natural Language</div>"
+                "Menu-Based Interface<div><br></div><div>Form Fill-In</div><div><br></div><div>Question and Answer</div><div><br></div><div>Direct Manipulation/Metaphors</div><div><br></div><div>Web Navigation</div><div><br></div><div>Three-Dimensional Environments</div><div><br></div><div>Zoomable Interface</div><div><br></div><div>Natural Language</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A4. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "wXJ@|C.hWN",
@@ -1105,11 +1105,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A5. (a), 1pt (60pt overall)",
                 "Does the NASA-TLX provide subjective (not comparable between different participants) results or objective results?",
                 "&gt; Subjective<div>&gt; Objective</div>",
-                "Subjective"
+                "Subjective",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "Pz)Djcicqp",
@@ -1120,11 +1120,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A5. (b), 1pt (60pt overall)",
                 "Explain what happens in the second phase of the NASA-TLX test!",
                 "",
-                "(First phase: Answer questionnaire, scores based on a 100 point scale with increments of 5)<div><br></div><div>Second phase: Perform 15 pair-wise comparisons to assess the weight for each of the measures (i.e. answer the question \"Which factor is the more important contributor to work load for the task?\")</div>"
+                "(First phase: Answer questionnaire, scores based on a 100 point scale with increments of 5)<div><br></div><div>Second phase: Perform 15 pair-wise comparisons to assess the weight for each of the measures (i.e. answer the question \"Which factor is the more important contributor to work load for the task?\")</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "D8YD}dw]B{",
@@ -1135,11 +1135,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A5. (c), 2pt (60pt overall)",
                 "Are higher NASA-TLX values always better (yes/no)? Explain!",
                 "",
-                "No, the optimum workload has to be determined case by case to prevent over- and underload"
+                "No, the optimum workload has to be determined case by case to prevent over- and underload",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (c), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "B.&nA{!SH8",
@@ -1150,11 +1150,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A5. (d), 2pt (60pt overall)",
                 "What are triggers for sending out experience sampling questionnaires? How can we prevent a participant from receiving multiple experience sampling prompts within a short time frame?",
                 "",
-                "Triggers: randomly, scheduled, at an event<div><br></div><div>Preventing short time frames: Use a scheduled approach or implement a cooldown time</div>"
+                "Triggers: randomly, scheduled, at an event<div><br></div><div>Preventing short time frames: Use a scheduled approach or implement a cooldown time</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A5. (d), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "zF!CJJDu.)",
@@ -1165,11 +1165,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A6. (a), 1pt (60pt overall)",
                 "You want to run a usability study using Cognitive Walkthrough. Which group of people do you invite to the study?",
                 "&gt; A representative group of end users, as they will use the system<div>&gt; Usability experts, as they are the best at exposing system weaknesses</div><div>&gt; Friends, because only these give me honest feedback</div><div>&gt; Students from campus, as they are easy to recruit</div><div>&gt; None at all, because Cognitive Walkthrough does not require any people</div>",
-                "Usability experts, as they are the best at exposing system weaknesses"
+                "Usability experts, as they are the best at exposing system weaknesses",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "C:eshD~;{n",
@@ -1180,11 +1180,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A6. (b), 1pt (60pt overall)",
                 "Which information do you have to provide to persons in a Cognitive Walkthrough?",
                 "",
-                "The experts have to know the assumptions about the user population, context of use and task details"
+                "The experts have to know the assumptions about the user population, context of use and task details",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "f+,VwqH){$",
@@ -1195,11 +1195,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A6. (c), 2pt (60pt overall)",
                 "What are the differences between results gained in a Think Aloud study and interviews?",
                 "",
-                "Think Aloud: Inspective, free form, no active input from the interviewer during the process<div><br><div>Interviews: Retrospective, answer predetermined questions, possibly biased input from the interviewer</div></div>"
+                "Think Aloud: Inspective, free form, no active input from the interviewer during the process<div><br><div>Interviews: Retrospective, answer predetermined questions, possibly biased input from the interviewer</div></div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (c), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "L{o]5@5EqO",
@@ -1210,11 +1210,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A6. (d), 1pt (60pt overall)",
                 "You conduct a survey through an unstructured interview. One of the interviewers is very rude, another very friendly against the interviewees. Does this affect the results?",
                 "&gt; Yes<div>&gt; No</div>",
-                "Yes"
+                "Yes",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (d), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "k5M6B*nu9L",
@@ -1225,11 +1225,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A6. (e), 1pt (60pt overall)",
                 "What would be the consequences if answering a questionnaire was not anonymous? (one correct answer)",
                 "&gt; Interviewees would be more precise in their answers, since they are perceived personally<div>&gt; Interviewees would be inhibited in their answers, because they cannot anticipate consequences</div><div>&gt; Interviewees would be more positive, as they hope for subsequent personal reward</div>",
-                "Interviewees would be inhibited in their answers, because they cannot anticipate consequences"
+                "Interviewees would be inhibited in their answers, because they cannot anticipate consequences",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A6. (e), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "J6*N9ZPwwV",
@@ -1240,11 +1240,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A7. (a), 3pt (60pt overall)",
                 "Name the three kinds of statistical data types that were introduced in the exercise! Name one example for each of these data types.",
                 "",
-                "Effectivity - percentage of tasks successfully completed<div><br></div><div>Efficiency - time spent to complete a task</div><div><br></div><div>Satisfaction - rating scale for satisfaction</div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"statistical data types\" explicitely, so take this answer with a grain of salt)</div>"
+                "Effectivity - percentage of tasks successfully completed<div><br></div><div>Efficiency - time spent to complete a task</div><div><br></div><div>Satisfaction - rating scale for satisfaction</div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"statistical data types\" explicitely, so take this answer with a grain of salt)</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "bB$p}!3|:0",
@@ -1255,11 +1255,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A7. (b), 1pt (60pt overall)",
                 "Which condition need to be fulfilled so that a t-test can be applied to a sample of data?",
                 "",
-                "The sample must be sampled randomly from a population of interest and the data variables must follow a normal distribution<div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"t-tests\" explicitely, so take this answer with a grain of salt)<br></div>"
+                "The sample must be sampled randomly from a population of interest and the data variables must follow a normal distribution<div><br></div><div>(Note: neither the lecture nor the exercise seem to mention \"t-tests\" explicitely, so take this answer with a grain of salt)<br></div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "f<i_yZDx83",
@@ -1270,11 +1270,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A7. (c), 1pt (60pt overall)",
                 "What kind of correlation is measured by Pearson's correlation coefficient r and which values are possible?",
                 "",
-                "<div>The coefficient measures linear correlation and ranges from \\(-1\\) to \\(1\\)<br></div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention the \"Pearson Correlation Coefficient\" explicitely, so take this answer with a grain of salt)<br></div>"
+                "<div>The coefficient measures linear correlation and ranges from \\(-1\\) to \\(1\\)<br></div><div><br></div><div>(Note: neither the lecture nor the exercise seem to mention the \"Pearson Correlation Coefficient\" explicitely, so take this answer with a grain of salt)<br></div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A7. (c), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "P^bEK$uqkg",
@@ -1285,11 +1285,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A8. (a), 5pt (60pt overall)",
                 "Name the parts of the human working memory. Which kind of information is stored there?",
                 "",
-                "Articulatory Loop, remembers short strings of words by rehearsing them repeatedly<div><br></div><div>Visuospatial Sketchpad, remembers visual information / images</div>"
+                "Articulatory Loop, remembers short strings of words by rehearsing them repeatedly<div><br></div><div>Visuospatial Sketchpad, remembers visual information / images</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 5pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "hi0}MYD!!E",
@@ -1300,11 +1300,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A8. (b), 4pt (60pt overall)",
                 "Perform a chunking of the following phone number: \\(004972160841709\\).<div><br></div><div>Then perform an alternative chunking. Compare the two options regarding the possibility to remember the phone number.</div>",
                 "",
-                "Option 1.: \\(004\\ 972\\&nbsp;160\\&nbsp;841\\&nbsp;709\\)<div>Option 2.: \\(00497216\\ 0841709\\)</div><div><br></div><div>Option 1. is easier to remember due to the smaller chunks representing more meaningful units</div><div><br></div><div>(Note: Many other chunkings are possible, e.g. chunking every individual number, which is also less helpful than Option 1.)</div>"
+                "Option 1.: \\(004\\ 972\\&nbsp;160\\&nbsp;841\\&nbsp;709\\)<div>Option 2.: \\(00497216\\ 0841709\\)</div><div><br></div><div>Option 1. is easier to remember due to the smaller chunks representing more meaningful units</div><div><br></div><div>(Note: Many other chunkings are possible, e.g. chunking every individual number, which is also less helpful than Option 1.)</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (b), 4pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "v!?c?$>uj>",
@@ -1315,11 +1315,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A8. (c), 2pt (60pt overall)",
                 "Describe the difference between recall and recognition.",
                 "",
-                "Recall: Active memory search to retrieve a particular piece of information without another information to compare it to<div><br></div><div>Recognition: Searching the memory for a piece of information that matches given information, which is way easier than recalling</div>"
+                "Recall: Active memory search to retrieve a particular piece of information without another information to compare it to<div><br></div><div>Recognition: Searching the memory for a piece of information that matches given information, which is way easier than recalling</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A8. (c), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "OBwy1<8hN.",
@@ -1330,11 +1330,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A9. (a), 9pt (60pt overall)",
                 "The figure below shows a screenshot of the KIT website. Name 3 Gestalt Laws which were applied here. Explain each shortly (about 1-2 sentences). To improve your explanation, mark parts of the figure with your pen.<div><img src=\"paste-b6037ce7e7f2666373c796d13f0fb3fc9eb8175c.jpg\"><br></div>",
                 "",
-                "Law of Common Region, applies e.g. to the \"Schnelleinstieg\" (white box)<div><br></div><div>Law of Similarity, applies e.g. to the green buttons at the top</div><div><br></div><div>Law of Proximity, applies e.g. to the articles and images at the bottom</div>"
+                "Law of Common Region, applies e.g. to the \"Schnelleinstieg\" (white box)<div><br></div><div>Law of Similarity, applies e.g. to the green buttons at the top</div><div><br></div><div>Law of Proximity, applies e.g. to the articles and images at the bottom</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A9. (a), 9pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "B[XGP`Z@M[",
@@ -1345,11 +1345,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A10. (a), 3pt (60pt overall)",
                 "What types of attention were introduced in the lecture? Shortly describe each of them.",
                 "",
-                "Selective Attention: Willingly select focus<div><br></div><div>Focused Attention: Respond to external events</div><div><br></div><div>Divided Attention: Simultaneous focusing on different events</div>"
+                "Selective Attention: Willingly select focus<div><br></div><div>Focused Attention: Respond to external events</div><div><br></div><div>Divided Attention: Simultaneous focusing on different events</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "yi_$2MV8W-",
@@ -1360,11 +1360,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A10. (b), 2pt (60pt overall)",
                 "What is the relation between vigilance and attention?",
                 "",
-                "Vigilance is an aspect of attention which refers to detecting a rare, unpredictable event or signal"
+                "Vigilance is an aspect of attention which refers to detecting a rare, unpredictable event or signal",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "K.p/`cMT>c",
@@ -1375,11 +1375,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2019: \"Hauptklausur\" / Main Exam",
-                "A10. (c), 3pt (60pt overall)",
                 "What paradigms of vigilance did you get to know during the lecture? Name three of them and present an example for each one.",
                 "",
-                "Free-response paradigm, e.g. power plant monitor supervision<div><br></div><div>Inspection paradigm, e.g. quality control</div><div><br></div><div>Successive vigilance paradigm, e.g. detect of a color is darker than the initial target</div><div><br></div><div>(Simultaneous vigilance paradigm, e.g. compare many types of garment to a standard piece of fabric)</div><div><br></div><div>(Sensory vigilance paradigm, e.g. color changes)</div><div><br></div><div>(Cognitive vigilance paradigm, e.g. proofreading a manuscript)</div>"
+                "Free-response paradigm, e.g. power plant monitor supervision<div><br></div><div>Inspection paradigm, e.g. quality control</div><div><br></div><div>Successive vigilance paradigm, e.g. detect of a color is darker than the initial target</div><div><br></div><div>(Simultaneous vigilance paradigm, e.g. compare many types of garment to a standard piece of fabric)</div><div><br></div><div>(Sensory vigilance paradigm, e.g. color changes)</div><div><br></div><div>(Cognitive vigilance paradigm, e.g. proofreading a manuscript)</div>",
+                "SS2019: \"Hauptklausur\" / Main Exam",
+                "A10. (c), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "BoS-0vsLH.",
@@ -1390,11 +1390,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A2. (a), 2pt (60pt overall)",
                 "You want to evaluate your newly developed interactive system with a user study. You remember that depending on the method used, different memory systems are accessed. Assign the following methods (left) to the memory systems (right) by drawing a line between two dots.<div><img src=\"paste-65d11a9a8eddd033c3693752176db26e91409009.jpg\"><br></div>",
                 "",
-                "Think Aloud - Working Memory<div><br></div><div>Questionnaires - Semantic (facts, meaning, concepts)</div><div><br></div><div>Interviews - Episodic (experiences and events)</div><div><br></div><div>Motion Logging - Procedural (motor skills)</div>"
+                "Think Aloud - Working Memory<div><br></div><div>Questionnaires - Semantic (facts, meaning, concepts)</div><div><br></div><div>Interviews - Episodic (experiences and events)</div><div><br></div><div>Motion Logging - Procedural (motor skills)</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (a), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "vr96)@>0u&",
@@ -1405,11 +1405,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A2. (b), 1pt (60pt overall)",
                 "You want to evaluate your icon design. Which memory process takes place when a user sees an icon he knows?",
                 "&gt; Encoding<div>&gt; Recall</div><div>&gt; Recognition</div><div>&gt; Rehearsal</div>",
-                "Recognition"
+                "Recognition",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "o$?TI-rd?6",
@@ -1420,11 +1420,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A2. (c), 1pt (60pt overall)",
                 "Which part of the memory does the process \"rehearsal\" access?",
                 "&gt; Sensory memory<div>&gt; Working memory</div><div>&gt; Long-term memory</div>",
-                "Long-term memory<div><br></div><div>(Note: might also be working memory, question is a bit vague)</div>"
+                "Long-term memory<div><br></div><div>(Note: might also be working memory, question is a bit vague)</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A2. (c), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "CzH%zV0~Dn",
@@ -1435,11 +1435,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A4. (a), 2pt (60pt overall)",
                 "What are the main features of Don Norman's consideration of affordance?",
                 "",
-                "Perceived and actual properties"
+                "Perceived and actual properties",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A4. (a), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "woN6F&d1y^",
@@ -1450,11 +1450,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A4. (b), 2pt (60pt overall)",
                 "Name two of the three principles of Don Norman for designing user interfaces!",
                 "",
-                "Make usable properties visible<div><br></div><div>Use natural associations</div><div><br></div><div>(Give feedback)</div>"
+                "Make usable properties visible<div><br></div><div>Use natural associations</div><div><br></div><div>(Give feedback)</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A4. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "sqB&5p~/v,",
@@ -1465,11 +1465,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A5. (b), 2pt (60pt overall)",
                 "Which of these operating interfaces can Fitts' Law be applied to?",
                 "&gt; Command line / text terminal without mouse<div>&gt; WIMP interfaces</div><div>&gt; Smartphone with touch screen</div><div>&gt; Voice control (e.g. Alexa, Siri)</div>",
-                "WIMP interfaces"
+                "WIMP interfaces",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A5. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "w6[F@P_N^6",
@@ -1480,11 +1480,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A6. (a), 3pt (60pt overall)",
                 "Name the three measurement classes to measure usability. Give one example for each measurement class.",
                 "",
-                "Effectivity: Percentage of tasks successfully completed<div><br></div><div>Efficiency:&nbsp;Time to complete a task</div><div><br></div><div>Satisfaction:&nbsp;Rating scale for satisfaction</div>"
+                "Effectivity: Percentage of tasks successfully completed<div><br></div><div>Efficiency:&nbsp;Time to complete a task</div><div><br></div><div>Satisfaction:&nbsp;Rating scale for satisfaction</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A6. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "xW$VXhpxZ)",
@@ -1495,11 +1495,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A6. (d), 2pt (60pt overall)",
                 "What are similarities and differences between Cognitive Walkthrough and Heuristic Evaluation?",
                 "",
-                "Similarities: both work without actual users, are usually performed by experts<div><br></div><div>Differences: walkthroughs follow a specific scenario, heuristics give general rules of thumb</div>"
+                "Similarities: both work without actual users, are usually performed by experts<div><br></div><div>Differences: walkthroughs follow a specific scenario, heuristics give general rules of thumb</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A6. (d), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "wNg>,PWfen",
@@ -1510,11 +1510,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A7. (a), 1pt (60pt overall)",
                 "What is the Gulf of Execution?",
                 "",
-                "The Gulf of Execution describes a mismatch between the user's intentions and the allowable actions"
+                "The Gulf of Execution describes a mismatch between the user's intentions and the allowable actions",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "nXM94:%vIN",
@@ -1525,11 +1525,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A7. (b), 1pt (60pt overall)",
                 "Name each EEAC EXECUTION step and apply them to the interface shown in the figure. Name the step at which a problem occurs.<div><img src=\"paste-20a951d23ebd65f5cd538ad4cc352a7ddb213100.jpg\"><br></div>",
                 "",
-                "Forming Intention: Wanting to go upwards<div><br></div><div>Specifying Action: Press up button (problem here: which one is up?)</div><div><br></div><div>Executing Action: Choosing and pressing the button</div>"
+                "Forming Intention: Wanting to go upwards<div><br></div><div>Specifying Action: Press up button (problem here: which one is up?)</div><div><br></div><div>Executing Action: Choosing and pressing the button</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (b), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "hhh?QBJ_zT",
@@ -1540,11 +1540,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A7. (c), 1pt (60pt overall)",
                 "What is meant by Gulf of Evaluation?",
                 "&gt; It is a lake of user interface evaluation capabilities based on the knowledge of Gestalt Laws<div>&gt; It describes the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions</div><div>&gt; It describes the difference between the planned evaluation of a user interface and the actual execution of the evaluation according to PACT</div>",
-                "It describes the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions"
+                "It describes the amount of effort needed to interpret the state of the system and how well this can be compared to the intentions",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A7. (c), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "hntS@s{w<0",
@@ -1555,11 +1555,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Nachklausur\" / Post Exam",
-                "A9. (a), 3pt (60pt overall)",
                 "For which mode of operation is the interface most suitable? Assign!<div><img src=\"paste-09ab873b291c4bf6a91597ac91cc1b9a13932c31.jpg\"><br></div>",
                 "",
-                "Command Line Interface - frequently repeating complex tasks<div><br></div><div>WIMP - complex tasks that need much explanation</div><div><br></div><div>Voice Control - tasks new for the user</div>"
+                "Command Line Interface - frequently repeating complex tasks<div><br></div><div>WIMP - complex tasks that need much explanation</div><div><br></div><div>Voice Control - tasks new for the user</div>",
+                "SS2018: \"Nachklausur\" / Post Exam",
+                "A9. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "NQ?6utH/uG",
@@ -1570,11 +1570,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A1. (c), 1pt (60pt overall)",
                 "What is a Persona?",
                 "&gt; A particular person that you have observed in a user study<div>&gt; An instrument for measuring the characteristics of a person</div><div>&gt; A profile of an archetypical person in a domain</div>",
-                "A profile of an archetypical person in a domain"
+                "A profile of an archetypical person in a domain",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A1. (c), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "G.Z[t0$]gT",
@@ -1585,11 +1585,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A3. (a), 3pt (60pt overall)",
                 "Label the illustration with the missing three memory systems.<div><img src=\"paste-af0b8abfb6ff66db07a601fb0cca1a7e4d242ede.jpg\"><br></div>",
                 "",
-                "1.: Sensory Stores<div><br></div><div>2.: Working Memory</div><div><br></div><div>3.: Long-Term Memory</div>"
+                "1.: Sensory Stores<div><br></div><div>2.: Working Memory</div><div><br></div><div>3.: Long-Term Memory</div>",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "z>&}qzH//]",
@@ -1600,11 +1600,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A5. (a), 3pt (60pt overall)",
                 "Fitts' Law can be used to determine the size and location of a screen object. Which 3 components does the law have?",
                 "",
-                "Index of Difficulty (ID): Quantifies the difficulty of a task based on width and distance<div><br></div><div>Movement Time (MT): Quantifies the time it takes to complete a task based on the difficulty of the task and two empirically derived coefficients</div><div><br></div><div>Index of Performance (IP): Based on the relationship between the time it takes to perform a task and the relative difficulty of the task</div>"
+                "Index of Difficulty (ID): Quantifies the difficulty of a task based on width and distance<div><br></div><div>Movement Time (MT): Quantifies the time it takes to complete a task based on the difficulty of the task and two empirically derived coefficients</div><div><br></div><div>Index of Performance (IP): Based on the relationship between the time it takes to perform a task and the relative difficulty of the task</div>",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 3pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "o)lmnq(h+@",
@@ -1615,11 +1615,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A6. (a), 1pt (60pt overall)",
                 "What does EEAC stand for?",
                 "&gt; Execution/Exit Action Cycle<div>&gt; Execution/Evaluation Action Cycle</div><div>&gt; Execution Exit Analysis Cycle</div><div>&gt; Execution Evaluation Analysis Cycle</div>",
-                "Execution/Evaluation Action Cycle"
+                "Execution/Evaluation Action Cycle",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "yGgLD-MY&&",
@@ -1630,11 +1630,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A6. (b), 3.5pt (60pt overall)",
                 "Draw the EEAC (including the 7 stages).",
                 "",
-                "<img src=\"paste-974218c028d3f2b7a647f24411c61be3f03eae21.jpg\">"
+                "<img src=\"paste-974218c028d3f2b7a647f24411c61be3f03eae21.jpg\">",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A6. (b), 3.5pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "uqmMfy^`ZF",
@@ -1645,11 +1645,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A8. (a), 2pt (60pt overall)",
                 "In the design process, different types of scenarios are used: User Stories, Conceptual Scenarios, Concrete Scenarios and Use Cases. Assign the scenarios to their purpose by drawing a line between two dots.<div><img src=\"paste-e69287425b63f5d70bbb4b20348b1b82b8694e52.jpg\"><br></div>",
                 "",
-                "User Stories - used for understanding what people do and what they want<div><br></div><div>Conceptual Scenarios - used for generating ideas and specifying requirements</div><div><br></div><div>Concrete Scenarios - used for prototyping ideas and evaluation</div><div><br></div><div>Use Cases - used for documentation and implementation</div>"
+                "User Stories - used for understanding what people do and what they want<div><br></div><div>Conceptual Scenarios - used for generating ideas and specifying requirements</div><div><br></div><div>Concrete Scenarios - used for prototyping ideas and evaluation</div><div><br></div><div>Use Cases - used for documentation and implementation</div>",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "sDsL$E>oQd",
@@ -1660,11 +1660,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2018: \"Hauptklausur\" / Main Exam",
-                "A8. (b), 2pt (60pt overall)",
                 "Correct or wrong?<div><img src=\"paste-4049513429697c56e9e4749e5488cdf6c5a046e1.jpg\"><br></div>",
                 "",
-                "Correct, Correct, Correct, Wrong"
+                "Correct, Correct, Correct, Wrong",
+                "SS2018: \"Hauptklausur\" / Main Exam",
+                "A8. (b), 2pt (60pt overall)"
             ],
             "flags": 0,
             "guid": "Hw(+a=i<bJ",
@@ -1675,11 +1675,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A1. (b), 5pt (68pt overall)",
                 "What are the steps to conduct an interview? Explain this briefly!",
                 "",
-                "Introduction - introduce yourself, explain the goals, present consent form<div><br></div><div>Warm-Up - easy questions</div><div><br></div><div>Main Body - questions in logical order</div><div><br></div><div>Cool-Off - easy questions to defuse tension</div><div><br></div><div>Closure - thank interviewee, signal the end</div>"
+                "Introduction - introduce yourself, explain the goals, present consent form<div><br></div><div>Warm-Up - easy questions</div><div><br></div><div>Main Body - questions in logical order</div><div><br></div><div>Cool-Off - easy questions to defuse tension</div><div><br></div><div>Closure - thank interviewee, signal the end</div>",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A1. (b), 5pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "o~xgR1S0|",
@@ -1690,11 +1690,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A2. (b), 6pt (68pt overall)",
                 "The following table shows three methods that you can use in user studies: System Usability Scale (SUS), Think Aloud and measuring biometric parameters (e.g. heart rate). Please fill in the table to describe the methods. One response per cell is correct.<div><img src=\"paste-7202454f00733a2b6b5aecbb69bb0336aa457525.jpg\"><br></div>",
                 "",
-                "SUS: retrospective, subjective, qualitative, end user<div><br></div><div>Think Aloud: introspective, subjective, qualitative, end user</div><div><br></div><div>Biometric Parameters: introspective, objective, quantitative, end user</div>"
+                "SUS: retrospective, subjective, qualitative, end user<div><br></div><div>Think Aloud: introspective, subjective, qualitative, end user</div><div><br></div><div>Biometric Parameters: introspective, objective, quantitative, end user</div>",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A2. (b), 6pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "E<Xve;^7+U",
@@ -1705,11 +1705,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A3. (a), 3pt (68pt overall)",
                 "Scenario-based design... (3 correct answers)",
                 "&gt; Is based on a cyclic procedure<div>&gt; Is closed and thus difficult to expand through further scenarios</div><div>&gt; Serves mainly the formal representation of an HCI design process</div><div>&gt; Includes requirements</div><div>&gt; Does not require any documentation to not restrict creativity</div><div>&gt; May contain parts of evaluation</div>",
-                "<div>Serves mainly the formal representation of an HCI design process<br></div><div><br></div><div>Includes requirements<br></div><div><br></div><div>May contain parts of evaluation<br></div>"
+                "<div>Serves mainly the formal representation of an HCI design process<br></div><div><br></div><div>Includes requirements<br></div><div><br></div><div>May contain parts of evaluation<br></div>",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (a), 3pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "N1H6+j7}s.",
@@ -1720,11 +1720,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A3. (b), 1pt (68pt overall)",
                 "At which part of the scenario-based design are the descriptions for the system complete, that is, all system functionalities are covered with at least one scenario/story/case? (one correct answer)",
                 "&gt; Concrete Scenarios<div>&gt; Use Case</div><div>&gt; Conceptual Scenarios</div><div>&gt; User Stories</div>",
-                "Use Case"
+                "Use Case",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (b), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "yaMl5O._}q",
@@ -1735,11 +1735,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A3. (c), 1pt (68pt overall)",
                 "Which part of the scenario-based design can contain code? (one correct answer)",
                 "&gt; Concrete Scenarios<div>&gt; Use Case</div><div>&gt; Conceptual Scenarios</div><div>&gt; User Stories</div>",
-                "Use Case"
+                "Use Case",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (c), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "N5`xh.C%q,",
@@ -1750,11 +1750,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A3. (d), 1pt (68pt overall)",
                 "Do conceptual scenarios already contain the technology to be used in a project?",
                 "",
-                "No"
+                "No",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (d), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "F~GssY}g=)",
@@ -1765,11 +1765,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A3. (e), 1pt (68pt overall)",
                 "Can Elicitation / Gathering for requirement analysis be part of a scenario-based design?",
                 "",
-                "Yes"
+                "Yes",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A3. (e), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "tBa*&:5zuy",
@@ -1780,11 +1780,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A5. (a), 1pt (68pt overall)",
                 "Can requirements be derived from user stories?",
                 "",
-                "Yes"
+                "Yes",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (a), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "Cm.]@RFkSY",
@@ -1795,11 +1795,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A5. (b), 1pt (68pt overall)",
                 "Do functional requirements specify the how-characteristics and qualities of a system?",
                 "",
-                "No (that'd be non-functional requirements)"
+                "No (that'd be non-functional requirements)",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (b), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "KAAr)Atv;m",
@@ -1810,11 +1810,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A5. (c), 1pt (68pt overall)",
                 "Do functional requirements specify what a system does?",
                 "",
-                "Yes"
+                "Yes",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (c), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "C0M?L#n{7H",
@@ -1825,11 +1825,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A5. (d), 1pt (68pt overall)",
                 "Do requirements include an implementation specification?",
                 "",
-                "No"
+                "No",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (d), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "j!T$YYR+q+",
@@ -1840,11 +1840,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A5. (e), 5pt (68pt overall)",
                 "What does the MoSCoW prioritization mean with regard to requirements?&nbsp;",
                 "",
-                "<b>M</b>ust have: fundamental requirements without which the system will be useless/unworkable<div><br></div><div><b>S</b>hould have: would be essential if more time were available</div><div><br></div><div><b>C</b>ould have: of lesser importance, can be left out more easily</div><div><br></div><div><b>W</b>ant to have: will not have this time around, can wait</div>"
+                "<b>M</b>ust have: fundamental requirements without which the system will be useless/unworkable<div><br></div><div><b>S</b>hould have: would be essential if more time were available</div><div><br></div><div><b>C</b>ould have: of lesser importance, can be left out more easily</div><div><br></div><div><b>W</b>ant to have: will not have this time around, can wait</div>",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A5. (e), 5pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "vU3nfN~jq;",
@@ -1855,11 +1855,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A6. (a), 1pt (68pt overall)",
                 "Which window arrangement is used for the smartphone app shown below?<div><img src=\"paste-200c1916f04c0cfcbddc7063423171163e48b7fc.jpg\"><br></div>",
                 "",
-                "Tiled Windows"
+                "Tiled Windows",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A6. (a), 1pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "f/=wcB*<*9",
@@ -1870,11 +1870,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A7. (f), 4pt (68pt overall)",
                 "In complexity analysis for visual design you were introduced to methods to calculate complexity. Can the complexity be influenced by selecting a variable-width or fixed-width font? (one correct answer) Please explain!",
                 "&gt; A text block with a font of variable width is less complex<div>&gt; A text block with a font of fixed width is less complex</div><div>&gt; There is no difference in complexity</div>",
-                "A text block with a font of variable width is less complex (due to decreased line length)"
+                "A text block with a font of variable width is less complex (due to decreased line length)",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A7. (f), 4pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "BE_[cV3|co",
@@ -1885,11 +1885,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A8. (a), 5pt (68pt overall)",
                 "Complete the following graphic with parts of human memory.<div><img src=\"paste-08dd45e4df26e0b2593eccf5436a9b84a1f83db9.jpg\"><br></div>",
                 "",
-                "<img src=\"paste-13f42b65bf8d9a09eccabb620483326690e28e8c.jpg\">"
+                "<img src=\"paste-13f42b65bf8d9a09eccabb620483326690e28e8c.jpg\">",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A8. (a), 5pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "Q(Udi;=+$J",
@@ -1900,11 +1900,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Hauptklausur\" / Main Exam",
-                "A8. (b - d), 3pt (68pt overall)",
                 "From which part of memory is information recalled/recognized? Which process is faster?",
                 "",
-                "Recall - long-term memory<div><br></div><div>Recognition - working memory</div><div><br></div><div>Recognition is generally faster</div>"
+                "Recall - long-term memory<div><br></div><div>Recognition - working memory</div><div><br></div><div>Recognition is generally faster</div>",
+                "SS2017: \"Hauptklausur\" / Main Exam",
+                "A8. (b - d), 3pt (68pt overall)"
             ],
             "flags": 0,
             "guid": "Ol!X7tC6:N",
@@ -1915,11 +1915,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A1. (b), 4pt (76pt overall)",
                 "Interviews/Observation/Video/Focus Groups/Workshops are typically used in elicitation/gathering. Explain why.",
                 "",
-                "They will identify artifacts used during the task (documents, forms, printouts, tools...) and provide additional insight which can be used further to generate User Studies"
+                "They will identify artifacts used during the task (documents, forms, printouts, tools...) and provide additional insight which can be used further to generate User Studies",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (b), 4pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "eq9z<v[:YQ",
@@ -1930,11 +1930,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A1. (c), 3pt (76pt overall)",
                 "In order to obtain precise answers, you formulate the question very precisely in a questionnaire. Thus, the question and the sentences contained therein are longer than average sentences. The answers you receive are now...",
                 "&gt; On average better, in the sense that they meet your question<div>&gt; On average worse, in the sense that they do not meet your question</div>",
-                "On average worse, in the sense that they do not meet your question (longer sentences always leave more room for interpretation)"
+                "On average worse, in the sense that they do not meet your question (longer sentences always leave more room for interpretation)",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (c), 3pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "Mdp_wooaAI",
@@ -1945,11 +1945,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A1. (d), 2pt (76pt overall)",
                 "When conducting a survey, you collect additional data about the user, e.g. gender, age, occupation etc. Does this make sense? (one correct answer)",
                 "&gt; Yes, but only because I can then show statistically who participated<div>&gt; No, because this is basically forbidden</div><div>&gt; No, because I can not derive any further results from that data</div><div>&gt; Yes, because with that data I can derive additional results</div>",
-                "Yes, because with that data I can derive additional results"
+                "Yes, because with that data I can derive additional results",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A1. (d), 2pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "EYQ}^I{8=b",
@@ -1960,11 +1960,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A3. (c), 2pt (76pt overall)",
                 "Study methods are to be selected for the collection of user stories. You can choose from... (two correct answers)",
                 "&gt; SUS questionnaire<div>&gt; Current Behaviour Study</div><div>&gt; Proof of Concept Study</div><div>&gt; Unstructured Interview</div><div>&gt; Think Aloud</div><div>&gt; NASA-TLX</div>",
-                "Current Behaviour Study<div><br></div><div>Unstructured Interview</div>"
+                "Current Behaviour Study<div><br></div><div>Unstructured Interview</div>",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A3. (c), 2pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "Lfd)go3d2W",
@@ -1975,11 +1975,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A4. (a), 1pt (76pt overall)",
                 "In which task analysis methods is it possible to determine execution times? (two correct answers)",
                 "&gt; GOMS<div>&gt; KLM</div><div>&gt; HTA</div>",
-                "GOMS<div><br></div><div>KLM</div>"
+                "GOMS<div><br></div><div>KLM</div>",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (a), 1pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "si_;O6(ZDu",
@@ -1990,11 +1990,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A4. (b), 1pt (76pt overall)",
                 "Can an HTA model be expanded successively, i.e. can you start with a rough structure of tasks and then add further sub-statements?",
                 "",
-                "Yes"
+                "Yes",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (b), 1pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "kA@J9Kys5(",
@@ -2005,11 +2005,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A4. (b), 1pt (76pt overall)",
                 "What are the smallest units in a GOMS description? Explain their properties using two examples.",
                 "",
-                "Operators = Actions<div><br></div><div>Simple activities, e.g. pressing a button (no conscious mental effort) or reading a short exercise description</div>"
+                "Operators = Actions<div><br></div><div>Simple activities, e.g. pressing a button (no conscious mental effort) or reading a short exercise description</div>",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A4. (b), 1pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "jiFmZCDQyS",
@@ -2020,11 +2020,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A5. (a - d), 2pt (76pt overall)",
                 "True or false?<div>1. Requirements can be derived only from User Stories</div><div>2. Requirements can be derived only from a Scenario-based design</div><div>3. Non-functional requirements specify the how-characteristics and qualities of a system</div><div>4. Non-functional requirements specify what a system does</div>",
                 "",
-                "False, False, True, False"
+                "False, False, True, False",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A5. (a - d), 2pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "PnGY:JXL1x",
@@ -2035,11 +2035,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A9. (a), 6pt (76pt overall)",
                 "Three-dimensional impressions can also be produced with two-dimensional effects. Name 3 and explain them!",
                 "",
-                "Light and Shade<div><br><div>Linear Perspective</div><div><br></div><div>Motion Parallax (objects far away move slower)</div><div><br></div><div>Overlap</div><div><br></div><div>Relative Size</div><div><br></div><div>Texture Gradient (textured = closer)</div></div>"
+                "Light and Shade<div><br><div>Linear Perspective</div><div><br></div><div>Motion Parallax (objects far away move slower)</div><div><br></div><div>Overlap</div><div><br></div><div>Relative Size</div><div><br></div><div>Texture Gradient (textured = closer)</div></div>",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A9. (a), 6pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "jT=%:~79^~",
@@ -2050,11 +2050,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A10. (a), 1pt (76pt overall)",
                 "Do humans have a consistent information taxonomy?",
                 "",
-                "Yes"
+                "Yes",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (a), 1pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "L1p7#*i5O2",
@@ -2065,11 +2065,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A10. (b), 2pt (76pt overall)",
                 "Which interaction style is particularly suitable for beginners? Set the following possibilities in descending order from very suitable to less suitable.",
                 "&gt; Command Line<div>&gt; Menu</div><div>&gt; Wizard</div>",
-                "Wizard (very suitable) &gt; Menu &gt; Command Line (less suitable)"
+                "Wizard (very suitable) &gt; Menu &gt; Command Line (less suitable)",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (b), 2pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "C-I5~O4XvA",
@@ -2080,11 +2080,11 @@
             "__type__": "Note",
             "data": "",
             "fields": [
-                "SS2017: \"Nachklausur\" / Post Exam",
-                "A10. (c), 5pt (76pt overall)",
                 "You are designing a form that should have exactly the same colors on the screen as on paper. Is that easily possible? Explain.",
                 "",
-                "Not easily possible. The same impression can only be achieved under the same conditions, necessitating specific calibration. Reflective vs. self-illuminating displays use different color compositions and are perceived differently."
+                "Not easily possible. The same impression can only be achieved under the same conditions, necessitating specific calibration. Reflective vs. self-illuminating displays use different color compositions and are perceived differently.",
+                "SS2017: \"Nachklausur\" / Post Exam",
+                "A10. (c), 5pt (76pt overall)"
             ],
             "flags": 0,
             "guid": "MZ#vVN?m]2",
