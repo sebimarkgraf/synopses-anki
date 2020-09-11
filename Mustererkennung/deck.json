@@ -1,0 +1,1331 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "4ba84e13-d651-11ea-88ea-7cb27daf4b6d",
+    "deck_config_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2
+                ],
+                "order": 0,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 60,
+    "extendRev": 50,
+    "media_files": [
+        "paste-037ef1db061e2a3f594267230a368e60a38d0e3a.jpg",
+        "paste-045baa9ae197855b1a9130ed78f57062ac0594ed.jpg",
+        "paste-0468d204fc1b0c746fe26d5ed3743113018e8550.jpg",
+        "paste-04e39de7b9bef6b843866a563e82282d899e8a17.jpg",
+        "paste-04e411c32df6f574d3b8d8a7476fa53c3c75caa1.jpg",
+        "paste-05097a35b9e50b5c19b17b5ce56390de71378460.jpg",
+        "paste-0ba7ecf2b492fc9653d0289e3924aebb46b833c5.jpg",
+        "paste-0cca112fa8d6d660684f179a7891e633a32cf24a.jpg",
+        "paste-0cd36c3725a2917deb3b9c840170d6334b0574b2.jpg",
+        "paste-0d0f8118c79028e49a2801592b1fda9db65af932.jpg",
+        "paste-154042b2fcdb530cda2618964da0b441e4a683ad.jpg",
+        "paste-178def945e576a411157fa4b47a0da8f3cfb313d.jpg",
+        "paste-189972dec3ea1dbaad2f99dc96d2685c0ce2f6b6.jpg",
+        "paste-19508bfc81e7045f56934ba52cd912d1319615e4.jpg",
+        "paste-195b13a42fe3067f8e5d90a08d0ca60cd0bc4361.jpg",
+        "paste-1dd520bca3e5f4fa698fb7507e71fde606042b85.jpg",
+        "paste-1f0ab5cc2a9fecc409b6a713b63727b357ea3bd0.jpg",
+        "paste-1f9697282b3773debf83f004fac3ac4ea4543957.jpg",
+        "paste-2399a1319ee775b04fb1e4c1894e4df4e6726964.jpg",
+        "paste-27015d4c194de2d99191f835cf3e6346b591e9bc.jpg",
+        "paste-27dde45de4304612ada154ce989ada3e629017c5.jpg",
+        "paste-2bbe36e570802fc970efab098ed8c735b8d27965.jpg",
+        "paste-300c3d247584dc85777df7598bb55c636d51b609.jpg",
+        "paste-31422cce9882998c49d28fa1138517dfe7fc5179.jpg",
+        "paste-3932d17008cd1c2aa6f3698c3e02395143ec1e01.jpg",
+        "paste-3b691e21cbec8441e14e1e267d2601243dff5ace.jpg",
+        "paste-3ba0ae3525b9bf725acf083b7a3b641bd68b4021.jpg",
+        "paste-3cb535cd360c62a5583623cf31b868778b833f2a.jpg",
+        "paste-3f20b5c09fcb394a1256a477092ce0e08cb59eb6.jpg",
+        "paste-41932829e324a071bf456300ba529f7428564660.jpg",
+        "paste-42c360a13a195fe7e69815927cd4db54ddfe53a3.jpg",
+        "paste-451922fc10cb271a17566512515197e431227a30.jpg",
+        "paste-453f0fdad278f1aa50e852cf8520182d292cdd34.jpg",
+        "paste-489cd32c0d829f20864435b45d5f597deed73785.jpg",
+        "paste-4ac3f14b6668deb955acc1af4f3b67c1cd6484a9.jpg",
+        "paste-4b51bb34abbdc5c26eaf7c29302195137ae61cdc.jpg",
+        "paste-4c4e7cb682d4fea73299d769ad27d1ed2e72a1af.jpg",
+        "paste-4eb79fc23323b7665c621710d97b78a88548608e.jpg",
+        "paste-5047f86d60177ea97208dd719ce590103761f7a8.jpg",
+        "paste-5b472140d2aab36ba012f489050e413b9244d470.jpg",
+        "paste-5d4a5e712ec6ba4a054255e0ea2313828a4972fc.jpg",
+        "paste-5e45f58689d0943ca2c7c3ba5001d768cef0123b.jpg",
+        "paste-62388c8667ad08339b77c00963c4ed9fd697cf5d.jpg",
+        "paste-62c03e32d4cba50fa3f3c8d199d442f91c78751e.jpg",
+        "paste-63f9a82830957282b5022b83d7d1d560f729ccc5.jpg",
+        "paste-67c937572b953cd550c42185b12664ece5c341e2.jpg",
+        "paste-6af1de49e232edd926957d966093517b263293df.jpg",
+        "paste-6b048e44954a070330c532f52e229ca21fdd86ec.jpg",
+        "paste-6e1c76e3796ef4baf606fc0cf2c4566f985444ff.jpg",
+        "paste-777ac5c1ff18abc64d532601e2349502da16d844.jpg",
+        "paste-7b60483c14970d0575a620622f3859f2272db036.jpg",
+        "paste-7dbc39f1ff9b6d1f875eb7f6abf4ae1c8897bebd.jpg",
+        "paste-7eae2ac678ee3b25609f755433dffce0d752151a.jpg",
+        "paste-801d90f8724d6c0fb0175e4336515fa9a122d2d0.jpg",
+        "paste-80432437c33345f2251bf2d492adc5940becdfad.jpg",
+        "paste-81285ef052e636cf417eab8f82e41aab66f632a7.jpg",
+        "paste-8ab2688b1620dfbc725c49b5e0a80fdfb51b177e.jpg",
+        "paste-8e7b2f1005c12c916d1bece583bdf0b2692797fa.jpg",
+        "paste-901be5eddccbeec45eda48bd9da1311794c79ca0.jpg",
+        "paste-9609660522c5c778596ed8529e7fe6ebd5f47e99.jpg",
+        "paste-99445bf934ce4defd86fde4e0c24ab2efd46e0be.jpg",
+        "paste-99733723409557f51c24dc86adad1fd78870c5a6.jpg",
+        "paste-99d1f6e0bf85ff91cca9c03692ae5499fcbb363c.jpg",
+        "paste-9a5de6a17723f08d4b893df3b8f0eee0913b38a1.jpg",
+        "paste-9c6a1692e7996ba81ecc7ee6baba2037eba8678a.jpg",
+        "paste-9c8743752eebbef92ebbbf04a7fb8286c06320cd.jpg",
+        "paste-9d69dd40720460e1e4f000fb7da77495d6f4aa46.jpg",
+        "paste-9e73df139c27574ad47ef9ce55e22c1566ac311a.jpg",
+        "paste-a155a8ec875e629828f5328c9dd40a23e866e910.jpg",
+        "paste-a5bf64e5fc704f4845fe17e6dd8e5fbc4280c2c8.jpg",
+        "paste-aa3689e3b8e87bbcb38d0736e29ef849d2751ff0.jpg",
+        "paste-ad24ea54c2c0fafa60d221c5faedd880e507c39d.jpg",
+        "paste-b13de8d2ef6664d63dcdbe587da421875147e877.jpg",
+        "paste-b19afca61d2fe1f9b8e7add393326bfc9e8dd739.jpg",
+        "paste-b54788517fc42e1f0659a2bf59884e03c311f019.jpg",
+        "paste-b7cb09790a7a9b27d509aba246f66fb554453212.jpg",
+        "paste-b93298b6c1dfd6e1aaa1732d5374c92a0981d769.jpg",
+        "paste-bd1eb438af47fb4d0d995bd45b2c45fb1248c847.jpg",
+        "paste-bd8d4182921152575ed0087e3984ef521da92717.jpg",
+        "paste-c119d744fda43d03b0bcb2471808d5217120b337.jpg",
+        "paste-c3218cd779aff5b72bd109bd59f889aff3446316.jpg",
+        "paste-c5008429ecbec053fce6623ecfd0c2014e89fc05.jpg",
+        "paste-c8aa54dd4fdd4b276d54485ca2f3f5f6edb0a0bf.jpg",
+        "paste-c96e321893cc627f4a2561012ee0b7a075b4be7f.jpg",
+        "paste-c9837dc4293d4734ccd70b036cc9c13c844dc0f9.jpg",
+        "paste-d05ea65d720763261abb023d2bfadf9e71f63e3a.jpg",
+        "paste-d16a5c8beccb33b6ef75732027266a4e74d0d8ab.jpg",
+        "paste-d2c96e5432318df4c88a12fbf371df4cf6d3cfe1.jpg",
+        "paste-d414ab58c79c3c8fed12fb1b86f0b4a5de0cf0ff.jpg",
+        "paste-da1183c9fbc20835e4476973221106b4d1b8c96e.jpg",
+        "paste-dd0c91a1dc88f1b7f956686026ab3cdaf585d486.jpg",
+        "paste-dd9a7b402882164169a6e4fd820329aacebbe13c.jpg",
+        "paste-dda846d807166584d8d6849f23890a01309965a3.jpg",
+        "paste-ddda3769a82ad42b92577b8576a2389ad689cab7.jpg",
+        "paste-dfbb61024986166e23d42257d294554285d22cad.jpg",
+        "paste-e0e88aec2f0fc85a68ae478c2989c2c2703caf4f.jpg",
+        "paste-e23dbcaec61fc0d09f90d2618115ca302700ad38.jpg",
+        "paste-e2df4e29581fc965b2b83752f98f4c861d1e5eed.jpg",
+        "paste-ea77a74d49fe4f11b518abff2694ca9bf282500a.jpg",
+        "paste-ec124f37221557e6a75333d3f3eb26938556de9b.jpg",
+        "paste-ef6ba3150de5e6752d77cf8e97347bb0d228c724.jpg",
+        "paste-f2ced4f1ab2961d0458067234f0e4a76ab915ac0.jpg",
+        "paste-f4657bfd1826984f6f7fd59c9f981b281c0bf2e6.jpg",
+        "paste-f771b509c470e5c007fc19f1307adf43b6ae3543.jpg",
+        "paste-fce74473f51d16ddf6a56494cffc753749b4835d.jpg"
+    ],
+    "name": "Mustererkennung",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "&nbsp;Welche Möglichkeiten gibt es zur Projektion eines hochdimensionalen Merkmalraums&nbsp;auf einen Unterraum geringerer Dimension?",
+                "<img src=\"paste-62c03e32d4cba50fa3f3c8d199d442f91c78751e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "l{qq;y{s`n",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften besitzt die Hauptkomponentenanalyse",
+                "-&nbsp; Transformierte Merkmale sind paarweise unkorreliert<div>- Varianz der transformierten Merkmale sind maximal ungleichverteilt. Minimale Entropie der Varianz</div><div>- Die HKA liefert im Sinne der kleinsten quadratischen Abweichung die beste d'-dimensionale Approximation der Daten D</div><div>- Ursprüngliche Merkmale verlieren durch HKA i.A. ihre anschauliche Bedeutung</div>"
+            ],
+            "flags": 0,
+            "guid": "lDJ.+om#gw",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Vorteil einer nichtlinearen Hauptkomponentenanalyse (Kernelized PCA) gegenüber einer linearen?",
+                "<img src=\"paste-8ab2688b1620dfbc725c49b5e0a80fdfb51b177e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "PdxzE${S_U",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welchen Vorteil hat die Independent Componten Analysis gegenüber einer Principal Component Analysis?",
+                "<img src=\"paste-3ba0ae3525b9bf725acf083b7a3b641bd68b4021.jpg\"><div><br></div><div><img src=\"paste-5d4a5e712ec6ba4a054255e0ea2313828a4972fc.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "wfM/m^B&iN",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Fisher Linear Discriminant Funktion?",
+                "<img src=\"paste-d2c96e5432318df4c88a12fbf371df4cf6d3cfe1.jpg\">&nbsp;<div><img src=\"paste-b93298b6c1dfd6e1aaa1732d5374c92a0981d769.jpg\"><br></div><div><img src=\"paste-2bbe36e570802fc970efab098ed8c735b8d27965.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "qKj;$qujQ,",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Problem an dem Bayes'schen Optimalklassifikator?<div>(Probabilistische Modelle)</div>",
+                "<img src=\"paste-5e45f58689d0943ca2c7c3ba5001d768cef0123b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Av>P#hM@27",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die Ingredienzen der Bayes'schen Entscheidungstheorie?",
+                "<img src=\"paste-f2ced4f1ab2961d0458067234f0e4a76ab915ac0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "w3*iL8*Bel",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Woher kommen die Ingredienzen der Bayes'schen Entscheidungstheorie?",
+                "<img src=\"paste-e2df4e29581fc965b2b83752f98f4c861d1e5eed.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "bAVfO<ieSN",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wann spricht man von einem Likelihood Verhältnis?",
+                "Die Wahrscheinlichkeitsdichte&nbsp;<img src=\"paste-189972dec3ea1dbaad2f99dc96d2685c0ce2f6b6.jpg\">&nbsp;gibt normalerweise die Verteilung der Merkmale gegeben eines festen&nbsp;<img src=\"paste-300c3d247584dc85777df7598bb55c636d51b609.jpg\">&nbsp;an.<div>Ist nun aber das Merkmal fixiert und man möchte&nbsp;<img src=\"paste-bd8d4182921152575ed0087e3984ef521da92717.jpg\">&nbsp;bestimmen, gilt:&nbsp;</div><div><img src=\"paste-a155a8ec875e629828f5328c9dd40a23e866e910.jpg\"><br></div><div><br></div><div>Man spricht dann von einem Likelihood Verhältnis</div>"
+            ],
+            "flags": 0,
+            "guid": "sK*P-Q6kAS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die Fehler bei der Bayes'schen Klassifikation?",
+                "<img src=\"paste-0cca112fa8d6d660684f179a7891e633a32cf24a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "O;.6D^4|#t",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vor- und Nachteile des Bayes'schen Verfahrens und des Maximum Likelihood Verfahrens bei der Schätzung des AP-Klassenwahrscheinlichkeiten",
+                "<img src=\"paste-ec124f37221557e6a75333d3f3eb26938556de9b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "LJQz[Gc(CS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Ansätze gibt es zur Bayes'schen Parameterschätzung?",
+                "- Minimaler quadratischer Schätzfehler<div>- Konstante Gewichtung großer Fehler</div>"
+            ],
+            "flags": 0,
+            "guid": "FrW}S2=iEy",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum ist die Lösung eines sog. \"Schlecht gestellten inv. Problmesn\" mittels Regularisierung nicht immer adäquat?",
+                "<img src=\"paste-fce74473f51d16ddf6a56494cffc753749b4835d.jpg\"><div><br></div><div>Annahmen können nur situationsbedingt getroffen werden; Vorwissen nicht immer vorhanden.</div>"
+            ],
+            "flags": 0,
+            "guid": "riu$(wDs;P",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Probleme ergeben sich bei der Parameterfreien Klassifikation?",
+                "<img src=\"paste-31422cce9882998c49d28fa1138517dfe7fc5179.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "lEiBJjSd)w",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Ansätze gibt es zur Gestaltung von Grenzübergängen bei der parameterfreien Klassifikation?",
+                "<div><img src=\"paste-da1183c9fbc20835e4476973221106b4d1b8c96e.jpg\"><img src=\"paste-489cd32c0d829f20864435b45d5f597deed73785.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "s7_yakK:`g",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eigenschaften des Parzen Fenster",
+                "<img src=\"paste-9609660522c5c778596ed8529e7fe6ebd5f47e99.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "FOujLuJ:)J",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Bedingungen müssen für eine Äquivalenzrelation erfüllt sein?",
+                "<img src=\"paste-c3218cd779aff5b72bd109bd59f889aff3446316.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yN~ow^vGym",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-19508bfc81e7045f56934ba52cd912d1319615e4.jpg\">",
+                "<img src=\"paste-41932829e324a071bf456300ba529f7428564660.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "n:hNAfHF8!",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f4657bfd1826984f6f7fd59c9f981b281c0bf2e6.jpg\">",
+                "<img src=\"paste-63f9a82830957282b5022b83d7d1d560f729ccc5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "n3HA|*#u=@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4ac3f14b6668deb955acc1af4f3b67c1cd6484a9.jpg\">",
+                "<img src=\"paste-dd9a7b402882164169a6e4fd820329aacebbe13c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "N?%ItAhF;S",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-c119d744fda43d03b0bcb2471808d5217120b337.jpg\">",
+                "<img src=\"paste-ddda3769a82ad42b92577b8576a2389ad689cab7.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QoB|Z~y<eh",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-04e411c32df6f574d3b8d8a7476fa53c3c75caa1.jpg\">",
+                "<img src=\"paste-4c4e7cb682d4fea73299d769ad27d1ed2e72a1af.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "FP2y;WDMnc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6af1de49e232edd926957d966093517b263293df.jpg\">",
+                "<img src=\"paste-1f0ab5cc2a9fecc409b6a713b63727b357ea3bd0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t:ws8*#O9G",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-81285ef052e636cf417eab8f82e41aab66f632a7.jpg\">",
+                "<img src=\"paste-7dbc39f1ff9b6d1f875eb7f6abf4ae1c8897bebd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g1Jp3.[AV",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f771b509c470e5c007fc19f1307adf43b6ae3543.jpg\">",
+                "<img src=\"paste-c9837dc4293d4734ccd70b036cc9c13c844dc0f9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Jv%%nj`+TS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-0ba7ecf2b492fc9653d0289e3924aebb46b833c5.jpg\">",
+                "<img src=\"paste-6b048e44954a070330c532f52e229ca21fdd86ec.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "AUQ@L<v<(C",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-e23dbcaec61fc0d09f90d2618115ca302700ad38.jpg\"><img src=\"paste-453f0fdad278f1aa50e852cf8520182d292cdd34.jpg\">",
+                "<img src=\"paste-195b13a42fe3067f8e5d90a08d0ca60cd0bc4361.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M],(<}Rjqt",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4b51bb34abbdc5c26eaf7c29302195137ae61cdc.jpg\">",
+                "<img src=\"paste-3cb535cd360c62a5583623cf31b868778b833f2a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gPBq#KAW!J",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-154042b2fcdb530cda2618964da0b441e4a683ad.jpg\"><div><img src=\"paste-8e7b2f1005c12c916d1bece583bdf0b2692797fa.jpg\"><br></div>",
+                "<img src=\"paste-9c8743752eebbef92ebbbf04a7fb8286c06320cd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "F`?|7HxTSA",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-c96e321893cc627f4a2561012ee0b7a075b4be7f.jpg\">",
+                "<img src=\"paste-04e39de7b9bef6b843866a563e82282d899e8a17.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "e3zz)&cG~h",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-d16a5c8beccb33b6ef75732027266a4e74d0d8ab.jpg\"><div><img src=\"paste-3b691e21cbec8441e14e1e267d2601243dff5ace.jpg\"><br></div>",
+                "<img src=\"paste-a5bf64e5fc704f4845fe17e6dd8e5fbc4280c2c8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "w4*7Tog;.@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-9a5de6a17723f08d4b893df3b8f0eee0913b38a1.jpg\">",
+                "<img src=\"paste-9e73df139c27574ad47ef9ce55e22c1566ac311a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "EIw0!j*-I5",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Definition der Kullback Leibler Distanz für diskrete<br><div><img src=\"paste-9d69dd40720460e1e4f000fb7da77495d6f4aa46.jpg\"></div><div>und kontinuierliche<div>&nbsp;<img src=\"paste-451922fc10cb271a17566512515197e431227a30.jpg\">&nbsp;<div>Verteilungen</div></div></div>",
+                "<div><img src=\"paste-d414ab58c79c3c8fed12fb1b86f0b4a5de0cf0ff.jpg\"><img src=\"paste-7b60483c14970d0575a620622f3859f2272db036.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "I$4R*t+TF`",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lauten die 5 Klassen in die sich Merkmalstypen unterscheiden lassen?",
+                "&nbsp;<img src=\"paste-67c937572b953cd550c42185b12664ece5c341e2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Ck)<&jV)kS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Bayes'sche Formel? Wie wird diese hergeleitet?",
+                "<img src=\"paste-5047f86d60177ea97208dd719ce590103761f7a8.jpg\"><br><img src=\"paste-3932d17008cd1c2aa6f3698c3e02395143ec1e01.jpg\"><br>"
+            ],
+            "flags": 0,
+            "guid": "rKYV^hQF_u",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Vor- und Nachteile des Backpropagation Algorithmus?",
+                "<img src=\"paste-178def945e576a411157fa4b47a0da8f3cfb313d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pA?urI@@9`",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Gründe für tiefere Neuronale Netze?",
+                "<img src=\"paste-b54788517fc42e1f0659a2bf59884e03c311f019.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "y![*y11<|G",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Schwierigkeiten und historische Probleme von tiefen Neuronalen Netzen?",
+                "<img src=\"paste-bd1eb438af47fb4d0d995bd45b2c45fb1248c847.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "hpt<_Q|uh`",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die fünf fundamentalen Ideen der Support Vektor Machine?",
+                "<img src=\"paste-045baa9ae197855b1a9130ed78f57062ac0594ed.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g;)9#ANR))",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet die Abkürzung \"i.i.d\"?",
+                "Independent, Identically Distributed<br>Statistisch unabhängig gleichverteilt"
+            ],
+            "flags": 0,
+            "guid": "L2N:XJVELJ",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-4eb79fc23323b7665c621710d97b78a88548608e.jpg\">",
+                "<img src=\"paste-0d0f8118c79028e49a2801592b1fda9db65af932.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gz65PGW];^",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vor- und Nachteile der Support Vektor Machine",
+                "<img src=\"paste-2399a1319ee775b04fb1e4c1894e4df4e6726964.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "D!btcC56cG",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Rückweisungskriterien bei der Klassifikation mittels Matched Filter gibt es?",
+                "<img src=\"paste-0cd36c3725a2917deb3b9c840170d6334b0574b2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M7gB$(2%=@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Rückweisungsregion für das Maximum Kriterium aus?",
+                "<img src=\"paste-ef6ba3150de5e6752d77cf8e97347bb0d228c724.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CjNOzA&Kd.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Rückweisungsregion für das Differenz-Kriterium aus?",
+                "<img src=\"paste-dfbb61024986166e23d42257d294554285d22cad.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "G:B$eK47Zl",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Rückweisungsregion für das Abstands-Kriterium aus?",
+                "<img src=\"paste-7eae2ac678ee3b25609f755433dffce0d752151a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yip5=Gi}}~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Rückweisungsregion für das Minimum-Kriterium aus?",
+                "<img src=\"paste-aa3689e3b8e87bbcb38d0736e29ef849d2751ff0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "z4ty$>&^ut",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Gründe für eine Rückweisung bei einer Klassifikation, die dieses Prinzip nutzt?",
+                "<img src=\"paste-901be5eddccbeec45eda48bd9da1311794c79ca0.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pl7~q8lATn",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Ansätze für die Klassifikation auf der Basisi nominaler Merkmale gibt es?",
+                "<img src=\"paste-99445bf934ce4defd86fde4e0c24ab2efd46e0be.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o[9H$}33ZL",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wann ist das Ergebnis eines MAP Klassifikators gleich dem eines ML Klassifikators?",
+                "Das Ergebnis eines MAP Klassifikators ist gleich dem eines ML Klassifikators, falls die A-Priori W'keiten für alle Klassen identisch sind"
+            ],
+            "flags": 0,
+            "guid": "x)},P/.P`I",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wann ist das Ergebnis eines MAP Klassifikators ausschließlich abh. von der A-Priori Wkeit?",
+                "<div>Das Ergebnis eines MAP Klassifikators ist ausschließlich abh v.d. A-Priori-Wkeit, falls die Likelihood der Merkmale für alle Klassen identisch ist<br></div>"
+            ],
+            "flags": 0,
+            "guid": "qd2UN`ZuEq",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Varianz des ML Schätzers?",
+                "<img src=\"paste-1dd520bca3e5f4fa698fb7507e71fde606042b85.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "G=yUv3ohyT",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was muss für Erwartungstreue eines Schätzers gelten?",
+                "<img src=\"paste-6e1c76e3796ef4baf606fc0cf2c4566f985444ff.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "IM74+Va18e",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie viele Parameter benötigt ein linearer Klassifikator in einem d-dimensionalen Merkmalsraum?",
+                "(d-1) Parameter für die Ebenennormale<div>1 Parameter für den Abstand zum Ursprung</div><div><br></div><div>=&gt; d Parameter</div>"
+            ],
+            "flags": 0,
+            "guid": "L6o1`[JT+y",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wieviele Parameter benötigt ein Bayes'scher Optimalklassifikator mit multivarianter Normalverteilung ohne Berücksichtigung der Kostenfunktion zur Trennung von c Klassen bei einem d dimensionalen Merkmalsraum?",
+                "d Parameter für den Erwartungswert<div>d*(d+1) / 2 Parameter für die Kovarianzmatrix</div><div>1 Parameter für die A-Priori Wkeit abzgl. dem letzten Parameter, da dieser aus den anderen errechnet werden kann</div><div><br></div><div>Insgesamt also:</div><div><br></div><div>c * (1/2*(d^2+d) + d)</div>"
+            ],
+            "flags": 0,
+            "guid": "KUb+Bqj?47",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet es den \"Rand eines Klassifikators maximieren\"",
+                "Grün: Trennlinie der beiden Klassen<div>Grün gestrichelt: Trennlinien nach Maximierung des Randes</div><div><br></div><div><img src=\"paste-c8aa54dd4fdd4b276d54485ca2f3f5f6edb0a0bf.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "AOk~jipxkc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist die Kernfunktion im Kontext einer SVM definiert?",
+                "<img src=\"paste-dd0c91a1dc88f1b7f956686026ab3cdaf585d486.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Ex3ruL[TuP",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Form hat eine Kostenmatrix?",
+                "<img src=\"paste-62388c8667ad08339b77c00963c4ed9fd697cf5d.jpg\"><div><img src=\"paste-b7cb09790a7a9b27d509aba246f66fb554453212.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Gp/*u.LM7l",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist ein schlecht gestelltes inverses Problem definiert?",
+                "<img src=\"paste-b13de8d2ef6664d63dcdbe587da421875147e877.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "OVil0Gv2Ff",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Bedingungen müssen für eine Kernfunktion gelten?",
+                "- symmetrisch<div>- positiv definit</div>"
+            ],
+            "flags": 0,
+            "guid": "Q)!11_hk3b",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-ad24ea54c2c0fafa60d221c5faedd880e507c39d.jpg\">",
+                "<img src=\"paste-d05ea65d720763261abb023d2bfadf9e71f63e3a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "xHVn77m(0z",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Auswirkung hat die Varianz auf die Qualität eines Schätzers?",
+                "Je geringer die Varianz, desto besser der Schätzer"
+            ],
+            "flags": 0,
+            "guid": "i8D)5PXz23",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie berechnet sich die Fehlerw'keit einer SVM?",
+                "<img src=\"paste-e0e88aec2f0fc85a68ae478c2989c2c2703caf4f.jpg\"><div><img src=\"paste-037ef1db061e2a3f594267230a368e60a38d0e3a.jpg\"><br></div><div><img src=\"paste-1f9697282b3773debf83f004fac3ac4ea4543957.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "Av0I#Xwoxt",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Unterschied zwischen einer Soft- und einer Hard- Margin SVM?",
+                "Die Soft Margin SVM lässt Stichproben m Bereich der Margin oder sogar auf der falschen Seite zu um den Rand zu maximieren, wohingegen bei einer Hard-Margin SVM keine Stichprobe innerhalb des Randes liegen darf.<div>Im Falle von Ausreißern ist die Generalisierung durch die Soft-Margin besser</div>"
+            ],
+            "flags": 0,
+            "guid": "hb;4EP~FTg",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie drückt man aus, dass zwei Klassen anhand ihrer A-Posteriori Wkeit ununterscheidbar sind?",
+                "<img src=\"paste-9c6a1692e7996ba81ecc7ee6baba2037eba8678a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o92/-bf/Cr",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind heterogene Komponenten eines Merkmalsvektors und wie kann man das resultierende Problem behenben?",
+                "Heterogene Komponenten eines Merkmalsvektors haben unterschiedliche Bedeutungen/ Wertebereiche und Einheiten.<div><br></div><div>Durch komponentenweise Zentrierung um den Mittelwert und Normalisirung mit der empirischen Standardabweichung lässt sich der Merkmalsvektor besser verarbeiten:</div><div><br></div><div><img src=\"paste-27dde45de4304612ada154ce989ada3e629017c5.jpg\"><br></div><div><br></div><div>wobei j die Tiefe des Vektors beschreibt</div>"
+            ],
+            "flags": 0,
+            "guid": "x.1oFt^C=6",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welcher Mittelwert und welche Kovarianzmatrix der Merkmale sind bei einer durch eine PCA transformierten Merkmale zu erwarten?",
+                "<img src=\"paste-99d1f6e0bf85ff91cca9c03692ae5499fcbb363c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "J#srTLeKV~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie viele Parameter sind pro Neuron in einem NN notwendig?",
+                "1 Pro verknüpftes Neuron plus ein zusätzliches für den Bias des Neurons.<br>Bei 5 verknüpften Neuronen also 6 Parameter"
+            ],
+            "flags": 0,
+            "guid": "dqFHI*snf$",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie würde folgender Datensatz jeweils nach einer PCA und einer ICA aussehen?<div><img src=\"paste-3f20b5c09fcb394a1256a477092ce0e08cb59eb6.jpg\"><br></div>",
+                "<img src=\"paste-80432437c33345f2251bf2d492adc5940becdfad.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "I+0/WIqb/0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-801d90f8724d6c0fb0175e4336515fa9a122d2d0.jpg\">",
+                "<img src=\"paste-05097a35b9e50b5c19b17b5ce56390de71378460.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ppslG.t{9-",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-b19afca61d2fe1f9b8e7add393326bfc9e8dd739.jpg\">",
+                "<img src=\"paste-ea77a74d49fe4f11b518abff2694ca9bf282500a.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "j)FzfVkOTe",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-0468d204fc1b0c746fe26d5ed3743113018e8550.jpg\">",
+                "<img src=\"paste-5b472140d2aab36ba012f489050e413b9244d470.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "m]X<6kL3c.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-27015d4c194de2d99191f835cf3e6346b591e9bc.jpg\">",
+                "<img src=\"paste-42c360a13a195fe7e69815927cd4db54ddfe53a3.jpg\"><div><img src=\"paste-777ac5c1ff18abc64d532601e2349502da16d844.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "PCK5:5L<0q",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Cramer-Rao-Schranke?",
+                "<img src=\"paste-c5008429ecbec053fce6623ecfd0c2014e89fc05.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "lFE~2He5fq",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche zwei unterschiedlichen Methodiken der Parameterschätzung wurden in der Vorlesung<br>behandelt und was sind deren Grundannahmen?",
+                "Die Bayes’sche Methodik sieht den Paramtervektor θ als Zufallsvariable an, wohinge-<br>gen die Likelihoodmethodik den Parametervektor θ als unbekannte, konstante und<br>nicht-stochastische Größe ansieht."
+            ],
+            "flags": 0,
+            "guid": "Lk[ZFIJLqV",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche zwei Arten von Fehlern gibt es bei der Parameterschätzung?",
+                "Stochastischer Fehler: Var{θ} und systematischer Fehler (Bias) b(θ) = E{ ˆ θ} − θ"
+            ],
+            "flags": 0,
+            "guid": "vn#|94h&e%",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Schritte sind bei der Hauptkomponentenanalyse erforderlich?",
+                "<img src=\"paste-99733723409557f51c24dc86adad1fd78870c5a6.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "qUpV}RNQ6:",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Skizzieren Sie den Verlauf von Testfehler ε ( θ ), Lernfehler e Lern ( θ ) und VC-Konfidenz Φ( ν,N,η )<br>in Abähngigkeit der VC-Dimension ν in einem Diagramm. Markieren Sie die optimale VC-<br>Dimension ν 0",
+                "<img src=\"paste-dda846d807166584d8d6849f23890a01309965a3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "G0%v05F`B[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Voraussetzungen müssen für die Daten gelten, wenn die Vapnik-Chervonenkis Lerntheorie angewandt werden soll?",
+                "Die Daten müssen i.i.d sein. Unabhängig erzeugt und gleichverteil."
+            ],
+            "flags": 0,
+            "guid": "x?ixp8ITI6",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was besagt die&nbsp;Vapnik-Chervonenki Lerntheorie?",
+                "Mit der Vapnik-Chervonenkis Lerntheorie kann eine obere Schranke des Testfehlers ε ( θ ) mittels<br>des Lernfehlers e Lern ( θ ) und der VC-Konfidenz Φ( ν,N,η ) angegeben werden. Diese Schranke gilt<br>mit einer Wahrscheinlichkeit von (1 − η)."
+            ],
+            "flags": 0,
+            "guid": "Qw6%[_NX^n",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist die VC-Dimension ν einer Menge K von Funktion definiert? Eine Beschreibung ist<br>ausreichend.",
+                "Die VC-Dimension ν einer Menge K von Funktionen ist definiert als die maximale<br>Anzahl von Stichproben, die durch K bei allen möglichen Klassenzugehörigkeitskon-<br>stellationen separiert werden können."
+            ],
+            "flags": 0,
+            "guid": "L/l#q%Z2qs",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,903 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "5a7e95ae-d651-11ea-99a6-7cb27daf4b6d",
+    "deck_config_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2
+                ],
+                "order": 0,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-01a376d070d6d9ac5b4c1890cf541110785e8584.jpg",
+        "paste-02003925ea92d56eef83913cad31b90de3af203a.jpg",
+        "paste-0406471d1aa138ae6cb498108a695a78b4755266.jpg",
+        "paste-0a3ab62d42fbb0514a4ad577fecef7815c3ec945.jpg",
+        "paste-0e21bfcce21a4396a502ae09a4f853fc8ee35ab5.jpg",
+        "paste-0e70458e51cfc08fe8d2bd1e62c9249f2c7f7463.jpg",
+        "paste-16b6dd335dde1a5bf1beffc44531a9ccc18d6e81.jpg",
+        "paste-1e7a78d11fd31256990b1e288ce7181def08866e.jpg",
+        "paste-237e20050e78da78ba9df29077b3cb47862599e1.jpg",
+        "paste-3080ea5e1cc1b84ef0e5585bcba3cc8cd82dc410.jpg",
+        "paste-34927bb1ae5f47f615ee390343d3323433246276.jpg",
+        "paste-3569a32e5ae5823897c8dd1298d50cea6bce4470.jpg",
+        "paste-3944b506881551a58190497709b7a994e01ee493.jpg",
+        "paste-3adc06e98aabca93de0164684712fb51cc2e80ea.jpg",
+        "paste-4512544a5d3e60db013db244f349943d1e4bbd48.jpg",
+        "paste-488cf1affbbef93a3c7e9458b339c39c84b1b85c.jpg",
+        "paste-4c8484b97a8f291c0baa3db70b61c2ea5a4b9051.jpg",
+        "paste-5fdd4d8bd947e5c8b7a9189e463c4516a6280ec4.jpg",
+        "paste-61b4c1e13b6b4b8d46999fdf1f976a52193bc462.jpg",
+        "paste-6a4b9f6811700b0e6d38f53b8a90ba9544ef6f1e.jpg",
+        "paste-7827799125423d150d67b6196da91c3dda3c9047.jpg",
+        "paste-7b347d252c688afd92100d696dc6cb6993686b5d.jpg",
+        "paste-807146d3a6cc3058edb40892c525b4eb23ed80c9.jpg",
+        "paste-82b11379cba0127fa4f6fd14010e099ef041a183.jpg",
+        "paste-84e2306ee1badda6ceb05d760418aa885afbd99b.jpg",
+        "paste-860b7835b4d05bb432cc2c94007eac841e643d5a.jpg",
+        "paste-8893f419ed99706be1816bd9d16e0375087f9881.jpg",
+        "paste-96fdcf990ab109e8c2e4b43c4fb68455a66ff916.jpg",
+        "paste-9d9728d3f6c88f106fc45d609f0c3e5ba39314ed.jpg",
+        "paste-a110ddd4bace225a1ab67dbe809d117e309a8d47.jpg",
+        "paste-a4ad71fe15f96636104b5a0e8b386c317ce12bdf.jpg",
+        "paste-b2c14fc50b9c5fe8c86753ea39265976a57bf37b.jpg",
+        "paste-bab51d45c564e9e825dc672d648e9ee2dc8965da.jpg",
+        "paste-bb2999a85e9664f1b0d21f5739024b7bcf042642.jpg",
+        "paste-ca6f505fa27df19520a5ac0405f4a276caf4741c.jpg",
+        "paste-d40f83d76e8dc3dcc7fc97afeeb2330ffc9033b2.jpg",
+        "paste-e8281c6de6cea25c3ef95f1c7212a0c94118abbf.jpg",
+        "paste-ef1f362e0f52b49765ec9b60702ebfe64d7457a5.jpg",
+        "paste-fab4b22eb1a9eb2559a23624667014c0404d6e60.jpg"
+    ],
+    "name": "Robotik II",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bullock Taxonomy",
+                "<div>Hand-centric and motion-centric manipulation classification</div><div><br></div><img src=\"paste-237e20050e78da78ba9df29077b3cb47862599e1.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "vo+EoHAwH:",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Duality of grasping and balancing",
+                "Balance &lt;-&gt; Stable grasp<div>Step planning &lt;-&gt; Grasp Synthesis</div><div>Selection of support pose &lt;-&gt; Grasp selection</div><div>Selection of contact points &lt;-&gt; Grasp synthesis</div><div>Classification of support pose possibilities &lt;-&gt; Grasping taxonomies</div>"
+            ],
+            "flags": 0,
+            "guid": "JesLJfx._3",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Criteria for classifying taxonomy of whole body support poses",
+                "<img src=\"paste-0e70458e51cfc08fe8d2bd1e62c9249f2c7f7463.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "c=RSNN^Ehs",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Possible contacs with extremities",
+                "<img src=\"paste-ca6f505fa27df19520a5ac0405f4a276caf4741c.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "B/(}=uFat~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Classification of whole-body actions",
+                "<img src=\"paste-3080ea5e1cc1b84ef0e5585bcba3cc8cd82dc410.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "oZ4%Q*%sbc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Taxonomy of whole-body poses",
+                "<img src=\"paste-e8281c6de6cea25c3ef95f1c7212a0c94118abbf.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "lR*USL]_lB",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Problem with full body motion sequences",
+                "Takes a long time for calculation.<div>Reduce space where to search for valid poses -&gt; Synergy models</div><div><br></div><div><img src=\"paste-02003925ea92d56eef83913cad31b90de3af203a.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "BZ,Ogz;}v>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What advantages bring Postural synergies by using PCA?",
+                "<img src=\"paste-82b11379cba0127fa4f6fd14010e099ef041a183.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "fH&czq*1OM",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some typical problems with Postural synergies",
+                "Some detailled information can be hidden in PCs which are not represented<div><br></div><div><img src=\"paste-16b6dd335dde1a5bf1beffc44531a9ccc18d6e81.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "D^H-AJO3?<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can a model of elasticity be introduced into the synergy models?",
+                "<img src=\"paste-4c8484b97a8f291c0baa3db70b61c2ea5a4b9051.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "JTJc&&K1G<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the idea behind Eigengrasps?",
+                "<img src=\"paste-3569a32e5ae5823897c8dd1298d50cea6bce4470.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "pD_LmmQg}M",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Examples for applying eigengrasps on grippers",
+                "<img src=\"paste-96fdcf990ab109e8c2e4b43c4fb68455a66ff916.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "x!8YSt[}&q",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Advantages and Disadvantages of Eigengrasps",
+                "- Does not work well on non-convex objects<div>+ Alg. can be modified towards finding precision grasps by considering only desired contact points at the fingertips</div>"
+            ],
+            "flags": 0,
+            "guid": "gVmDF[kWle",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie können Vektoren auf mechanische Art addieren/ multiplizieren?",
+                "<img src=\"paste-84e2306ee1badda6ceb05d760418aa885afbd99b.jpg\"><div><img src=\"paste-488cf1affbbef93a3c7e9458b339c39c84b1b85c.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "G@$#j1=P6m",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Problem bei dem Greifen von ähnlichen Objekten? (Nicht bekannte Objekte)",
+                "<div>-&gt; Finden von Methoden mit denen man Ähnlichkeiten von Objekten bestimmen kann</div><div>--&gt; Machine Learning!</div>"
+            ],
+            "flags": 0,
+            "guid": "mk$).UHh8>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Konzept beim Greifen ähnlicher Objekte?",
+                "<img src=\"paste-3adc06e98aabca93de0164684712fb51cc2e80ea.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "jnQXezYcl9",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ansätze zum Greifen von ähnlichen Objekte, basierend auf einer vorhandenen Datenbank",
+                "<img src=\"paste-34927bb1ae5f47f615ee390343d3323433246276.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "sO&PZe{qc0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Name some generative classifiers",
+                "<img src=\"paste-01a376d070d6d9ac5b4c1890cf541110785e8584.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "mlca];`OL]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Name some discrimitive classifiers",
+                "<img src=\"paste-9d9728d3f6c88f106fc45d609f0c3e5ba39314ed.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "l5&HXr8x3J",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Flow-Chart for Sensor-Based Grasping",
+                "<img src=\"paste-d40f83d76e8dc3dcc7fc97afeeb2330ffc9033b2.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "IY2a1VwlF+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Flow-Chart for Discriminative grasping",
+                "<img src=\"paste-b2c14fc50b9c5fe8c86753ea39265976a57bf37b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "MbVy,<$;8~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What's the problem of Template-Based Learning of Grasp Selection?",
+                "- We don't know what we are actually grasping<div>- We can't say if the grasp justifies the object mass points</div><div>- If we can't say what we are grasping, we can't say how we should put it down again</div>"
+            ],
+            "flags": 0,
+            "guid": "EL2z`yt6Wb",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Part (/Task) - Based Grasping for Familiar Objects?",
+                "<img src=\"paste-6a4b9f6811700b0e6d38f53b8a90ba9544ef6f1e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "C,5It#Gt~>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Flow-Chart for Grapoing of unknown objects",
+                "<img src=\"paste-7b347d252c688afd92100d696dc6cb6993686b5d.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "L`XFBi)A4~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Steps from Low-Level Features to Grasp Hypotheses",
+                "<img src=\"paste-7827799125423d150d67b6196da91c3dda3c9047.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GORz^$!P(I",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Edge Elementary Grasping Action?",
+                "<img src=\"paste-a4ad71fe15f96636104b5a0e8b386c317ce12bdf.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "j;uAs2s>;T",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is surface elementary graping action?",
+                "<img src=\"paste-3944b506881551a58190497709b7a994e01ee493.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "bK#dp28m&?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What sources for training data are available in the case of grasping?",
+                "<img src=\"paste-ef1f362e0f52b49765ec9b60702ebfe64d7457a5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "P4;~[LMNk{",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist Haptik definiert?",
+                "<img src=\"paste-61b4c1e13b6b4b8d46999fdf1f976a52193bc462.jpg\"><div><br></div><div>Haptik = Oberflächen- + Tiefenperzeption&nbsp;</div>"
+            ],
+            "flags": 0,
+            "guid": "k4:52}2ce7",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche vier Schritte werden während der Extraktion von Greif Hypothesen an einem Objekt gemacht?",
+                "<img src=\"paste-0a3ab62d42fbb0514a4ad577fecef7815c3ec945.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ybk3Rkv{mi",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die 3 Hauptherausforderungen bei der Maximierung der Information während der haptischen Exploration?",
+                "<img src=\"paste-bab51d45c564e9e825dc672d648e9ee2dc8965da.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "i=_I%#LHOw",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lassen sich Kosten für die Taktile Exploration verringern?",
+                "<img src=\"paste-4512544a5d3e60db013db244f349943d1e4bbd48.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "li:tr_cm/D",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the basic idea behind Imitation Learning?",
+                "<img src=\"paste-807146d3a6cc3058edb40892c525b4eb23ed80c9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "dQ=+Eaktt!",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Learning from Human Observation<div><img src=\"paste-1e7a78d11fd31256990b1e288ce7181def08866e.jpg\"><br></div>",
+                "<img src=\"paste-a110ddd4bace225a1ab67dbe809d117e309a8d47.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Md>?;k}!@+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Level der Representation einer menschlichen Aktion gibt es?",
+                "<img src=\"paste-fab4b22eb1a9eb2559a23624667014c0404d6e60.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "O,PJb*vG)k",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are Features and Restrictions of Zero-Velocity-Crossing?",
+                "<img src=\"paste-8893f419ed99706be1816bd9d16e0375087f9881.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "s5:D`R[9Oi",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Master Motor Map (MMM)?",
+                "- Decouples the human motion capture process from motion analysis and reproduction components<div>- Framework for unifying data from motion capture systems</div><div>- Can be applied to different embodiments</div><div>- Can be used for data analysis</div>"
+            ],
+            "flags": 0,
+            "guid": "Q;v?42uNDn",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<b>Name the crasps in the Cutkosky Grasp Taxonomy</b><div><b><br></b></div><div><img src=\"paste-5fdd4d8bd947e5c8b7a9189e463c4516a6280ec4.jpg\"><b><br></b></div>",
+                "<img src=\"paste-0e21bfcce21a4396a502ae09a4f853fc8ee35ab5.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "oGrn&Ib76g",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the Bullock Grasp Taxonomy?",
+                "<img src=\"paste-860b7835b4d05bb432cc2c94007eac841e643d5a.jpg\"><div>Hand-centric and motion-centric manipulation classification<br></div>"
+            ],
+            "flags": 0,
+            "guid": "hTZU0fCIVs",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Di?erence between a grasp taxonomy and a manipulation taxonomy:",
+                "While a grasp taxonomy assumes a ?xed relation between the hand and the grasped<br>object, a manipulation taxonomy additionally captures motions of the hand, the object<br>or the hand-object system."
+            ],
+            "flags": 0,
+            "guid": "Q!U=!8cV_>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "De?nition of prehensile manipulation:",
+                "From Bullock etal. : Hand contact with an object is prehensile if it cannot be reasonably<br>represented by a single contact point (virtual ?nger). Equivalently, contact is prehensile<br>if the contact forces from the hand alone can stabilize the object without need for<br>external forces such as gravity or from ?ground?."
+            ],
+            "flags": 0,
+            "guid": "i-i04PILJp",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Di?erence between motion and motion at contact:",
+                "While the category motion describes motions of the hand relative to the body-?xed<br>frame, the category motion at contact describes movements of the object reference<br>frame relative to the contact point frame(s)."
+            ],
+            "flags": 0,
+            "guid": "z^:s#I:$2&",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Information stored in a grasp database:",
+                "The grasp database stores object models and a ranking of associated grasp hypotheses."
+            ],
+            "flags": 0,
+            "guid": "y%Qj?rkgZ2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Explain if and how a grasp database helps in grasping",
+                "<img src=\"paste-bb2999a85e9664f1b0d21f5739024b7bcf042642.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "BB.LH&J80~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Active Visual Search in general is an NP-complete problem. In order to find ap-<br>proximate solutions in a timely manner, the lecture presented an approach which<br>decomposes the problem into two sub-problems: restriction of the search space and<br>validation of object candidates.<div><br></div><div>Which visual inputs are used for each sub-problem?<br></div>",
+                "Visual inputs:<br>i. Restriction of search space:<br>Peripheral view<br>ii. Validation of object candidates:<br>Foveal view"
+            ],
+            "flags": 0,
+            "guid": "sUp0+&>V/}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Active Visual Search in general is an NP-complete problem. In order to find ap-<br>proximate solutions in a timely manner, the lecture presented an approach which<br>decomposes the problem into two sub-problems: restriction of the search space and<br>validation of object candidates.<div><br></div><div>Explain the method for the restriction of the search space.<br></div>",
+                "Method for the restriction of the search space:<br>Coarse analysis of the scene to detect object candidates using<br>• Color Cooccurrence Histograms (CCH)<br>• Search window"
+            ],
+            "flags": 0,
+            "guid": "n|o4_SSI=$",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Active Visual Search in general is an NP-complete problem. In order to find ap-<br>proximate solutions in a timely manner, the lecture presented an approach which<br>decomposes the problem into two sub-problems: restriction of the search space and<br>validation of object candidates.<div><br></div><div>Explain the method for the validation of object candidates.<br></div>",
+                "Method for the validation of object candidates:<br>Detailed analysis to eliminate false positive object candidates using:<br>• Texture-based object recognition (Harris-SIFT)"
+            ],
+            "flags": 0,
+            "guid": "9<3;ew/^4",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture presented a method for saccade generation using saliency based on the<br>Bayesian Strategy.<div><br></div><div>What is the goal of saccade generation?<br></div>",
+                "Minimize number of saccades until object recognition.<br>(Determine direction with maximal probability of recognition)"
+            ],
+            "flags": 0,
+            "guid": "g*:^sVJ$_U",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture presented a method for saccade generation using saliency based on the<br>Bayesian Strategy.<div><br></div><div>How is saliency represented in the aforementioned method?<br></div>",
+                "Landmark-based map of object candidates:<br>i. Localization uncertainty<br>ii. Probability of existence"
+            ],
+            "flags": 0,
+            "guid": "Q{XSSoLWV0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture introduced the transsaccadic memory as an approach to achieve consis-<br>tency of scene and memory.<div><br></div><div>Name the two layers in the transsaccadic memory and explain the differences 2 P.<br>between them.<br></div>",
+                "• Layer 1: Object Layer:<br>Uses the foveal camera image to determine position and existence of objects.<br>• Layer 2: Preattentive Layer:<br>Uses peripheral camera image to determine position and existence of object<br>candidates."
+            ],
+            "flags": 0,
+            "guid": "CLGJ%GNA4A",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture introduced the transsaccadic memory as an approach to achieve consis-<br>tency of scene and memory.<div><br></div><div>What does consistency of scene and memory mean?<br></div>",
+                "• For each object instance a corresponding representation in memory exists.<br>• For each representation in memory a corresponding object instance exists."
+            ],
+            "flags": 0,
+            "guid": "Qw-.31x}W=",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture discussed the paper „A. Bierbaum, M. Rambow, T. Asfour and R. Dill-<br>mann, Grasp Affordances from Multi-Fingered Tactile Exploration using Dynamic Po-<br>tential Fields, IEEE/RAS International Conference on Humanoid Robots, 2009“<div><br></div><div>What is the purpose of the potential field? Which regions are assigned to attractive<br>potentials and which regions to repellent potentials?<br></div>",
+                "The potential ?eld guides the haptic exploration of unknown objects. Unknown regions<br>of the object are attractive, while known regions of the object are repellent."
+            ],
+            "flags": 0,
+            "guid": "QM_^^qiMl@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "The lecture discussed the paper „A. Bierbaum, M. Rambow, T. Asfour and R. Dill-<br>mann, Grasp Affordances from Multi-Fingered Tactile Exploration using Dynamic Po-<br>tential Fields, IEEE/RAS International Conference on Humanoid Robots, 2009“<div><br></div><div>Specify the equation for the total potential field and briefly explain the individual components.<br></div>",
+                "<img src=\"paste-0406471d1aa138ae6cb498108a695a78b4755266.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "DvE(l1pHcm",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the general idea of supported body poses?",
+                "Use grasping in locomotive tasks to improve pose stability"
+            ],
+            "flags": 0,
+            "guid": "A|#Zr{jWEU",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are some typical problems with Postural synergies",
+                "Some detailled information can be hidden in PCs which are not represented<div><br></div><div><img src=\"paste-16b6dd335dde1a5bf1beffc44531a9ccc18d6e81.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "OR|1N",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        }
+    ]
+}

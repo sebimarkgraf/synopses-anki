@@ -1,0 +1,750 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "07128651-d651-11ea-83fe-7cb27daf4b6d",
+    "deck_config_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2
+                ],
+                "order": 0,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 3,
+    "extendRev": 50,
+    "media_files": [
+        "paste-009dd51d8004128d5409ab3e28acc63595f0c2bb.jpg",
+        "paste-03c27f737d7f24bd7268f936b9a011e0c890eeb2.jpg",
+        "paste-063ae9158f2fe1a1499c560f407730de897e6ca4.jpg",
+        "paste-151f1c30b7019a0d7830b0500d2f742ff7b7c7be.jpg",
+        "paste-15e9731db6c66826a13c5863d28df982ec3f99c7.jpg",
+        "paste-1c40d96410b53c1a73e32fd78bc83cf211cfe4cd.jpg",
+        "paste-2519b55f9e87166027204455d5e5135dd5bb01e2.jpg",
+        "paste-2bc5151ecdc0d62ead235333e04b4c2349e1d877.jpg",
+        "paste-2f0f26765ccb7d0e187578ab1ecb692b16e99c53.jpg",
+        "paste-2f246278f431645c3d6d262801fa00ed74db0c78.jpg",
+        "paste-361ae976876158ec470d4df85eaa9e315984ec70.jpg",
+        "paste-40d202e2d6b956a423dd4951cda8012a2baf0e0f.jpg",
+        "paste-422348bcf3ab8804d992787710acfdf153e908be.jpg",
+        "paste-4ac58e083fe84bf92eb0f9e7a7454b340ef80f98.jpg",
+        "paste-4cc508247c5cd2f16e093451ea7b685154e7731e.jpg",
+        "paste-4d1b3f64a202bcebb9e6b33ae9a109fc022bf8ea.jpg",
+        "paste-4e71b431426a8d9298bad4ddd9ca4e45c3ddcef9.jpg",
+        "paste-50f3ede38867c5bd4cafdc9a693adb9772cbd458.jpg",
+        "paste-53ec5789d5df32d1ccc8b2b097de98a02e002568.jpg",
+        "paste-59a404dd58fc2855b9b8073a64710472eefc31d8.jpg",
+        "paste-5a5fce78fda1b6b2602f794ef6a85e860a654a0b.jpg",
+        "paste-5ca3818a6e9ad09501c415f9c84f8504612b5983.jpg",
+        "paste-5e499dea6088b063d42750e1acb9b45f3c3ebf54.jpg",
+        "paste-6012e030046a4269eecd16a66c1f5ca07a53c586.jpg",
+        "paste-6fcdf5ac18423e817629b50cc9baa8a40507c18c.jpg",
+        "paste-71a65c171052870a17e558e469e35d07a11a0988.jpg",
+        "paste-73a86600b0b033c0cceb62c8bda1a90830a57c7d.jpg",
+        "paste-79a315eb7a2240d60fade0671b85326c22343f97.jpg",
+        "paste-9378521764ac7b57ada2a9da81449c52a7f5f330.jpg",
+        "paste-99e2a4c339bd7922c6ab3d8c9cad512649b66593.jpg",
+        "paste-9c7c25c150d0bf7d018ecef92ea6a0bda584ff5a.jpg",
+        "paste-9ed6c5197f36bbd65bfccf2a1a1502d31b3d5849.jpg",
+        "paste-a17fe22f608454a29bf9d0cd9052262148523173.jpg",
+        "paste-a3ea61286cfe65b3f35ac59f3a19e08a37489fc3.jpg",
+        "paste-ac6849d7189947952e656cabc7a3e687f4890a94.jpg",
+        "paste-b0f5c0290c31d14589ce99b02f818500b7d0d696.jpg",
+        "paste-b4dd119b4523d4aae66ef653a716179ed6727298.jpg",
+        "paste-b764fad8a5483c651e27108d30c17e2194ff6cdd.jpg",
+        "paste-badb3e57ed610593995442fb42941b9d6b5751f6.jpg",
+        "paste-bb2ef57468994d493ade555b562fa64c623be1ce.jpg",
+        "paste-be83b22b885acd76947ce260b1eab7f337125691.jpg",
+        "paste-bed13e6e7d048570da005da3f576606bb55d73f6.jpg",
+        "paste-c2452487393994175d6b668da6c1312f2153d161.jpg",
+        "paste-c2ea824609c1d3a1f8459ee126bd85daa0b602f0.jpg",
+        "paste-c7ca2bc6124490e4e17230925cd5095d3c8e60af.jpg",
+        "paste-ca608d0ec2b487cc10a580d17b9534158f646b76.jpg",
+        "paste-db3c0adad88084f375d053039649b6b1f8d773b1.jpg",
+        "paste-e3bb4df43688dafc154561ad3b70748c6b1d48a3.jpg",
+        "paste-e5e2da52f8a2b3706e7c3057f23aa0d605e5e1dc.jpg",
+        "paste-e73b56864d9da3e5b03cf0de7ca7896a2532fbe8.jpg",
+        "paste-f072c8ea4564abcc1796295a7ff2862d11a6db2e.jpg",
+        "paste-f1fbb1fcfbc3c42af12df118e437f2fbefc8434a.jpg",
+        "paste-f4f75b98d68fc811ac7a04f3916c82aa9417fe31.jpg",
+        "paste-f86279c54d0279eb26ff6dca2d8c9a0e10e32efe.jpg",
+        "paste-f91c70bd9414b267995123146b0d3fb19b89d7b9.jpg",
+        "paste-fef9b30b601dd6da7ef53a94c913f79bc8a4d5a9.jpg"
+    ],
+    "name": "AutomotiveVision",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Describe shortly the working principle of block matching to find corresponding<br>points in both input images.",
+                "Block matching is one method for solving the correspondence problem in image<br>processing, that is, to find pixels in two images that describe the same point in the<br>three-dimensional scene captured by the images. The basic working principle is to<br>compare blocks of pixels with a pre-defined window size and to compute a difference<br>function between the blocks."
+            ],
+            "flags": 0,
+            "guid": "x~u+pce.^`",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Name three mathematical functions that could be used to<br>compare two image blocks. What are their advantages and disadvantages?",
+                "1. Sum of absolute difference (SAD)<div>2.&nbsp;Sum of squared difference (SQD)</div><div>3.&nbsp;Normalized Cross-Correlation (NCC)</div>"
+            ],
+            "flags": 0,
+            "guid": "H^qCjLRmV=",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sum of absolute difference (SAD)",
+                "The sum of absolute difference between two<br>image blocks is computed by:<br><br><img src=\"paste-9c7c25c150d0bf7d018ecef92ea6a0bda584ff5a.jpg\"><br><br>The advantage of this comparison function is its simplicity and fast computation time.<br>The main disadvantage is its light dependence, that is, illumination variations (e.g.<br>sunlight) in one of the two images result in large differences even though two image<br>points match."
+            ],
+            "flags": 0,
+            "guid": "iFNY=T{8J|",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sum of squared difference (SQD)",
+                "The sum of squared difference between two image<br>blocks is computed by:<br><br><img src=\"paste-422348bcf3ab8804d992787710acfdf153e908be.jpg\"><br><br>The advantage of this function is that differences are weighted stronger, i.e. larger<br>pixel-wise differences result in much larger total differences than with the sum of<br>absolute differences. The disadvantage of illumination dependency however is the same<br>as for the SAD function."
+            ],
+            "flags": 0,
+            "guid": "FsUJ/&&=<W",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Normalized Cross-Correlation (NCC)",
+                "The normalized cross correlation between<br>two image blocks is computed by:<div><br></div><div><img src=\"paste-fef9b30b601dd6da7ef53a94c913f79bc8a4d5a9.jpg\"><br></div><div><br></div><div>whereby&nbsp;I1 and I2 indicate the average pixel value in I1 and I2 , and σ<span style=\"font-size: 16.6667px;\"><sub>I1</sub></span>&nbsp;and σ<span style=\"font-size: 16.6667px;\"><sub>I2</sub></span>&nbsp;the<br>standard deviation, respectively. The advantage of this comparison function is its illumination independence, while, as a disadvantage, it is a higher computation effort to compute the correlation.<br></div>"
+            ],
+            "flags": 0,
+            "guid": "x7V%T2E`fW",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Discuss the influence of the window size used in block matching on the quality<br>of the matching result.",
+                "The smaller the window size is selected, the higher the structure, or texture, in the<br>local environment of the feature points has to be to get correct matches. In turn, the<br>larger the window size is selected, feature points with less structure or texture could<br>be matched, while the computation costs increase quadratically. Note: when larger<br>window sizes are chosen, the image window may contain pixels from multiple objects,<br>e.g. foreground and background areas, which may result in erroneous point matches.<br>As an example, matching two points on homogeneous surfaces, e.g. a house wall, requires<br>a larger window size to reduce the ambiguity to other points on the surface."
+            ],
+            "flags": 0,
+            "guid": "Ij8Tj],nX}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Perform multiple experiments with varying search area and window sizes and<br>discuss the requirements for an image point to result in good corresponding points when<br>using block matching.",
+                "Block matching works best for points that have a large structure, or texture, in its local<br>environment. For homogeneous areas, the window size must be increased to catch more<br>distant areas with a higher structure. However, in general, the larger the homogeneous<br>areas are, the harder it is for block matching to produce good matches."
+            ],
+            "flags": 0,
+            "guid": "Bt8kzQgc@m",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which feature extraction algorithms are provided by Matlab? Name three algorithms.",
+                "The following feature extraction methods are provided by Matlab&nbsp;among others:<br>• Harris corner detection<br>• BRISK features<br>• SURF features<br>• MSER features"
+            ],
+            "flags": 0,
+            "guid": "zGz~HWnze.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Explain shortly what rectification is and how cameras may be rectified?",
+                "Rectification is a method in image processing to modify images in a way to obtain parallel epipolar lines in both images. To rectify cameras, two new virtual cameras are created&nbsp;with the following properties:<br>• The intrinsic calibration parameters, that is focal length, skew and principal point, are identical.<br>• The extrinsic orientations of both cameras are identical such that the x-axes of both cameras are parallel to the base line. Note: the base line connects the focal points of both cameras.<br>Afterwards the pixels of the original cameras are mapped to pixels in the virtual cameras."
+            ],
+            "flags": 0,
+            "guid": "r]h*|!g&y6",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Which essential property do rectified images have? How does this property help when applying block matching?",
+                "The essential property of rectified images is that the epipolar lines are parallel meaning that corresponding image points are located in the same image row. As a consequence for the block matching method used in this excercise, only the image row where the feature was detected in the first image must be searched in the second image."
+            ],
+            "flags": 0,
+            "guid": "jN3D$Bo&~S",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the motion constraint equation?",
+                "<div><img src=\"paste-15e9731db6c66826a13c5863d28df982ec3f99c7.jpg\"><br></div><div><br></div><div>R<span>eleating the motion of a point to the change of grayvalue structure and to the temporal change of grayvalue</span></div><div><span><br></span></div><div><img src=\"paste-5ca3818a6e9ad09501c415f9c84f8504612b5983.jpg\"><span><br></span></div>"
+            ],
+            "flags": 0,
+            "guid": "dY(=:b4U-h",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Two common problem of the Lucas-Kanade Method",
+                "1. Must be calculated in an iterative way to prevent errors in the tangent calculation for larger shifts<div><img src=\"paste-73a86600b0b033c0cceb62c8bda1a90830a57c7d.jpg\"><br></div><div><br></div><div>2. If the observation window is bad, one cannot tell anything about the motion</div><div><img src=\"paste-53ec5789d5df32d1ccc8b2b097de98a02e002568.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "HL,BaS4D/K",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Image Base Tracking?",
+                "<img src=\"paste-ac6849d7189947952e656cabc7a3e687f4890a94.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "n&X<9SFOi2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Two known algorithms used in image based tracking",
+                "- Template matching<div>- kernelized correlation filter</div>"
+            ],
+            "flags": 0,
+            "guid": "nIHx66z8>.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the idea of an unscented Kalman Filter?",
+                "<img src=\"paste-009dd51d8004128d5409ab3e28acc63595f0c2bb.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t88XU>_E5B",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the possibilites for the numerical representation of probability densities?",
+                "<img src=\"paste-badb3e57ed610593995442fb42941b9d6b5751f6.jpg\"><div><img src=\"paste-5e499dea6088b063d42750e1acb9b45f3c3ebf54.jpg\"><br></div><div><img src=\"paste-e73b56864d9da3e5b03cf0de7ca7896a2532fbe8.jpg\"><br></div><div><img src=\"paste-6fcdf5ac18423e817629b50cc9baa8a40507c18c.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "rY1lzh3RPm",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a Particle / Condensation Filter?",
+                "<img src=\"paste-f4f75b98d68fc811ac7a04f3916c82aa9417fe31.jpg\"><div><img src=\"paste-f1fbb1fcfbc3c42af12df118e437f2fbefc8434a.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "i`#|]*qzx[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is a common problem of the particle Filter?&nbsp;<div>How can it be solved?</div>",
+                "<img src=\"paste-c2452487393994175d6b668da6c1312f2153d161.jpg\"><div><img src=\"paste-40d202e2d6b956a423dd4951cda8012a2baf0e0f.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "z+JJ0niI<F",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "State diagram for the Particle Filter with Resampling",
+                "<img src=\"paste-151f1c30b7019a0d7830b0500d2f742ff7b7c7be.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "QbR~A|j8%&",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Comparison of Kalman Filter, EKF, UKF and Particle Filter",
+                "<img src=\"paste-59a404dd58fc2855b9b8073a64710472eefc31d8.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "CUj_>|%}_&",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is Incremental Localization and what are the advantages?",
+                "<img src=\"paste-f86279c54d0279eb26ff6dca2d8c9a0e10e32efe.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "o+/.&l_#GS",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the basic idea behind Incremental Localization?",
+                "<img src=\"paste-9378521764ac7b57ada2a9da81449c52a7f5f330.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "Jd85xZQ{rK",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-6012e030046a4269eecd16a66c1f5ca07a53c586.jpg\">",
+                "<img src=\"paste-b4dd119b4523d4aae66ef653a716179ed6727298.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "fGEj0:#/++",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-2519b55f9e87166027204455d5e5135dd5bb01e2.jpg\">",
+                "<img src=\"paste-a3ea61286cfe65b3f35ac59f3a19e08a37489fc3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "PB.p:/jY+;",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-361ae976876158ec470d4df85eaa9e315984ec70.jpg\">",
+                "<img src=\"paste-e3bb4df43688dafc154561ad3b70748c6b1d48a3.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "J;Co6(p4]x",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-71a65c171052870a17e558e469e35d07a11a0988.jpg\">",
+                "<img src=\"paste-c7ca2bc6124490e4e17230925cd5095d3c8e60af.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "GFZkLRI2NW",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams",
+                "marked"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-79a315eb7a2240d60fade0671b85326c22343f97.jpg\">",
+                "<img src=\"paste-ca608d0ec2b487cc10a580d17b9534158f646b76.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "{*b4t-+;U",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-9ed6c5197f36bbd65bfccf2a1a1502d31b3d5849.jpg\">",
+                "<img src=\"paste-50f3ede38867c5bd4cafdc9a693adb9772cbd458.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "O+AhBc=nG}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-c2ea824609c1d3a1f8459ee126bd85daa0b602f0.jpg\">",
+                "<img src=\"paste-be83b22b885acd76947ce260b1eab7f337125691.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "HaNSGez|[L",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-db3c0adad88084f375d053039649b6b1f8d773b1.jpg\">",
+                "<img src=\"paste-2f246278f431645c3d6d262801fa00ed74db0c78.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "hJhq7^:=x~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-03c27f737d7f24bd7268f936b9a011e0c890eeb2.jpg\">",
+                "<img src=\"paste-4d1b3f64a202bcebb9e6b33ae9a109fc022bf8ea.jpg\"><div><img src=\"paste-99e2a4c339bd7922c6ab3d8c9cad512649b66593.jpg\"><br></div>"
+            ],
+            "flags": 0,
+            "guid": "wFt?$Kv[D~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-f072c8ea4564abcc1796295a7ff2862d11a6db2e.jpg\">",
+                "<img src=\"paste-b0f5c0290c31d14589ce99b02f818500b7d0d696.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "s7RDBQ?(9^",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-b764fad8a5483c651e27108d30c17e2194ff6cdd.jpg\">",
+                "<img src=\"paste-f91c70bd9414b267995123146b0d3fb19b89d7b9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "M!|;y??8$K",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-bb2ef57468994d493ade555b562fa64c623be1ce.jpg\">",
+                "<img src=\"paste-4e71b431426a8d9298bad4ddd9ca4e45c3ddcef9.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "t?SOOpU-J1",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<img src=\"paste-063ae9158f2fe1a1499c560f407730de897e6ca4.jpg\">",
+                "<img src=\"paste-4ac58e083fe84bf92eb0f9e7a7454b340ef80f98.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "lU.Dz{n:ye",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": [
+                "exams"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bring the following mapping algorithms into the right order:<div><br><div>point clouds, feature point maps, occupancy grids, quad-/ octtrees, 2.5d-/ stixel maps, geometrical maps</div><div><br></div><div><img src=\"paste-bed13e6e7d048570da005da3f576606bb55d73f6.jpg\"><br></div></div>",
+                "<img src=\"paste-4cc508247c5cd2f16e093451ea7b685154e7731e.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "C3o|s#SZ5P",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the three cases of the Registration Problem?",
+                "<img src=\"paste-5a5fce78fda1b6b2602f794ef6a85e860a654a0b.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "yj0gm&3?18",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the four steps of Incremental Localization",
+                "<img src=\"paste-1c40d96410b53c1a73e32fd78bc83cf211cfe4cd.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "gfOMb=l|z0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Motion Constraint Equation (Optical Flow)",
+                "<img src=\"paste-2f0f26765ccb7d0e187578ab1ecb692b16e99c53.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "B`VHfcC{&*",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the formula to calculate the transition vector in the ICP algorithm when p and q as well as a Rotation matrice is given?",
+                "<img src=\"paste-2bc5151ecdc0d62ead235333e04b4c2349e1d877.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "ze79}K%~$H",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "How can one determine if the pair of image points is consistent with the epipolar geometry, i.e. whether the epipolar geometry supports that the two image points refer to the same point in the 3d scene.",
+                "<img src=\"paste-a17fe22f608454a29bf9d0cd9052262148523173.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "zn5d/2QN)g",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What are the general steps for a particle filter?",
+                "<img src=\"paste-e5e2da52f8a2b3706e7c3057f23aa0d605e5e1dc.jpg\">"
+            ],
+            "flags": 0,
+            "guid": "g(=xP5fcFD",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        }
+    ]
+}

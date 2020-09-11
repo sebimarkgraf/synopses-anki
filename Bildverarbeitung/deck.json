@@ -1,0 +1,1735 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "17c44f84-d651-11ea-b678-7cb27daf4b6d",
+    "deck_config_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "07128652-d651-11ea-86f4-7cb27daf4b6d",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    2
+                ],
+                "order": 0,
+                "perDay": 30,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [
+        "paste-10677288697857.jpg",
+        "paste-11287174053889.jpg",
+        "paste-11304353923073 (1).jpg",
+        "paste-11304353923073.jpg",
+        "paste-12013023526913.jpg",
+        "paste-12043088297985.jpg",
+        "paste-12060268167169.jpg",
+        "paste-12567074308097.jpg",
+        "paste-12610023981057 (1).jpg",
+        "paste-12627203850241.jpg",
+        "paste-12687333392385.jpg",
+        "paste-12704513261569.jpg",
+        "paste-13267153977345 (1).jpg",
+        "paste-13267153977345.jpg",
+        "paste-13297218748417.jpg",
+        "paste-13460427505665.jpg",
+        "paste-13872744366081.jpg",
+        "paste-13941463842817.jpg",
+        "paste-14139032338433.jpg",
+        "paste-14156212207617.jpg",
+        "paste-14263586390017.jpg",
+        "paste-14551349198849.jpg",
+        "paste-14572824035329.jpg",
+        "paste-14590003904513.jpg",
+        "paste-15238543966209.jpg",
+        "paste-15367392985089.jpg",
+        "paste-15955803504641.jpg",
+        "paste-16359530430465.jpg",
+        "paste-16909286244353.jpg",
+        "paste-16926466113537.jpg",
+        "paste-16943645982721 (1).jpg",
+        "paste-17343077941249.jpg",
+        "paste-17922898526209.jpg",
+        "paste-18695992639489.jpg",
+        "paste-19335942766593.jpg",
+        "paste-19340237733889.jpg",
+        "paste-19374597472257.jpg",
+        "paste-20358144983041.jpg",
+        "paste-21101174325249.jpg",
+        "paste-21410411970561.jpg",
+        "paste-21685289877505.jpg",
+        "paste-21702469746689.jpg",
+        "paste-21814138896385.jpg",
+        "paste-21947282882561.jpg",
+        "paste-2211908157441.jpg",
+        "paste-22539988369409.jpg",
+        "paste-22724671963137.jpg",
+        "paste-22797686407169.jpg",
+        "paste-2289217568769.jpg",
+        "paste-22905060589569.jpg",
+        "paste-22922240458753.jpg",
+        "paste-2306397437953.jpg",
+        "paste-23098334117889.jpg",
+        "paste-23115513987073.jpg",
+        "paste-2546915606529.jpg",
+        "paste-25658134626305.jpg",
+        "paste-25701084299265.jpg",
+        "paste-2594160246785.jpg",
+        "paste-26680336842753.jpg",
+        "paste-27109833572353.jpg",
+        "paste-2727304232961.jpg",
+        "paste-27346056773633.jpg",
+        "paste-27389006446593.jpg",
+        "paste-27414776250369.jpg",
+        "paste-27577985007617.jpg",
+        "paste-2778843840513 (1).jpg",
+        "paste-28080496181249.jpg",
+        "paste-28101971017729.jpg",
+        "paste-28222230102017.jpg",
+        "paste-28226525069313.jpg",
+        "paste-28363964022785.jpg",
+        "paste-2838973382657.jpg",
+        "paste-2851858284545.jpg",
+        "paste-2856153251841.jpg",
+        "paste-2873333121025.jpg",
+        "paste-28776280883201.jpg",
+        "paste-28810640621569.jpg",
+        "paste-28982439313409.jpg",
+        "paste-29381871271937.jpg",
+        "paste-29708288786433.jpg",
+        "paste-30275224469505.jpg",
+        "paste-3075196583937.jpg",
+        "paste-30799210479617.jpg",
+        "paste-31318901522433.jpg",
+        "paste-3161095929857.jpg",
+        "paste-32349693673473.jpg",
+        "paste-3255585210369 (1).jpg",
+        "paste-3307124817921.jpg",
+        "paste-33380485824513.jpg",
+        "paste-33449205301249.jpg",
+        "paste-3410204033025.jpg",
+        "paste-34187939676161.jpg",
+        "paste-3431678869505.jpg",
+        "paste-35059818037249.jpg",
+        "paste-35768487641089.jpg",
+        "paste-3629247365121.jpg",
+        "paste-36511516983297.jpg",
+        "paste-3861175599105.jpg",
+        "paste-39762807226369.jpg",
+        "paste-42322607734785.jpg",
+        "paste-4234837753857.jpg",
+        "paste-4256312590337 (1).jpg",
+        "paste-4273492459521.jpg",
+        "paste-43160126357505.jpg",
+        "paste-43211665965057.jpg",
+        "paste-4359391805441.jpg",
+        "paste-44032004718593.jpg",
+        "paste-4432406249473.jpg",
+        "paste-44835163602945.jpg",
+        "paste-4509715660801.jpg",
+        "paste-4539780431873.jpg",
+        "paste-45513768435713.jpg",
+        "paste-4569845202945.jpg",
+        "paste-4595615006721.jpg",
+        "paste-4608499908609.jpg",
+        "paste-4694399254529.jpg",
+        "paste-4711579123713.jpg",
+        "paste-4780298600449.jpg",
+        "paste-4784593567745.jpg",
+        "paste-4801773436929.jpg",
+        "paste-48348446851073.jpg",
+        "paste-49125835931649.jpg",
+        "paste-49151605735425.jpg",
+        "paste-49168785604609.jpg",
+        "paste-49203145342977.jpg",
+        "paste-4990751997953.jpg",
+        "paste-50122268344321.jpg",
+        "paste-5136780886017.jpg",
+        "paste-53395033423873.jpg",
+        "paste-5420248727553.jpg",
+        "paste-54868207206401.jpg",
+        "paste-54885387075585.jpg",
+        "paste-54919746813953.jpg",
+        "paste-5888400162817.jpg",
+        "paste-6554120093697.jpg",
+        "paste-6571299962881.jpg",
+        "paste-6747393622017.jpg",
+        "paste-6970731921409.jpg",
+        "paste-7013681594369.jpg",
+        "paste-7133940678657.jpg",
+        "paste-7322919239681.jpg",
+        "paste-7567732375553.jpg",
+        "paste-8177617731585.jpg",
+        "paste-8272107012097.jpg",
+        "paste-8555574853633 (1).jpg",
+        "paste-8937826942977.jpg",
+        "paste-9594956939265.jpg",
+        "paste-9667971383297.jpg",
+        "paste-9951439224833.jpg"
+    ],
+    "name": "Bildverarbeitung",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was besagt die paraxiale Nährung?",
+                "<img src=\"paste-2778843840513 (1).jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "LF|T6.-4+;",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Abbildungsgleichung bei der Gauß'schen Abbildung (dünne Linse, scharfe opt. Abbildung)",
+                "<img src=\"paste-3161095929857.jpg\" /><div><br /></div><div>f: Brennweite</div><div>g: Gegenstandsweite</div><div>b: Bildweite</div><div><br /></div><div><img src=\"paste-3307124817921.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "y<<u=_d**p",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Formel für die Vergrößerung bei der Abb. mit einer scharfen Linse?",
+                "<img src=\"paste-3431678869505.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "H:b*Lsi<%.",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Vorteile und Nachteile der telezentrischen Abbildung?",
+                "<img src=\"paste-3629247365121.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "n8+5ZWGj{9",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Scheimpflug Bedingung und was muss gelten?",
+                "<img src=\"paste-8177617731585.jpg\" /><br /><div><img src=\"paste-3861175599105.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "maa:~udmYG",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine sphärische Abberation (Abbildungsfehler)?",
+                "<img src=\"paste-11287174053889.jpg\" /><div><img src=\"paste-11304353923073.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "BWBM#1&3;x",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein Koma (Abbildungsfehler)?",
+                "<div><img src=\"paste-12060268167169.jpg\" /></div><img src=\"paste-12043088297985.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "ff7HtaKkkV",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist Astigmatismus (Abbildungsfehler)?",
+                "<img src=\"paste-12627203850241.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "lO(SnACEhf",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist Bildfeldwölbung (Abbildungsfehler)?",
+                "<img src=\"paste-13267153977345.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "bj&;DS>_4I",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist radiale Verzeichnung (Abbildungsfehler)?",
+                "<img src=\"paste-13872744366081.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "qQj0lq*)o[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist chromatische Abberation (Abbildungsfehler)?",
+                "<img src=\"paste-14551349198849.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "mMUEu{Ms%_",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In was Unterscheiden sich photometrische Größen gegenüber den radiometrischen Größen?",
+                "<img src=\"paste-27577985007617.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "r4{,tI<O&7",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie nennt bezeichnet man die unterschiedlichen Empfindlichkeitsfunktionen für das menschliche Sehen bei Tag bzw. Nacht?",
+                "<img src=\"paste-28363964022785.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "k0}oPjelU#",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Empfindlichkeitsfunktion für photopisches, bzw. skotopisches Sehen aus und Wo sind irhe Maxima?",
+                "<img src=\"paste-29708288786433.jpg\" /><div><br /></div><div>V : photopischer Bereich, Maxima bei 510nm</div><div>V' : skotopischer Bereich, Maxima bei 555 nm</div>"
+            ],
+            "flags": 0,
+            "guid": "fCR{#[W!fJ",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche drei verschiedenen Kategorien von \"Bildsensoren\" gibt es im menschlichen Auge und was ist ihre Aufgabe?",
+                "<img src=\"paste-33449205301249.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "FJCu^7o$Ic",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aus welchen drei Nervensignalen werden die Sinnesreize der Zapfen des menschlichen Auges kombiniert?",
+                "<img src=\"paste-34187939676161.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "EZ#a)z25Oc",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Farbvalenz?",
+                "Photometrische Größe welche entsprechend den drei Nervensignalen der farbempfindlichen Zapfen, aus drei Komponenten besteht, welche die Farbwahrnehmung des einfallenden Lichtstrahls repräsentieren.<div><img src=\"paste-35059818037249.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "QRkRf8KAd]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Problem an der Repräsentation eines Lichtstrahls mittels der Farbvalenz?",
+                "<img src=\"paste-35768487641089.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "nb0s1=Xet7",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lauten die drei Graßmann'schen Gesetze zum Zusammenhang zwischen Farbvalenzen der Lichtanteile und resultierender Farbvalenz?",
+                "<img src=\"paste-36511516983297.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "o_s;6Zyzf+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der CIELAB Farbraum? (Diagramm)",
+                "<img src=\"paste-2727304232961.jpg\" /><div><br /></div><div>Der CIELAB Farbraum ist weiterhin eine Erweiterung des CIE Farbraums und repräsentiert als solcher ausschließlich alle sichtbaren Farben</div>"
+            ],
+            "flags": 0,
+            "guid": "x0:F6id=qn",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nenne die 5 Elemente der Bildgewinnung.",
+                "<img src=\"paste-4234837753857.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "fq*JWu(DuI",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind PSD Sensoren?",
+                "Position Sensitive Device<div><img src=\"paste-4569845202945.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "pjTK6BI%za",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Vor- und Nachteile haben CMOS Sensoren im vgl. zu CCD Sensoren?",
+                "<img src=\"paste-4780298600449.jpg\" /><div><br /></div><div><img src=\"paste-10677288697857.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "Dau~&DE,(0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Worin unterscheiden sich CMOS Sensoren von CCD Sensoren und was bedeuten die Abkürzungen?",
+                "CMOS: Complementary Metal-Oxide Semiconductor<div>CCD: Charge Coupled DevicE</div><div><br /></div><div>Eigenschaften CCD Sensor:</div><div><br /></div><div><img src=\"paste-9951439224833.jpg\" /></div><div><br /></div><div>Eigenschaften eines CMOS Sensors:</div><div><br /></div><div><img src=\"paste-4990751997953.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "y)%3<p0J!-",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was wird mit Hilfe der Bayer-Matrix erreicht?",
+                "Da das menschliche Auge für grün empfindlicher ist, werden bei Farbsensoren pro makro-pixel mehr grüne Elemente als rote oder blaue verwendet.<div>Anschließend werden die anderen Kanäle aus benachbarten Pixeln interpoliert (Demosaicing)<br /><div><img src=\"paste-5136780886017.jpg\" /></div></div>"
+            ],
+            "flags": 0,
+            "guid": "C4jA7X?[z[",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die 10&nbsp;Qualitätskriterien für einen Bildsensor?",
+                "<img src=\"paste-5420248727553.jpg\" /><div><img src=\"paste-9594956939265.jpg\" /><br /><div><img src=\"paste-8555574853633 (1).jpg\" /></div></div>"
+            ],
+            "flags": 0,
+            "guid": "tBa+/x<(7d",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine Diffuse Beleuchtung bzw. wie realisiert man diese?",
+                "<img src=\"paste-11304353923073 (1).jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "LeRm*l$MM{",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Eigenschaften (Vor- und Nachteile) der diffusen Beleuchtung?",
+                "<img src=\"paste-12013023526913.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "ym$oN1f*b1",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine Hellfeldbeleuchtung und wie realisiert man diese?",
+                "<img src=\"paste-12567074308097.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "i>3+S.a*+}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Eigenschaften (Vor- und Nachteile) der Hellfeldbeleuchtung?",
+                "<img src=\"paste-13267153977345 (1).jpg\" /><div><img src=\"paste-13297218748417.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "k54sPbg>FQ",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine Dunkelfeldbeleuchtung und wie realisiert man diese?",
+                "<img src=\"paste-13941463842817.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "G?`;io$3.C",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Eigenschaften (Vor- und Nachteile) der Dunkelfeldbeleuchtung?",
+                "<img src=\"paste-14572824035329.jpg\" /><div><img src=\"paste-14590003904513.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "pP{e?>0Qd&",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht der Aufbau für eine Farbmultiplex Inspektion aus?",
+                "<img src=\"paste-15238543966209.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "CczSK|c~B:",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Vor- und Nachteile der Abtastung mittels Laserscanner?",
+                "<img src=\"paste-15955803504641.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "f&8D}Js,_c",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lassen sich Bilder mit Spektraler Komponente (Hyperspektrale Bilder) erstellen?<div><img src=\"paste-16909286244353.jpg\" /></div>",
+                "<img src=\"paste-16926466113537.jpg\" /><div><img src=\"paste-16943645982721 (1).jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "d+q=UT}{<?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 4 Streueigenschaften von Objekten gibt es?",
+                "<img src=\"paste-21702469746689.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "g|aWU1J?f>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind metamere Farbreize?",
+                "<img src=\"paste-21947282882561.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "vw4wt1+]Es",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 7 Verfahren zur Erfassung von 3D Objekten wurden in der Vorlesung behandelt?",
+                "Triangulation (punktuelle Abtastung)<div>Lichtschnittverfahren (Linienabtastung)</div><div>Strukturierte Beleuchtung (Flächenabtastung)</div><div>Deflektometrie (Rasterreflexionen)</div><div>Stereoaufnahmen</div><div>Lichtfeldkamera</div><div>Silhouettenerfassung</div>"
+            ],
+            "flags": 0,
+            "guid": "Q*%vf2Yo0|",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind die Unterschiede zwischen Deflektometrie und Triangulation?",
+                "<img src=\"paste-22539988369409.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "rQ?rHZ+!z_",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was beschreibt das Lichtfeld?",
+                "<img src=\"paste-22724671963137.jpg\" /><div><img src=\"paste-22797686407169.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "floZ_n[%p(",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was lässt sich aus der Kenntnis über das Lichtfeld ableiten?",
+                "<img src=\"paste-22797686407169.jpg\" /><div><img src=\"paste-22905060589569.jpg\" /></div><div><img src=\"paste-22922240458753.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "wy_X^bDlHm",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 5 Möglichkeiten zur Fremdlichtunterdrückung gibt es?",
+                "<img src=\"paste-23115513987073.jpg\" /><div><img src=\"paste-25658134626305.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "Ps`KjG,RvA",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was für qualitative Aussagen lassen sich aus dem Fourierspektrum eines Bildes ziehen?",
+                "<img src=\"paste-27414776250369.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "pKIG~<2JMB",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist der Zusammenhang zwischen Drehung im Bild und Spektrum?",
+                "<img src=\"paste-28222230102017.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "l3@T<m~U!!",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist der Zusammenhang zwischen Stauchung/ Dehnung im Bild und Spektrum?",
+                "<img src=\"paste-28982439313409.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "C;X75I+](}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist der Zusammenhang zwischen Scherung im Bild und Spektrum?",
+                "<img src=\"paste-30799210479617.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "gOExaNuF1}",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Leckeffekt?",
+                "Der Leckeffekt beschreibt die Tatsachem, dass sich, bedingt duch den nur endlich langen Beobachtungszeitraum eines Signales, in dem resultierenden Spektrum nach einer DFT oder FFT auch &nbsp;Frequenzteile befinden, die bei einem theoretisch unendlich langen Beobachtungszeitraum nicht vorkämen."
+            ],
+            "flags": 0,
+            "guid": "z$2qjDu*#8",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lässt sich in der Bildverarbeitung der Leckeffekt reduzieren?",
+                "Multiplikation des Ursprungsbildes mit einem Hann-Fenster vor der Transformation:<div><img src=\"paste-4256312590337 (1).jpg\" /></div><div><img src=\"paste-4273492459521.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "Q`Lm_o6;(_",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spektrum der Dirac Gerade<div><img src=\"paste-4359391805441.jpg\" /></div>",
+                "<img src=\"paste-4432406249473.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "x+^Edz0]bD",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spektrum der Dirac Gerade<div><img src=\"paste-4509715660801.jpg\" /></div>",
+                "<img src=\"paste-4539780431873.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "m)arS)hqjy",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spektrum der Dirac Gerade<div><img src=\"paste-4595615006721.jpg\" /></div>",
+                "<img src=\"paste-4608499908609.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "diqpg=+VYw",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spektrum des Rechtecks<div><img src=\"paste-4694399254529.jpg\" /></div>",
+                "<img src=\"paste-4711579123713.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "BSejc=m/Lp",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spektrum der Kreisscheibe<div><img src=\"paste-4784593567745.jpg\" /></div>",
+                "<img src=\"paste-4801773436929.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "f-;1C-Ig>q",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Karhunen-Loève Transformation?",
+                "- Bildkompression mittels Reduktion eines Q dimensionales Bilds auf einen v&lt;Q dimensionales Bild<div>- Typischerweise werden z.B. Rot, Grün und Blaukanal reduziert</div>"
+            ],
+            "flags": 0,
+            "guid": "rm+|wqlmmT",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften hat die&nbsp;Karhunen-Loève Transformation?",
+                "- Verlustfrei umkehrbar<div>- Linear,Orthogonal, Mittelwertfrei</div><div>- Unkorelliertheit der Komponenten</div><div>- Beste lineare Approximation</div>"
+            ],
+            "flags": 0,
+            "guid": "MQzRfjmo)u",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "<div>Was sind die Komponenten des linearen Systemmodells für eine digitale Kamera?</div><div><br /></div><img src=\"paste-3255585210369 (1).jpg\" />",
+                "<img src=\"paste-3410204033025.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "N-#=o:#Xr-",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist der Unterschied zwischen Histogrammmanipulation und Histogramspreizung?",
+                "Bei der Histogrammanipulation wird die Form des Zielhistogramms als \"Wunschhistogramm\" vorgegeben.<div><img src=\"paste-25701084299265.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "cD=-Q2u3^a",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Ziel der visualisierung von Bildern mittels Falschfarbendarstellung?",
+                "Da das menschliche Auge mehr Farbwerte als Grauwerte auflösen kann, lassen sich dadurch visuell aufschlussreichere Bilder erzeugen"
+            ],
+            "flags": 0,
+            "guid": "M@kPV%jWL<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Interpolationsmöglichkeiten gibt es bei der geometrischen Entzerrung und welche Eigenschaften besitzen diese?",
+                "<img src=\"paste-27346056773633.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "J[hX.l!:Lr",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine bilineare Interpolation?",
+                "Ein Funktionswert wird mittels einer linearen Interpolation in zweu Dimensionen interpoliert<div><br /></div><div><img src=\"paste-28080496181249.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "qyX[-1+%;]",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist eine Inhomogenität in einem Bild und was sind Ursachen dafür? Wie nennt man die Unterdrückung dieser Inhomogenität?",
+                "<div><img src=\"paste-7013681594369.jpg\" /><img src=\"paste-2546915606529.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "m+{S;,`%YX",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie erreicht man Signaltechnisch eine Homogenisierung? Was ist ein häufiges Problem?",
+                "<img src=\"paste-2838973382657.jpg\" /><div><img src=\"paste-2856153251841.jpg\" /></div><div><img src=\"paste-2873333121025.jpg\" /></div><div><img src=\"paste-8272107012097.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "HlNVY?(_MG",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Voraussetzungen für eine Homomorphe Filterung?",
+                "<img src=\"paste-8937826942977.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "u}d|&,1AB|",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht das Signalflussbild einer homporphen Filterung aus?",
+                "<img src=\"paste-9667971383297.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "I{Gj+su+Gb",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum wird bei der homomorphen Filterung zunächst eine logarithmierung des Signals vorgenommen?",
+                "Da die anschließende Filterung durch einen Hochpass ein lineare Filterung ist und lineare Filter eine additive Überlagerung der Signalkomponenten vorraussetzen, muss die multiplikative Verknüpfung bon b(x) und s(x) zunächst in eine additive Überlagerung mittels logarithmierung überführt werden."
+            ],
+            "flags": 0,
+            "guid": "j3L}*K$Xmd",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Vorteile hat das Modell der Homogenisierung gegenüber der Homomorphen Filterung und wie lautet dieses?",
+                "<div>Bei der Homomorphen Filterung wird eine multiplikative Überlagerung des Nutzsignals mit dem Störsignal vorrausgesetzt.</div><div>Bei der Homogenisierung gilt folgendes Signalmodell:</div><img src=\"paste-12687333392385.jpg\" /><div><div><img src=\"paste-12704513261569.jpg\" /></div></div><div><br /></div><div><img src=\"paste-7567732375553.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "z;9o$>W8a+",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Möglichkeiten zur unterdrückung stochastischen Rauschens mittels linearer Filter wurden in der Vorlesung behandelt und was sind jeweils Vor- und Nachteile?",
+                "&gt; Gleitende Mittelung<div>&nbsp;+ endliche örtliche Ausdehnung</div><div>&nbsp;+ seperabel</div><div>&nbsp;- anisotrop</div><div>&nbsp;- Nebenextrema der Übertragungsfunktion H(f)</div><div><br></div><div>&gt; Gauß Tiefpass</div><div>&nbsp;+&nbsp;keine Nebenextrema im Ortsfrequenzbereich (im kontinuierlichen Fall)</div><div>&nbsp;+ isotrop</div><div>&nbsp;+ separabel</div><div>&nbsp;+ erzeugt keine künstlichen Extrema (gilt strenggenommen nur im&nbsp;Eindimensionalen</div><div>&nbsp;- unendliche Ausdehnung im Ortsbereich und Ortsfrequenzbereich&nbsp;(scharfe Begrenzung im diskreten Fall führt dann doch wieder zu&nbsp;Nebenextrema)</div><div><br></div><div>&gt; Binomial Tiefpass</div><div>&nbsp;<img src=\"paste-12610023981057 (1).jpg\" /></div><div>&nbsp;+ Approx. Vorteile des Gauß TP</div><div>&nbsp;- keine unendliche Ausdehnung</div>"
+            ],
+            "flags": 0,
+            "guid": "E}ei]iqy2u",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Problem bei linearen Filtern hinsichtlich der stochastischen Rauschunterdrückung?",
+                "Sie sind empfindlich gegenüber Ausreißern. Diese wirken sich z.B. bei der gleitenden Mittelung auf das gesamte Umfeld aus.<div><img src=\"paste-13460427505665.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "E[SBxNO)z0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welches nichtlinearen Filter zur Unterdrückung stochastischer Störsignale wurden in der Vorlesung behandelt und was sind Eigenschaften von diesem?",
+                "<div>Medianfilter (Glättungsfilter)</div><div><img src=\"paste-14263586390017.jpg\" /></div><div><img src=\"paste-16359530430465.jpg\" /></div><div><img src=\"paste-15367392985089.jpg\" /></div><div><div><br /></div></div>"
+            ],
+            "flags": 0,
+            "guid": "k8ZP<|x7fb",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche beiden unterschiedlichen Arten von stochastischen Rauschsignalen wurden behandelt und welche Filtertypen sind jeweils geeignet?",
+                "Gauß'sches Rauschen und Impulsartiges Rauschen.<div>Für ersteres ist ein lineares Filter, für das impulsartige Rauschen hingegen ein nichtlineares Filter besser geeignet.</div>"
+            ],
+            "flags": 0,
+            "guid": "k+.Kx%|Jfs",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche zwei Verfahren der Bildsegmentierung unterscheidet man?",
+                "Bereichsorientierte und Kantenorientierte Verfahren"
+            ],
+            "flags": 0,
+            "guid": "CAR~1m?E::",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die allg. Formel dafür, für die Dichte des Merkmals m, dass x zur Klasse w_i gehört? (Gauß-Dichte)",
+                "<img src=\"paste-17922898526209.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "Gb?uKT&foq",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein Problem bei der Segmentierung mittels Schwellwertverfahren? Welche Alternativen gibt es?",
+                "<img src=\"paste-18695992639489.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "c;gs*$sjuu",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche zwei (drei) Unterteilungen von Kanten gibt es in Bezug auf kantenorientierte Segmentierungsverfahren?",
+                "<img src=\"paste-19374597472257.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "QQntUmOiLh",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 6 Filter zur Detektion von Kanten wurden in der Vorlesung behandelt?",
+                "&gt; Gradientenfilter<div>&gt; Differenzierter Gauß-Tiefpass</div><div>&gt; Sobel-Operator</div><div>&gt; Roberts-Operator</div><div>&gt; Laplacian of Gaussian</div><div>&gt; Difference of Gaussian</div>"
+            ],
+            "flags": 0,
+            "guid": "p}suSo,M.v",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 3 Arten der Approximation des Differenzenquotienten gibt es und wie ist jeweils die Impulsantwort?",
+                "<img src=\"paste-21101174325249.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "D3=tDK}?}@",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Probleme des Gradientenfilters?",
+                "<img src=\"paste-23098334117889.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "Kjnbh$b@u0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist ein Vorteil des differentiellen Gauß-Tiefpass gegenüber des Gradientenfilters bzw. rein differentiellen Filters?",
+                "Durch die Glättung des Gauß-Tiefpass wird das Filter vergleichsweise störungsunempfindlich."
+            ],
+            "flags": 0,
+            "guid": "gW/2|h^6UI",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Filtermatrix des Sobel-Filters in X bzw. Y Richtung?",
+                "<img src=\"paste-27109833572353.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "Q6Pi*tvlfl",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was wird durch den Sobel Filter approximiert?",
+                "Der differentielle Gauß-Tiefpass-Filter, der sonst nur schwierig im diskreten darstellbar ist."
+            ],
+            "flags": 0,
+            "guid": "xK{r5[+++W",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Eigenschaften des Roberts-Operators?",
+                "<img src=\"paste-28226525069313.jpg\" /><div><img src=\"paste-39762807226369.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "FSaO[s|13v",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Warum wählt man i.d.R. den Laplacian-of-Gaussian anstatt des reinen Laplace-Filters?",
+                "Da die zweite Ableitung sehr störanfällig ist (es wird nach Nullstellen zwischen Maxima und Minima gesucht), weshalb eine vorherige Gauß-Filterung durchgeführt wird<div><img src=\"paste-29381871271937.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "zE77ai8/S>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Probleme bringt der Laplacian-of-Gaussian Filter mit sich und wie kann man diese umgehen?",
+                "Abtastung des Laplacian-of-Gaussian schwierig, da beliebige Ausdehnung<div><br /></div><div><img src=\"paste-26680336842753.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "w$zg1ri8Z>",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Dichtefunktion des Difference-of-Gaussian Filters aus?",
+                "<img src=\"paste-27389006446593.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "gYP.qa6!w-",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was sind Vor- und Nachteile der Kantendetektion mit Hilfe der zweiten Ableitung?",
+                "<img src=\"paste-28101971017729.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "tFhW/eBz:?",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche 3 Typen von Texturen wurden behandelt und welche Eigenschaften haben diese jeweils?",
+                "&gt; Strukturelle Textur<div>&gt; Strukturell-statistische Textur</div><div>&gt; Statistische Textur</div>"
+            ],
+            "flags": 0,
+            "guid": "J!mS.d88T1",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften besitzt eine strukturelle Textur?",
+                "<img src=\"paste-28776280883201.jpg\" /><div><div><div><img src=\"paste-28810640621569.jpg\" /></div></div></div><div><img src=\"paste-21410411970561.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "u5}X:37kO0",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften besitzt eine strukturell-statistische Textur?",
+                "<div><img src=\"paste-30275224469505.jpg\" /><img src=\"paste-19335942766593.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "P#avO};!iI",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Eigenschaften besitzt eine statistische Textur?",
+                "<div><img src=\"paste-31318901522433.jpg\" /></div><div><img src=\"paste-32349693673473.jpg\" /></div><div><img src=\"paste-20358144983041.jpg\" /></div><div><img src=\"paste-33380485824513.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "b}A0]q*I/F",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nenne die 5 Sichtprüfungsaufgaben bzgl. Texturen",
+                "<img src=\"paste-42322607734785.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "teL2X6riGk",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Möglichkeiten gibt es bekannte/ unbekannte Objekte bei verschiedenen Hintergrund typen zu detektieren?<div><img src=\"paste-43211665965057.jpg\" /></div>",
+                "<img src=\"paste-43160126357505.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "DPIMu*Klqg",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die verallgemeinterte Form der Impulsantwort V(f) zur Detektion von bekannten Objekten O(f) vor unbekanntem Hintergrund?",
+                "Fractional Power Filter (FPF)<div><img src=\"paste-44032004718593.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "Qk<[}oc-cA",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Spezialfälle des Fractional Power Filters gibt es?",
+                "<img src=\"paste-44835163602945.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "it,ei>F5_z",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist das allgemeine Vorgehen bei der Detektion von Objekten bei korreliertem, schwach stationären Rauschen als Hintergrund?",
+                "<img src=\"paste-45513768435713.jpg\" /><div><br /></div><div>Vorfilterung durch \"Whitening\" Filter w(x), so dass y(x) nurnoch weißes Rauschen enthält, welches mit dem Matched filter optimal unterdrückt werden kann</div>"
+            ],
+            "flags": 0,
+            "guid": "r=Z|dq!T0^",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vorgehensweise bei der detektion von unbekannten Objekten bei einem Hintergrund mit bekannter AKF",
+                "<img src=\"paste-48348446851073.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "zQVZ.*d8Ke",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Anwendung der Radontransformation und Gleichung.",
+                "<img src=\"paste-49125835931649.jpg\" /><div><img src=\"paste-49151605735425.jpg\" /></div><div><img src=\"paste-49168785604609.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "&=JV{g,+~",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "In welchen Raum transformiert die Radon-Transformation? Wie kann man sich die Transformation anschaulich vorstellen?",
+                "<img src=\"paste-49203145342977.jpg\" /><div><br /></div><div>Vom x/y Raum in den u/p Raum.</div><div><br /></div><div><img src=\"paste-50122268344321.jpg\" /></div><div><br /></div><div>Im Beispiel ist die Blaue gerade eine der diagonal verlaufenden Geraden. p ist dann ca. 160° und da es sich hier um wiederholende Geraden handelt ist die u-Komponente ein Strichmuster aus stellen an denen es solche Geradenverläufe gibt</div>"
+            ],
+            "flags": 0,
+            "guid": "M29{xx>b<(",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet das Theorem zur effizienten Berechnung der Radon-Transformation?",
+                "Zentralschnitt-Theorem<div><br /></div><div><img src=\"paste-53395033423873.jpg\" /></div><div><br /></div>"
+            ],
+            "flags": 0,
+            "guid": "wEgUK?NrF3",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist die Hough-Transformation?",
+                "Einsatz zur Detektion von allgemein beliebiger Kurven.<div>Sie ist eine diskrete Form der Radon-Transformation</div><div>Es wird ein k-Dimensionaler Akkumulator verwendet, weshalb sich beliebige Formen von Kurven detektieren lassen.</div>"
+            ],
+            "flags": 0,
+            "guid": "BOA:EXm1]<",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet der Algorithmus zur Hough-Transformation?",
+                "<img src=\"paste-54868207206401.jpg\" /><div><br /></div><div><img src=\"paste-54885387075585.jpg\" /></div><div><img src=\"paste-54919746813953.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "M:C{(y<ks2",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lauten die drei Grundgleichungen zur Schärfentiefe?",
+                "<img src=\"paste-14139032338433.jpg\" /><div><img src=\"paste-14156212207617.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "C$>}2f9bjP",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie sieht die Übertragungsfunktion eines idealen Differenzierers gegenüber der eines linearen symmetrischen Abbildungsfilters der Länge L=2r+1, aufgetragen über den Frequenzindex k aus?",
+                "<img src=\"paste-17343077941249.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "x5?!1]iK8b",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie lautet die Übertragungsfunktion eines symmetrischen linearen Abbildungsfilters?",
+                "<img src=\"paste-19340237733889.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "xX=GK%OD/x",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wie ist das Vorgehen bei dem Zentralschnitttheorem?",
+                "Es wird zunächst eine Fouriertransformation des Bildsignals g(x) durchgeführt. Anschließend wird das Ergebnis in Polarkoordinaten umgewandelt.<div><br /></div><div><img src=\"paste-21685289877505.jpg\" /></div><div><img src=\"paste-21814138896385.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "e)Ds#Bk&=G",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das AR Modell und bei was wird es eingesetzt?",
+                "Das Auto-reggressive Modell ist einn Signalmodell zur Modellierung von zweidimensionalen statistischen Strukturen (speziell von statistischen Texturen) in der modellbasierten Texturanalyse.<div><br /></div><div><img src=\"paste-2211908157441.jpg\" /></div><div><img src=\"paste-2289217568769.jpg\" /></div><div><img src=\"paste-2306397437953.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "Ho}{YgU[>&",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prinzip und Grundgleichungen der Stereoaufnahme",
+                "<img src=\"paste-2594160246785.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "b&W^f(#AIE",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was muss zusätzlich erfüllt sein, damit die Scheimpflug Bedingung gelten kann?",
+                "Abbildungsgleichung muss für das betroffene Punktepaar erfüllt sein.<div><img src=\"paste-2851858284545.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "q+5I^~tbk)",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Formeln sind zur Herleitung der Schärfentiefe erforderlich?",
+                "<img src=\"paste-3075196583937.jpg\" /><div><img src=\"paste-5888400162817.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "u/I)9IPS_;",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet Verschiebungsinvariant?",
+                "<div><img src=\"paste-6554120093697.jpg\" /></div><div><img src=\"paste-6571299962881.jpg\" /></div>"
+            ],
+            "flags": 0,
+            "guid": "oZs>I>Q?W(",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was bedeutet linear?",
+                "<img src=\"paste-6747393622017.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "j4n8|,St[c",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Vorraussetzungen müssen erfüllt sein, damit Triangulation funktioniert?",
+                "<img src=\"paste-6970731921409.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "NqoD{@QHOG",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Welche Vorraussetzung muss erfüllt sein, damit eine Stereoaufnahme funktioniert?",
+                "<img src=\"paste-7133940678657.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "f;-MqW,-j^",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Was ist das Problem bei Korrelationsfiltern zur Objektdetektion?",
+                "<img src=\"paste-7322919239681.jpg\" />"
+            ],
+            "flags": 0,
+            "guid": "Rm~B=o)np",
+            "newlyAdded": false,
+            "note_model_uuid": "07128655-d651-11ea-a494-7cb27daf4b6d",
+            "tags": []
+        }
+    ]
+}
