@@ -1,0 +1,896 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "a470378e-1a0d-11ed-a336-f0d5bf9cf059",
+    "deck_config_uuid": "ae1a055a-8552-11ea-95a2-4494fca6223c",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "buryInterdayLearning": false,
+            "crowdanki_uuid": "ae1a055a-8552-11ea-95a2-4494fca6223c",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 5,
+                "separate": true
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 450
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Studium::Asset Pricing",
+    "newLimit": null,
+    "newLimitToday": null,
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a470bf38-1a0d-11ed-a336-f0d5bf9cf059",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-02d89",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "vertragsgestaltung_it"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a470de64-1a0d-11ed-a336-f0d5bf9cf059",
+            "css": "/*template\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE START ########\nversion: 1.0.0\n*/\n\n/*\nPLEASE DO NOT MODIFY THE DEFAULT TEMPLATE SECTIONS.\nAny changes between the 'template' markers will be lost once\nthe add-on updates its template.\n*/\n\n/* general card style */\n\nhtml {\n  /* scrollbar always visible in order to prevent shift when revealing answer*/\n  overflow-y: scroll;\n}\n\n.card {\n  font-family: \"Helvetica LT Std\", Helvetica, Arial, Sans;\n  font-size: 150%;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\n/* general layout */\n\n.text {\n  /* center left-aligned text on card */\n  display: inline-block;\n  align: center;\n  text-align: left;\n  margin: auto;\n  max-width: 40em;\n}\n\n.hidden {\n  /* guarantees a consistent width across front and back */\n  font-weight: bold;\n  display: block;\n  line-height:0;\n  height: 0;\n  overflow: hidden;\n  visibility: hidden;\n}\n\n.title {\n  font-weight: bold;\n  font-size: 1.1em;\n  margin-bottom: 1em;\n  text-align: center;\n}\n\n/* clozes */\n\n.cloze {\n  /* regular cloze deletion */\n  font-weight: bold;\n  color: #0048FF;\n}\n\n.card21 #btn-reveal{\n  /* no need to display reveal btn on last card */\n  display:none;\n}\n\n/* additional fields */\n\n.extra{\n  margin-top: 0.5em;\n  margin: auto;\n  max-width: 40em;\n}\n\n.extra-entry{\n  margin-top: 0.8em;\n  font-size: 0.9em;\n  text-align:left;\n}\n\n.extra-descr{\n  margin-bottom: 0.2em;\n  font-weight: bold;\n  font-size: 1em;\n}\n\n#btn-reveal {\n  font-size: 0.5em;\n}\n\n.mobile #btn-reveal {\n  font-size: 0.8em;\n}\n\n/*\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE END ########\ntemplate*/\n\n/* Add your customizations here: */\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Original",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Title",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Remarks",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Sources",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Settings",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text1",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text2",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text3",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text4",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text5",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text6",
+                    "ord": 10,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text7",
+                    "ord": 11,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text8",
+                    "ord": 12,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text9",
+                    "ord": 13,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text10",
+                    "ord": 14,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text11",
+                    "ord": 15,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text12",
+                    "ord": 16,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text13",
+                    "ord": 17,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text14",
+                    "ord": 18,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text15",
+                    "ord": 19,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text16",
+                    "ord": 20,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text17",
+                    "ord": 21,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text18",
+                    "ord": 22,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text19",
+                    "ord": 23,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Text20",
+                    "ord": 24,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "name": "Full",
+                    "ord": 25,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze (overlapping)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25
+                    ]
+                ]
+            ],
+            "sortf": 1,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<!--template\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE START ########\nversion: 1.0.0\n-->\n\n<!--\nPLEASE DO NOT MODIFY THE DEFAULT TEMPLATE SECTIONS.\nAny changes between the 'template' markers will be lost once\nthe add-on updates its template.\n-->\n\n<div class=\"back\">\n    {{#Title}}<div class=\"title\">{{Title}}</div>{{/Title}}\n    <div class=\"text\">\n        <div id=\"clozed\">\n            {{cloze:Text1}}\n            {{cloze:Text2}}\n            {{cloze:Text3}}\n            {{cloze:Text4}}\n            {{cloze:Text5}}\n            {{cloze:Text6}}\n            {{cloze:Text7}}\n            {{cloze:Text8}}\n            {{cloze:Text9}}\n            {{cloze:Text10}}\n            {{cloze:Text11}}\n            {{cloze:Text12}}\n            {{cloze:Text13}}\n            {{cloze:Text14}}\n            {{cloze:Text15}}\n            {{cloze:Text16}}\n            {{cloze:Text17}}\n            {{cloze:Text18}}\n            {{cloze:Text19}}\n            {{cloze:Text20}}\n            {{cloze:Full}}\n        </div>\n        <div class=\"hidden\">\n            <div><span class=\"cloze\">[...]</span></div>\n            <div>{{Original}}</div>\n        </div>\n    </div>\n    <div class=\"extra\"><hr></div>\n    <button id=\"btn-reveal\" onclick=\"olToggle();\">Reveal all clozes</button>\n    <div class=\"hidden\"><div id=\"original\">{{Original}}</div></div>\n    <div class=\"extra\">\n        {{#Remarks}}\n        <div class=\"extra-entry\">\n            <div class=\"extra-descr\">Remarks</div><div>{{Remarks}}</div>\n        </div>\n        {{/Remarks}}\n        {{#Sources}}\n        <div class=\"extra-entry\">\n            <div class=\"extra-descr\">Sources</div><div>{{Sources}}</div>\n        </div>\n        {{/Sources}}\n    </div>\n</div>\n\n<script>\n// Remove cloze syntax from revealed hint\nvar hint = document.getElementById(\"original\");\nif (hint) {\n    var html = hint.innerHTML.replace(/\\[\\[oc(\\d+)::(.*?)(::(.*?))?\\]\\]/mg,\n                                      \"<span class='cloze'>$2</span>\");\n    hint.innerHTML = html\n};\n\n// Scroll to cloze\nfunction scrollToCloze () {\n    const cloze1 = document.getElementsByClassName(\"cloze\")[0];\n    const rect = cloze1.getBoundingClientRect();\n    const absTop = rect.top + window.pageYOffset;\n    const absBot = rect.bottom + window.pageYOffset;\n    if (absBot >= window.innerHeight) {\n        const height = rect.top - rect.bottom\n        const middle = absTop - (window.innerHeight/2) - (height/2);\n        window.scrollTo(0, middle);\n    };\n}\nif ( document.readyState === 'complete' ) {\n    setTimeout(scrollToCloze, 1);\n} else {\n    document.addEventListener('DOMContentLoaded', function() {\n        setTimeout(scrollToCloze, 1);\n    }, false);\n}\n\n\n// Reveal full list\nvar olToggle = function() {\n    var orig = document.getElementById('original');\n    var clozed = document.getElementById('clozed');\n    var origHtml = orig.innerHTML\n    orig.innerHTML = clozed.innerHTML\n    clozed.innerHTML = origHtml\n}\n</script>\n\n<!--\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE END ######## */\ntemplate-->\n\n<!-- Add your customizations here: -->\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "cloze-ol",
+                    "ord": 0,
+                    "qfmt": "<!--template\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE START ########\nversion: 1.0.0\n-->\n\n<!--\nPLEASE DO NOT MODIFY THE DEFAULT TEMPLATE SECTIONS.\nAny changes between the 'template' markers will be lost once\nthe add-on updates its template.\n\nCopyright (C) 2016-2019 Aristotelis P. <https://glutanimate.com/>\n\nThe Cloze Overlapper card template is licensed under the CC BY-SA 4.0\nlicense (https://creativecommons.org/licenses/by-sa/4.0/). This only\napplies to the card template, not the contents of your notes.\n\nGet Cloze Overlapper for Anki at:\nhttps://ankiweb.net/shared/info/969733775\n-->\n\n<div class=\"front\">\n    {{#Title}}<div class=\"title\">{{Title}}</div>{{/Title}}\n    <div class=\"text\">\n        <div id=\"clozed\">\n            {{cloze:Text1}}\n            {{cloze:Text2}}\n            {{cloze:Text3}}\n            {{cloze:Text4}}\n            {{cloze:Text5}}\n            {{cloze:Text6}}\n            {{cloze:Text7}}\n            {{cloze:Text8}}\n            {{cloze:Text9}}\n            {{cloze:Text10}}\n            {{cloze:Text11}}\n            {{cloze:Text12}}\n            {{cloze:Text13}}\n            {{cloze:Text14}}\n            {{cloze:Text15}}\n            {{cloze:Text16}}\n            {{cloze:Text17}}\n            {{cloze:Text18}}\n            {{cloze:Text19}}\n            {{cloze:Text20}}\n            {{cloze:Full}}\n        </div>\n        <div class=\"hidden\">\n            <div><span class=\"cloze\">[...]</span></div>\n            <div>{{Original}}</div>\n        </div>\n    </div>\n</div>\n\n<script>\n// Scroll to cloze\nfunction scrollToCloze () {\n    const cloze1 = document.getElementsByClassName(\"cloze\")[0];\n    const rect = cloze1.getBoundingClientRect();\n    const absTop = rect.top + window.pageYOffset;\n    const absBot = rect.bottom + window.pageYOffset;\n    if (absBot >= window.innerHeight) {\n        const height = rect.top - rect.bottom\n        const middle = absTop - (window.innerHeight/2) - (height/2);\n        window.scrollTo(0, middle);\n    };\n}\nif ( document.readyState === 'complete' ) {\n    setTimeout(scrollToCloze, 1);\n} else {\n    document.addEventListener('DOMContentLoaded', function() {\n        setTimeout(scrollToCloze, 1);\n    }, false);\n}\n</script>\n\n<!--\n######## CLOZE OVERLAPPER DEFAULT TEMPLATE END ######## */\ntemplate-->\n\n<!-- Add your customizations here: -->"
+                }
+            ],
+            "type": 1
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "description": "",
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Asset Pricing Theorie?",
+                "Bewertungstheorie zur Erklärung der Preisbildung"
+            ],
+            "guid": "x$_U:1O0k|",
+            "note_model_uuid": "a470bf38-1a0d-11ed-a336-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind Lösungen wenn Theorie und Beobachtungen nicht übereinstimmen?",
+                "- Anpassung der Theorie \\(\\rightarrow\\) Positive Theorie<br>- Fehlbewertung am Markt \\(\\rightarrow\\) Normative Theorie"
+            ],
+            "guid": "Kmi1w]y)5N",
+            "note_model_uuid": "a470bf38-1a0d-11ed-a336-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "1. Primat der Zahlung<br>2. Zeitwert des Geldes<br>3. Ertrag vs. Risiko<br>4. Aggregation durch Märkte<br>5. Arbitragefreiheit",
+                "Bewertungsprinzipien der Finanzwirtschaft",
+                "",
+                "",
+                "1,1,0 | n,n,n,n",
+                "<div>{{c1::1. Primat der Zahlung}}</div><div>...</div><div>...</div><div>...</div><div>...</div>",
+                "<div>1. Primat der Zahlung</div><div>{{c2::2. Zeitwert des Geldes}}</div><div>...</div><div>...</div><div>...</div>",
+                "<div>...</div><div>2. Zeitwert des Geldes</div><div>{{c3::3. Ertrag vs. Risiko}}</div><div>...</div><div>...</div>",
+                "<div>...</div><div>...</div><div>3. Ertrag vs. Risiko</div><div>{{c4::4. Aggregation durch Märkte}}</div><div>...</div>",
+                "<div>...</div><div>...</div><div>...</div><div>4. Aggregation durch Märkte</div><div>{{c5::5. Arbitragefreiheit}}</div>",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "<div>{{c21::1. Primat der Zahlung}}</div><div>{{c21::2. Zeitwert des Geldes}}</div><div>{{c21::3. Ertrag vs. Risiko}}</div><div>{{c21::4. Aggregation durch Märkte}}</div><div>{{c21::5. Arbitragefreiheit}}</div>"
+            ],
+            "guid": "t`8`NtPRE",
+            "note_model_uuid": "a470de64-1a0d-11ed-a336-f0d5bf9cf059",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Primat der Zahlungen",
+                "Für eine Entscheidung sind allein Zahlungen relevant"
+            ],
+            "guid": "Kctkd#N$}]",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Zeitwert des Geldes?",
+                "Der Wert einer Zahlung hängt davon ab, wann sie erfolgt"
+            ],
+            "guid": "t}$?UFgpS?",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Ertrag vs. Risiko?",
+                "Eine Abwägung zwischen Ertrag und Risiko ist zu treffen<br>"
+            ],
+            "guid": "HS^AZG:+#3",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Aggregation an Märkte?",
+                "Wertpapiermärkte aggregieren Präferenzen und Informationen<br>"
+            ],
+            "guid": "MI-{(w8i^v",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist Arbitragefreiheit?",
+                "Preise an kompetitiven Wertpapiermärkten zeichnen sich durch die Abwesenheit von Arbitrage aus"
+            ],
+            "guid": "s4&~]0Kp*",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Einfache Grundidee des Asset Pricing?",
+                "Preise entsprechen erwarteten diskontierten Zahlungen"
+            ],
+            "guid": "O./1*@Gkzm",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Formale Definition von Konsumstrom mit hohem Nutzen?",
+                "Nutzenfunktion<br>\\[U(c_t, c_{t+1}) = u(c_t) + \\beta E_t [u(c_{t+1})]\\]<br><br>wobei \\(c_t\\) Konsum in \\(t\\)"
+            ],
+            "guid": "Fz-0q`bHCp",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was sind plausible Annahmen bezüglich der Nutzenfunktion?",
+                "1. Positiver Grenznutzen: Mehr ist besser \\(u'(c_t) &gt; 0\\)<br>2. Abnehmender Grenznutzen: Je höher Konsum, desto geringerer Nutzenzuwachs durch weiteren Konsum \\(u''(c_t) &lt; 0\\)"
+            ],
+            "guid": "wA?gs[DWA4",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nutzenfunktion: Was erfasst \\(\\beta\\)",
+                "Erfasst die Ungeduld \\(\\beta &lt; 1\\). Präferenz für frühere Zahlungen"
+            ],
+            "guid": "NuqBo|jMk1",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Nutzenfunktion: Was ist die Risikoaversion?",
+                "Zukünftiger Konsum ist unsicher, daher \\(E_t [u(c_{t+1})]\\)<br>Krümmung der Nutzenfunktion daher zentral"
+            ],
+            "guid": "AvKr_(%B!G",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Power Nutzenfunktion",
+                "\\[u(c) = \\frac{c^{1 - \\gamma} - 1}{1 - \\gamma }\\]<br><br>Ableitung<br>\\[u'(c) = c^{-\\gamma}\\]"
+            ],
+            "guid": "AL36vCj`<5",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zentrale Bewertungsgleichung",
+                "Invester kauft verkauft solange bis Grenzkosten = Grenzertrag<br><br>\\[p_t = E_t [ \\beta \\frac{u'(c_{t+1})}{u'(c_t)} x_{t+1}]\\]"
+            ],
+            "guid": "J=To265qD@",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Stochastischer Diskontfaktor",
+                "Verallgemeinert übliches Verständnis Diskonstfaktoren<br>\\(\\rightarrow\\) Sichere Zahlung + Risikoadjustierte Diskontierung<br><br>\\[m_{t+1} = \\beta \\frac{u'(c_{t+1})}{u'(c_t)}\\]"
+            ],
+            "guid": "s.9uS%s}>z",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zentrale Bewertungsbeziehung mit SDF",
+                "\\[p = E[mx]\\]"
+            ],
+            "guid": "qms%~eY-#@",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist die Equity Premium Puzzle?",
+                "Anleger sind in der Berechnung deutlich risikoaverser, als sonst in menschlichem Verhalten beobachtet (sehr großes Gamma)"
+            ],
+            "guid": "nxFJW}u&4e",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Capital Asset Pricing Model Ziel",
+                "Erwartete Rendite eines Assets in Beziehung zum Risiko der Rendite"
+            ],
+            "guid": "w1ANW(RV)}",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "CAPM Formel",
+                "\\[\\text{erwartete Rendite des Assets} = R_F + \\beta (R_M - R_F)\\]"
+            ],
+            "guid": "rHnN1>K1}<",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Marktrendite",
+                "Marktrendite \\(R_M\\) bezeichnet das Portfolio aller verfügbaren Instrumente.<br>Wird oft durch Aktionindex wie S&amp;P500 approximiert"
+            ],
+            "guid": "_OCTeplX,",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Sharpe-Ratio",
+                "\\[SR := \\frac{\\mathbb{E}[R] - R^f}{\\sigma}\\]"
+            ],
+            "guid": "h6$<8oe*wQ",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Zerlege die Bewertungsgleichung in Zeit- und Risikoteil",
+                "\\[p = E[mx] = \\underset{\\text{Zeit}}{\\underbrace{\\frac{\\mathbb{E}[x]}{R_f}}} + \\underset{\\text{Risiko}}{\\underbrace{\\mathrm{Cov}(m, x)}}\\]&nbsp;<br>"
+            ],
+            "guid": "fVDN-$eccF",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Preis der Arrow-Debreu Wertpapiere",
+                "\\[\\mathit{pc}(s) = \\pi(s) \\cdot m(s)\\]"
+            ],
+            "guid": "q#s=^#~vuD",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wahr oder Falsch: Wären Investoren weniger risikoavers als bisher angenommen, so könnte dies das<br>Equity Premium Puzzle erklären",
+                "Falsch, Equity Premium Puzzle impliziert <b>stärkere</b> Risikoaversion als bisher angenommen"
+            ],
+            "guid": "E(1@>{coIi",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wahr oder Falsch: Die Höhe der Mehrwertsteuereinnahmen eines Landes sind als Faktor für ein Faktormodell geeignet",
+                "Falsch, die aktuelle Mehrwertsteuereinnahme ist keine Veränderung daher hochgradig <b>vorhersehbar</b>"
+            ],
+            "guid": "l=Lrd?5E10",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Berechne den risikolosen Zinssatz aus dem SDF",
+                "\\[R_f = \\frac{1}{\\mathbb{E}[m]}\\]"
+            ],
+            "guid": "v:PDu}.|5j",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Beschreibe die Idee der risikolosen Bewertung",
+                "Die Bewertung erfolt, als wäre der repräsentative Investor risikoneutral, d.h. es gilt&nbsp;<br>\\[p = \\frac{\\mathbb{E}[x]}{R^f}\\]"
+            ],
+            "guid": "(WJ4;|=}T",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Wie erfolgt die Risikokorrektur bei der risikolosen Bewertung?",
+                "Die Risikokorrektur erfolgt nicht über die Kovarianz des Wertpapiers mit \\(m\\), sondern über die Wahrscheinlichkeit unter dem Maß \\(\\mathbb{Q}\\)<br>(schlechter Zustand \\(\\rightarrow\\) Höheres Gewicht \\(\\rightarrow\\) höheres \\(\\pi^*\\))"
+            ],
+            "guid": "B#WPYvq(m/",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Berechne Risikolose Wahrscheinlichkeit \\(\\pi^* (s)\\)",
+                "\\[\\pi^* (s) = \\frac{m(s)}{\\mathbb{E}[m]} \\pi(s)\\]"
+            ],
+            "guid": "FmQ(ya2I?P",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Umrechnung von Kovarianz zu Korellation",
+                "\\[\\rho_{xy} = \\mathrm{Corr}(X, Y) = \\frac{\\mathrm{Cov}(X, Y)}{\\mathrm{Std}(X)\\mathrm{Std}(Y)}\\]"
+            ],
+            "guid": "LJ`zlSTN%C",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der Einfluss der Standardabweichung der Zahlungen eines Wertpapier auf den Preis?",
+                "Mit&nbsp;<br>\\[p = \\frac{\\mathbb{E}[x]}{R^f} + \\mathrm{Cov}(m, x) = \\frac{\\mathbb{E}[x]}{R^f} + \\rho_{x,m} \\sigma_x \\sigma_m\\]<br><br>Schließe auf \\(\\rho\\) durch Vorzeichen der Kovarianz<br>\\(\\Rightarrow\\) Wenn \\(\\sigma_x\\) steigt, steigt auch der Preis bei \\(\\rho &gt; 0\\)"
+            ],
+            "guid": "AC+qDGnq_Z",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Was ist der 1. Schritt von Fama und Macbeth?",
+                "<b>Zeitreihenregression<br></b>Regressiere Überrenditen \\(R_t^i\\) auf Risikofaktoren \\(F_t^j\\)<br>\\[R_t^i = \\alpha^i + \\sum_{j=1}^n \\beta^{i, j} \\cdot F_t^j + \\epsilon_t^i\\]<br><br>Erhalte \\(n\\) Betas \\(\\beta^{i,j}\\)"
+            ],
+            "guid": "o]?IXi#Fk^",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alternative zur Zeitreihenregression von Fama und Macbeth als 1. Schritte?",
+                "Bestimme die Betas rollierend.<br>Erlaubt Zeitvariablitäten der Sensitivitäten gerecht zu werden"
+            ],
+            "guid": "q.VLQ&$.l`",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "2. Schritt von Fama und Macbeth?",
+                "<b>Querschnittsregression</b><br>Regressiere erwartete Überrenditen \\(\\mathbb{E}[R^i]\\) auf Betas der ersten Stufe<br>\\[\\mathbb{E}[R^i] = \\gamma + \\sum_{j=1}^n \\beta^{i, j} \\cdot \\lambda_j + \\epsilon^i\\]<br><br>Dabei sollte \\(\\gamma = 0\\) gelten, da es sich um Überrenditen handelt<br><br>Erhalte \\(n\\) Lambdas \\(\\lambda_j\\) als Preis der Risika"
+            ],
+            "guid": "h}Ct?$+_86",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Alternative zum 2. Schritt von Fama und Macbeth?",
+                "Schätze für jeden Monat / gewählten Zeithorizont Querschnittsregression mit zeitabhängigen Betas und berechne die durchschnittlichen Lambdas.&nbsp;<br>Vorteil:<br>Zeitabhängigkeit und Möglichkeit Standardfehler um z.B. Autokorrelation oder Heteroskedastizität zu korrigieren"
+            ],
+            "guid": "Jmu6V8HRDX",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Warum werden Asset Pricing Modelle häufig auf Portfolioebene geschätzt?",
+                "Ergebnis der Verfahren hängen stark von der Qualität der Schätzung der Betas ab, da diese als erklärende Variablen in der 2. Stufe verwendet werden.<br><br>Durch Portfoliobildung soll der Schätzfehler durch \"Wegmitteln\" der inviduellen Noise reduziert werden."
+            ],
+            "guid": "pI^6lOUf#O",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Fama-French Modell Mathematisch",
+                "\\[\\mathbb{E}(R^i) = \\gamma + \\beta_{i, R^M} (\\mathbb{E}(R^M) - \\gamma) + \\beta_{i, h}\\mathbb{E}(\\mathit{HML}) + \\beta_{i,s}\\mathbb{E}(\\mathit{SMB})\\]Hierbei ist \\(\\mathit{HML}\\) High minus low (buch-marktwert-verhältnis)<br>und&nbsp;<br>\\(\\mathit{SMB}\\) small minus Big (marktkapitalisierung)"
+            ],
+            "guid": "BV@Zpd<10[",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Erweiterung des Fama-French-Dreifaktormodells",
+                "Erweiterung durch Momentumfaktor \\(\\mathit{MOM}\\), welcher in Vorjahresgewinner investiert und Vorjahresverlierer leerverkauft"
+            ],
+            "guid": "d;Qz@<UD,<",
+            "note_model_uuid": "82540bfe-8ee0-11ea-9b8a-4494fca6223c",
+            "tags": []
+        }
+    ],
+    "reviewLimit": null,
+    "reviewLimitToday": null
+}
