@@ -1,0 +1,621 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "9b3009d2-5c21-11ec-8e7e-15cf58b20f1f",
+    "deck_config_uuid": "9b3009cf-5c21-11ec-8e7e-15cf58b20f1f",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "9b3009cf-5c21-11ec-8e7e-15cf58b20f1f",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Reinforcement Learning",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definition of a Markov Decision Process (MDP)",
+                "<div style=\"text-align: left;\">MDP is defined by a 5-tuple:</div><ul><li style=\"text-align: left;\">A set of states \\(s \\in S\\)</li><li style=\"text-align: left;\">A set of actions \\(a \\in A\\)</li><li style=\"text-align: left;\">A transition distribution \\(p(s' | s, a)\\)</li><li style=\"text-align: left;\">A reward function \\(r(s, a)\\)</li><li style=\"text-align: left;\">A distribution \\(\\mu_0(s)\\) over the start state</li><li style=\"text-align: left;\">(Maybe terminal states)</li></ul>"
+            ],
+            "guid": "cL#LeFv=(M",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why do we need discounting?",
+                "Sooner rewards probably do have higher utility than later rewards.<br>Also helps our algorithms converge."
+            ],
+            "guid": "C)64PSxdJD",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div style=\"text-align: center;\">Definition of policy-based V Function</div>",
+                "<div style=\"text-align: center;\"><div style=\"text-align: left;\">Expected long-term reward when being in state \\(s\\) and following policy \\( \\pi(a | s) \\):<br>\\[V^\\pi(s) = \\mathbb{E}_\\pi \\left[ G_t | s_t = s \\right]\\]<br><br>Bellman Equation:<br>\\[V^\\pi(s) = \\sum_{a} \\pi(a | s) \\left( r(s, a) + \\gamma \\sum_{s'}p(s' | s, a) V^\\pi(s') \\right)\\]<br></div></div>"
+            ],
+            "guid": "CSA-I^Sd^)",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Definition of policy-based Q-function?",
+                "<div style=\"text-align: left;\">Expected long-term reward when being in state \\( s \\), taking action \\( a \\) and subsequently following policy \\( \\pi(a | s) \\):</div><div style=\"text-align: left;\">\\[Q^\\pi(s, a) = \\mathbb{E}_\\pi \\left[ G_t | s_t = s, a_t = a \\right]\\]<br><br>Bellman Equation:<br>\\[Q^\\pi(s, a) = r(s, a) + \\gamma \\sum_{s'} p(s' | s, a) \\sum_{a'} \\pi(a' | s')Q(s', a')\\]<br></div>"
+            ],
+            "guid": "t;LzB6KC-o",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div style=\"text-align: left;\">Definition of optimal V-Function</div>",
+                "<div style=\"text-align: left;\"><div>\\(V^*(s)\\): expected summed reward starting in&nbsp;\\(s\\) and&nbsp;(thereafter)&nbsp;<b>acting optimally</b>:</div><div>\\[V^*(s) = \\max_\\pi \\mathbb{E}_\\pi \\left[ \\sum_{t=0}^\\infty \\gamma^t r_t | s_0 = s\\right]\\]<br><br></div><div><div>Bellman optimality equation/condition:</div></div>\\[V^*(s) = \\max_a \\left( r(s, a) + \\gamma \\sum_{s'} p(s' | s, a) V^*(s') \\right)\\]</div>"
+            ],
+            "guid": "j,A(ay2^6a",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "<div style=\"text-align: left;\">Definition of optimal Q-function</div>",
+                "<div style=\"text-align: left;\"><div style=\"text-align: left;\">\\(Q^*(s, a)\\): expected summed reward starting in&nbsp;\\(s\\), taking action&nbsp;\\(a\\) and&nbsp;(thereafter)&nbsp;<b>acting optimally</b>:</div><div style=\"text-align: left;\">\\[Q^*(s, a) = \\max_\\pi \\mathbb{E}_\\pi \\left[ \\sum_{t=0}^\\infty \\gamma^t r_t | s_0 = s, a_0 = a\\right]\\]<br><br></div><div style=\"text-align: left;\">Bellman optimality equation/condition:</div><div style=\"text-align: left;\">\\[Q^*(s, a) = r(s, a) + \\gamma \\sum_{s'} p(s' | s, a) \\max_{a'} Q^*(s', a')\\]</div></div>"
+            ],
+            "guid": "XyWbchPhF",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the value iteration algorithm work?",
+                "<div style=\"text-align: left;\"><b>Init</b>:&nbsp;\\(V_0^\\pi(s) = 0\\)</div><b><div style=\"text-align: left;\"><b>Repeat</b></div></b><div style=\"text-align: left;\">&nbsp; &nbsp; Given vector of&nbsp;\\(V_{k-1}(s)\\) values, compute&nbsp;\\(V_k(s)\\) (for all states):</div><div style=\"text-align: left;\">&nbsp; &nbsp; \\[V_k^*(s) = \\max_a \\left( r(s,a) + \\gamma \\sum_{s'}p(s' | s, a) V_{k-1}^*(s') \\right)\\]<br><b>Until convergence</b><br><br>Complexity of each iteration:&nbsp;\\(O(S^2A)\\)</div>"
+            ],
+            "guid": "g63,;1a]DM",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the policy iteration algorithm work?",
+                "<ol><li style=\"text-align: left;\"><b>Init:</b>&nbsp;\\(V_0^{\\pi_0}(s) = 0, \\pi_0 \\leftarrow uniform\\)</li><li style=\"text-align: left;\"><b>Policy Evaluation:</b>&nbsp;Calculate&nbsp;\\(V^{\\pi_k}\\) until convergence</li><li style=\"text-align: left;\"><b>Policy Iteration:</b>&nbsp;Improve Policy:&nbsp;\\(\\pi_k \\leftarrow greedy(V^{\\pi_{k-1}})\\)</li><li style=\"text-align: left;\"><b>Goto 2 until convergence</b></li></ol>"
+            ],
+            "guid": "WmUL8MWd0",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "First Visit Monte Carlo",
+                "Average return following first visit to state&nbsp;\\(s\\)<br><br>\\[V^\\pi(s) \\approx \\frac{1}{T} \\sum_t^T R_t(s)\\]"
+            ],
+            "guid": "At9cEoa>Gv",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Constant alpha Monte Carlo",
+                "Compute moving average<br><br>\\[V^\\pi(s_t) \\leftarrow (1-\\alpha)V^\\pi(s_t) + \\alpha R_t\\]"
+            ],
+            "guid": "ym{{U`)@1C",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Problems with Monte Carlo Estimates",
+                "<ul><li>Very noisy</li><li>Sample inefficient</li><li>Wait until episode is over</li></ul>"
+            ],
+            "guid": "H)y$W1VfKo",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the conceptual differences between value iteration and policy iteration?",
+                "<div style=\"text-align: left;\">Policy iteration directly learns the policy iteratively, whereas value iteration implicitly represents the policy (via argmax).</div>"
+            ],
+            "guid": "sj7e:y.=ey",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the limitations of value/policy iteration?",
+                "<ul><li>Only works for discrete state-action spaces and LQR.</li><li>Transition function&nbsp;\\(p(s' | s, a)\\) must be known.</li></ul>"
+            ],
+            "guid": "t?~ap&p((S",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "optimal-decision-making"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are Monte Carlo estimates?",
+                "Approximate an expectation by samples<br><br><b>First Visit Monte Carlo</b>: Average return \\(R_t(s)\\) following first visit to state&nbsp;\\(s\\)<br>\\[V^\\pi(s) \\approx \\frac{1}{T}\\sum_t^T R_t(s)\\]<br><br><b>Constant Alpha MC (\"Every Visit MC\"): </b>Compute moving average<br>\\[V^\\pi(s_t) \\leftarrow (1 - \\alpha) V^\\pi(s_t) + \\alpha R_t\\]"
+            ],
+            "guid": "c?;e|,kUR2",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Limitations of Monte Carlo Estimates",
+                "<ul><li>Returns are <b>very noisy</b>!</li><ul><li>Stochastically induced by policy and dynamics.</li><li>Sum of many steps, every step induces noise.</li></ul><li>Sample inefficient.</li><li>We have to wait until episode is over.</li></ul>"
+            ],
+            "guid": "rPw*+NAQ^V",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why can TD-Learning be seen as combination of Moving Averaging and Dynamic Programming?",
+                "<ul><li style=\"text-align: left;\">Only 1 transition is used to generate targets...</li><li style=\"text-align: left;\">...as opposed to many transitions in MC.</li><li style=\"text-align: left;\">Less noisy, more sample efficient.<br></li></ul><div style=\"text-align: left;\">TD Learning:</div><div style=\"text-align: left;\">\\[V^\\pi(s_t) \\leftarrow (1 - \\alpha)V^\\pi(s_t) + \\alpha(r(s_t, a_t) + \\gamma V^\\pi(s_{t+1}))\\]<br></div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">Constant alpha MC:</div><div style=\"text-align: left;\">\\[V^\\pi(s_t) \\leftarrow (1 - \\alpha)V^\\pi(s_t) + \\alpha R_t\\]</div>"
+            ],
+            "guid": "q8U,J;1}U`",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "TD Error (V- and Q-function)",
+                "V-function TD Error<br>\\[\\delta_t = r(s_t, a_t) + \\gamma V^\\pi(s_{t+1}) - V^\\pi(s_t)\\]<br><br>Q-function TD Error<br>\\[\\delta_t = r(s_t, a_t) + \\max_{a'}\\gamma Q(s_{t+1}, a') - Q(s_t, a_t))\\]"
+            ],
+            "guid": "by7@Nq<C;)",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is Value function approximation?",
+                "<div style=\"text-align: left;\">Approximate Value function with features of state, a parametrized Q (or V) function.</div><div style=\"text-align: left;\"><br></div><ul><li style=\"text-align: left;\">Linear function in features&nbsp;\\(Q_b(s, a) = \\sum_d^D\\phi_d(s, a)\\beta_d\\)</li><li style=\"text-align: left;\">Neural net&nbsp;\\(Q_\\beta(s, a)\\)</li></ul>"
+            ],
+            "guid": "Q.ncjuPOJ9",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is Q-Learning not actual gradient ascent?",
+                "Because the targets move with our updates."
+            ],
+            "guid": "C>N%O_z&?z",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to fix Q-learning for deep neural networks (DQN)",
+                "<ol><li style=\"text-align: left;\">Save (old) target network \\(Q_{\\beta'} \\rightarrow\\) Solves moving targets problem</li><li style=\"text-align: left;\">Experience Replay \\(\\rightarrow\\) Solves strong correlation of subsequent states</li><li style=\"text-align: left;\">Huber loss \\(\\rightarrow\\) More robust against outliers</li></ol>"
+            ],
+            "guid": "hemu;yCZ|d",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why do we get the over-estimation effect and how do we fix it?",
+                "Overestimation in DQN:<br><br>The same Q-function is used to action selection and action-value estimation.<br>\\[ y_i = \\gamma Q_{\\beta}(s', \\operatorname{argmax}_{a'}Q_\\beta(s', a'))\\]<br><br>Fix: <b>Double&nbsp;Q-Learning</b><br><br>Use updated paremters \\(\\beta\\) for action selection and old, saved parameters \\(\\beta'\\) for action-value estimation.<br>\\[ y_i = \\gamma Q_{\\beta'}(s', \\operatorname{argmax}_{a'}Q_\\beta(s', a'))\\]<b><br></b>"
+            ],
+            "guid": "yH/j2to<&c",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "value-based-methods"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Advantages/disadvantages of policy search vs value-based methods",
+                "<div style=\"text-align: left;\"><b>Policy Search</b></div><div style=\"text-align: left;\">✅&nbsp;Easier to use and tune</div><div style=\"text-align: left;\">✅&nbsp;More compatible with rich architectures</div><div style=\"text-align: left;\">✅ More versatile, more compatible with auxiliary objectives</div><div style=\"text-align: left;\">❌&nbsp;Needs (much) more samples</div><div style=\"text-align: left;\"><br></div><b><div style=\"text-align: left;\"><b>Value-Based Methods</b></div></b><div style=\"text-align: left;\">✅&nbsp;Sample efficient (off-policy)</div><div style=\"text-align: left;\">✅&nbsp;Yield SOTA performance in many domains</div><div style=\"text-align: left;\">❌&nbsp;No convergence guarantees</div><div style=\"text-align: left;\">❌&nbsp;Often hard to tune...</div><div style=\"text-align: left;\">❌&nbsp;Hard to use for continous action spaces</div><div style=\"text-align: left;\">❌&nbsp;Q-Function bias</div>"
+            ],
+            "guid": "m@0.X:a|&)",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the main of policy gradient algorithms?",
+                "Increaes probability of trajectories with high returns:<br><br>\\[\\begin{align}\\theta^* &amp;= argmax_\\theta \\mathbb{E}_{\\tau \\sim p_\\theta(\\tau)}\\left[ \\sum_t^T\\gamma^t r(s_t, a_t) \\right] \\\\<br>&amp;= argmax_\\theta \\int p_\\theta(\\tau)R(\\tau) d\\tau\\end{align}\\]"
+            ],
+            "guid": "m2IM@Q@rPA",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What kind of policies are used in discrete action and continous action domains?",
+                "Discrete action space: <b>Soft-Max Policy</b><br>\\[\\pi_\\theta(a | s) = \\frac{\\exp(h_\\theta(s, a))}{\\sum_{\\alpha' \\in \\mathcal{A}} \\exp(h_\\theta(s, a'))}\\]<br><br>Continous action space: <b>Gaussian Neural Network Policy</b><br>\\[\\pi_\\theta(a | s) = \\mathcal{N}(a | \\mu_\\theta(s), \\Sigma_\\theta(s))\\]"
+            ],
+            "guid": "H|UxJYVadz",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why can we compute gradients even if the reward or the dynamics are not differentiable?",
+                "<div style=\"text-align: left;\">\\[ p_\\theta = p(s_0) \\prod_{t=0}^{T-1} \\pi_\\theta(a_t | s_t) p(s_{t+1} | s, a)\\]</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">\\[\\log p_\\theta(\\tau) = \\log p(s_0) + \\sum_{t=0}^{T-1} \\log \\pi_\\theta(a_t | s_t) + \\sum_{t=0}^{T-1} \\log p(s_{t+1} | s, a)\\]</div><div style=\"text-align: left;\"><br></div><div style=\"text-align: left;\">\\[ \\nabla \\log p_\\theta(\\tau) = \\sum_{t=0}^{T-1} \\nabla \\log \\pi_\\theta(a_t | s_t)\\]</div>"
+            ],
+            "guid": "IXyuW6C0c1",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why do we need a baseline in policy gradient algorithms?",
+                "By subtracting a baseline from the return of a trajectory, \"bad\" trajectories get negated. This leads to all gradients pointing to the same direction."
+            ],
+            "guid": "nle;PLLILe",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How can we exploit temporal structure for policy gradients?",
+                "Remove Terms that do not depend on \\(a_t \\rightarrow\\) use \\(Q_t\\) instead of \\(R_t\\)<br>Policy Gradient Theorem:<br>\\[\\nabla_\\theta J(\\theta) \\approx \\frac{1}{N} \\sum_i \\sum_t \\nabla_\\theta \\log \\pi_\\theta (a_{i, t} | s_{i, t})<br>\\left(\\sum_{k=t}^T \\gamma^{k-t} r(s_{i,t}, a_{i, t})\\right)\\]"
+            ],
+            "guid": "s|^EN$r~xz",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why is optimizing the advantage more beneficial to optimizing the Q-function?",
+                "Because when optimizing the advantage, we use the Value function as a baseline&nbsp;\\(\\rightarrow\\) see advantage of baselines."
+            ],
+            "guid": "N4{eK1fU`}",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the role of the critic in actor-critic methods?",
+                "The critic evaluates the selected action. The returned measure is used to optimize the policy.&nbsp;"
+            ],
+            "guid": "E(?gUG.lHQ",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which methods do we have for computing the critic?",
+                "<ul><li>Single Sample</li><li>N-Step returns</li><li>Generalized Average Estimate (GAE)</li><li>Q-Function Critic</li></ul>"
+            ],
+            "guid": "e%K]_(Djg@",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "policy-search"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why are trust regions important for policy gradients?",
+                "<ul><li>Stabilizes the learning process</li><li>Avoids too fast decline of variance</li><li>Monotic improvement can be shown (i.e., we get convergence guarantees!)</li></ul>"
+            ],
+            "guid": "FV_sT,3q~n",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Which divergence is typically used for the trust region and what are its properties?",
+                "<div style=\"text-align: left;\"><b>Kullback Leibler divergence</b></div><div style=\"text-align: left;\">\\[KL(p(x) \\parallel q(x)) = \\int p(x)\\log \\frac{p(x)}{q(x)}dx\\]</div><div style=\"text-align: left;\"><br></div><ul><li style=\"text-align: left;\">\\(KL(p \\parallel q) \\ge 0\\)<br></li><li style=\"text-align: left;\">\\(KL(p \\parallel q) = 0 \\iff p = q\\)<br></li><li style=\"text-align: left;\">\\(KL(p \\parallel q) \\ne KL(q \\parallel p)\\)<br></li></ul>"
+            ],
+            "guid": "d3-|MxWH2F",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does Lagrangian optimization work and why is it often easier to solve the dual than solving the primal objective?",
+                "Lagrangian Optimization: See Basic \"Cookbook\" (#cheatsheet)<br><br>The dual is always convex, i.e. we can use it to solve the primal which can be easier."
+            ],
+            "guid": "k6Z}K,bcw(",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How to implement trust-regions with discrete actions using Lagrangian optimization?",
+                "\\[\\underset{\\pi}{\\operatorname{argmax}} \\sum_a\\pi(a)r(a), \\text{s.t.} KL(\\pi(a) \\parallel q(a)) \\le \\varepsilon, \\sum_a\\pi(a) = 1\\]<br><br>{ math magic using lagrangian optimization }<br><br>\\[\\pi^*(a) \\propto q(a) \\exp\\left(\\frac{r(a)}{\\eta^*}\\right)\\]"
+            ],
+            "guid": "mlFZZjYih^",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How are natural gradients connected to trust regions?",
+                "Natural gradients approximate the trust regions using Taylor approximation."
+            ],
+            "guid": "l}Z|&$n_qq",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How is the Fischer Information Matrix used in the natural gradients algorithms?",
+                "Used to approximate the second constraint of the trust region problem:<br><br>\\[KL(p_{\\theta_{old} + g} \\parallel p_{\\theta_{old}}) \\approx g^TFg \\le \\varepsilon \\]"
+            ],
+            "guid": "r^Cvx55_00",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the Compatible Function Approximation and how is it connected to natural gradients?",
+                "The FIM can also be <b>computed from samples</b>. The natural gradient is then given by:<br><br>\\[g_{NG} \\propto (\\Phi^T\\Phi)^{-1}\\Phi^TA\\]<br><br>with:&nbsp;\\[\\Phi = \\begin{bmatrix}\\nabla_\\theta \\log \\pi (a_1 | s_1)^T\\\\ \\vdots\\\\\\nabla_\\theta \\log \\pi (a_N | s_N)^T\\end{bmatrix},\\ A = \\begin{bmatrix}\\hat A^\\pi (s_1, a_1)\\\\\\vdots\\\\\\hat A^\\pi (s_N, a_N)\\end{bmatrix}\\]"
+            ],
+            "guid": "C$a=32g9F$",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How does the natural gradient update look like using CFA?",
+                "\\[\\theta_{k+1} = \\theta_k + \\eta^-1 w^*\\]"
+            ],
+            "guid": "e&@&Vudx:X",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When is the natural gradient update implementing the exact trust region update?",
+                "CFA for log linear policies."
+            ],
+            "guid": "H^-u0RDv>C",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Why are natural gradients difficult to use for bigger networks?",
+                "Fischer Information Matrix dimensions scale proportionate to the square of # network parameters."
+            ],
+            "guid": "s$#-L,0MKL",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is the main idea of PPO (clipped version) and what are the benefits?",
+                "For PPO the importance weights of&nbsp; the policy gradient objective are clipped to limit their potential impact as \\(\\min ( w_i (\\theta)&nbsp;\\hat A_i, 1 - \\varepsilon, 1 + \\varepsilon) \\hat A_i)\\)<br>This keeps the policy close to the old policy and works similar to the KL constraint.¸<br>"
+            ],
+            "guid": "hTYQ9.0PbF",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Primal / Dual optimization problem",
+                "<b>Primal optimization problem:</b><br>\\[\\begin{gather}<br>x^* = \\underset{x}{\\operatorname{argmin}} f(x), \\\\<br>\\textrm{s.t.} \\quad h_i(x) \\ge b_i, \\quad \\textrm{for} \\quad i = 1 \\dots K<br>\\end{gather}\\]<br><br><b>Dual optimization problem:</b><br>\\[\\begin{gather}<br>\\lambda^* = \\underset{\\lambda}{\\operatorname{argmax}} g(\\lambda), \\quad g(\\lambda) = \\underset{x}{\\operatorname{min}} L(x, \\lambda) \\\\<br>\\textrm{s.t.} \\quad \\lambda_i(x) \\ge 0, \\quad \\textrm{for} \\quad i = 1 \\dots K<br>\\end{gather}\\]<br><br>In the dual optimization problem, we essentially switch the optimization order of the parameters."
+            ],
+            "guid": "D5?P:!=(3e",
+            "note_model_uuid": "9b3009d6-5c21-11ec-8e7e-15cf58b20f1f",
+            "tags": [
+                "trust-regions"
+            ]
+        }
+    ]
+}
